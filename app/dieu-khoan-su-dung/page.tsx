@@ -1,0 +1,1 @@
+export default function Page(){ return <section className="container py-8"><h1 className="text-3xl font-black">Điều khoản sử dụng</h1><p className="mt-4 max-w-3xl">Dữ liệu FPS là ước tính tham khảo, không thay thế kiểm th? thực tế trên từng máy.</p></section> }

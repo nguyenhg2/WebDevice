@@ -1,0 +1,1 @@
+export default function Page(){ return <section className="container py-8"><h1 className="text-3xl font-black">Giới thiệu</h1><p className="mt-4 max-w-3xl">MáyNàyChơiĐược.vn gi?p ngì?i dùng Việt Nam tra cứu game theo cấu hình phần cứng phổ biến.</p></section> }

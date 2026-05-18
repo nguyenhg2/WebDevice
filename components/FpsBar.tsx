@@ -1,0 +1,1 @@
+export default function FpsBar({fps}:{fps:number}){ const w=Math.min(100,Math.max(8,Math.round(fps/120*100))); return <div aria-label={"FPS ước tính "+fps} className="h-3 rounded-full bg-slate-200 dark:bg-gray-700"><div className="h-3 rounded-full bg-gradient-to-r from-red-500 via-yellow-500 to-green-500" style={{width:w+"%"}} /></div> }

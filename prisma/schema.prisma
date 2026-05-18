@@ -1,0 +1,184 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Brand {
+  NVIDIA
+  AMD
+  Intel
+}
+
+enum GpuCategory {
+  integrated
+  low
+  mid
+  high
+  ultra
+}
+
+enum Resolution {
+  r720p  @map("720p")
+  r1080p @map("1080p")
+  r1440p @map("1440p")
+  r4k    @map("4k")
+}
+
+enum BenchmarkStatus {
+  smooth
+  playable
+  not_recommended
+}
+
+enum DeviceType {
+  laptop
+  desktop_prebuilt
+  custom_build
+}
+
+enum StorageType {
+  SSD
+  HDD
+  SSD_HDD @map("SSD+HDD")
+}
+
+enum PriceRange {
+  duoi_10_trieu      @map("duoi-10-trieu")
+  range_10_15_trieu  @map("10-15-trieu")
+  range_15_20_trieu  @map("15-20-trieu")
+  range_20_30_trieu  @map("20-30-trieu")
+  tren_30_trieu      @map("tren-30-trieu")
+}
+
+enum BlogCategory {
+  so_sanh   @map("so-sanh")
+  huong_dan @map("huong-dan")
+  top_game  @map("top-game")
+  nang_cap  @map("nang-cap")
+  tin_tuc   @map("tin-tuc")
+}
+
+model Game {
+  id          String             @id @default(cuid())
+  name        String             @unique
+  slug        String             @unique
+  steamId     Stringì
+  genres      String[]
+  sizeGb      Float
+  price       Float              @default(0)
+  isFree      Boolean
+  description String
+  coverImage  Stringì
+  officialUrl Stringì
+  minSpecs    Json
+  recSpecs    Json
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+  benchmarks  GameGpuBenchmark[]
+
+  @@index([slug])
+}
+
+model Gpu {
+  id              String             @id @default(cuid())
+  name            String             @unique
+  slug            String             @unique
+  brand           Brand
+  benchmarkScore  Int
+  category        GpuCategory
+  tdp             Int?
+  vram            Int?
+  priceRangeVnd   String
+  isLaptop        Boolean
+  commonInVietnam Boolean
+  createdAt       DateTime           @default(now())
+  benchmarks      GameGpuBenchmark[]
+
+  @@index([slug])
+}
+
+model Cpu {
+  id              String   @id @default(cuid())
+  name            String   @unique
+  slug            String   @unique
+  brand           Brand
+  benchmarkScore  Int
+  cores           Int
+  threads         Int
+  generation      String
+  socket          Stringì
+  integratedGpu   Stringì
+  priceRangeVnd   String
+  commonInVietnam Boolean
+  createdAt       DateTime @default(now())
+
+  @@index([slug])
+}
+
+model GameGpuBenchmark {
+  id                 String          @id @default(cuid())
+  gameId             String
+  gpuId              String
+  resolution         Resolution
+  fpsLow             Int
+  fpsMedium          Int
+  fpsHigh            Int
+  fpsUltra           Int
+  recommendedSetting String
+  status             BenchmarkStatus
+  videoTestUrl       Stringì
+  source             String
+  createdAt          DateTime        @default(now())
+  game               Game            @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  gpu                Gpu             @relation(fields: [gpuId], references: [id], onDelete: Cascade)
+
+  @@unique([gameId, gpuId, resolution])
+}
+
+model Device {
+  id               String      @id @default(cuid())
+  name             String      @unique
+  slug             String      @unique
+  type             DeviceType
+  brand            String
+  cpu              String
+  gpu              String
+  ramGb            Int
+  storageGb        Int
+  storageType      StorageType
+  screenSize       Float?
+  screenResolution Stringì
+  priceVnd         Int
+  priceRange       PriceRange
+  shopeeUrl        Stringì
+  tikiUrl          Stringì
+  phơngvuUrl       Stringì
+  gearvnUrl        Stringì
+  imageUrl         Stringì
+  createdAt        DateTime    @default(now())
+
+  @@index([slug])
+  @@index([priceRange])
+}
+
+model BlogPost {
+  id              String       @id @default(cuid())
+  title           String
+  slug            String       @unique
+  content         String
+  excerpt         String
+  category        BlogCategory
+  tags            String[]
+  metaTitle       String
+  metaDescription String
+  publishedAt     DateTime
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  @@index([slug])
+  @@index([category])
+}

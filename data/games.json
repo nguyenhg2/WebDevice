@@ -1,0 +1,3102 @@
+[
+  {
+    "name": "Counter-Strike 2",
+    "slug": "counter-strike-2",
+    "steamId": "730",
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 2,
+    "price": 0,
+    "isFree": true,
+    "description": "Counter-Strike 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/counter-strike-2.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 700,
+      "ramGb": 4,
+      "storageGb": 2
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 7000,
+      "gpuBenchmark": 4200,
+      "ramGb": 16,
+      "storageGb": 2
+    }
+  },
+  {
+    "name": "Valorant",
+    "slug": "valorant",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 5.5,
+    "price": 240000,
+    "isFree": false,
+    "description": "Valorant là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/valorant.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 1600,
+      "ramGb": 8,
+      "storageGb": 6
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 8500,
+      "gpuBenchmark": 5700,
+      "ramGb": 8,
+      "storageGb": 6
+    }
+  },
+  {
+    "name": "Genshin Impact",
+    "slug": "genshin-impact",
+    "steamId": null,
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 9,
+    "price": 330000,
+    "isFree": false,
+    "description": "Genshin Impact là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/genshin-impact.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 2500,
+      "ramGb": 8,
+      "storageGb": 9
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10000,
+      "gpuBenchmark": 7200,
+      "ramGb": 8,
+      "storageGb": 9
+    }
+  },
+  {
+    "name": "Liên Minh Huyền Thoại",
+    "slug": "lien-minh-huyen-thoai",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 12.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Liên Minh Huyền Thoại là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/lien-minh-huyen-thoai.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 3400,
+      "ramGb": 8,
+      "storageGb": 13
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11500,
+      "gpuBenchmark": 8700,
+      "ramGb": 8,
+      "storageGb": 13
+    }
+  },
+  {
+    "name": "Dota 2",
+    "slug": "dota-2",
+    "steamId": "734",
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 16,
+    "price": 510000,
+    "isFree": false,
+    "description": "Dota 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/dota-2.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 4300,
+      "ramGb": 4,
+      "storageGb": 16
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13000,
+      "gpuBenchmark": 10200,
+      "ramGb": 8,
+      "storageGb": 16
+    }
+  },
+  {
+    "name": "PUBG Battlegrounds",
+    "slug": "pubg-battlegrounds",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 19.5,
+    "price": 600000,
+    "isFree": false,
+    "description": "PUBG Battlegrounds là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/pubg-battlegrounds.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 5200,
+      "ramGb": 8,
+      "storageGb": 20
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14500,
+      "gpuBenchmark": 11700,
+      "ramGb": 16,
+      "storageGb": 20
+    }
+  },
+  {
+    "name": "Apex Legends",
+    "slug": "apex-legends",
+    "steamId": null,
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 23,
+    "price": 0,
+    "isFree": true,
+    "description": "Apex Legends là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/apex-legends.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 6100,
+      "ramGb": 8,
+      "storageGb": 23
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 16000,
+      "gpuBenchmark": 13200,
+      "ramGb": 8,
+      "storageGb": 23
+    }
+  },
+  {
+    "name": "Fortnite",
+    "slug": "fortnite",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 26.5,
+    "price": 780000,
+    "isFree": false,
+    "description": "Fortnite là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/fortnite.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 7000,
+      "ramGb": 8,
+      "storageGb": 27
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12600,
+      "gpuBenchmark": 14700,
+      "ramGb": 8,
+      "storageGb": 27
+    }
+  },
+  {
+    "name": "Minecraft",
+    "slug": "minecraft",
+    "steamId": "738",
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 30,
+    "price": 150000,
+    "isFree": false,
+    "description": "Minecraft là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/minecraft.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 7900,
+      "ramGb": 4,
+      "storageGb": 30
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14100,
+      "gpuBenchmark": 11400,
+      "ramGb": 8,
+      "storageGb": 30
+    }
+  },
+  {
+    "name": "Roblox",
+    "slug": "roblox",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 33.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Roblox là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/roblox.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 8800,
+      "ramGb": 8,
+      "storageGb": 34
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 8400,
+      "gpuBenchmark": 12900,
+      "ramGb": 8,
+      "storageGb": 34
+    }
+  },
+  {
+    "name": "EA Sports FC 24",
+    "slug": "ea-sports-fc-24",
+    "steamId": null,
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 37,
+    "price": 330000,
+    "isFree": false,
+    "description": "EA Sports FC 24 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/ea-sports-fc-24.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 700,
+      "ramGb": 8,
+      "storageGb": 37
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9900,
+      "gpuBenchmark": 5400,
+      "ramGb": 16,
+      "storageGb": 37
+    }
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "slug": "grand-theft-auto-v",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 40.5,
+    "price": 420000,
+    "isFree": false,
+    "description": "Grand Theft Auto V là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/grand-theft-auto-v.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 1600,
+      "ramGb": 8,
+      "storageGb": 41
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11400,
+      "gpuBenchmark": 6900,
+      "ramGb": 8,
+      "storageGb": 41
+    }
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "slug": "red-dead-redemption-2",
+    "steamId": "742",
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 44,
+    "price": 0,
+    "isFree": true,
+    "description": "Red Dead Redemption 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/red-dead-redemption-2.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 2500,
+      "ramGb": 4,
+      "storageGb": 44
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12900,
+      "gpuBenchmark": 8400,
+      "ramGb": 8,
+      "storageGb": 44
+    }
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "slug": "cyberpunk-2077",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 47.5,
+    "price": 600000,
+    "isFree": false,
+    "description": "Cyberpunk 2077 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/cyberpunk-2077.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 3400,
+      "ramGb": 8,
+      "storageGb": 48
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14400,
+      "gpuBenchmark": 9900,
+      "ramGb": 8,
+      "storageGb": 48
+    }
+  },
+  {
+    "name": "Elden Ring",
+    "slug": "elden-ring",
+    "steamId": null,
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 51,
+    "price": 690000,
+    "isFree": false,
+    "description": "Elden Ring là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/elden-ring.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 4300,
+      "ramGb": 8,
+      "storageGb": 51
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11000,
+      "gpuBenchmark": 11400,
+      "ramGb": 8,
+      "storageGb": 51
+    }
+  },
+  {
+    "name": "The Witcher 3",
+    "slug": "the-witcher-3",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 54.5,
+    "price": 0,
+    "isFree": true,
+    "description": "The Witcher 3 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/the-witcher-3.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 5200,
+      "ramGb": 8,
+      "storageGb": 55
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12500,
+      "gpuBenchmark": 12900,
+      "ramGb": 16,
+      "storageGb": 55
+    }
+  },
+  {
+    "name": "Hogwarts Legacy",
+    "slug": "hogwarts-legacy",
+    "steamId": "746",
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 58,
+    "price": 150000,
+    "isFree": false,
+    "description": "Hogwarts Legacy là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/hogwarts-legacy.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 6100,
+      "ramGb": 4,
+      "storageGb": 58
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14000,
+      "gpuBenchmark": 9600,
+      "ramGb": 8,
+      "storageGb": 58
+    }
+  },
+  {
+    "name": "Palworld",
+    "slug": "palworld",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 61.5,
+    "price": 240000,
+    "isFree": false,
+    "description": "Palworld là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/palworld.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 7000,
+      "ramGb": 8,
+      "storageGb": 62
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 15500,
+      "gpuBenchmark": 11100,
+      "ramGb": 8,
+      "storageGb": 62
+    }
+  },
+  {
+    "name": "Helldivers 2",
+    "slug": "helldivers-2",
+    "steamId": null,
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 2,
+    "price": 0,
+    "isFree": true,
+    "description": "Helldivers 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/helldivers-2.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 7900,
+      "ramGb": 8,
+      "storageGb": 2
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9800,
+      "gpuBenchmark": 12600,
+      "ramGb": 8,
+      "storageGb": 2
+    }
+  },
+  {
+    "name": "Baldur's Gate 3",
+    "slug": "baldur-s-gate-3",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 5.5,
+    "price": 420000,
+    "isFree": false,
+    "description": "Baldur's Gate 3 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/baldur-s-gate-3.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 8800,
+      "ramGb": 8,
+      "storageGb": 6
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11300,
+      "gpuBenchmark": 14100,
+      "ramGb": 8,
+      "storageGb": 6
+    }
+  },
+  {
+    "name": "Warframe",
+    "slug": "warframe",
+    "steamId": "750",
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 9,
+    "price": 510000,
+    "isFree": false,
+    "description": "Warframe là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/warframe.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 700,
+      "ramGb": 4,
+      "storageGb": 9
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12800,
+      "gpuBenchmark": 6600,
+      "ramGb": 16,
+      "storageGb": 9
+    }
+  },
+  {
+    "name": "Path of Exile",
+    "slug": "path-of-exile",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 12.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Path of Exile là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/path-of-exile.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 1600,
+      "ramGb": 8,
+      "storageGb": 13
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9400,
+      "gpuBenchmark": 8100,
+      "ramGb": 8,
+      "storageGb": 13
+    }
+  },
+  {
+    "name": "Lost Ark",
+    "slug": "lost-ark",
+    "steamId": null,
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 16,
+    "price": 690000,
+    "isFree": false,
+    "description": "Lost Ark là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/lost-ark.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 2500,
+      "ramGb": 8,
+      "storageGb": 16
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10900,
+      "gpuBenchmark": 9600,
+      "ramGb": 8,
+      "storageGb": 16
+    }
+  },
+  {
+    "name": "World of Tanks",
+    "slug": "world-of-tanks",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 19.5,
+    "price": 780000,
+    "isFree": false,
+    "description": "World of Tanks là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/world-of-tanks.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 3400,
+      "ramGb": 8,
+      "storageGb": 20
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12400,
+      "gpuBenchmark": 11100,
+      "ramGb": 8,
+      "storageGb": 20
+    }
+  },
+  {
+    "name": "War Thunder",
+    "slug": "war-thunder",
+    "steamId": "754",
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 23,
+    "price": 0,
+    "isFree": true,
+    "description": "War Thunder là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/war-thunder.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 4300,
+      "ramGb": 4,
+      "storageGb": 23
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13900,
+      "gpuBenchmark": 7800,
+      "ramGb": 8,
+      "storageGb": 23
+    }
+  },
+  {
+    "name": "Euro Truck Simulator 2",
+    "slug": "euro-truck-simulator-2",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 26.5,
+    "price": 240000,
+    "isFree": false,
+    "description": "Euro Truck Simulator 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/euro-truck-simulator-2.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 6400,
+      "ramGb": 8,
+      "storageGb": 27
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 15400,
+      "gpuBenchmark": 10500,
+      "ramGb": 16,
+      "storageGb": 27
+    }
+  },
+  {
+    "name": "Farming Simulator 22",
+    "slug": "farming-simulator-22",
+    "steamId": null,
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 30,
+    "price": 330000,
+    "isFree": false,
+    "description": "Farming Simulator 22 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/farming-simulator-22.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 7300,
+      "ramGb": 8,
+      "storageGb": 30
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 16900,
+      "gpuBenchmark": 12000,
+      "ramGb": 8,
+      "storageGb": 30
+    }
+  },
+  {
+    "name": "The Sims 4",
+    "slug": "the-sims-4",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 33.5,
+    "price": 0,
+    "isFree": true,
+    "description": "The Sims 4 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/the-sims-4.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 8200,
+      "ramGb": 8,
+      "storageGb": 34
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11200,
+      "gpuBenchmark": 13500,
+      "ramGb": 8,
+      "storageGb": 34
+    }
+  },
+  {
+    "name": "Cities Skylines",
+    "slug": "cities-skylines",
+    "steamId": "758",
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 37,
+    "price": 510000,
+    "isFree": false,
+    "description": "Cities Skylines là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/cities-skylines.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 9100,
+      "ramGb": 4,
+      "storageGb": 37
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 7800,
+      "gpuBenchmark": 15000,
+      "ramGb": 8,
+      "storageGb": 37
+    }
+  },
+  {
+    "name": "Terraria",
+    "slug": "terraria",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 40.5,
+    "price": 600000,
+    "isFree": false,
+    "description": "Terraria là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/terraria.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 10000,
+      "ramGb": 8,
+      "storageGb": 41
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9300,
+      "gpuBenchmark": 16500,
+      "ramGb": 8,
+      "storageGb": 41
+    }
+  },
+  {
+    "name": "Stardew Valley",
+    "slug": "stardew-valley",
+    "steamId": null,
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 44,
+    "price": 0,
+    "isFree": true,
+    "description": "Stardew Valley là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/stardew-valley.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 1900,
+      "ramGb": 8,
+      "storageGb": 44
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10800,
+      "gpuBenchmark": 9000,
+      "ramGb": 16,
+      "storageGb": 44
+    }
+  },
+  {
+    "name": "Among Us",
+    "slug": "among-us",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 47.5,
+    "price": 780000,
+    "isFree": false,
+    "description": "Among Us là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/among-us.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 2800,
+      "ramGb": 8,
+      "storageGb": 48
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12300,
+      "gpuBenchmark": 10500,
+      "ramGb": 8,
+      "storageGb": 48
+    }
+  },
+  {
+    "name": "Left 4 Dead 2",
+    "slug": "left-4-dead-2",
+    "steamId": "762",
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 51,
+    "price": 150000,
+    "isFree": false,
+    "description": "Left 4 Dead 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/left-4-dead-2.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 3700,
+      "ramGb": 4,
+      "storageGb": 51
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13800,
+      "gpuBenchmark": 7200,
+      "ramGb": 8,
+      "storageGb": 51
+    }
+  },
+  {
+    "name": "Team Fortress 2",
+    "slug": "team-fortress-2",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 54.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Team Fortress 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/team-fortress-2.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 4600,
+      "ramGb": 8,
+      "storageGb": 55
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 15300,
+      "gpuBenchmark": 8700,
+      "ramGb": 8,
+      "storageGb": 55
+    }
+  },
+  {
+    "name": "Rainbow Six Siege",
+    "slug": "rainbow-six-siege",
+    "steamId": null,
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 58,
+    "price": 330000,
+    "isFree": false,
+    "description": "Rainbow Six Siege là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/rainbow-six-siege.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 5500,
+      "ramGb": 8,
+      "storageGb": 58
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 16800,
+      "gpuBenchmark": 10200,
+      "ramGb": 8,
+      "storageGb": 58
+    }
+  },
+  {
+    "name": "Overwatch 2",
+    "slug": "overwatch-2",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 61.5,
+    "price": 420000,
+    "isFree": false,
+    "description": "Overwatch 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/overwatch-2.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 6400,
+      "ramGb": 8,
+      "storageGb": 62
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13400,
+      "gpuBenchmark": 11700,
+      "ramGb": 16,
+      "storageGb": 62
+    }
+  },
+  {
+    "name": "Rocket League",
+    "slug": "rocket-league",
+    "steamId": "766",
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 2,
+    "price": 0,
+    "isFree": true,
+    "description": "Rocket League là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/rocket-league.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 7300,
+      "ramGb": 4,
+      "storageGb": 2
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 7700,
+      "gpuBenchmark": 13200,
+      "ramGb": 8,
+      "storageGb": 2
+    }
+  },
+  {
+    "name": "Forza Horizon 5",
+    "slug": "forza-horizon-5",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 5.5,
+    "price": 600000,
+    "isFree": false,
+    "description": "Forza Horizon 5 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/forza-horizon-5.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 8200,
+      "ramGb": 8,
+      "storageGb": 6
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9200,
+      "gpuBenchmark": 14700,
+      "ramGb": 8,
+      "storageGb": 6
+    }
+  },
+  {
+    "name": "Need for Speed Heat",
+    "slug": "need-for-speed-heat",
+    "steamId": null,
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 9,
+    "price": 690000,
+    "isFree": false,
+    "description": "Need for Speed Heat là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/need-for-speed-heat.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 9100,
+      "ramGb": 8,
+      "storageGb": 9
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10700,
+      "gpuBenchmark": 16200,
+      "ramGb": 8,
+      "storageGb": 9
+    }
+  },
+  {
+    "name": "Assetto Corsa",
+    "slug": "assetto-corsa",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 12.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Assetto Corsa là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/assetto-corsa.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 10000,
+      "ramGb": 8,
+      "storageGb": 13
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12200,
+      "gpuBenchmark": 17700,
+      "ramGb": 8,
+      "storageGb": 13
+    }
+  },
+  {
+    "name": "FIFA Online 4",
+    "slug": "fifa-online-4",
+    "steamId": "770",
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 16,
+    "price": 150000,
+    "isFree": false,
+    "description": "FIFA Online 4 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/fifa-online-4.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 1900,
+      "ramGb": 4,
+      "storageGb": 16
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13700,
+      "gpuBenchmark": 5400,
+      "ramGb": 16,
+      "storageGb": 16
+    }
+  },
+  {
+    "name": "Đột Kích",
+    "slug": "dot-kich",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 19.5,
+    "price": 240000,
+    "isFree": false,
+    "description": "Đột Kích là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/dot-kich.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 2800,
+      "ramGb": 8,
+      "storageGb": 20
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 15200,
+      "gpuBenchmark": 6900,
+      "ramGb": 8,
+      "storageGb": 20
+    }
+  },
+  {
+    "name": "Audition",
+    "slug": "audition",
+    "steamId": null,
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 23,
+    "price": 0,
+    "isFree": true,
+    "description": "Audition là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/audition.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 3700,
+      "ramGb": 8,
+      "storageGb": 23
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11800,
+      "gpuBenchmark": 8400,
+      "ramGb": 8,
+      "storageGb": 23
+    }
+  },
+  {
+    "name": "Blade & Soul",
+    "slug": "blade-soul",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 26.5,
+    "price": 420000,
+    "isFree": false,
+    "description": "Blade & Soul là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/blade-soul.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 4600,
+      "ramGb": 8,
+      "storageGb": 27
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13300,
+      "gpuBenchmark": 9900,
+      "ramGb": 8,
+      "storageGb": 27
+    }
+  },
+  {
+    "name": "Black Desert Online",
+    "slug": "black-desert-online",
+    "steamId": "774",
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 30,
+    "price": 510000,
+    "isFree": false,
+    "description": "Black Desert Online là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/black-desert-online.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 5500,
+      "ramGb": 4,
+      "storageGb": 30
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14800,
+      "gpuBenchmark": 11400,
+      "ramGb": 8,
+      "storageGb": 30
+    }
+  },
+  {
+    "name": "Naruto to Boruto Shinobi Striker",
+    "slug": "naruto-to-boruto-shinobi-striker",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 33.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Naruto to Boruto Shinobi Striker là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/naruto-to-boruto-shinobi-striker.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 6400,
+      "ramGb": 8,
+      "storageGb": 34
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9100,
+      "gpuBenchmark": 12900,
+      "ramGb": 16,
+      "storageGb": 34
+    }
+  },
+  {
+    "name": "Tekken 8",
+    "slug": "tekken-8",
+    "steamId": null,
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 37,
+    "price": 690000,
+    "isFree": false,
+    "description": "Tekken 8 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/tekken-8.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 7300,
+      "ramGb": 8,
+      "storageGb": 37
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10600,
+      "gpuBenchmark": 14400,
+      "ramGb": 8,
+      "storageGb": 37
+    }
+  },
+  {
+    "name": "Street Fighter 6",
+    "slug": "street-fighter-6",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 40.5,
+    "price": 780000,
+    "isFree": false,
+    "description": "Street Fighter 6 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/street-fighter-6.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 8200,
+      "ramGb": 8,
+      "storageGb": 41
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12100,
+      "gpuBenchmark": 15900,
+      "ramGb": 8,
+      "storageGb": 41
+    }
+  },
+  {
+    "name": "Mortal Kombat 11",
+    "slug": "mortal-kombat-11",
+    "steamId": "778",
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 44,
+    "price": 0,
+    "isFree": true,
+    "description": "Mortal Kombat 11 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/mortal-kombat-11.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 9100,
+      "ramGb": 4,
+      "storageGb": 44
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13600,
+      "gpuBenchmark": 12600,
+      "ramGb": 8,
+      "storageGb": 44
+    }
+  },
+  {
+    "name": "Dragon Ball FighterZ",
+    "slug": "dragon-ball-fighterz",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 47.5,
+    "price": 240000,
+    "isFree": false,
+    "description": "Dragon Ball FighterZ là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/dragon-ball-fighterz.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 10000,
+      "ramGb": 8,
+      "storageGb": 48
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10200,
+      "gpuBenchmark": 14100,
+      "ramGb": 8,
+      "storageGb": 48
+    }
+  },
+  {
+    "name": "Resident Evil 4 Remake",
+    "slug": "resident-evil-4-remake",
+    "steamId": null,
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 51,
+    "price": 330000,
+    "isFree": false,
+    "description": "Resident Evil 4 Remake là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/resident-evil-4-remake.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 3100,
+      "ramGb": 8,
+      "storageGb": 51
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11700,
+      "gpuBenchmark": 7800,
+      "ramGb": 16,
+      "storageGb": 51
+    }
+  },
+  {
+    "name": "Resident Evil Village",
+    "slug": "resident-evil-village",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 54.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Resident Evil Village là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/resident-evil-village.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 4000,
+      "ramGb": 8,
+      "storageGb": 55
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13200,
+      "gpuBenchmark": 9300,
+      "ramGb": 8,
+      "storageGb": 55
+    }
+  },
+  {
+    "name": "Phasmophobia",
+    "slug": "phasmophobia",
+    "steamId": "782",
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 58,
+    "price": 510000,
+    "isFree": false,
+    "description": "Phasmophobia là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/phasmophobia.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 4900,
+      "ramGb": 4,
+      "storageGb": 58
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14700,
+      "gpuBenchmark": 10800,
+      "ramGb": 8,
+      "storageGb": 58
+    }
+  },
+  {
+    "name": "Dead by Daylight",
+    "slug": "dead-by-daylight",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 61.5,
+    "price": 600000,
+    "isFree": false,
+    "description": "Dead by Daylight là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/dead-by-daylight.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 5800,
+      "ramGb": 8,
+      "storageGb": 62
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 16200,
+      "gpuBenchmark": 12300,
+      "ramGb": 8,
+      "storageGb": 62
+    }
+  },
+  {
+    "name": "The Forest",
+    "slug": "the-forest",
+    "steamId": null,
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 2,
+    "price": 0,
+    "isFree": true,
+    "description": "The Forest là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/the-forest.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 6700,
+      "ramGb": 8,
+      "storageGb": 2
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 13800,
+      "ramGb": 8,
+      "storageGb": 2
+    }
+  },
+  {
+    "name": "Sons of the Forest",
+    "slug": "sons-of-the-forest",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 5.5,
+    "price": 780000,
+    "isFree": false,
+    "description": "Sons of the Forest là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/sons-of-the-forest.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 7600,
+      "ramGb": 8,
+      "storageGb": 6
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12000,
+      "gpuBenchmark": 15300,
+      "ramGb": 16,
+      "storageGb": 6
+    }
+  },
+  {
+    "name": "Raft",
+    "slug": "raft",
+    "steamId": "786",
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 9,
+    "price": 150000,
+    "isFree": false,
+    "description": "Raft là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/raft.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 8500,
+      "ramGb": 4,
+      "storageGb": 9
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 8600,
+      "gpuBenchmark": 12000,
+      "ramGb": 8,
+      "storageGb": 9
+    }
+  },
+  {
+    "name": "Subnautica",
+    "slug": "subnautica",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 12.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Subnautica là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/subnautica.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 9400,
+      "ramGb": 8,
+      "storageGb": 13
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10100,
+      "gpuBenchmark": 13500,
+      "ramGb": 8,
+      "storageGb": 13
+    }
+  },
+  {
+    "name": "No Man's Sky",
+    "slug": "no-man-s-sky",
+    "steamId": null,
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 16,
+    "price": 330000,
+    "isFree": false,
+    "description": "No Man's Sky là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/no-man-s-sky.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 10300,
+      "ramGb": 8,
+      "storageGb": 16
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11600,
+      "gpuBenchmark": 15000,
+      "ramGb": 8,
+      "storageGb": 16
+    }
+  },
+  {
+    "name": "Valheim",
+    "slug": "valheim",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 19.5,
+    "price": 420000,
+    "isFree": false,
+    "description": "Valheim là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/valheim.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 11200,
+      "ramGb": 8,
+      "storageGb": 20
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13100,
+      "gpuBenchmark": 16500,
+      "ramGb": 8,
+      "storageGb": 20
+    }
+  },
+  {
+    "name": "ARK Survival Evolved",
+    "slug": "ark-survival-evolved",
+    "steamId": "790",
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 23,
+    "price": 0,
+    "isFree": true,
+    "description": "ARK Survival Evolved là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/ark-survival-evolved.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 3100,
+      "ramGb": 4,
+      "storageGb": 23
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14600,
+      "gpuBenchmark": 9000,
+      "ramGb": 16,
+      "storageGb": 23
+    }
+  },
+  {
+    "name": "Rust",
+    "slug": "rust",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 26.5,
+    "price": 600000,
+    "isFree": false,
+    "description": "Rust là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/rust.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 4000,
+      "ramGb": 8,
+      "storageGb": 27
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 16100,
+      "gpuBenchmark": 10500,
+      "ramGb": 8,
+      "storageGb": 27
+    }
+  },
+  {
+    "name": "DayZ",
+    "slug": "dayz",
+    "steamId": null,
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 30,
+    "price": 690000,
+    "isFree": false,
+    "description": "DayZ là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/dayz.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 4900,
+      "ramGb": 8,
+      "storageGb": 30
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 17600,
+      "gpuBenchmark": 12000,
+      "ramGb": 8,
+      "storageGb": 30
+    }
+  },
+  {
+    "name": "Project Zomboid",
+    "slug": "project-zomboid",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 33.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Project Zomboid là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/project-zomboid.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 5800,
+      "ramGb": 8,
+      "storageGb": 34
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 7000,
+      "gpuBenchmark": 13500,
+      "ramGb": 8,
+      "storageGb": 34
+    }
+  },
+  {
+    "name": "Don't Starve Together",
+    "slug": "don-t-starve-together",
+    "steamId": "794",
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 37,
+    "price": 150000,
+    "isFree": false,
+    "description": "Don't Starve Together là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/don-t-starve-together.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 6700,
+      "ramGb": 4,
+      "storageGb": 37
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 8500,
+      "gpuBenchmark": 10200,
+      "ramGb": 8,
+      "storageGb": 37
+    }
+  },
+  {
+    "name": "Hades",
+    "slug": "hades",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 40.5,
+    "price": 240000,
+    "isFree": false,
+    "description": "Hades là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/hades.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 7600,
+      "ramGb": 8,
+      "storageGb": 41
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10000,
+      "gpuBenchmark": 11700,
+      "ramGb": 16,
+      "storageGb": 41
+    }
+  },
+  {
+    "name": "Hollow Knight",
+    "slug": "hollow-knight",
+    "steamId": null,
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 44,
+    "price": 0,
+    "isFree": true,
+    "description": "Hollow Knight là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/hollow-knight.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 8500,
+      "ramGb": 8,
+      "storageGb": 44
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11500,
+      "gpuBenchmark": 13200,
+      "ramGb": 8,
+      "storageGb": 44
+    }
+  },
+  {
+    "name": "Cuphead",
+    "slug": "cuphead",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 47.5,
+    "price": 420000,
+    "isFree": false,
+    "description": "Cuphead là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/cuphead.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 9400,
+      "ramGb": 8,
+      "storageGb": 48
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13000,
+      "gpuBenchmark": 14700,
+      "ramGb": 8,
+      "storageGb": 48
+    }
+  },
+  {
+    "name": "Celeste",
+    "slug": "celeste",
+    "steamId": "798",
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 51,
+    "price": 510000,
+    "isFree": false,
+    "description": "Celeste là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/celeste.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 10300,
+      "ramGb": 4,
+      "storageGb": 51
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14500,
+      "gpuBenchmark": 16200,
+      "ramGb": 8,
+      "storageGb": 51
+    }
+  },
+  {
+    "name": "Ori and the Will of the Wisps",
+    "slug": "ori-and-the-will-of-the-wisps",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 54.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Ori and the Will of the Wisps là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/ori-and-the-will-of-the-wisps.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 11200,
+      "ramGb": 8,
+      "storageGb": 55
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 16000,
+      "gpuBenchmark": 17700,
+      "ramGb": 8,
+      "storageGb": 55
+    }
+  },
+  {
+    "name": "Age of Empires II Definitive Edition",
+    "slug": "age-of-empires-ii-definitive-edition",
+    "steamId": null,
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 58,
+    "price": 690000,
+    "isFree": false,
+    "description": "Age of Empires II Definitive Edition là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/age-of-empires-ii-definitive-edition.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 3100,
+      "ramGb": 8,
+      "storageGb": 58
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12600,
+      "gpuBenchmark": 10200,
+      "ramGb": 16,
+      "storageGb": 58
+    }
+  },
+  {
+    "name": "Age of Empires IV",
+    "slug": "age-of-empires-iv",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 61.5,
+    "price": 780000,
+    "isFree": false,
+    "description": "Age of Empires IV là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/age-of-empires-iv.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 4000,
+      "ramGb": 8,
+      "storageGb": 62
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14100,
+      "gpuBenchmark": 11700,
+      "ramGb": 8,
+      "storageGb": 62
+    }
+  },
+  {
+    "name": "Civilization VI",
+    "slug": "civilization-vi",
+    "steamId": "802",
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 2,
+    "price": 0,
+    "isFree": true,
+    "description": "Civilization VI là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/civilization-vi.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 4900,
+      "ramGb": 4,
+      "storageGb": 2
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 8400,
+      "gpuBenchmark": 8400,
+      "ramGb": 8,
+      "storageGb": 2
+    }
+  },
+  {
+    "name": "Total War Three Kingdoms",
+    "slug": "total-war-three-kingdoms",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 5.5,
+    "price": 240000,
+    "isFree": false,
+    "description": "Total War Three Kingdoms là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/total-war-three-kingdoms.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 5800,
+      "ramGb": 8,
+      "storageGb": 6
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9900,
+      "gpuBenchmark": 9900,
+      "ramGb": 8,
+      "storageGb": 6
+    }
+  },
+  {
+    "name": "StarCraft II",
+    "slug": "starcraft-ii",
+    "steamId": null,
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 9,
+    "price": 330000,
+    "isFree": false,
+    "description": "StarCraft II là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/starcraft-ii.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 6700,
+      "ramGb": 8,
+      "storageGb": 9
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11400,
+      "gpuBenchmark": 11400,
+      "ramGb": 8,
+      "storageGb": 9
+    }
+  },
+  {
+    "name": "Diablo IV",
+    "slug": "diablo-iv",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 12.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Diablo IV là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/diablo-iv.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 8800,
+      "ramGb": 8,
+      "storageGb": 13
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12900,
+      "gpuBenchmark": 14100,
+      "ramGb": 16,
+      "storageGb": 13
+    }
+  },
+  {
+    "name": "Diablo III",
+    "slug": "diablo-iii",
+    "steamId": "806",
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 16,
+    "price": 510000,
+    "isFree": false,
+    "description": "Diablo III là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/diablo-iii.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 9700,
+      "ramGb": 4,
+      "storageGb": 16
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14400,
+      "gpuBenchmark": 15600,
+      "ramGb": 8,
+      "storageGb": 16
+    }
+  },
+  {
+    "name": "Torchlight II",
+    "slug": "torchlight-ii",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 19.5,
+    "price": 600000,
+    "isFree": false,
+    "description": "Torchlight II là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/torchlight-ii.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 10600,
+      "ramGb": 8,
+      "storageGb": 20
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11000,
+      "gpuBenchmark": 17100,
+      "ramGb": 8,
+      "storageGb": 20
+    }
+  },
+  {
+    "name": "Grim Dawn",
+    "slug": "grim-dawn",
+    "steamId": null,
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 23,
+    "price": 0,
+    "isFree": true,
+    "description": "Grim Dawn là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/grim-dawn.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 11500,
+      "ramGb": 8,
+      "storageGb": 23
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12500,
+      "gpuBenchmark": 18600,
+      "ramGb": 8,
+      "storageGb": 23
+    }
+  },
+  {
+    "name": "Monster Hunter World",
+    "slug": "monster-hunter-world",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 26.5,
+    "price": 780000,
+    "isFree": false,
+    "description": "Monster Hunter World là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/monster-hunter-world.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 12400,
+      "ramGb": 8,
+      "storageGb": 27
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 14000,
+      "gpuBenchmark": 20100,
+      "ramGb": 8,
+      "storageGb": 27
+    }
+  },
+  {
+    "name": "Monster Hunter Rise",
+    "slug": "monster-hunter-rise",
+    "steamId": "810",
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 30,
+    "price": 150000,
+    "isFree": false,
+    "description": "Monster Hunter Rise là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/monster-hunter-rise.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 4300,
+      "ramGb": 4,
+      "storageGb": 30
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 15500,
+      "gpuBenchmark": 7800,
+      "ramGb": 16,
+      "storageGb": 30
+    }
+  },
+  {
+    "name": "Sekiro Shadows Die Twice",
+    "slug": "sekiro-shadows-die-twice",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 33.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Sekiro Shadows Die Twice là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/sekiro-shadows-die-twice.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 5200,
+      "ramGb": 8,
+      "storageGb": 34
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9800,
+      "gpuBenchmark": 9300,
+      "ramGb": 8,
+      "storageGb": 34
+    }
+  },
+  {
+    "name": "Dark Souls III",
+    "slug": "dark-souls-iii",
+    "steamId": null,
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 37,
+    "price": 330000,
+    "isFree": false,
+    "description": "Dark Souls III là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/dark-souls-iii.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 6100,
+      "ramGb": 8,
+      "storageGb": 37
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11300,
+      "gpuBenchmark": 10800,
+      "ramGb": 8,
+      "storageGb": 37
+    }
+  },
+  {
+    "name": "Nioh 2",
+    "slug": "nioh-2",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 40.5,
+    "price": 420000,
+    "isFree": false,
+    "description": "Nioh 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/nioh-2.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 7000,
+      "ramGb": 8,
+      "storageGb": 41
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12800,
+      "gpuBenchmark": 12300,
+      "ramGb": 8,
+      "storageGb": 41
+    }
+  },
+  {
+    "name": "Assassin's Creed Valhalla",
+    "slug": "assassin-s-creed-valhalla",
+    "steamId": "814",
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 44,
+    "price": 0,
+    "isFree": true,
+    "description": "Assassin's Creed Valhalla là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/assassin-s-creed-valhalla.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 7900,
+      "ramGb": 4,
+      "storageGb": 44
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9400,
+      "gpuBenchmark": 13800,
+      "ramGb": 8,
+      "storageGb": 44
+    }
+  },
+  {
+    "name": "Assassin's Creed Odyssey",
+    "slug": "assassin-s-creed-odyssey",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 47.5,
+    "price": 600000,
+    "isFree": false,
+    "description": "Assassin's Creed Odyssey là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/assassin-s-creed-odyssey.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 8800,
+      "ramGb": 8,
+      "storageGb": 48
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10900,
+      "gpuBenchmark": 15300,
+      "ramGb": 16,
+      "storageGb": 48
+    }
+  },
+  {
+    "name": "Far Cry 5",
+    "slug": "far-cry-5",
+    "steamId": null,
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 51,
+    "price": 690000,
+    "isFree": false,
+    "description": "Far Cry 5 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/far-cry-5.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 9700,
+      "ramGb": 8,
+      "storageGb": 51
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12400,
+      "gpuBenchmark": 16800,
+      "ramGb": 8,
+      "storageGb": 51
+    }
+  },
+  {
+    "name": "Far Cry 6",
+    "slug": "far-cry-6",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 54.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Far Cry 6 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/far-cry-6.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 10600,
+      "ramGb": 8,
+      "storageGb": 55
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13900,
+      "gpuBenchmark": 18300,
+      "ramGb": 8,
+      "storageGb": 55
+    }
+  },
+  {
+    "name": "Watch Dogs 2",
+    "slug": "watch-dogs-2",
+    "steamId": "818",
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 58,
+    "price": 150000,
+    "isFree": false,
+    "description": "Watch Dogs 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/watch-dogs-2.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 11500,
+      "ramGb": 4,
+      "storageGb": 58
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 15400,
+      "gpuBenchmark": 15000,
+      "ramGb": 8,
+      "storageGb": 58
+    }
+  },
+  {
+    "name": "Watch Dogs Legion",
+    "slug": "watch-dogs-legion",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 61.5,
+    "price": 240000,
+    "isFree": false,
+    "description": "Watch Dogs Legion là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/watch-dogs-legion.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 12400,
+      "ramGb": 8,
+      "storageGb": 62
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 16900,
+      "gpuBenchmark": 16500,
+      "ramGb": 8,
+      "storageGb": 62
+    }
+  },
+  {
+    "name": "Control",
+    "slug": "control",
+    "steamId": null,
+    "genres": [
+      "FPS",
+      "Sinh tồn"
+    ],
+    "sizeGb": 2,
+    "price": 0,
+    "isFree": true,
+    "description": "Control là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/control.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 4300,
+      "ramGb": 8,
+      "storageGb": 2
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 11200,
+      "gpuBenchmark": 9000,
+      "ramGb": 16,
+      "storageGb": 2
+    }
+  },
+  {
+    "name": "Alan Wake 2",
+    "slug": "alan-wake-2",
+    "steamId": null,
+    "genres": [
+      "MOBA",
+      "Đua xe"
+    ],
+    "sizeGb": 5.5,
+    "price": 420000,
+    "isFree": false,
+    "description": "Alan Wake 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/alan-wake-2.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 3300,
+      "gpuBenchmark": 5200,
+      "ramGb": 8,
+      "storageGb": 6
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 7800,
+      "gpuBenchmark": 10500,
+      "ramGb": 8,
+      "storageGb": 6
+    }
+  },
+  {
+    "name": "Metro Exodus",
+    "slug": "metro-exodus",
+    "steamId": "822",
+    "genres": [
+      "RPG",
+      "Chiến thuật"
+    ],
+    "sizeGb": 9,
+    "price": 510000,
+    "isFree": false,
+    "description": "Metro Exodus là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/metro-exodus.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4100,
+      "gpuBenchmark": 6100,
+      "ramGb": 4,
+      "storageGb": 9
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 9300,
+      "gpuBenchmark": 12000,
+      "ramGb": 8,
+      "storageGb": 9
+    }
+  },
+  {
+    "name": "Dying Light 2",
+    "slug": "dying-light-2",
+    "steamId": null,
+    "genres": [
+      "Sinh tồn",
+      "Co-op"
+    ],
+    "sizeGb": 12.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Dying Light 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/dying-light-2.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 4900,
+      "gpuBenchmark": 7000,
+      "ramGb": 8,
+      "storageGb": 13
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 10800,
+      "gpuBenchmark": 13500,
+      "ramGb": 8,
+      "storageGb": 13
+    }
+  },
+  {
+    "name": "Mafia Definitive Edition",
+    "slug": "mafia-definitive-edition",
+    "steamId": null,
+    "genres": [
+      "Đua xe",
+      "Offline"
+    ],
+    "sizeGb": 16,
+    "price": 690000,
+    "isFree": false,
+    "description": "Mafia Definitive Edition là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/mafia-definitive-edition.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 5700,
+      "gpuBenchmark": 7900,
+      "ramGb": 8,
+      "storageGb": 16
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 12300,
+      "gpuBenchmark": 15000,
+      "ramGb": 8,
+      "storageGb": 16
+    }
+  },
+  {
+    "name": "Hitman 3",
+    "slug": "hitman-3",
+    "steamId": null,
+    "genres": [
+      "Chiến thuật",
+      "Thể thao"
+    ],
+    "sizeGb": 19.5,
+    "price": 780000,
+    "isFree": false,
+    "description": "Hitman 3 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/hitman-3.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 6500,
+      "gpuBenchmark": 8800,
+      "ramGb": 8,
+      "storageGb": 20
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13800,
+      "gpuBenchmark": 16500,
+      "ramGb": 16,
+      "storageGb": 20
+    }
+  },
+  {
+    "name": "Tomb Raider",
+    "slug": "tomb-raider",
+    "steamId": "826",
+    "genres": [
+      "Co-op",
+      "Mô phỏng"
+    ],
+    "sizeGb": 23,
+    "price": 0,
+    "isFree": true,
+    "description": "Tomb Raider là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/tomb-raider.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 7300,
+      "gpuBenchmark": 9700,
+      "ramGb": 4,
+      "storageGb": 23
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 15300,
+      "gpuBenchmark": 13200,
+      "ramGb": 8,
+      "storageGb": 23
+    }
+  },
+  {
+    "name": "Shadow of the Tomb Raider",
+    "slug": "shadow-of-the-tomb-raider",
+    "steamId": null,
+    "genres": [
+      "Offline",
+      "FPS"
+    ],
+    "sizeGb": 26.5,
+    "price": 240000,
+    "isFree": false,
+    "description": "Shadow of the Tomb Raider là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/shadow-of-the-tomb-raider.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8100,
+      "gpuBenchmark": 10600,
+      "ramGb": 8,
+      "storageGb": 27
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 16800,
+      "gpuBenchmark": 14700,
+      "ramGb": 8,
+      "storageGb": 27
+    }
+  },
+  {
+    "name": "Stray",
+    "slug": "stray",
+    "steamId": null,
+    "genres": [
+      "Thể thao",
+      "MOBA"
+    ],
+    "sizeGb": 30,
+    "price": 330000,
+    "isFree": false,
+    "description": "Stray là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/stray.svg",
+    "officialUrl": "https://store.steampowered.com/",
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 8900,
+      "gpuBenchmark": 11500,
+      "ramGb": 8,
+      "storageGb": 30
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 13400,
+      "gpuBenchmark": 16200,
+      "ramGb": 8,
+      "storageGb": 30
+    }
+  },
+  {
+    "name": "Dave the Diver",
+    "slug": "dave-the-diver",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng",
+      "RPG"
+    ],
+    "sizeGb": 33.5,
+    "price": 0,
+    "isFree": true,
+    "description": "Dave the Diver là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "coverImage": "/images/games/dave-the-diver.svg",
+    "officialUrl": null,
+    "minSpecs": {
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
+      "cpuBenchmark": 2500,
+      "gpuBenchmark": 12400,
+      "ramGb": 8,
+      "storageGb": 34
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
+      "cpuBenchmark": 7700,
+      "gpuBenchmark": 17700,
+      "ramGb": 8,
+      "storageGb": 34
+    }
+  }
+]

@@ -1,0 +1,18 @@
+import gamesData from "@/data/games.json";
+import gpusData from "@/data/gpus.json";
+import cpusData from "@/data/cpus.json";
+import devicesData from "@/data/devices.json";
+import benchmarksData from "@/data/benchmarks.json";
+import blogData from "@/data/blog-posts.json";
+import type { Benchmark, BlogPost, Cpu, Device, Game, Gpu } from "@/types";
+export const games = gamesData as Game[];
+export const gpus = gpusData as Gpu[];
+export const cpus = cpusData as Cpu[];
+export const devices = devicesData as Device[];
+export const benchmarks = benchmarksData as Benchmark[];
+export const blogPosts = blogData as BlogPost[];
+export const findGame = (slug: string) => games.find((x) => x.slug === slug);
+export const findGpu = (slug: string) => gpus.find((x) => x.slug === slug);
+export const findCpu = (slug: string) => cpus.find((x) => x.slug === slug);
+export const findDevice = (slug: string) => devices.find((x) => x.slug === slug);
+export const findPost = (slug: string) => blogPosts.find((x) => x.slug === slug);
