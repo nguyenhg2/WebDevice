@@ -3,16 +3,48 @@ import { Client, type Client as PgClient } from "pg";
 export type AdminCollection = "game" | "gpu" | "cpu" | "device" | "benchmark" | "blogPost";
 
 const idFromSlug = (prefix: string, slug: string) => `${prefix}_${slug.replace(/[^a-z0-9]+/g, "_")}`.slice(0, 120);
+const connectionErrorCodes = new Set(["ENOTFOUND", "EAI_AGAIN", "ETIMEDOUT", "ECONNREFUSED", "EACCES", "ENETUNREACH"]);
 
 async function withClient<T>(fn: (client: PgClient) => Promise<T>) {
-  if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL chưa được cấu hình.");
-  const client = new Client({ connectionString: process.env.DATABASE_URL, ssl: { rejectUnauthorized: false } });
-  await client.connect();
+  const connectionString = databaseUrl();
+  const client = new Client({
+    connectionString,
+    ssl: { rejectUnauthorized: false },
+    connectionTimeoutMillis: 8000,
+  });
+
+  try {
+    await client.connect();
+  } catch (error) {
+    throw adminDbError(error);
+  }
+
   try {
     return await fn(client);
+  } catch (error) {
+    throw adminDbError(error);
   } finally {
     await client.end();
   }
+}
+
+function databaseUrl() {
+  const value = process.env.ADMIN_DATABASE_URL || process.env.POSTGRES_PRISMA_URL || process.env.POSTGRES_URL || process.env.DATABASE_URL;
+  if (!value) throw new Error("Chưa cấu hình DATABASE_URL hoặc ADMIN_DATABASE_URL.");
+  return value;
+}
+
+function adminDbError(error: unknown) {
+  if (isConnectionError(error)) {
+    return new Error("Không kết nối được Supabase/Postgres. Hãy kiểm tra DATABASE_URL hoặc dùng Supabase pooler IPv4 trong ADMIN_DATABASE_URL.");
+  }
+  return error instanceof Error ? error : new Error(String(error));
+}
+
+function isConnectionError(error: unknown) {
+  const code = typeof error === "object" && error && "code" in error ? String((error as { code?: unknown }).code) : "";
+  const message = error instanceof Error ? error.message : String(error);
+  return connectionErrorCodes.has(code) || /getaddrinfo|ENOTFOUND|EAI_AGAIN|timeout|network|tenant\/user|Tenant or user/i.test(message);
 }
 
 async function upsertGame(client: PgClient, game: any) {
@@ -111,28 +143,32 @@ const listConfig: Record<AdminCollection, { table: string; columns: string[]; se
 
 export async function listAdminItems(collection: AdminCollection, search = "", limit = 50) {
   const config = listConfig[collection];
-  return withClient(async (client) => {
-    const columns = config.columns.map((column) => `"${column}"`).join(",");
-    const safeLimit = Math.min(100, Math.max(1, limit));
-    const whereParts: string[] = [];
-    const values: unknown[] = [];
+  try {
+    return withClient(async (client) => {
+      const columns = config.columns.map((column) => `"${column}"`).join(",");
+      const safeLimit = Math.min(100, Math.max(1, limit));
+      const whereParts: string[] = [];
+      const values: unknown[] = [];
 
-    const terms = searchTerms(search);
-    if (terms.length) {
-      values.push(...terms.map((term) => `%${term}%`));
-      const clauses = values.map((_, index) => {
-        const param = `$${index + 1}`;
-        return config.search.map((column) => `"${column}"::text ILIKE ${param}`).join(" OR ");
-      });
-      whereParts.push(`(${clauses.map((clause) => `(${clause})`).join(" OR ")})`);
-    }
+      const terms = searchTerms(search);
+      if (terms.length) {
+        values.push(...terms.map((term) => `%${term}%`));
+        const clauses = values.map((_, index) => {
+          const param = `$${index + 1}`;
+          return config.search.map((column) => `"${column}"::text ILIKE ${param}`).join(" OR ");
+        });
+        whereParts.push(`(${clauses.map((clause) => `(${clause})`).join(" OR ")})`);
+      }
 
-    const result = await client.query(
-      `SELECT ${columns} FROM "${config.table}" ${whereParts.length ? `WHERE ${whereParts.join(" AND ")}` : ""} ORDER BY "${config.order}" ${config.order === "publishedAt" || config.order === "createdAt" ? "DESC" : "ASC"} LIMIT ${safeLimit}`,
-      values,
-    );
-    return result.rows.map((row) => normalizeAdminRow(collection, row));
-  });
+      const result = await client.query(
+        `SELECT ${columns} FROM "${config.table}" ${whereParts.length ? `WHERE ${whereParts.join(" AND ")}` : ""} ORDER BY "${config.order}" ${config.order === "publishedAt" || config.order === "createdAt" ? "DESC" : "ASC"} LIMIT ${safeLimit}`,
+        values,
+      );
+      return result.rows.map((row) => normalizeAdminRow(collection, row));
+    });
+  } catch (error) {
+    throw adminDbError(error);
+  }
 }
 
 export async function deleteAdminItem(collection: AdminCollection, key: string) {

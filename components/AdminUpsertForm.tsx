@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState, type FormEvent } from "react";
+import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 
 type FieldType = "text" | "number" | "textarea" | "checkbox" | "select" | "tags";
 type Field = {
@@ -218,6 +218,7 @@ export default function AdminUpsertForm() {
   const [editingKey, setEditingKey] = useState<string | null>(null);
   const [searchLoading, setSearchLoading] = useState(false);
   const [status, setStatus] = useState("");
+  const requestSeq = useRef(0);
   const module = modules[moduleKey];
   const moduleEntries = useMemo(() => Object.entries(modules), []);
 
@@ -226,7 +227,6 @@ export default function AdminUpsertForm() {
     setEditingKey(null);
     setSearch("");
     setStatus("");
-    void loadItems(moduleKey, "");
   }, [moduleKey]);
 
   useEffect(() => {
@@ -237,21 +237,25 @@ export default function AdminUpsertForm() {
   }, [moduleKey, search]);
 
   async function loadItems(collection = moduleKey, query = search) {
+    const seq = requestSeq.current + 1;
+    requestSeq.current = seq;
     setSearchLoading(true);
     const params = new URLSearchParams({ collection, search: query, limit: "30" });
     try {
       const response = await fetch(`/api/admin/items?${params}`);
       const result = await response.json();
+      if (seq !== requestSeq.current) return;
       if (result.success) {
         setItems(result.items);
-        if (query.trim()) setStatus(result.items.length ? `Tìm thấy ${result.items.length} gợi ý.` : "Không tìm thấy dữ liệu phù hợp.");
+        if (query.trim()) setStatus(result.items.length ? `Tìm thấy ${result.items.length} gợi ý từ Supabase.` : "Không tìm thấy dữ liệu phù hợp trong Supabase.");
       } else {
         setStatus(`Lỗi tải danh sách: ${result.error}`);
       }
     } catch (error) {
+      if (seq !== requestSeq.current) return;
       setStatus(`Lỗi tải danh sách: ${error instanceof Error ? error.message : String(error)}`);
     } finally {
-      setSearchLoading(false);
+      if (seq === requestSeq.current) setSearchLoading(false);
     }
   }
 
