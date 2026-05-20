@@ -117,9 +117,14 @@ export async function listAdminItems(collection: AdminCollection, search = "", l
     const whereParts: string[] = [];
     const values: unknown[] = [];
 
-    if (search.trim()) {
-      values.push(`%${search.trim()}%`);
-      whereParts.push(`(${config.search.map((column) => `"${column}"::text ILIKE $1`).join(" OR ")})`);
+    const terms = searchTerms(search);
+    if (terms.length) {
+      values.push(...terms.map((term) => `%${term}%`));
+      const clauses = values.map((_, index) => {
+        const param = `$${index + 1}`;
+        return config.search.map((column) => `"${column}"::text ILIKE ${param}`).join(" OR ");
+      });
+      whereParts.push(`(${clauses.map((clause) => `(${clause})`).join(" OR ")})`);
     }
 
     const result = await client.query(
@@ -131,14 +136,26 @@ export async function listAdminItems(collection: AdminCollection, search = "", l
 }
 
 export async function deleteAdminItem(collection: AdminCollection, key: string) {
-  await withClient(async (client) => {
+  return withClient(async (client) => {
     if (collection === "benchmark") {
-      await client.query(`DELETE FROM "GameGpuBenchmark" WHERE "id"=$1`, [key]);
-      return;
+      const result = await client.query(`DELETE FROM "GameGpuBenchmark" WHERE "id"=$1 RETURNING "id"`, [key]);
+      if (!result.rowCount) throw new Error("Không tìm thấy bản ghi cần xóa.");
+      return result.rowCount;
     }
     const table = listConfig[collection].table;
-    await client.query(`DELETE FROM "${table}" WHERE "slug"=$1`, [key]);
+    const result = await client.query(`DELETE FROM "${table}" WHERE "slug"=$1 RETURNING "slug"`, [key]);
+    if (!result.rowCount) throw new Error("Không tìm thấy bản ghi cần xóa.");
+    return result.rowCount;
   });
+}
+
+function searchTerms(search: string) {
+  const input = search.trim();
+  if (!input) return [];
+  const noAccent = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const slug = noAccent.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const underscore = slug.replace(/-/g, "_");
+  return Array.from(new Set([input, noAccent, slug, underscore].filter(Boolean)));
 }
 
 function normalizeAdminRow(collection: AdminCollection, row: Record<string, any>) {

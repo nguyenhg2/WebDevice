@@ -18,7 +18,8 @@ export async function GET(req: NextRequest) {
     const url = new URL(req.url);
     const collection = parseCollection(url.searchParams.get("collection"));
     const search = url.searchParams.get("search") ?? "";
-    const items = await listAdminItems(collection, search);
+    const limit = Number(url.searchParams.get("limit") || 50);
+    const items = await listAdminItems(collection, search, limit);
     return NextResponse.json({ success: true, items });
   } catch (error) {
     return NextResponse.json({ success: false, error: error instanceof Error ? error.message : String(error) }, { status: 400 });
@@ -35,8 +36,8 @@ export async function DELETE(req: NextRequest) {
     const collection = parseCollection(String(body.collection || ""));
     const key = String(body.key || "");
     if (!key) throw new Error("Thiếu khóa bản ghi cần xóa.");
-    await deleteAdminItem(collection, key);
-    return NextResponse.json({ success: true });
+    const count = await deleteAdminItem(collection, key);
+    return NextResponse.json({ success: true, count });
   } catch (error) {
     return NextResponse.json({ success: false, error: error instanceof Error ? error.message : String(error) }, { status: 400 });
   }

@@ -203,12 +203,20 @@ function valueForInput(value: Values[string]) {
   return value === null || value === undefined ? "" : String(value);
 }
 
+function displayTitle(item: Values, module: ModuleConfig) {
+  if (module.keyField === "id" && item.gameSlug && item.gpuSlug) {
+    return `${String(item.gameSlug)} / ${String(item.gpuSlug)} / ${String(item.resolution ?? "")}`;
+  }
+  return String(item[module.titleField] ?? item[module.keyField] ?? "");
+}
+
 export default function AdminUpsertForm() {
   const [moduleKey, setModuleKey] = useState("game");
   const [values, setValues] = useState<Values>(() => defaultValues(modules.game));
   const [items, setItems] = useState<Values[]>([]);
   const [search, setSearch] = useState("");
   const [editingKey, setEditingKey] = useState<string | null>(null);
+  const [searchLoading, setSearchLoading] = useState(false);
   const [status, setStatus] = useState("");
   const module = modules[moduleKey];
   const moduleEntries = useMemo(() => Object.entries(modules), []);
@@ -221,12 +229,30 @@ export default function AdminUpsertForm() {
     void loadItems(moduleKey, "");
   }, [moduleKey]);
 
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      void loadItems(moduleKey, search);
+    }, 300);
+    return () => window.clearTimeout(timer);
+  }, [moduleKey, search]);
+
   async function loadItems(collection = moduleKey, query = search) {
-    const params = new URLSearchParams({ collection, search: query });
-    const response = await fetch(`/api/admin/items?${params}`);
-    const result = await response.json();
-    if (result.success) setItems(result.items);
-    else setStatus(`Lỗi tải danh sách: ${result.error}`);
+    setSearchLoading(true);
+    const params = new URLSearchParams({ collection, search: query, limit: "30" });
+    try {
+      const response = await fetch(`/api/admin/items?${params}`);
+      const result = await response.json();
+      if (result.success) {
+        setItems(result.items);
+        if (query.trim()) setStatus(result.items.length ? `Tìm thấy ${result.items.length} gợi ý.` : "Không tìm thấy dữ liệu phù hợp.");
+      } else {
+        setStatus(`Lỗi tải danh sách: ${result.error}`);
+      }
+    } catch (error) {
+      setStatus(`Lỗi tải danh sách: ${error instanceof Error ? error.message : String(error)}`);
+    } finally {
+      setSearchLoading(false);
+    }
   }
 
   function updateValue(name: string, value: string | boolean) {
@@ -238,7 +264,7 @@ export default function AdminUpsertForm() {
     for (const field of module.fields) next[field.name] = item[field.name] ?? next[field.name];
     setValues(next);
     setEditingKey(String(item[module.keyField] ?? ""));
-    setStatus(`Đang sửa: ${String(item[module.titleField] ?? item[module.keyField] ?? "")}`);
+    setStatus(`Đang sửa: ${displayTitle(item, module)}`);
   }
 
   function createNew() {
@@ -266,7 +292,7 @@ export default function AdminUpsertForm() {
 
   async function deleteItem(item: Values) {
     const key = String(item[module.keyField] ?? "");
-    const title = String(item[module.titleField] ?? key);
+    const title = displayTitle(item, module);
     if (!key || !window.confirm(`Xóa "${title}"? Thao tác này không thể hoàn tác.`)) return;
     const response = await fetch("/api/admin/items", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ collection: moduleKey, key }) });
     const result = await response.json();
@@ -295,11 +321,15 @@ export default function AdminUpsertForm() {
           <input className="input" value={search} onChange={(event) => setSearch(event.target.value)} placeholder={`Tìm ${module.label.toLowerCase()}...`} />
           <button className="btn" type="button" onClick={() => loadItems()}>Tìm</button>
         </div>
+        <p className="mt-2 text-xs text-slate-500">
+          {searchLoading ? "Đang tải gợi ý..." : search.trim() ? "Gõ tên, slug, hãng, CPU/GPU hoặc từ khóa liên quan để lọc nhanh." : `Đang hiển thị ${items.length} bản ghi mới nhất.`}
+        </p>
         <button type="button" className="mt-3 w-full rounded-md border px-3 py-2 text-sm font-bold" onClick={createNew}>Tạo mới</button>
         <div className="mt-4 max-h-[620px] overflow-auto divide-y dark:divide-gray-700">
+          {!searchLoading && items.length === 0 ? <p className="py-4 text-sm text-slate-500">Không có gợi ý phù hợp.</p> : null}
           {items.map((item) => {
             const key = String(item[module.keyField] ?? "");
-            const title = String(item[module.titleField] ?? key);
+            const title = displayTitle(item, module);
             return (
               <article key={key} className="py-3">
                 <button type="button" className="block w-full text-left font-bold hover:text-blue-600" onClick={() => selectItem(item)}>{title}</button>
