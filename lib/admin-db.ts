@@ -70,7 +70,7 @@ async function upsertBenchmark(client: PgClient, benchmark: any) {
      ON CONFLICT ("gameId","gpuId","resolution") DO UPDATE SET
      "fpsLow"=EXCLUDED."fpsLow","fpsMedium"=EXCLUDED."fpsMedium","fpsHigh"=EXCLUDED."fpsHigh","fpsUltra"=EXCLUDED."fpsUltra",
      "recommendedSetting"=EXCLUDED."recommendedSetting","status"=EXCLUDED."status","videoTestUrl"=EXCLUDED."videoTestUrl","source"=EXCLUDED."source"`,
-    [idFromSlug("bench", `${benchmark.gameSlug}_${benchmark.gpuSlug}_${benchmark.resolution}`), idFromSlug("game", benchmark.gameSlug), idFromSlug("gpu", benchmark.gpuSlug), benchmark.resolution, benchmark.fpsLow ?? 0, benchmark.fpsMedium ?? 0, benchmark.fpsHigh ?? 0, benchmark.fpsUltra ?? 0, benchmark.recommendedSetting ?? "Thấp", benchmark.status ?? "playable", benchmark.videoTestUrl ?? null, benchmark.source ?? "Quản trị"],
+    [idFromSlug("bench", `${benchmark.gameSlug}_${benchmark.gpuSlug}_${benchmark.resolution}`), idFromSlug("game", benchmark.gameSlug), idFromSlug("gpu", benchmark.gpuSlug), benchmark.resolution, benchmark.fpsLow ?? 0, benchmark.fpsMedium ?? 0, benchmark.fpsHigh ?? 0, benchmark.fpsUltra ?? 0, benchmark.recommendedSetting ?? "Low", benchmark.status ?? "playable", benchmark.videoTestUrl ?? null, benchmark.source ?? "Quản trị"],
   );
 }
 
@@ -98,4 +98,81 @@ export async function upsertAdminItems(collection: AdminCollection, payload: unk
     }
   });
   return rows.length;
+}
+
+const listConfig: Record<AdminCollection, { table: string; columns: string[]; search: string[]; order: string }> = {
+  game: { table: "Game", columns: ["name", "slug", "steamId", "genres", "sizeGb", "price", "isFree", "description", "coverImage", "officialUrl", "minSpecs", "recSpecs"], search: ["name", "slug"], order: "name" },
+  gpu: { table: "Gpu", columns: ["name", "slug", "brand", "benchmarkScore", "category", "tdp", "vram", "priceRangeVnd", "isLaptop", "commonInVietnam"], search: ["name", "slug", "brand"], order: "name" },
+  cpu: { table: "Cpu", columns: ["name", "slug", "brand", "benchmarkScore", "cores", "threads", "generation", "socket", "integratedGpu", "priceRangeVnd", "commonInVietnam"], search: ["name", "slug", "brand"], order: "name" },
+  device: { table: "Device", columns: ["name", "slug", "type", "brand", "cpu", "gpu", "ramGb", "storageGb", "storageType", "screenSize", "screenResolution", "priceVnd", "priceRange", "shopeeUrl", "tikiUrl", "phongvuUrl", "gearvnUrl", "imageUrl"], search: ["name", "slug", "brand", "cpu", "gpu"], order: "name" },
+  benchmark: { table: "GameGpuBenchmark", columns: ["id", "gameId", "gpuId", "resolution", "fpsLow", "fpsMedium", "fpsHigh", "fpsUltra", "recommendedSetting", "status", "videoTestUrl", "source"], search: ["id", "gameId", "gpuId", "resolution"], order: "createdAt" },
+  blogPost: { table: "BlogPost", columns: ["title", "slug", "content", "excerpt", "category", "tags", "metaTitle", "metaDescription", "publishedAt"], search: ["title", "slug", "excerpt"], order: "publishedAt" },
+};
+
+export async function listAdminItems(collection: AdminCollection, search = "", limit = 50) {
+  const config = listConfig[collection];
+  return withClient(async (client) => {
+    const columns = config.columns.map((column) => `"${column}"`).join(",");
+    const safeLimit = Math.min(100, Math.max(1, limit));
+    const whereParts: string[] = [];
+    const values: unknown[] = [];
+
+    if (search.trim()) {
+      values.push(`%${search.trim()}%`);
+      whereParts.push(`(${config.search.map((column) => `"${column}"::text ILIKE $1`).join(" OR ")})`);
+    }
+
+    const result = await client.query(
+      `SELECT ${columns} FROM "${config.table}" ${whereParts.length ? `WHERE ${whereParts.join(" AND ")}` : ""} ORDER BY "${config.order}" ${config.order === "publishedAt" || config.order === "createdAt" ? "DESC" : "ASC"} LIMIT ${safeLimit}`,
+      values,
+    );
+    return result.rows.map((row) => normalizeAdminRow(collection, row));
+  });
+}
+
+export async function deleteAdminItem(collection: AdminCollection, key: string) {
+  await withClient(async (client) => {
+    if (collection === "benchmark") {
+      await client.query(`DELETE FROM "GameGpuBenchmark" WHERE "id"=$1`, [key]);
+      return;
+    }
+    const table = listConfig[collection].table;
+    await client.query(`DELETE FROM "${table}" WHERE "slug"=$1`, [key]);
+  });
+}
+
+function normalizeAdminRow(collection: AdminCollection, row: Record<string, any>) {
+  if (collection === "game") {
+    return {
+      ...row,
+      minCpu: row.minSpecs?.cpuName ?? "",
+      minGpu: row.minSpecs?.gpuName ?? "",
+      minCpuBenchmark: row.minSpecs?.cpuBenchmark ?? 0,
+      minGpuBenchmark: row.minSpecs?.gpuBenchmark ?? 0,
+      minRamGb: row.minSpecs?.ramGb ?? 0,
+      minStorageGb: row.minSpecs?.storageGb ?? 0,
+      recCpu: row.recSpecs?.cpuName ?? "",
+      recGpu: row.recSpecs?.gpuName ?? "",
+      recCpuBenchmark: row.recSpecs?.cpuBenchmark ?? 0,
+      recGpuBenchmark: row.recSpecs?.gpuBenchmark ?? 0,
+      recRamGb: row.recSpecs?.ramGb ?? 0,
+      recStorageGb: row.recSpecs?.storageGb ?? 0,
+      genres: Array.isArray(row.genres) ? row.genres.join(", ") : row.genres,
+    };
+  }
+  if (collection === "blogPost") {
+    return {
+      ...row,
+      tags: Array.isArray(row.tags) ? row.tags.join(", ") : row.tags,
+      publishedAt: row.publishedAt instanceof Date ? row.publishedAt.toISOString() : row.publishedAt,
+    };
+  }
+  if (collection === "benchmark") return normalizeBenchmarkRow(row);
+  return row;
+}
+
+function normalizeBenchmarkRow(row: Record<string, any>) {
+  const gameSlug = String(row.gameId || "").replace(/^game_/, "").replace(/_/g, "-");
+  const gpuSlug = String(row.gpuId || "").replace(/^gpu_/, "").replace(/_/g, "-");
+  return { ...row, gameSlug, gpuSlug };
 }
