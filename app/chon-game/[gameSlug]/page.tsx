@@ -5,7 +5,7 @@ import BenchmarkTable from "@/components/BenchmarkTable";
 import Breadcrumb from "@/components/Breadcrumb";
 import CompatibilityBadge from "@/components/CompatibilityBadge";
 import FpsBar from "@/components/FpsBar";
-import { viSetting } from "@/components/BenchmarkTable";
+import { viSetting } from "@/lib/labels";
 import { findGame, games, gpus } from "@/lib/data";
 import { getBenchmarkTable, getCompatibleDevices } from "@/lib/reverse-lookup";
 import { formatVnd } from "@/lib/utils";

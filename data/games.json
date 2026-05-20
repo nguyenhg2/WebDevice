@@ -4,13 +4,13 @@
     "slug": "counter-strike-2",
     "steamId": "730",
     "genres": [
-      "Action",
-      "Free To Play"
+      "Hành động",
+      "Miễn phí"
     ],
     "sizeGb": 2,
     "price": 0,
     "isFree": true,
-    "description": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+    "description": "Counter-Strike 2 là trò chơi hành động, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
     "officialUrl": "https://store.steampowered.com/app/730/",
     "minSpecs": {
@@ -36,12 +36,12 @@
     "steamId": null,
     "genres": [
       "MOBA",
-      "ua xe"
+      "Đua xe"
     ],
     "sizeGb": 5.5,
     "price": 240000,
     "isFree": false,
-    "description": "Valorant la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Valorant là trò chơi moba, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL?w=1200&h=630&fm=webp&fit=crop&crop=center",
     "officialUrl": "https://playvalorant.com/",
     "minSpecs": {
@@ -66,13 +66,13 @@
     "slug": "genshin-impact",
     "steamId": null,
     "genres": [
-      "RPG",
-      "Chin thut"
+      "Nhập vai",
+      "Chiến thuật"
     ],
     "sizeGb": 9,
     "price": 330000,
     "isFree": false,
-    "description": "Genshin Impact la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Genshin Impact là trò chơi nhập vai, chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
     "officialUrl": "https://genshin.hoyoverse.com/",
     "minSpecs": {
@@ -97,13 +97,13 @@
     "slug": "lien-minh-huyen-thoai",
     "steamId": null,
     "genres": [
-      "Sinh tn",
-      "Co-op"
+      "Sinh tồn",
+      "Phối hợp"
     ],
     "sizeGb": 12.5,
     "price": 0,
     "isFree": true,
-    "description": "Lien Minh Huyen Thoai la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Lien Minh Huyen Thoai là trò chơi sinh tồn, phối hợp, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0ad60463de21fac1bdd711becb0a4ed8986f9d55-1200x630.jpg?accountingTag=LoL?w=1200&h=630&fm=webp&fit=crop&crop=center",
     "officialUrl": "https://www.leagueoflegends.com/",
     "minSpecs": {
@@ -128,14 +128,14 @@
     "slug": "dota-2",
     "steamId": "570",
     "genres": [
-      "Action",
-      "Strategy",
-      "Free To Play"
+      "Hành động",
+      "Chiến thuật",
+      "Miễn phí"
     ],
     "sizeGb": 16,
     "price": 0,
     "isFree": true,
-    "description": "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
+    "description": "Dota 2 là trò chơi hành động, chiến thuật, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
     "officialUrl": "https://store.steampowered.com/app/570/",
     "minSpecs": {
@@ -160,15 +160,15 @@
     "slug": "pubg-battlegrounds",
     "steamId": "578080",
     "genres": [
-      "Action",
-      "Adventure",
-      "Massively Multiplayer",
-      "Free To Play"
+      "Hành động",
+      "Phiêu lưu",
+      "Nhiều người chơi",
+      "Miễn phí"
     ],
     "sizeGb": 19.5,
     "price": 0,
     "isFree": true,
-    "description": "PUBG: BATTLEGROUNDS, the high-stakes winner-take-all shooter that started the Battle Royale craze, is free-to-play! Drop into diverse maps, loot unique weapons and supplies, and survive in an ever-shrinking zone where every turn could be your last.",
+    "description": "PUBG: BATTLEGROUNDS là trò chơi hành động, phiêu lưu, nhiều người chơi, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1778634253",
     "officialUrl": "https://store.steampowered.com/app/578080/",
     "minSpecs": {
@@ -193,14 +193,14 @@
     "slug": "apex-legends",
     "steamId": "1172470",
     "genres": [
-      "Action",
-      "Adventure",
-      "Free To Play"
+      "Hành động",
+      "Phiêu lưu",
+      "Miễn phí"
     ],
     "sizeGb": 23,
     "price": 0,
     "isFree": true,
-    "description": "Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.",
+    "description": "Apex Legends™ là trò chơi hành động, phiêu lưu, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/0bd74245b869287a2dc7f682e6013f7ed08d98e3/header.jpg?t=1778502442",
     "officialUrl": "https://store.steampowered.com/app/1172470/",
     "minSpecs": {
@@ -225,13 +225,13 @@
     "slug": "fortnite",
     "steamId": null,
     "genres": [
-      "Offline",
+      "Chơi offline",
       "FPS"
     ],
     "sizeGb": 26.5,
     "price": 780000,
     "isFree": false,
-    "description": "Fortnite la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Fortnite là trò chơi chơi offline, fps, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/fortnite.svg",
     "officialUrl": "https://www.fortnite.com/",
     "minSpecs": {
@@ -256,13 +256,13 @@
     "slug": "minecraft",
     "steamId": "738",
     "genres": [
-      "Th thao",
+      "Thể thao",
       "MOBA"
     ],
     "sizeGb": 30,
     "price": 150000,
     "isFree": false,
-    "description": "Minecraft la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Minecraft là trò chơi thể thao, moba, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://www.minecraft.net/content/dam/minecraftnet/franchise/logos/minecraft-creeper-face.jpg",
     "officialUrl": "https://www.minecraft.net/",
     "minSpecs": {
@@ -287,13 +287,13 @@
     "slug": "roblox",
     "steamId": null,
     "genres": [
-      "M phng",
-      "RPG"
+      "Mô phỏng",
+      "Nhập vai"
     ],
     "sizeGb": 33.5,
     "price": 0,
     "isFree": true,
-    "description": "Roblox la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Roblox là trò chơi mô phỏng, nhập vai, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/roblox.svg",
     "officialUrl": "https://www.roblox.com/",
     "minSpecs": {
@@ -318,13 +318,13 @@
     "slug": "ea-sports-fc-24",
     "steamId": "2195250",
     "genres": [
-      "Simulation",
-      "Sports"
+      "Mô phỏng",
+      "Thể thao"
     ],
     "sizeGb": 37,
     "price": 330000,
     "isFree": false,
-    "description": "EA SPORTS FC™ 24 welcomes you to The World’s Game: the most true-to-football experience ever with HyperMotionV, PlayStyles optimised by Opta, and an enhanced Frostbite™ Engine.",
+    "description": "EA SPORTS FC™ 24 là trò chơi mô phỏng, thể thao, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/header.jpg?t=1752167366",
     "officialUrl": "https://store.steampowered.com/app/2195250/",
     "minSpecs": {
@@ -349,13 +349,13 @@
     "slug": "grand-theft-auto-v",
     "steamId": "271590",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 40.5,
     "price": 420000,
     "isFree": false,
-    "description": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
+    "description": "Grand Theft Auto V Legacy là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
     "officialUrl": "https://store.steampowered.com/app/271590/",
     "minSpecs": {
@@ -380,13 +380,13 @@
     "slug": "red-dead-redemption-2",
     "steamId": "1174180",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 44,
     "price": 33950000,
     "isFree": false,
-    "description": "Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and bounty hunters massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland in order to survive.",
+    "description": "Red Dead Redemption 2 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
     "officialUrl": "https://store.steampowered.com/app/1174180/",
     "minSpecs": {
@@ -411,12 +411,12 @@
     "slug": "cyberpunk-2077",
     "steamId": "1091500",
     "genres": [
-      "RPG"
+      "Nhập vai"
     ],
     "sizeGb": 47.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.",
+    "description": "Cyberpunk 2077 là trò chơi nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377",
     "officialUrl": "https://store.steampowered.com/app/1091500/",
     "minSpecs": {
@@ -441,13 +441,13 @@
     "slug": "elden-ring",
     "steamId": "1245620",
     "genres": [
-      "Action",
-      "RPG"
+      "Hành động",
+      "Nhập vai"
     ],
     "sizeGb": 51,
     "price": 99000000,
     "isFree": false,
-    "description": "THE CRITICALLY ACCLAIMED FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+    "description": "ELDEN RING là trò chơi hành động, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1767883716",
     "officialUrl": "https://store.steampowered.com/app/1245620/",
     "minSpecs": {
@@ -472,12 +472,12 @@
     "slug": "the-witcher-3",
     "steamId": "292030",
     "genres": [
-      "RPG"
+      "Nhập vai"
     ],
     "sizeGb": 54.5,
     "price": 66000000,
     "isFree": false,
-    "description": "You are Geralt of Rivia, mercenary monster slayer. Before you stands a war-torn, monster-infested continent you can explore at will. Your current contract? Tracking down Ciri — the Child of Prophecy, a living weapon that can alter the shape of the world.",
+    "description": "The Witcher 3: Wild Hunt là trò chơi nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg?t=1768303991",
     "officialUrl": "https://store.steampowered.com/app/292030/",
     "minSpecs": {
@@ -502,14 +502,14 @@
     "slug": "hogwarts-legacy",
     "steamId": "990080",
     "genres": [
-      "Action",
-      "Adventure",
-      "RPG"
+      "Hành động",
+      "Phiêu lưu",
+      "Nhập vai"
     ],
     "sizeGb": 58,
     "price": 150000,
     "isFree": false,
-    "description": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
+    "description": "Hogwarts Legacy là trò chơi hành động, phiêu lưu, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header.jpg?t=1778797474",
     "officialUrl": "https://store.steampowered.com/app/990080/",
     "minSpecs": {
@@ -534,16 +534,16 @@
     "slug": "palworld",
     "steamId": "1623730",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "RPG",
-      "Early Access"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Nhập vai",
+      "Truy cập sớm"
     ],
     "sizeGb": 61.5,
     "price": 38500000,
     "isFree": false,
-    "description": "Fight, farm, build and work alongside mysterious creatures called \"Pals\" in this completely new multiplayer, open world survival and crafting game!",
+    "description": "Palworld là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/058bd87dc17a7179e07c446aa64d0574ca43ab9d/header.jpg?t=1773936597",
     "officialUrl": "https://store.steampowered.com/app/1623730/",
     "minSpecs": {
@@ -568,12 +568,12 @@
     "slug": "helldivers-2",
     "steamId": "553850",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 2,
     "price": 3999,
     "isFree": false,
-    "description": "The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person shooter.",
+    "description": "HELLDIVERS™ 2 là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/f11c258b04a5e3e7771c1bab60f324ebf6c6c6fb/header.jpg?t=1770747641",
     "officialUrl": "https://store.steampowered.com/app/553850/",
     "minSpecs": {
@@ -598,14 +598,14 @@
     "slug": "baldur-s-gate-3",
     "steamId": "1086940",
     "genres": [
-      "Adventure",
-      "RPG",
-      "Strategy"
+      "Phiêu lưu",
+      "Nhập vai",
+      "Chiến thuật"
     ],
     "sizeGb": 5.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+    "description": "Baldur's Gate 3 là trò chơi phiêu lưu, nhập vai, chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
     "officialUrl": "https://store.steampowered.com/app/1086940/",
     "minSpecs": {
@@ -630,14 +630,14 @@
     "slug": "warframe",
     "steamId": "230410",
     "genres": [
-      "Action",
-      "RPG",
-      "Free To Play"
+      "Hành động",
+      "Nhập vai",
+      "Miễn phí"
     ],
     "sizeGb": 9,
     "price": 0,
     "isFree": true,
-    "description": "Awaken as an unstoppable warrior and battle alongside your friends in this story-driven free-to-play online action game",
+    "description": "Warframe là trò chơi hành động, nhập vai, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/60ce7425b864dd3c0dd855bfc66004c6f9ca4844/header.jpg?t=1778595605",
     "officialUrl": "https://store.steampowered.com/app/230410/",
     "minSpecs": {
@@ -662,17 +662,17 @@
     "slug": "path-of-exile",
     "steamId": "238960",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "Massively Multiplayer",
-      "RPG",
-      "Free To Play"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Nhiều người chơi",
+      "Nhập vai",
+      "Miễn phí"
     ],
     "sizeGb": 12.5,
     "price": 0,
     "isFree": true,
-    "description": "You are an Exile, struggling to survive on the dark continent of Wraeclast, as you fight to earn power that will allow you to exact your revenge against those who wronged you. Path of Exile is an online Action RPG set in a dark fantasy world. The game is completely free and will never be pay-to-win.",
+    "description": "Path of Exile là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/558fd9078de800b7528a8e96bee0108a8fac17aa/header.jpg?t=1773177577",
     "officialUrl": "https://store.steampowered.com/app/238960/",
     "minSpecs": {
@@ -697,16 +697,16 @@
     "slug": "lost-ark",
     "steamId": "1599340",
     "genres": [
-      "Action",
-      "Adventure",
-      "Massively Multiplayer",
-      "RPG",
-      "Free To Play"
+      "Hành động",
+      "Phiêu lưu",
+      "Nhiều người chơi",
+      "Nhập vai",
+      "Miễn phí"
     ],
     "sizeGb": 16,
     "price": 0,
     "isFree": true,
-    "description": "Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore new lands, seek out lost treasures, and test yourself in thrilling action combat in this action-packed free-to-play RPG.",
+    "description": "Lost Ark là trò chơi hành động, phiêu lưu, nhiều người chơi, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg?t=1763571534",
     "officialUrl": "https://store.steampowered.com/app/1599340/",
     "minSpecs": {
@@ -731,15 +731,15 @@
     "slug": "world-of-tanks",
     "steamId": "1407200",
     "genres": [
-      "Action",
-      "Massively Multiplayer",
-      "Simulation",
-      "Free To Play"
+      "Hành động",
+      "Nhiều người chơi",
+      "Mô phỏng",
+      "Miễn phí"
     ],
     "sizeGb": 19.5,
     "price": 0,
     "isFree": true,
-    "description": "World of Tanks is a tactical action game with very different gameplay depending on the vehicle type and role. Aside from regular PvP, there are competitive and clan-based modes, special PvE and PvPvE events, and much more. Whether you play to dominate or just enjoy the ride, you'll fit right in.",
+    "description": "World of Tanks là trò chơi hành động, nhiều người chơi, mô phỏng, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/819fc92f7ddb96ef10792a6d72382c5b814d671a/header.jpg?t=1777450200",
     "officialUrl": "https://store.steampowered.com/app/1407200/",
     "minSpecs": {
@@ -764,15 +764,15 @@
     "slug": "war-thunder",
     "steamId": "236390",
     "genres": [
-      "Action",
-      "Massively Multiplayer",
-      "Simulation",
-      "Free To Play"
+      "Hành động",
+      "Nhiều người chơi",
+      "Mô phỏng",
+      "Miễn phí"
     ],
     "sizeGb": 23,
     "price": 0,
     "isFree": true,
-    "description": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, and naval craft, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea.",
+    "description": "War Thunder là trò chơi hành động, nhiều người chơi, mô phỏng, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/ceff9434460880755b42a90b8915e87dff4482ad/header.jpg?t=1779186880",
     "officialUrl": "https://store.steampowered.com/app/236390/",
     "minSpecs": {
@@ -797,13 +797,13 @@
     "slug": "euro-truck-simulator-2",
     "steamId": "227300",
     "genres": [
-      "Indie",
-      "Simulation"
+      "Độc lập",
+      "Mô phỏng"
     ],
     "sizeGb": 26.5,
     "price": 7000000,
     "isFree": false,
-    "description": "Travel across Europe as king of the road, a trucker who delivers important cargo across impressive distances! With dozens of cities to explore, your endurance, skill and speed will all be pushed to their limits.",
+    "description": "Euro Truck Simulator 2 là trò chơi độc lập, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1773641450",
     "officialUrl": "https://store.steampowered.com/app/227300/",
     "minSpecs": {
@@ -828,12 +828,12 @@
     "slug": "farming-simulator-22",
     "steamId": "1248130",
     "genres": [
-      "Simulation"
+      "Mô phỏng"
     ],
     "sizeGb": 30,
     "price": 46000000,
     "isFree": false,
-    "description": "Create your farm and let the good times grow! Harvest crops, tend to animals, manage productions, and take on seasonal challenges.",
+    "description": "Farming Simulator 22 là trò chơi mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1248130/7ff56320788fa4b1f46ac9a62ff955d3ef3f109c/header.jpg?t=1765792398",
     "officialUrl": "https://store.steampowered.com/app/1248130/",
     "minSpecs": {
@@ -858,15 +858,15 @@
     "slug": "the-sims-4",
     "steamId": "1222670",
     "genres": [
-      "Adventure",
-      "Casual",
-      "Simulation",
-      "Free To Play"
+      "Phiêu lưu",
+      "Giải trí nhẹ",
+      "Mô phỏng",
+      "Miễn phí"
     ],
     "sizeGb": 33.5,
     "price": 0,
     "isFree": true,
-    "description": "Play with life and discover the possibilities. Unleash your imagination and create a world of Sims that’s wholly unique. Explore and customize every detail from Sims to homes–and much more.",
+    "description": "The Sims™ 4 là trò chơi phiêu lưu, giải trí nhẹ, mô phỏng, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/header.jpg?t=1778778231",
     "officialUrl": "https://store.steampowered.com/app/1222670/",
     "minSpecs": {
@@ -891,13 +891,13 @@
     "slug": "cities-skylines",
     "steamId": "255710",
     "genres": [
-      "Simulation",
-      "Strategy"
+      "Mô phỏng",
+      "Chiến thuật"
     ],
     "sizeGb": 37,
     "price": 52300000,
     "isFree": false,
-    "description": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience.",
+    "description": "Cities: Skylines là trò chơi mô phỏng, chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg?t=1777568415",
     "officialUrl": "https://store.steampowered.com/app/255710/",
     "minSpecs": {
@@ -922,15 +922,15 @@
     "slug": "terraria",
     "steamId": "105600",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "RPG"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Nhập vai"
     ],
     "sizeGb": 40.5,
     "price": 14200000,
     "isFree": false,
-    "description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
+    "description": "Terraria là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
     "officialUrl": "https://store.steampowered.com/app/105600/",
     "minSpecs": {
@@ -955,14 +955,14 @@
     "slug": "stardew-valley",
     "steamId": "413150",
     "genres": [
-      "Indie",
-      "RPG",
-      "Simulation"
+      "Độc lập",
+      "Nhập vai",
+      "Mô phỏng"
     ],
     "sizeGb": 44,
     "price": 8250000,
     "isFree": false,
-    "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+    "description": "Stardew Valley là trò chơi độc lập, nhập vai, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
     "officialUrl": "https://store.steampowered.com/app/413150/",
     "minSpecs": {
@@ -987,12 +987,12 @@
     "slug": "among-us",
     "steamId": "945360",
     "genres": [
-      "Casual"
+      "Giải trí nhẹ"
     ],
     "sizeGb": 47.5,
     "price": 7000000,
     "isFree": false,
-    "description": "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+    "description": "Among Us là trò chơi giải trí nhẹ, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1757444903",
     "officialUrl": "https://store.steampowered.com/app/945360/",
     "minSpecs": {
@@ -1017,12 +1017,12 @@
     "slug": "left-4-dead-2",
     "steamId": "550",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 51,
     "price": 14200000,
     "isFree": false,
-    "description": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.",
+    "description": "Left 4 Dead 2 là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1772742214",
     "officialUrl": "https://store.steampowered.com/app/550/",
     "minSpecs": {
@@ -1047,13 +1047,13 @@
     "slug": "team-fortress-2",
     "steamId": "440",
     "genres": [
-      "Action",
-      "Free To Play"
+      "Hành động",
+      "Miễn phí"
     ],
     "sizeGb": 54.5,
     "price": 0,
     "isFree": true,
-    "description": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
+    "description": "Team Fortress 2 là trò chơi hành động, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
     "officialUrl": "https://store.steampowered.com/app/440/",
     "minSpecs": {
@@ -1078,13 +1078,13 @@
     "slug": "rainbow-six-siege",
     "steamId": "359550",
     "genres": [
-      "Action",
-      "Free To Play"
+      "Hành động",
+      "Miễn phí"
     ],
     "sizeGb": 58,
     "price": 0,
     "isFree": true,
-    "description": "Rainbow Six® Siege is the reference in tactical team shooters, where elite strategy and execution triumph. Enjoy free access to Quick Match, Unranked, and Dual Front game modes with a selection of operators.",
+    "description": "Tom Clancy's Rainbow Six Siege là trò chơi hành động, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/97ce482d2a8ec5d2beb1081e954ac1ec16eea1fb/header_alt_assets_21.jpg?t=1779209046",
     "officialUrl": "https://store.steampowered.com/app/359550/",
     "minSpecs": {
@@ -1109,13 +1109,13 @@
     "slug": "overwatch-2",
     "steamId": "2357570",
     "genres": [
-      "Action",
-      "Free To Play"
+      "Hành động",
+      "Miễn phí"
     ],
     "sizeGb": 61.5,
     "price": 0,
     "isFree": true,
-    "description": "Overwatch®, A FUTURE WORTH FIGHTING FOR! Overwatch® is an always-on and ever-evolving free-to-play, team-based action game set in an optimistic future, where every match is the ultimate 5v5 or 6v6 battlefield brawl.",
+    "description": "Overwatch® là trò chơi hành động, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/1f84e73b8095ab9f40b1bc2c81845330979afc09/header_alt_assets_20.jpg?t=1778610036",
     "officialUrl": "https://store.steampowered.com/app/2357570/",
     "minSpecs": {
@@ -1140,15 +1140,15 @@
     "slug": "rocket-league",
     "steamId": "252950",
     "genres": [
-      "Action",
-      "Indie",
-      "Racing",
-      "Sports"
+      "Hành động",
+      "Độc lập",
+      "Đua xe",
+      "Thể thao"
     ],
     "sizeGb": 2,
     "price": 0,
     "isFree": false,
-    "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
+    "description": "Rocket League® là trò chơi hành động, độc lập, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/1bcf75584d0c3613b02b2d0a2721a6b411375784/header_alt_assets_15.jpg?t=1773251703",
     "officialUrl": "https://store.steampowered.com/app/252950/",
     "minSpecs": {
@@ -1173,16 +1173,16 @@
     "slug": "forza-horizon-5",
     "steamId": "1551360",
     "genres": [
-      "Action",
-      "Adventure",
-      "Racing",
-      "Simulation",
-      "Sports"
+      "Hành động",
+      "Phiêu lưu",
+      "Đua xe",
+      "Mô phỏng",
+      "Thể thao"
     ],
     "sizeGb": 5.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Explore the vibrant open world landscapes of Mexico with limitless, fun driving action in the world’s greatest cars.",
+    "description": "Forza Horizon 5 là trò chơi hành động, phiêu lưu, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1746471508",
     "officialUrl": "https://store.steampowered.com/app/1551360/",
     "minSpecs": {
@@ -1207,15 +1207,15 @@
     "slug": "need-for-speed-heat",
     "steamId": "1222680",
     "genres": [
-      "Action",
-      "Adventure",
-      "Racing",
-      "Sports"
+      "Hành động",
+      "Phiêu lưu",
+      "Đua xe",
+      "Thể thao"
     ],
     "sizeGb": 9,
     "price": 690000,
     "isFree": false,
-    "description": "Hustle by day and risk it all at night in Need for Speed™ Heat Deluxe Edition, a white-knuckle street racer, where the lines of the law fade as the sun starts to set.",
+    "description": "Need for Speed™ Heat là trò chơi hành động, phiêu lưu, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg?t=1777414224",
     "officialUrl": "https://store.steampowered.com/app/1222680/",
     "minSpecs": {
@@ -1240,15 +1240,15 @@
     "slug": "assetto-corsa",
     "steamId": "244210",
     "genres": [
-      "Indie",
-      "Racing",
-      "Simulation",
-      "Sports"
+      "Độc lập",
+      "Đua xe",
+      "Mô phỏng",
+      "Thể thao"
     ],
     "sizeGb": 12.5,
     "price": 26000000,
     "isFree": false,
-    "description": "Assetto Corsa v1.16 introduces the new \"Laguna Seca\" laser-scanned track, 7 new cars among which the eagerly awaited Alfa Romeo Giulia Quadrifoglio! Check the changelog for further info!",
+    "description": "Assetto Corsa là trò chơi độc lập, đua xe, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1754985171",
     "officialUrl": "https://store.steampowered.com/app/244210/",
     "minSpecs": {
@@ -1274,12 +1274,12 @@
     "steamId": "770",
     "genres": [
       "FPS",
-      "Sinh tn"
+      "Sinh tồn"
     ],
     "sizeGb": 16,
     "price": 150000,
     "isFree": false,
-    "description": "FIFA Online 4 la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "FIFA Online 4 là trò chơi fps, sinh tồn, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/fifa-online-4.svg",
     "officialUrl": "https://fo4.garena.vn/",
     "minSpecs": {
@@ -1305,12 +1305,12 @@
     "steamId": null,
     "genres": [
       "MOBA",
-      "ua xe"
+      "Đua xe"
     ],
     "sizeGb": 19.5,
     "price": 240000,
     "isFree": false,
-    "description": "Dot Kich la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Dot Kich là trò chơi moba, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://cf.goplay.vn/~/newdesign/images/cf_log_thum.png",
     "officialUrl": "https://cf.goplay.vn/",
     "minSpecs": {
@@ -1335,13 +1335,13 @@
     "slug": "audition",
     "steamId": null,
     "genres": [
-      "RPG",
-      "Chin thut"
+      "Nhập vai",
+      "Chiến thuật"
     ],
     "sizeGb": 23,
     "price": 0,
     "isFree": true,
-    "description": "Audition la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Audition là trò chơi nhập vai, chiến thuật, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://cdnmedia.vtcgame.vn/aupc/trangchu/assets/images/Thumb_Audition.jpg",
     "officialUrl": "https://au.vtcgame.vn/",
     "minSpecs": {
@@ -1366,16 +1366,16 @@
     "slug": "blade-soul",
     "steamId": "3616890",
     "genres": [
-      "Action",
-      "Adventure",
-      "Massively Multiplayer",
-      "Strategy",
-      "Free To Play"
+      "Hành động",
+      "Phiêu lưu",
+      "Nhiều người chơi",
+      "Chiến thuật",
+      "Miễn phí"
     ],
     "sizeGb": 26.5,
     "price": 0,
     "isFree": true,
-    "description": "This thrilling free-to-play Collectible Action MMORPG offers the duality of turn-based strategy & real-time action. Experience exciting cross-platform play and embark on an epic quest where numerous stories are waiting to be discovered alongside your five member team. Unite your heroes!",
+    "description": "Blade & Soul Heroes là trò chơi hành động, phiêu lưu, nhiều người chơi, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3616890/60a5e0d12b59e64a40ea6633c50799ebdf9f4674/header.jpg?t=1771982264",
     "officialUrl": "https://store.steampowered.com/app/3616890/",
     "minSpecs": {
@@ -1400,16 +1400,16 @@
     "slug": "black-desert-online",
     "steamId": "582660",
     "genres": [
-      "Action",
-      "Adventure",
-      "Massively Multiplayer",
-      "RPG",
-      "Strategy"
+      "Hành động",
+      "Phiêu lưu",
+      "Nhiều người chơi",
+      "Nhập vai",
+      "Chiến thuật"
     ],
     "sizeGb": 30,
     "price": 8000000,
     "isFree": false,
-    "description": "Played by over 20 million Adventurers - Black Desert Online is an open-world, action MMORPG. Experience intense, action-packed combat, battle massive world bosses, fight alongside friends to siege and conquer castles, and train in professions such as fishing, trading, crafting, cooking, and more!",
+    "description": "Black Desert là trò chơi hành động, phiêu lưu, nhiều người chơi, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/4f0ea9284b5fae9464dadc528bb572c629666313/header_alt_assets_27.jpg?t=1773974827",
     "officialUrl": "https://store.steampowered.com/app/582660/",
     "minSpecs": {
@@ -1434,12 +1434,12 @@
     "slug": "naruto-to-boruto-shinobi-striker",
     "steamId": "633230",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 33.5,
     "price": 29800000,
     "isFree": false,
-    "description": "Battle as a team of 4 to compete against other teams online! Graphically, SHINOBI STRIKER is also built from the ground up in a completely new graphic style. Lead your team and fight online to see who the best ninjas are!",
+    "description": "NARUTO TO BORUTO: SHINOBI STRIKER là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/633230/header.jpg?t=1778877162",
     "officialUrl": "https://store.steampowered.com/app/633230/",
     "minSpecs": {
@@ -1464,12 +1464,12 @@
     "slug": "tekken-8",
     "steamId": "1778820",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 37,
     "price": 79000000,
     "isFree": false,
-    "description": "TEKKEN 8 is the latest addition to the TEKKEN series, the pinnacle of 3D fighting games. Join the fight with over 32 characters and bear witness to the next installment in this epic saga. Get ready for the biggest and best TEKKEN game ever made!",
+    "description": "TEKKEN 8 là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/f69b0f7c35aa8c966d9ff74c2bae548dbea072e4/header.jpg?t=1770678135",
     "officialUrl": "https://store.steampowered.com/app/1778820/",
     "minSpecs": {
@@ -1494,13 +1494,13 @@
     "slug": "street-fighter-6",
     "steamId": "1364780",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 40.5,
     "price": 79400000,
     "isFree": false,
-    "description": "Here comes Capcom’s newest challenger! Street Fighter™ 6 launches worldwide on June 2nd, 2023 and represents the next evolution of the Street Fighter™ series! Street Fighter 6 spans three distinct game modes, including World Tour, Fighting Ground and Battle Hub.",
+    "description": "Street Fighter™ 6 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1776917924",
     "officialUrl": "https://store.steampowered.com/app/1364780/",
     "minSpecs": {
@@ -1525,12 +1525,12 @@
     "slug": "mortal-kombat-11",
     "steamId": "976310",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 44,
     "price": 59000000,
     "isFree": false,
-    "description": "Mortal Kombat is back and better than ever in the next evolution of the iconic franchise.",
+    "description": "Mortal Kombat 11 là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976310/header.jpg?t=1775508340",
     "officialUrl": "https://store.steampowered.com/app/976310/",
     "minSpecs": {
@@ -1555,12 +1555,12 @@
     "slug": "dragon-ball-fighterz",
     "steamId": "678950",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 47.5,
     "price": 19050000,
     "isFree": false,
-    "description": "DRAGON BALL FighterZ is born from what makes the DRAGON BALL series so loved and famous: endless spectacular fights with its all-powerful fighters.",
+    "description": "DRAGON BALL FighterZ là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/678950/df2f6b9630a969448a14eed5aba183d27d2ca65b/header_alt_assets_6.jpg?t=1776898545",
     "officialUrl": "https://store.steampowered.com/app/678950/",
     "minSpecs": {
@@ -1585,13 +1585,13 @@
     "slug": "resident-evil-4-remake",
     "steamId": "2050650",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 51,
     "price": 85000000,
     "isFree": false,
-    "description": "Survival is just the beginning. Six years have passed since the biological disaster in Raccoon City. Leon S. Kennedy, one of the survivors, tracks the president's kidnapped daughter to a secluded European village, where there is something terribly wrong with the locals.",
+    "description": "Resident Evil 4 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
     "officialUrl": "https://store.steampowered.com/app/2050650/",
     "minSpecs": {
@@ -1616,12 +1616,12 @@
     "slug": "resident-evil-village",
     "steamId": "1196590",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 54.5,
     "price": 85000000,
     "isFree": false,
-    "description": "Experience survival horror like never before in the 8th major installment in the Resident Evil franchise - Resident Evil Village. With detailed graphics, intense first-person action and masterful storytelling, the terror has never felt more realistic.",
+    "description": "Resident Evil Village là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1776927117",
     "officialUrl": "https://store.steampowered.com/app/1196590/",
     "minSpecs": {
@@ -1646,14 +1646,14 @@
     "slug": "phasmophobia",
     "steamId": "739630",
     "genres": [
-      "Action",
-      "Indie",
-      "Early Access"
+      "Hành động",
+      "Độc lập",
+      "Truy cập sớm"
     ],
     "sizeGb": 58,
     "price": 25000000,
     "isFree": false,
-    "description": "Phasmophobia is a 4 player online co-op psychological horror. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting equipment at your disposal in order to gather as much evidence as you can.",
+    "description": "Phasmophobia là trò chơi hành động, độc lập, truy cập sớm, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/0a424398a10445bbb922b45771dab7118fe139d2/header_alt_assets_10.jpg?t=1778659672",
     "officialUrl": "https://store.steampowered.com/app/739630/",
     "minSpecs": {
@@ -1678,12 +1678,12 @@
     "slug": "dead-by-daylight",
     "steamId": "381210",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 61.5,
     "price": 34000000,
     "isFree": false,
-    "description": "10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Trapped forever in a realm of eldritch evil where even death is not an escape, four determined Survivors face a bloodthirsty Killer in a vicious game of nerve and wits.",
+    "description": "Dead by Daylight là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/8512297f0f02ec3e592f45b21779f61624941964/header_alt_assets_6.jpg?t=1778880603",
     "officialUrl": "https://store.steampowered.com/app/381210/",
     "minSpecs": {
@@ -1708,15 +1708,15 @@
     "slug": "the-forest",
     "steamId": "242760",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "Simulation"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Mô phỏng"
     ],
     "sizeGb": 2,
     "price": 18800000,
     "isFree": false,
-    "description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator.",
+    "description": "The Forest là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
     "officialUrl": "https://store.steampowered.com/app/242760/",
     "minSpecs": {
@@ -1741,15 +1741,15 @@
     "slug": "sons-of-the-forest",
     "steamId": "1326470",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "Simulation"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Mô phỏng"
     ],
     "sizeGb": 5.5,
     "price": 38500000,
     "isFree": false,
-    "description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
+    "description": "Sons Of The Forest là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
     "officialUrl": "https://store.steampowered.com/app/1326470/",
     "minSpecs": {
@@ -1774,14 +1774,14 @@
     "slug": "raft",
     "steamId": "648800",
     "genres": [
-      "Adventure",
-      "Indie",
-      "Simulation"
+      "Phiêu lưu",
+      "Độc lập",
+      "Mô phỏng"
     ],
     "sizeGb": 9,
     "price": 27400000,
     "isFree": false,
-    "description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!",
+    "description": "Raft là trò chơi phiêu lưu, độc lập, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
     "officialUrl": "https://store.steampowered.com/app/648800/",
     "minSpecs": {
@@ -1806,13 +1806,13 @@
     "slug": "subnautica",
     "steamId": "264710",
     "genres": [
-      "Adventure",
-      "Indie"
+      "Phiêu lưu",
+      "Độc lập"
     ],
     "sizeGb": 12.5,
     "price": 14850000,
     "isFree": false,
-    "description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
+    "description": "Subnautica là trò chơi phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
     "officialUrl": "https://store.steampowered.com/app/264710/",
     "minSpecs": {
@@ -1837,13 +1837,13 @@
     "slug": "no-man-s-sky",
     "steamId": "275850",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 16,
     "price": 70500000,
     "isFree": false,
-    "description": "No Man's Sky is a game about exploration and survival in an infinite procedurally generated universe.",
+    "description": "No Man's Sky là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/0daeafb115c92d9afd4c7a670384688adbde91e0/header_alt_assets_25.jpg?t=1776675618",
     "officialUrl": "https://store.steampowered.com/app/275850/",
     "minSpecs": {
@@ -1868,16 +1868,16 @@
     "slug": "valheim",
     "steamId": "892970",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "RPG",
-      "Early Access"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Nhập vai",
+      "Truy cập sớm"
     ],
     "sizeGb": 19.5,
     "price": 34900000,
     "isFree": false,
-    "description": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+    "description": "Valheim là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1765967243",
     "officialUrl": "https://store.steampowered.com/app/892970/",
     "minSpecs": {
@@ -1902,16 +1902,16 @@
     "slug": "ark-survival-evolved",
     "steamId": "346110",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "Massively Multiplayer",
-      "RPG"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Nhiều người chơi",
+      "Nhập vai"
     ],
     "sizeGb": 23,
     "price": 13550000,
     "isFree": false,
-    "description": "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!",
+    "description": "ARK: Survival Evolved là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1765677889",
     "officialUrl": "https://store.steampowered.com/app/346110/",
     "minSpecs": {
@@ -1936,16 +1936,16 @@
     "slug": "rust",
     "steamId": "252490",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "Massively Multiplayer",
-      "RPG"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Nhiều người chơi",
+      "Nhập vai"
     ],
     "sizeGb": 26.5,
     "price": 50000000,
     "isFree": false,
-    "description": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
+    "description": "Rust là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1778597738",
     "officialUrl": "https://store.steampowered.com/app/252490/",
     "minSpecs": {
@@ -1970,14 +1970,14 @@
     "slug": "dayz",
     "steamId": "221100",
     "genres": [
-      "Action",
-      "Adventure",
-      "Massively Multiplayer"
+      "Hành động",
+      "Phiêu lưu",
+      "Nhiều người chơi"
     ],
     "sizeGb": 30,
     "price": 690000,
     "isFree": false,
-    "description": "How long can you survive a post-apocalyptic world? A land overrun with an infected \"zombie\" population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is your story.",
+    "description": "DayZ là trò chơi hành động, phiêu lưu, nhiều người chơi, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1769695513",
     "officialUrl": "https://store.steampowered.com/app/221100/",
     "minSpecs": {
@@ -2002,15 +2002,15 @@
     "slug": "project-zomboid",
     "steamId": "108600",
     "genres": [
-      "Indie",
-      "RPG",
-      "Simulation",
-      "Early Access"
+      "Độc lập",
+      "Nhập vai",
+      "Mô phỏng",
+      "Truy cập sớm"
     ],
     "sizeGb": 33.5,
     "price": 26000000,
     "isFree": false,
-    "description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
+    "description": "Project Zomboid là trò chơi độc lập, nhập vai, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1777298596",
     "officialUrl": "https://store.steampowered.com/app/108600/",
     "minSpecs": {
@@ -2035,17 +2035,17 @@
     "slug": "don-t-starve-together",
     "steamId": "322330",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "RPG",
-      "Simulation",
-      "Strategy"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Nhập vai",
+      "Mô phỏng",
+      "Chiến thuật"
     ],
     "sizeGb": 37,
     "price": 16500000,
     "isFree": false,
-    "description": "Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve.",
+    "description": "Don't Starve Together là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/14496a5926156fbaf8b026f8224ba8c34e9b5096/header_alt_assets_49.jpg?t=1777913126",
     "officialUrl": "https://store.steampowered.com/app/322330/",
     "minSpecs": {
@@ -2070,14 +2070,14 @@
     "slug": "hades",
     "steamId": "1145360",
     "genres": [
-      "Action",
-      "Indie",
-      "RPG"
+      "Hành động",
+      "Độc lập",
+      "Nhập vai"
     ],
     "sizeGb": 40.5,
     "price": 32100000,
     "isFree": false,
-    "description": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
+    "description": "Hades là trò chơi hành động, độc lập, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
     "officialUrl": "https://store.steampowered.com/app/1145360/",
     "minSpecs": {
@@ -2102,14 +2102,14 @@
     "slug": "hollow-knight",
     "steamId": "367520",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập"
     ],
     "sizeGb": 44,
     "price": 16500000,
     "isFree": false,
-    "description": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
+    "description": "Hollow Knight là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
     "officialUrl": "https://store.steampowered.com/app/367520/",
     "minSpecs": {
@@ -2134,13 +2134,13 @@
     "slug": "cuphead",
     "steamId": "268910",
     "genres": [
-      "Action",
-      "Indie"
+      "Hành động",
+      "Độc lập"
     ],
     "sizeGb": 47.5,
     "price": 18800000,
     "isFree": false,
-    "description": "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings.",
+    "description": "Cuphead là trò chơi hành động, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1709068852",
     "officialUrl": "https://store.steampowered.com/app/268910/",
     "minSpecs": {
@@ -2165,14 +2165,14 @@
     "slug": "celeste",
     "steamId": "504230",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập"
     ],
     "sizeGb": 51,
     "price": 25000000,
     "isFree": false,
-    "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+    "description": "Celeste là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
     "officialUrl": "https://store.steampowered.com/app/504230/",
     "minSpecs": {
@@ -2197,12 +2197,12 @@
     "slug": "ori-and-the-will-of-the-wisps",
     "steamId": "1057090",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 54.5,
     "price": 25000000,
     "isFree": false,
-    "description": "Play the critically acclaimed masterpiece. Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies and challenging puzzles on your quest to unravel Ori’s destiny.",
+    "description": "Ori and the Will of the Wisps là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg?t=1759530749",
     "officialUrl": "https://store.steampowered.com/app/1057090/",
     "minSpecs": {
@@ -2227,12 +2227,12 @@
     "slug": "age-of-empires-ii-definitive-edition",
     "steamId": "813780",
     "genres": [
-      "Strategy"
+      "Chiến thuật"
     ],
     "sizeGb": 58,
     "price": 45000000,
     "isFree": false,
-    "description": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.",
+    "description": "Age of Empires II: Definitive Edition là trò chơi chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg?t=1777577197",
     "officialUrl": "https://store.steampowered.com/app/813780/",
     "minSpecs": {
@@ -2257,12 +2257,12 @@
     "slug": "age-of-empires-iv",
     "steamId": "1466860",
     "genres": [
-      "Strategy"
+      "Chiến thuật"
     ],
     "sizeGb": 61.5,
     "price": 48000000,
     "isFree": false,
-    "description": "Celebrating its first year of delighting millions of global players, the award-winning and best-selling strategy franchise continues with Age of Empires IV: Anniversary Edition, putting you at the center of even more epic historical battles that shaped the world.",
+    "description": "Age of Empires IV: Anniversary Edition là trò chơi chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg?t=1778176408",
     "officialUrl": "https://store.steampowered.com/app/1466860/",
     "minSpecs": {
@@ -2287,12 +2287,12 @@
     "slug": "civilization-vi",
     "steamId": "289070",
     "genres": [
-      "Strategy"
+      "Chiến thuật"
     ],
     "sizeGb": 2,
     "price": 70500000,
     "isFree": false,
-    "description": "Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?",
+    "description": "Sid Meier’s Civilization® VI là trò chơi chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1740607040",
     "officialUrl": "https://store.steampowered.com/app/289070/",
     "minSpecs": {
@@ -2317,13 +2317,13 @@
     "slug": "total-war-three-kingdoms",
     "steamId": "779340",
     "genres": [
-      "Action",
-      "Strategy"
+      "Hành động",
+      "Chiến thuật"
     ],
     "sizeGb": 5.5,
     "price": 71900000,
     "isFree": false,
-    "description": "Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China. Combining a gripping turn-based campaign of empire-building & conquest with stunning real-time battles, THREE KINGDOMS redefines the series in an age of heroes & legends.",
+    "description": "Total War: THREE KINGDOMS là trò chơi hành động, chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg?t=1778847914",
     "officialUrl": "https://store.steampowered.com/app/779340/",
     "minSpecs": {
@@ -2348,13 +2348,13 @@
     "slug": "starcraft-ii",
     "steamId": null,
     "genres": [
-      "ua xe",
-      "Offline"
+      "Đua xe",
+      "Chơi offline"
     ],
     "sizeGb": 9,
     "price": 330000,
     "isFree": false,
-    "description": "StarCraft II la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "StarCraft II là trò chơi đua xe, chơi offline, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/starcraft-ii.svg",
     "officialUrl": "https://store.steampowered.com/",
     "minSpecs": {
@@ -2379,17 +2379,17 @@
     "slug": "diablo-iv",
     "steamId": "2344520",
     "genres": [
-      "Action",
-      "Adventure",
-      "Casual",
-      "Massively Multiplayer",
-      "RPG",
-      "Free To Play"
+      "Hành động",
+      "Phiêu lưu",
+      "Giải trí nhẹ",
+      "Nhiều người chơi",
+      "Nhập vai",
+      "Miễn phí"
     ],
     "sizeGb": 12.5,
     "price": 0,
     "isFree": false,
-    "description": "Join the fight for Sanctuary in Diablo® IV, the ultimate action RPG adventure. Experience the critically acclaimed campaign and new seasonal content.",
+    "description": "Diablo® IV là trò chơi hành động, phiêu lưu, giải trí nhẹ, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/2953f199b4c075b22c0cf8ff03d88b0b1c267823/header_alt_assets_11.jpg?t=1777501665",
     "officialUrl": "https://store.steampowered.com/app/2344520/",
     "minSpecs": {
@@ -2414,13 +2414,13 @@
     "slug": "diablo-iii",
     "steamId": "806",
     "genres": [
-      "Co-op",
-      "M phng"
+      "Phối hợp",
+      "Mô phỏng"
     ],
     "sizeGb": 16,
     "price": 510000,
     "isFree": false,
-    "description": "Diablo III la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Diablo III là trò chơi phối hợp, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blte3178c04d93773f1/67ce27f440e6651e27e17582/og_image.webp",
     "officialUrl": "https://diablo3.blizzard.com/",
     "minSpecs": {
@@ -2445,15 +2445,15 @@
     "slug": "torchlight-ii",
     "steamId": "200710",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "RPG"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Nhập vai"
     ],
     "sizeGb": 19.5,
     "price": 18800000,
     "isFree": false,
-    "description": "The adventure continues in Torchlight II! An Action RPG filled with epic battles, bountiful treasure, and a fully randomized world. Bring your friends along for the journey with online and LAN multiplayer.",
+    "description": "Torchlight II là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1767670785",
     "officialUrl": "https://store.steampowered.com/app/200710/",
     "minSpecs": {
@@ -2478,15 +2478,15 @@
     "slug": "grim-dawn",
     "steamId": "219990",
     "genres": [
-      "Action",
-      "Adventure",
-      "Indie",
-      "RPG"
+      "Hành động",
+      "Phiêu lưu",
+      "Độc lập",
+      "Nhập vai"
     ],
     "sizeGb": 23,
     "price": 32100000,
     "isFree": false,
-    "description": "Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.",
+    "description": "Grim Dawn là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219990/header.jpg?t=1726250949",
     "officialUrl": "https://store.steampowered.com/app/219990/",
     "minSpecs": {
@@ -2511,12 +2511,12 @@
     "slug": "monster-hunter-world",
     "steamId": "582010",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 26.5,
     "price": 62000000,
     "isFree": false,
-    "description": "Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement.",
+    "description": "Monster Hunter: World là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1773328926",
     "officialUrl": "https://store.steampowered.com/app/582010/",
     "minSpecs": {
@@ -2541,12 +2541,12 @@
     "slug": "monster-hunter-rise",
     "steamId": "1446780",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 30,
     "price": 85000000,
     "isFree": false,
-    "description": "Rise to the challenge and join the hunt! In Monster Hunter Rise, the latest installment in the award-winning and top-selling Monster Hunter series, you’ll become a hunter, explore brand new maps and use a variety of weapons to take down fearsome monsters as part of an all-new storyline.",
+    "description": "MONSTER HUNTER RISE là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
     "officialUrl": "https://store.steampowered.com/app/1446780/",
     "minSpecs": {
@@ -2571,13 +2571,13 @@
     "slug": "sekiro-shadows-die-twice",
     "steamId": "814380",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 33.5,
     "price": 0,
     "isFree": false,
-    "description": "Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.",
+    "description": "Sekiro™: Shadows Die Twice - GOTY Edition là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
     "officialUrl": "https://store.steampowered.com/app/814380/",
     "minSpecs": {
@@ -2602,12 +2602,12 @@
     "slug": "dark-souls-iii",
     "steamId": "374320",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 37,
     "price": 97000000,
     "isFree": false,
-    "description": "Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series. Prepare yourself and Embrace The Darkness!",
+    "description": "DARK SOULS™ III là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
     "officialUrl": "https://store.steampowered.com/app/374320/",
     "minSpecs": {
@@ -2632,13 +2632,13 @@
     "slug": "nioh-2",
     "steamId": "1325200",
     "genres": [
-      "Action",
-      "RPG"
+      "Hành động",
+      "Nhập vai"
     ],
     "sizeGb": 40.5,
     "price": 420000,
     "isFree": false,
-    "description": "Battle hordes of yokai in this masocore Action RPG. Create your protagonist and embark on an adventure through a myriad of locales across Japan during the Sengoku period. Utilize the new Yokai Shift ability to defeat even the most ferocious yokai and be prepared to brave through Dark Realms created by your enemies.",
+    "description": "Nioh 2 – The Complete Edition là trò chơi hành động, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/header.jpg?t=1775540023",
     "officialUrl": "https://store.steampowered.com/app/1325200/",
     "minSpecs": {
@@ -2663,14 +2663,14 @@
     "slug": "assassin-s-creed-valhalla",
     "steamId": "2208920",
     "genres": [
-      "Action",
-      "Adventure",
-      "RPG"
+      "Hành động",
+      "Phiêu lưu",
+      "Nhập vai"
     ],
     "sizeGb": 44,
     "price": 99000000,
     "isFree": false,
-    "description": "Assassin’s Creed Valhalla is an action-adventure game in which you are a Viking warrior raised on tales of battle and glory. Explore a dynamic open world set in England’s Dark Ages. Raid your enemies and grow your settlement to earn your place among the gods in Valhalla.",
+    "description": "Assassin's Creed Valhalla là trò chơi hành động, phiêu lưu, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/header.jpg?t=1754572990",
     "officialUrl": "https://store.steampowered.com/app/2208920/",
     "minSpecs": {
@@ -2695,14 +2695,14 @@
     "slug": "assassin-s-creed-odyssey",
     "steamId": "812140",
     "genres": [
-      "Action",
-      "Adventure",
-      "RPG"
+      "Hành động",
+      "Phiêu lưu",
+      "Nhập vai"
     ],
     "sizeGb": 47.5,
     "price": 99000000,
     "isFree": false,
-    "description": "In this action-adventure game, set sail for Ancient Greece to alter its fate. Fight in visceral battles on land and sea, shape your destiny from outcast to legend, and uncover secrets of your past.",
+    "description": "Assassin's Creed® Odyssey là trò chơi hành động, phiêu lưu, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1777476997",
     "officialUrl": "https://store.steampowered.com/app/812140/",
     "minSpecs": {
@@ -2727,13 +2727,13 @@
     "slug": "far-cry-5",
     "steamId": "552520",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 51,
     "price": 14850000,
     "isFree": false,
-    "description": "Discover the open world of Hope County, Montana, besieged by a fanatical doomsday cult. Dive into the action solo or two-player co-op in the story campaign, use a vast arsenal of weapons and allies, and free Hope County from Joseph Seed and his cult.",
+    "description": "Far Cry® 5 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg?t=1762190084",
     "officialUrl": "https://store.steampowered.com/app/552520/",
     "minSpecs": {
@@ -2758,13 +2758,13 @@
     "slug": "far-cry-6",
     "steamId": "2369390",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 54.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Enter the adrenaline-filled world of a modern-day guerrilla revolution. With stunning vistas, visceral gunplay, and a huge variety of gameplay experiences, there's never been a better time to join the fight.",
+    "description": "Far Cry® 6 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/header.jpg?t=1758656170",
     "officialUrl": "https://store.steampowered.com/app/2369390/",
     "minSpecs": {
@@ -2789,13 +2789,13 @@
     "slug": "watch-dogs-2",
     "steamId": "447040",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 58,
     "price": 99000000,
     "isFree": false,
-    "description": "Welcome to San Francisco. Play as Marcus, a brilliant young hacker, and join the most notorious hacker group, DedSec. Your objective: execute the biggest hack of history.",
+    "description": "Watch_Dogs® 2 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg?t=1751986887",
     "officialUrl": "https://store.steampowered.com/app/447040/",
     "minSpecs": {
@@ -2820,13 +2820,13 @@
     "slug": "watch-dogs-legion",
     "steamId": "2239550",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 61.5,
     "price": 14850000,
     "isFree": false,
-    "description": "Build a resistance as you fight to take back a near-future London facing its downfall. Welcome to the Resistance.",
+    "description": "Watch Dogs®: Legion là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239550/header.jpg?t=1747655055",
     "officialUrl": "https://store.steampowered.com/app/2239550/",
     "minSpecs": {
@@ -2851,13 +2851,13 @@
     "slug": "control",
     "steamId": "870780",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 2,
     "price": 49500000,
     "isFree": false,
-    "description": "Winner of over 80 awards, CONTROL is a visually stunning third-person action-adventure that will keep you on the edge of your seat.",
+    "description": "CONTROL Ultimate Edition là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1775822834",
     "officialUrl": "https://store.steampowered.com/app/870780/",
     "minSpecs": {
@@ -2883,12 +2883,12 @@
     "steamId": null,
     "genres": [
       "MOBA",
-      "ua xe"
+      "Đua xe"
     ],
     "sizeGb": 5.5,
     "price": 420000,
     "isFree": false,
-    "description": "Alan Wake 2 la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
+    "description": "Alan Wake 2 là trò chơi moba, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png",
     "officialUrl": "https://www.alanwake.com/",
     "minSpecs": {
@@ -2913,12 +2913,12 @@
     "slug": "metro-exodus",
     "steamId": "412020",
     "genres": [
-      "Action"
+      "Hành động"
     ],
     "sizeGb": 9,
     "price": 49950000,
     "isFree": false,
-    "description": "Flee the shattered ruins of the Moscow Metro and embark on an epic, continent-spanning journey across the post-apocalyptic Russian wilderness. Explore vast, non-linear levels, lose yourself in an immersive, sandbox survival experience, and follow a thrilling story-line that spans an entire year in the greatest Metro adventure yet.",
+    "description": "Metro Exodus là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
     "officialUrl": "https://store.steampowered.com/app/412020/",
     "minSpecs": {
@@ -2943,14 +2943,14 @@
     "slug": "dying-light-2",
     "steamId": "534380",
     "genres": [
-      "Action",
-      "Adventure",
-      "RPG"
+      "Hành động",
+      "Phiêu lưu",
+      "Nhập vai"
     ],
     "sizeGb": 12.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Humanity is fighting a losing battle against the virus. Experience a post-apocalyptic open world overrun by hordes of zombies, where your parkour and combat skills are key to survival. Traverse the City freely during the day, but watch the monsters take over during the night.",
+    "description": "Dying Light 2 Stay Human: Reloaded Edition là trò chơi hành động, phiêu lưu, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1772550031",
     "officialUrl": "https://store.steampowered.com/app/534380/",
     "minSpecs": {
@@ -2975,13 +2975,13 @@
     "slug": "mafia-definitive-edition",
     "steamId": "1030840",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 16,
     "price": 69800000,
     "isFree": false,
-    "description": "An inadvertent brush with the mob thrusts cabdriver Tommy Angelo into the world of organized crime. Initially uneasy about falling in with the Salieri family, the rewards become too big to ignore.",
+    "description": "Mafia: Definitive Edition là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/header.jpg?t=1759852929",
     "officialUrl": "https://store.steampowered.com/app/1030840/",
     "minSpecs": {
@@ -3006,13 +3006,13 @@
     "slug": "hitman-3",
     "steamId": "1659040",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 19.5,
     "price": 7700000,
     "isFree": false,
-    "description": "Enter the world of the ultimate assassin. HITMAN World of Assassination delivers the definitive stealth action experience, putting you in the shoes of Agent 47, a master assassin. Explore immersive locations, uncover hidden secrets, and eliminate targets with complete freedom of approach.",
+    "description": "HITMAN World of Assassination là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header.jpg?t=1777550698",
     "officialUrl": "https://store.steampowered.com/app/1659040/",
     "minSpecs": {
@@ -3037,13 +3037,13 @@
     "slug": "tomb-raider",
     "steamId": "203160",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 23,
     "price": 33000000,
     "isFree": false,
-    "description": "Tomb Raider explores the intense origin story of Lara Croft and her ascent from a young woman to a hardened survivor.",
+    "description": "Tomb Raider Game of the Year là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/9e67774e97cdd155f287146e62611eb445514ac6/header.jpg?t=1765220424",
     "officialUrl": "https://store.steampowered.com/app/203160/",
     "minSpecs": {
@@ -3068,13 +3068,13 @@
     "slug": "shadow-of-the-tomb-raider",
     "steamId": "750920",
     "genres": [
-      "Action",
-      "Adventure"
+      "Hành động",
+      "Phiêu lưu"
     ],
     "sizeGb": 26.5,
     "price": 66000000,
     "isFree": false,
-    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be.",
+    "description": "Shadow of the Tomb Raider: Definitive Edition là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/header.jpg?t=1765239925",
     "officialUrl": "https://store.steampowered.com/app/750920/",
     "minSpecs": {
@@ -3099,13 +3099,13 @@
     "slug": "stray",
     "steamId": "1332010",
     "genres": [
-      "Adventure",
-      "Indie"
+      "Phiêu lưu",
+      "Độc lập"
     ],
     "sizeGb": 30,
     "price": 37500000,
     "isFree": false,
-    "description": "Lost, alone and separated from family, a stray cat must untangle an ancient mystery to escape a long-forgotten cybercity and find their way home.",
+    "description": "Stray là trò chơi phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906",
     "officialUrl": "https://store.steampowered.com/app/1332010/",
     "minSpecs": {
@@ -3130,15 +3130,15 @@
     "slug": "dave-the-diver",
     "steamId": "1868140",
     "genres": [
-      "Adventure",
-      "Casual",
-      "RPG",
-      "Simulation"
+      "Phiêu lưu",
+      "Giải trí nhẹ",
+      "Nhập vai",
+      "Mô phỏng"
     ],
     "sizeGb": 33.5,
     "price": 26000000,
     "isFree": false,
-    "description": "DAVE THE DIVER is a casual, singleplayer adventure RPG featuring deep-sea exploration and fishing during the day and sushi restaurant management at night. Join Dave and his quirky friends as they seek to uncover the secrets of the mysterious Blue Hole.",
+    "description": "DAVE THE DIVER là trò chơi phiêu lưu, giải trí nhẹ, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/81bdb3bce15d27ca1b4554a642d91096e89be229/header.jpg?t=1776394908",
     "officialUrl": "https://store.steampowered.com/app/1868140/",
     "minSpecs": {

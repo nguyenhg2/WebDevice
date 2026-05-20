@@ -88,6 +88,35 @@ const officialUrlOverrides = {
   "diablo-iii": "https://diablo3.blizzard.com/",
 };
 
+const genreTranslations = {
+  Action: "Hành động",
+  Adventure: "Phiêu lưu",
+  Casual: "Giải trí nhẹ",
+  "Free To Play": "Miễn phí",
+  Indie: "Độc lập",
+  "Massively Multiplayer": "Nhiều người chơi",
+  Racing: "Đua xe",
+  RPG: "Nhập vai",
+  Simulation: "Mô phỏng",
+  Sports: "Thể thao",
+  Strategy: "Chiến thuật",
+  "Early Access": "Truy cập sớm",
+  "Violent": "Hành động bạo lực",
+  Gore: "Kinh dị",
+  "ua xe": "Đua xe",
+  "Đua xe": "Đua xe",
+  "Chin thut": "Chiến thuật",
+  "Chiến thuật": "Chiến thuật",
+  "Sinh tn": "Sinh tồn",
+  "Sinh tồn": "Sinh tồn",
+  "Th thao": "Thể thao",
+  "Thể thao": "Thể thao",
+  "M phng": "Mô phỏng",
+  "Mô phỏng": "Mô phỏng",
+  Offline: "Chơi offline",
+  "Co-op": "Phối hợp",
+};
+
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 function resolveUrl(baseUrl, value) {
@@ -119,6 +148,21 @@ function stripHtml(value) {
     .replace(/&#39;/g, "'")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function translateGenre(genre) {
+  return genreTranslations[genre] || genre;
+}
+
+function buildVietnameseDescription(game, genres) {
+  const genreText = genres.length ? genres.slice(0, 3).join(", ").toLowerCase() : "giải trí";
+  const priceText = game.isFree ? "miễn phí" : "trả phí";
+  return `${game.name} là trò chơi ${genreText}, thuộc nhóm ${priceText}. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.`;
+}
+
+function localizeGame(game) {
+  const genres = (game.genres || []).map(translateGenre);
+  return { ...game, genres, description: buildVietnameseDescription({ ...game, genres }, genres) };
 }
 
 function decodeHtmlAttribute(value) {
@@ -255,21 +299,24 @@ function mergeSteamGame(game, appid, details) {
   const recHtml = details.pc_requirements?.recommended || "";
   const finalPrice = details.price_overview?.final;
   const genres = Array.isArray(details.genres) && details.genres.length > 0
-    ? details.genres.map((genre) => genre.description).filter(Boolean)
+    ? details.genres.map((genre) => translateGenre(genre.description)).filter(Boolean)
     : game.genres;
-
-  return {
+  const nextGame = {
     ...game,
     name: details.name || game.name,
     steamId: String(appid),
     genres,
     price: details.is_free ? 0 : Number.isFinite(finalPrice) ? finalPrice : game.price,
     isFree: Boolean(details.is_free),
-    description: stripHtml(details.short_description) || game.description,
     coverImage: details.header_image || game.coverImage,
     officialUrl: `https://store.steampowered.com/app/${appid}/`,
     minSpecs: mergeSpec(game.minSpecs, minHtml),
     recSpecs: mergeSpec(game.recSpecs, recHtml || minHtml),
+  };
+
+  return {
+    ...nextGame,
+    description: buildVietnameseDescription(nextGame, genres),
   };
 }
 
@@ -313,6 +360,8 @@ async function main() {
         nextGame.officialUrl = officialUrlOverrides[game.slug];
         const image = await getOfficialImage(nextGame.officialUrl).catch(() => null);
         if (image) nextGame.coverImage = image;
+        nextGame.genres = (nextGame.genres || []).map(translateGenre);
+        nextGame.description = buildVietnameseDescription(nextGame, nextGame.genres);
         source = {
           ...source,
           source: "official-site",
@@ -328,6 +377,7 @@ async function main() {
       source.note = `Fetch failed: ${error instanceof Error ? error.message : String(error)}`;
     }
 
+    nextGame = localizeGame(nextGame);
     updated.push(nextGame);
     sources.push(source);
     console.log(`${nextGame.slug}: ${source.source} ${source.url || ""}`);
