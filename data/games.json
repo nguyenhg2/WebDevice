@@ -5,17 +5,17 @@
     "steamId": "730",
     "genres": [
       "Hành động",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 2,
     "price": 0,
     "isFree": true,
-    "description": "Counter-Strike 2 là trò chơi hành động, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Counter-Strike 2 là trò chơi hành động, chơi miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
     "officialUrl": "https://store.steampowered.com/app/730/",
     "minSpecs": {
       "cpuName": "4 hardware CPU threads - Intel® Core™ i5 750 or higher",
-      "gpuName": "Video card must be 1 GB or more and should be a",
+      "gpuName": "Card đồ họa hỗ trợ DirectX 11, VRAM 1GB trở lên",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 700,
       "ramGb": 8,
@@ -23,7 +23,7 @@
     },
     "recSpecs": {
       "cpuName": "4 hardware CPU threads - Intel® Core™ i5 750 or higher",
-      "gpuName": "Video card must be 1 GB or more and should be a",
+      "gpuName": "Card đồ họa hỗ trợ DirectX 11, VRAM 1GB trở lên",
       "cpuBenchmark": 7000,
       "gpuBenchmark": 4200,
       "ramGb": 8,
@@ -41,20 +41,20 @@
     "sizeGb": 5.5,
     "price": 240000,
     "isFree": false,
-    "description": "Valorant là trò chơi moba, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Valorant là trò chơi MOBA, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL?w=1200&h=630&fm=webp&fit=crop&crop=center",
     "officialUrl": "https://playvalorant.com/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 1600,
       "ramGb": 8,
       "storageGb": 6
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 8500,
       "gpuBenchmark": 5700,
       "ramGb": 8,
@@ -76,16 +76,16 @@
     "coverImage": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
     "officialUrl": "https://genshin.hoyoverse.com/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 2500,
       "ramGb": 8,
       "storageGb": 9
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 10000,
       "gpuBenchmark": 7200,
       "ramGb": 8,
@@ -107,16 +107,16 @@
     "coverImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0ad60463de21fac1bdd711becb0a4ed8986f9d55-1200x630.jpg?accountingTag=LoL?w=1200&h=630&fm=webp&fit=crop&crop=center",
     "officialUrl": "https://www.leagueoflegends.com/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 3400,
       "ramGb": 8,
       "storageGb": 13
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 11500,
       "gpuBenchmark": 8700,
       "ramGb": 8,
@@ -130,16 +130,16 @@
     "genres": [
       "Hành động",
       "Chiến thuật",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 16,
     "price": 0,
     "isFree": true,
-    "description": "Dota 2 là trò chơi hành động, chiến thuật, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Dota 2 là trò chơi hành động, chiến thuật, chơi miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
     "officialUrl": "https://store.steampowered.com/app/570/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 4300,
@@ -147,7 +147,7 @@
       "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
       "cpuBenchmark": 13000,
       "gpuBenchmark": 10200,
@@ -163,7 +163,7 @@
       "Hành động",
       "Phiêu lưu",
       "Nhiều người chơi",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 19.5,
     "price": 0,
@@ -172,7 +172,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1778634253",
     "officialUrl": "https://store.steampowered.com/app/578080/",
     "minSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Intel Core i5-4430 / AMD FX-6300",
+      "cpuName": "Intel Core i5-4430 / AMD FX-6300",
       "gpuName": "NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 5200,
@@ -180,7 +180,7 @@
       "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Intel Core i5-6600K / AMD Ryzen 5 1600",
+      "cpuName": "Intel Core i5-6600K / AMD Ryzen 5 1600",
       "gpuName": "NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 580 4GB",
       "cpuBenchmark": 14500,
       "gpuBenchmark": 11700,
@@ -195,16 +195,16 @@
     "genres": [
       "Hành động",
       "Phiêu lưu",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 23,
     "price": 0,
     "isFree": true,
-    "description": "Apex Legends™ là trò chơi hành động, phiêu lưu, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Apex Legends™ là trò chơi hành động, phiêu lưu, chơi miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/0bd74245b869287a2dc7f682e6013f7ed08d98e3/header.jpg?t=1778502442",
     "officialUrl": "https://store.steampowered.com/app/1172470/",
     "minSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
+      "cpuName": "AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
       "gpuName": "AMD Radeon™ HD 7790 (2 GB), NVIDIA GeForce® GTX 950",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 6100,
@@ -212,7 +212,7 @@
       "storageGb": 75
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Ryzen 5 CPU or Equivalent",
+      "cpuName": "or Equivalent Bộ nhớ: 8 GB RAM Đồ họa: AMD Radeon™ R9 290, NVIDIA GeForce® GTX 970",
       "gpuName": "AMD Radeon™ R9 290, NVIDIA GeForce® GTX 970",
       "cpuBenchmark": 16000,
       "gpuBenchmark": 13200,
@@ -231,20 +231,20 @@
     "sizeGb": 26.5,
     "price": 780000,
     "isFree": false,
-    "description": "Fortnite là trò chơi chơi offline, fps, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Fortnite là trò chơi chơi offline, FPS, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/fortnite.svg",
     "officialUrl": "https://www.fortnite.com/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 7000,
       "ramGb": 8,
       "storageGb": 27
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 12600,
       "gpuBenchmark": 14700,
       "ramGb": 8,
@@ -262,20 +262,20 @@
     "sizeGb": 30,
     "price": 150000,
     "isFree": false,
-    "description": "Minecraft là trò chơi thể thao, moba, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Minecraft là trò chơi thể thao, MOBA, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://www.minecraft.net/content/dam/minecraftnet/franchise/logos/minecraft-creeper-face.jpg",
     "officialUrl": "https://www.minecraft.net/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 7900,
       "ramGb": 4,
       "storageGb": 30
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 14100,
       "gpuBenchmark": 11400,
       "ramGb": 8,
@@ -297,16 +297,16 @@
     "coverImage": "/images/games/roblox.svg",
     "officialUrl": "https://www.roblox.com/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 8800,
       "ramGb": 8,
       "storageGb": 34
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 8400,
       "gpuBenchmark": 12900,
       "ramGb": 8,
@@ -328,16 +328,16 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/header.jpg?t=1752167366",
     "officialUrl": "https://store.steampowered.com/app/2195250/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "NVIDIA GeForce GTX 1050 Ti 4GB or AMD Radeon RX 570 4GB",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "or equivalent (feature level 12_0)",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 700,
       "ramGb": 8,
       "storageGb": 100
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "NVIDIA GeForce GTX 1660 or AMD RX 5600 XT",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "or equivalent (feature level 12_0)",
       "cpuBenchmark": 9900,
       "gpuBenchmark": 5400,
       "ramGb": 12,
@@ -359,15 +359,15 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
     "officialUrl": "https://store.steampowered.com/app/271590/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 1600,
       "ramGb": 4,
       "storageGb": 125
     },
     "recSpecs": {
-      "cpuName": "s) / AMD X8 FX-8350 @ 4GHz (8 CPUs)",
+      "cpuName": "s) / AMD X8 FX-8350 @ 4GHz (8 CPUs) Bộ nhớ: 8 GB RAM Đồ họa: NVIDIA GTX 660 2GB / AMD HD 7870 2GB Lưu trữ: 125 GB chỗ tr",
       "gpuName": "NVIDIA GTX 660 2GB / AMD HD 7870 2GB",
       "cpuBenchmark": 11400,
       "gpuBenchmark": 6900,
@@ -390,7 +390,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
     "officialUrl": "https://store.steampowered.com/app/1174180/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 - 64-bit Processor: Intel® Core™ i5-2500K / AMD FX-6300",
+      "cpuName": "Intel® Core™ i5-2500K / AMD FX-6300",
       "gpuName": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 2500,
@@ -398,7 +398,7 @@
       "storageGb": 150
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 - 64-bit Processor: Intel® Core™ i7-4770K / AMD Ryzen 5 1500X",
+      "cpuName": "Intel® Core™ i7-4770K / AMD Ryzen 5 1500X",
       "gpuName": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
       "cpuBenchmark": 12900,
       "gpuBenchmark": 8400,
@@ -411,16 +411,16 @@
     "slug": "cyberpunk-2077",
     "steamId": "1091500",
     "genres": [
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 47.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Cyberpunk 2077 là trò chơi nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Cyberpunk 2077 là trò chơi nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377",
     "officialUrl": "https://store.steampowered.com/app/1091500/",
     "minSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Core i7-6700 or Ryzen 5 1600",
+      "cpuName": "Core i7-6700 or Ryzen 5 1600",
       "gpuName": "GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 3400,
@@ -428,7 +428,7 @@
       "storageGb": 70
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Core i7-12700 or Ryzen 7 7800X3D",
+      "cpuName": "Core i7-12700 or Ryzen 7 7800X3D",
       "gpuName": "GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770",
       "cpuBenchmark": 14400,
       "gpuBenchmark": 9900,
@@ -442,16 +442,16 @@
     "steamId": "1245620",
     "genres": [
       "Hành động",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 51,
     "price": 99000000,
     "isFree": false,
-    "description": "ELDEN RING là trò chơi hành động, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "ELDEN RING là trò chơi hành động, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1767883716",
     "officialUrl": "https://store.steampowered.com/app/1245620/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 Processor: INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+      "cpuName": "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
       "gpuName": "NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 4300,
@@ -459,7 +459,7 @@
       "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10/11 Processor: INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+      "cpuName": "INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
       "gpuName": "NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB",
       "cpuBenchmark": 11000,
       "gpuBenchmark": 11400,
@@ -472,17 +472,17 @@
     "slug": "the-witcher-3",
     "steamId": "292030",
     "genres": [
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 54.5,
     "price": 66000000,
     "isFree": false,
-    "description": "The Witcher 3: Wild Hunt là trò chơi nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "The Witcher 3: Wild Hunt là trò chơi nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg?t=1768303991",
     "officialUrl": "https://store.steampowered.com/app/292030/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GeForce GTX 660 / AMD GPU Radeon HD 7870",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 5200,
       "ramGb": 6,
@@ -504,16 +504,16 @@
     "genres": [
       "Hành động",
       "Phiêu lưu",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 58,
     "price": 150000,
     "isFree": false,
-    "description": "Hogwarts Legacy là trò chơi hành động, phiêu lưu, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Hogwarts Legacy là trò chơi hành động, phiêu lưu, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header.jpg?t=1778797474",
     "officialUrl": "https://store.steampowered.com/app/990080/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "NVIDIA GeForce GTX 960 4GB or AMD Radeon RX 470 4GB",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 6100,
@@ -521,7 +521,7 @@
       "storageGb": 85
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "NVIDIA GeForce 1080 Ti or AMD Radeon RX 5700 XT or INTEL Arc A770",
       "cpuBenchmark": 14000,
       "gpuBenchmark": 9600,
@@ -537,7 +537,7 @@
       "Hành động",
       "Phiêu lưu",
       "Độc lập",
-      "Nhập vai",
+      "Nhập vai (RPG)",
       "Truy cập sớm"
     ],
     "sizeGb": 61.5,
@@ -547,7 +547,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/058bd87dc17a7179e07c446aa64d0574ca43ab9d/header.jpg?t=1773936597",
     "officialUrl": "https://store.steampowered.com/app/1623730/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "GeForce GTX 1050 (2GB)",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 7000,
@@ -555,7 +555,7 @@
       "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "GeForce RTX 2070",
       "cpuBenchmark": 15500,
       "gpuBenchmark": 11100,
@@ -577,7 +577,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/f11c258b04a5e3e7771c1bab60f324ebf6c6c6fb/header.jpg?t=1770747641",
     "officialUrl": "https://store.steampowered.com/app/553850/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i7-4790K or AMD Ryzen 5 1500X",
+      "cpuName": "Intel Core i7-4790K or AMD Ryzen 5 1500X",
       "gpuName": "NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 470",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 7900,
@@ -585,7 +585,7 @@
       "storageGb": 135
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i7-9700K or AMD Ryzen 7 3700X",
+      "cpuName": "Intel Core i7-9700K or AMD Ryzen 7 3700X",
       "gpuName": "NVIDIA GeForce RTX 2060 or AMD Radeon RX 6600XT",
       "cpuBenchmark": 9800,
       "gpuBenchmark": 12600,
@@ -599,17 +599,17 @@
     "steamId": "1086940",
     "genres": [
       "Phiêu lưu",
-      "Nhập vai",
+      "Nhập vai (RPG)",
       "Chiến thuật"
     ],
     "sizeGb": 5.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Baldur's Gate 3 là trò chơi phiêu lưu, nhập vai, chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Baldur's Gate 3 là trò chơi phiêu lưu, nhập vai (rpg), chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
     "officialUrl": "https://store.steampowered.com/app/1086940/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64-bit Processor: Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite",
+      "cpuName": "Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite",
       "gpuName": "Nvidia GTX 970 / RX 480 / Intel Arc A380 / Qualcomm Adreno X1 (4GB+ of VRAM)",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 8800,
@@ -617,7 +617,7 @@
       "storageGb": 150
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64-bit Processor: Intel i7 8700K / AMD r5 3600",
+      "cpuName": "Intel i7 8700K / AMD r5 3600",
       "gpuName": "Nvidia 2060 Super / RX 5700 XT / Intel Arc A580 (8GB+ of VRAM)",
       "cpuBenchmark": 11300,
       "gpuBenchmark": 14100,
@@ -631,17 +631,17 @@
     "steamId": "230410",
     "genres": [
       "Hành động",
-      "Nhập vai",
-      "Miễn phí"
+      "Nhập vai (RPG)",
+      "Chơi miễn phí"
     ],
     "sizeGb": 9,
     "price": 0,
     "isFree": true,
-    "description": "Warframe là trò chơi hành động, nhập vai, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Warframe là trò chơi hành động, nhập vai (rpg), chơi miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/60ce7425b864dd3c0dd855bfc66004c6f9ca4844/header.jpg?t=1778595605",
     "officialUrl": "https://store.steampowered.com/app/230410/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "Card Memory: 4 GB RAM",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 700,
@@ -649,7 +649,7 @@
       "storageGb": 75
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "Card Memory: 4 GB RAM",
       "cpuBenchmark": 12800,
       "gpuBenchmark": 6600,
@@ -666,8 +666,8 @@
       "Phiêu lưu",
       "Độc lập",
       "Nhiều người chơi",
-      "Nhập vai",
-      "Miễn phí"
+      "Nhập vai (RPG)",
+      "Chơi miễn phí"
     ],
     "sizeGb": 12.5,
     "price": 0,
@@ -676,7 +676,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/558fd9078de800b7528a8e96bee0108a8fac17aa/header.jpg?t=1773177577",
     "officialUrl": "https://store.steampowered.com/app/238960/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "NVIDIA® GeForce® GTX 650 Ti or ATI Radeon™ HD 7850",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 1600,
@@ -684,7 +684,7 @@
       "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "NVIDIA® GeForce® GTX 1050 Ti or ATI Radeon™ RX560",
       "cpuBenchmark": 9400,
       "gpuBenchmark": 8100,
@@ -700,8 +700,8 @@
       "Hành động",
       "Phiêu lưu",
       "Nhiều người chơi",
-      "Nhập vai",
-      "Miễn phí"
+      "Nhập vai (RPG)",
+      "Chơi miễn phí"
     ],
     "sizeGb": 16,
     "price": 0,
@@ -710,7 +710,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg?t=1763571534",
     "officialUrl": "https://store.steampowered.com/app/1599340/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 (64-bit only) Processor: Intel Core i3 – 10100 AMD Ryzen3 3100",
+      "cpuName": "Intel Core i3 – 10100 AMD Ryzen3 3100",
       "gpuName": "Nvidia Geforce GTX 1050 Ti / AMD Radeon RX 560",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 2500,
@@ -718,7 +718,7 @@
       "storageGb": 110
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 11 (64-bit only) Processor: Intel Core i5 – 9400 AMD Ryzen5 2600",
+      "cpuName": "Intel Core i5 – 9400 AMD Ryzen5 2600",
       "gpuName": "Nvidia Geforce GTX 1660 Super / AMD Radeon RX 6600",
       "cpuBenchmark": 10900,
       "gpuBenchmark": 9600,
@@ -734,7 +734,7 @@
       "Hành động",
       "Nhiều người chơi",
       "Mô phỏng",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 19.5,
     "price": 0,
@@ -751,7 +751,7 @@
       "storageGb": 85
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 / 11 (64-bit only) with the latest updates Processor: Intel Core i3-9100F / AMD Ryze",
+      "cpuName": "Intel Core i3-9100F / AMD Ryze",
       "gpuName": "Nvidia GTX 1650 / AMD Radeon RX 580",
       "cpuBenchmark": 12400,
       "gpuBenchmark": 11100,
@@ -767,7 +767,7 @@
       "Hành động",
       "Nhiều người chơi",
       "Mô phỏng",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 23,
     "price": 0,
@@ -776,8 +776,8 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/ceff9434460880755b42a90b8915e87dff4482ad/header.jpg?t=1779186880",
     "officialUrl": "https://store.steampowered.com/app/236390/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 4300,
       "ramGb": 4,
@@ -785,7 +785,7 @@
     },
     "recSpecs": {
       "cpuName": "Intel Core i5 or Ryzen 5 3600 or better",
-      "gpuName": "DirectX 11 level video card or higher and drivers: Nvidia GeForce 1060 and higher, Radeon RX 570 and higher",
+      "gpuName": "or higher and drivers: Nvidia GeForce 1060 and higher, Radeon RX 570 and higher",
       "cpuBenchmark": 13900,
       "gpuBenchmark": 7800,
       "ramGb": 16,
@@ -837,7 +837,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1248130/7ff56320788fa4b1f46ac9a62ff955d3ef3f109c/header.jpg?t=1765792398",
     "officialUrl": "https://store.steampowered.com/app/1248130/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 Home (x64) Processor: Intel Core i5-3330 or AMD FX-8320 or better",
+      "cpuName": "Intel Core i5-3330 or AMD FX-8320 or better",
       "gpuName": "GeForce GTX 660 or AMD Radeon R7 265 or better (min 2GB VRAM)",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 7300,
@@ -845,7 +845,7 @@
       "storageGb": 35
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 Home (x64) Processor: Intel Core i5-5675C or AMD Ryzen 5 1600 or better",
+      "cpuName": "Intel Core i5-5675C or AMD Ryzen 5 1600 or better",
       "gpuName": "GeForce GTX 1060 or Radeon RX 570 or better (min 6GB VRAM)",
       "cpuBenchmark": 16900,
       "gpuBenchmark": 12000,
@@ -859,18 +859,18 @@
     "steamId": "1222670",
     "genres": [
       "Phiêu lưu",
-      "Giải trí nhẹ",
+      "Đơn giản",
       "Mô phỏng",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 33.5,
     "price": 0,
     "isFree": true,
-    "description": "The Sims™ 4 là trò chơi phiêu lưu, giải trí nhẹ, mô phỏng, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "The Sims™ 4 là trò chơi phiêu lưu, đơn giản, mô phỏng, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/header.jpg?t=1778778231",
     "officialUrl": "https://store.steampowered.com/app/1222670/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "s: NVIDIA GeForce 6600 or better, ATI Radeon X1300 or better, Intel GMA X4500 or better",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 8200,
@@ -878,7 +878,7 @@
       "storageGb": 26
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: 64 Bit Windows 10 Processor: Intel core i5 (4 cores), AMD Ryzen 5 or better",
+      "cpuName": "Intel core i5 (4 cores), AMD Ryzen 5 or better",
       "gpuName": "1 GB of Video RAM, NVIDIA GTX 650, AMD Radeon HD 7750, or better",
       "cpuBenchmark": 11200,
       "gpuBenchmark": 13500,
@@ -901,7 +901,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg?t=1777568415",
     "officialUrl": "https://store.steampowered.com/app/255710/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows® 10 Home 64 Bit Processor: Intel® Core™ I7 930 | AMD® FX 6350",
+      "cpuName": "Intel® Core™ I7 930 | AMD® FX 6350",
       "gpuName": "Nvidia® GeForce™ GTS 450 (1 GB) | AMD® R7 250 (2 GB) | Intel Iris Xe G7 (Tiger Lake)",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 9100,
@@ -909,8 +909,8 @@
       "storageGb": 4
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows® 10 Home 64 bit Processor: Intel® Core™ I7 2700K | AMD® Ryzen 7 2700X",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "Intel® Core™ I7 2700K | AMD® Ryzen 7 2700X",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 7800,
       "gpuBenchmark": 15000,
       "ramGb": 16,
@@ -925,7 +925,7 @@
       "Hành động",
       "Phiêu lưu",
       "Độc lập",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 40.5,
     "price": 14200000,
@@ -934,16 +934,16 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
     "officialUrl": "https://store.steampowered.com/app/105600/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 10000,
       "ramGb": 2.5,
       "storageGb": 41
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 9300,
       "gpuBenchmark": 16500,
       "ramGb": 4,
@@ -956,18 +956,18 @@
     "steamId": "413150",
     "genres": [
       "Độc lập",
-      "Nhập vai",
+      "Nhập vai (RPG)",
       "Mô phỏng"
     ],
     "sizeGb": 44,
     "price": 8250000,
     "isFree": false,
-    "description": "Stardew Valley là trò chơi độc lập, nhập vai, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Stardew Valley là trò chơi độc lập, nhập vai (rpg), mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
     "officialUrl": "https://store.steampowered.com/app/413150/",
     "minSpecs": {
       "cpuName": "2 Ghz",
-      "gpuName": "GPU pho thong",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 1900,
       "ramGb": 2,
@@ -975,7 +975,7 @@
     },
     "recSpecs": {
       "cpuName": "2 Ghz",
-      "gpuName": "GPU gaming tam trung",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 10800,
       "gpuBenchmark": 9000,
       "ramGb": 2,
@@ -987,17 +987,17 @@
     "slug": "among-us",
     "steamId": "945360",
     "genres": [
-      "Giải trí nhẹ"
+      "Đơn giản"
     ],
     "sizeGb": 47.5,
     "price": 7000000,
     "isFree": false,
-    "description": "Among Us là trò chơi giải trí nhẹ, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Among Us là trò chơi đơn giản, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1757444903",
     "officialUrl": "https://store.steampowered.com/app/945360/",
     "minSpecs": {
       "cpuName": "INTEL i3-4330",
-      "gpuName": "INTEL HD Graphics 4600",
+      "gpuName": "4600",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 2800,
       "ramGb": 1,
@@ -1026,16 +1026,16 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1772742214",
     "officialUrl": "https://store.steampowered.com/app/550/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 3700,
       "ramGb": 2,
       "storageGb": 13
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 13800,
       "gpuBenchmark": 7200,
       "ramGb": 2,
@@ -1048,25 +1048,25 @@
     "steamId": "440",
     "genres": [
       "Hành động",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 54.5,
     "price": 0,
     "isFree": true,
-    "description": "Team Fortress 2 là trò chơi hành động, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Team Fortress 2 là trò chơi hành động, chơi miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
     "officialUrl": "https://store.steampowered.com/app/440/",
     "minSpecs": {
       "cpuName": "or better",
-      "gpuName": "GPU pho thong",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 4600,
       "ramGb": 8,
       "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 15300,
       "gpuBenchmark": 8700,
       "ramGb": 1,
@@ -1079,12 +1079,12 @@
     "steamId": "359550",
     "genres": [
       "Hành động",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 58,
     "price": 0,
     "isFree": true,
-    "description": "Tom Clancy's Rainbow Six Siege là trò chơi hành động, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Tom Clancy's Rainbow Six Siege là trò chơi hành động, chơi miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/97ce482d2a8ec5d2beb1081e954ac1ec16eea1fb/header_alt_assets_21.jpg?t=1779209046",
     "officialUrl": "https://store.steampowered.com/app/359550/",
     "minSpecs": {
@@ -1110,16 +1110,16 @@
     "steamId": "2357570",
     "genres": [
       "Hành động",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 61.5,
     "price": 0,
     "isFree": true,
-    "description": "Overwatch® là trò chơi hành động, miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Overwatch® là trò chơi hành động, chơi miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/1f84e73b8095ab9f40b1bc2c81845330979afc09/header_alt_assets_20.jpg?t=1778610036",
     "officialUrl": "https://store.steampowered.com/app/2357570/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows® 10 64-bit (latest Service Pack) Processor: Intel® Core™ i3 or AMD Phenom™ X3 8650",
+      "cpuName": "Intel® Core™ i3 or AMD Phenom™ X3 8650",
       "gpuName": "NVIDIA® GeForce® GTX 600 series, AMD Radeon™ HD 7000 series",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 6400,
@@ -1127,7 +1127,7 @@
       "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows® 10 64-bit (latest Service Pack) Processor: Intel® Core™ i7 or AMD Ryzen™ 5",
+      "cpuName": "Intel® Core™ i7 or AMD Ryzen™ 5",
       "gpuName": "NVIDIA® GeForce® GTX 1060/ GeForce® GTX 1650 or AMD R9 380/AMD RX 6400 or Intel® Arc™ A770",
       "cpuBenchmark": 13400,
       "gpuBenchmark": 11700,
@@ -1142,17 +1142,17 @@
     "genres": [
       "Hành động",
       "Độc lập",
-      "Đua xe",
+      "Đua tốc độ",
       "Thể thao"
     ],
     "sizeGb": 2,
     "price": 0,
     "isFree": false,
-    "description": "Rocket League® là trò chơi hành động, độc lập, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Rocket League® là trò chơi hành động, độc lập, đua tốc độ, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/1bcf75584d0c3613b02b2d0a2721a6b411375784/header_alt_assets_15.jpg?t=1773251703",
     "officialUrl": "https://store.steampowered.com/app/252950/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "NVIDIA GeForce 760, AMD Radeon R7 270X, or better",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 7300,
@@ -1160,7 +1160,7 @@
       "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "NVIDIA GeForce GTX 1060, AMD Radeon RX 470, or better",
       "cpuBenchmark": 7700,
       "gpuBenchmark": 13200,
@@ -1175,14 +1175,14 @@
     "genres": [
       "Hành động",
       "Phiêu lưu",
-      "Đua xe",
+      "Đua tốc độ",
       "Mô phỏng",
       "Thể thao"
     ],
     "sizeGb": 5.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Forza Horizon 5 là trò chơi hành động, phiêu lưu, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Forza Horizon 5 là trò chơi hành động, phiêu lưu, đua tốc độ, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1746471508",
     "officialUrl": "https://store.steampowered.com/app/1551360/",
     "minSpecs": {
@@ -1209,26 +1209,26 @@
     "genres": [
       "Hành động",
       "Phiêu lưu",
-      "Đua xe",
+      "Đua tốc độ",
       "Thể thao"
     ],
     "sizeGb": 9,
     "price": 690000,
     "isFree": false,
-    "description": "Need for Speed™ Heat là trò chơi hành động, phiêu lưu, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Need for Speed™ Heat là trò chơi hành động, phiêu lưu, đua tốc độ, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg?t=1777414224",
     "officialUrl": "https://store.steampowered.com/app/1222680/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 9100,
       "ramGb": 8,
       "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 10700,
       "gpuBenchmark": 16200,
       "ramGb": 16,
@@ -1241,27 +1241,27 @@
     "steamId": "244210",
     "genres": [
       "Độc lập",
-      "Đua xe",
+      "Đua tốc độ",
       "Mô phỏng",
       "Thể thao"
     ],
     "sizeGb": 12.5,
     "price": 26000000,
     "isFree": false,
-    "description": "Assetto Corsa là trò chơi độc lập, đua xe, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Assetto Corsa là trò chơi độc lập, đua tốc độ, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1754985171",
     "officialUrl": "https://store.steampowered.com/app/244210/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 10000,
       "ramGb": 2,
       "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "AMD Six-Core CPU, Intel Quad-Core CPU",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": ", Intel Quad-Core CPU Bộ nhớ: 6 GB RAM Đồ họa:",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 12200,
       "gpuBenchmark": 17700,
       "ramGb": 6,
@@ -1279,20 +1279,20 @@
     "sizeGb": 16,
     "price": 150000,
     "isFree": false,
-    "description": "FIFA Online 4 là trò chơi fps, sinh tồn, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "FIFA Online 4 là trò chơi FPS, sinh tồn, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/fifa-online-4.svg",
     "officialUrl": "https://fo4.garena.vn/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 1900,
       "ramGb": 4,
       "storageGb": 16
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 13700,
       "gpuBenchmark": 5400,
       "ramGb": 16,
@@ -1310,20 +1310,20 @@
     "sizeGb": 19.5,
     "price": 240000,
     "isFree": false,
-    "description": "Dot Kich là trò chơi moba, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Dot Kich là trò chơi MOBA, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://cf.goplay.vn/~/newdesign/images/cf_log_thum.png",
     "officialUrl": "https://cf.goplay.vn/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 2800,
       "ramGb": 8,
       "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 15200,
       "gpuBenchmark": 6900,
       "ramGb": 8,
@@ -1345,16 +1345,16 @@
     "coverImage": "https://cdnmedia.vtcgame.vn/aupc/trangchu/assets/images/Thumb_Audition.jpg",
     "officialUrl": "https://au.vtcgame.vn/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 3700,
       "ramGb": 8,
       "storageGb": 23
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 11800,
       "gpuBenchmark": 8400,
       "ramGb": 8,
@@ -1370,7 +1370,7 @@
       "Phiêu lưu",
       "Nhiều người chơi",
       "Chiến thuật",
-      "Miễn phí"
+      "Chơi miễn phí"
     ],
     "sizeGb": 26.5,
     "price": 0,
@@ -1379,7 +1379,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3616890/60a5e0d12b59e64a40ea6633c50799ebdf9f4674/header.jpg?t=1771982264",
     "officialUrl": "https://store.steampowered.com/app/3616890/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64-bit v1607+ Processor: Intel i5-6500 or AMD Ryzen 5 1600",
+      "cpuName": "Intel i5-6500 or AMD Ryzen 5 1600",
       "gpuName": "GeForce GTX 1060 3G or AMD Radeon RX 480 8G or INTEL® Arc A380 (6GB, Alchemist)",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 4600,
@@ -1387,7 +1387,7 @@
       "storageGb": 35
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64-bit v1607+ Processor: Intel i7-7700 or AMD Ryzen 5 3600",
+      "cpuName": "Intel i7-7700 or AMD Ryzen 5 3600",
       "gpuName": "GeForce RTX 2060 6G or AMD Radeon RX 6600 6G or INTEL® Arc A580 (8GB, Alchemist)",
       "cpuBenchmark": 13300,
       "gpuBenchmark": 9900,
@@ -1403,7 +1403,7 @@
       "Hành động",
       "Phiêu lưu",
       "Nhiều người chơi",
-      "Nhập vai",
+      "Nhập vai (RPG)",
       "Chiến thuật"
     ],
     "sizeGb": 30,
@@ -1451,7 +1451,7 @@
       "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "AMD Radeon R9 270X / R7 265 2 GB / Nvidia GeForce GTX 660 2 GB",
       "cpuBenchmark": 9100,
       "gpuBenchmark": 12900,
@@ -1473,7 +1473,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/f69b0f7c35aa8c966d9ff74c2bae548dbea072e4/header.jpg?t=1770678135",
     "officialUrl": "https://store.steampowered.com/app/1778820/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64-Bit Processor: Intel Core i5-6600K/AMD Ryzen 5 1600",
+      "cpuName": "Intel Core i5-6600K/AMD Ryzen 5 1600",
       "gpuName": "Nvidia GeForce GTX 1050Ti/AMD Radeon R9 380X",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 7300,
@@ -1481,7 +1481,7 @@
       "storageGb": 100
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64-Bit Processor: Intel Core i7-7700K/AMD Ryzen 5 2600",
+      "cpuName": "Intel Core i7-7700K/AMD Ryzen 5 2600",
       "gpuName": "Nvidia GeForce RTX 2070/AMD Radeon RX 5700 XT",
       "cpuBenchmark": 10600,
       "gpuBenchmark": 14400,
@@ -1504,7 +1504,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1776917924",
     "officialUrl": "https://store.steampowered.com/app/1364780/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 (64 bit required) Processor: Intel Core i5-7500 / AMD Ryzen 3 1200",
+      "cpuName": "Intel Core i5-7500 / AMD Ryzen 3 1200",
       "gpuName": "GTX1060 (VRAM 6GB) / Radeon RX 580 (VRAM 4GB)",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 8200,
@@ -1512,7 +1512,7 @@
       "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 (64 bit)/Windows 11 (64 bit) Processor: Intel Core i7 8700 / AMD Ryzen 5 3600",
+      "cpuName": "Intel Core i7 8700 / AMD Ryzen 5 3600",
       "gpuName": "RTX2070 / Radeon RX 5700XT",
       "cpuBenchmark": 12100,
       "gpuBenchmark": 15900,
@@ -1534,7 +1534,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976310/header.jpg?t=1775508340",
     "officialUrl": "https://store.steampowered.com/app/976310/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "NVIDIA® GeForce™ GTX 670 or NVIDIA® GeForce™ GTX 1050 / AMD® Radeon™ HD 7950 or AMD® Radeon™ R9 270",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 9100,
@@ -1542,7 +1542,7 @@
       "storageGb": 44
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "NVIDIA® GeForce™ GTX 780 or NVIDIA® GeForce™ GTX 1060-6GB / AMD® Radeon™ R9 290 or RX 570",
       "cpuBenchmark": 13600,
       "gpuBenchmark": 12600,
@@ -1564,7 +1564,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/678950/df2f6b9630a969448a14eed5aba183d27d2ca65b/header_alt_assets_6.jpg?t=1776898545",
     "officialUrl": "https://store.steampowered.com/app/678950/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "Radeon HD 6870, 1 GB / GeForce GTX 650 Ti, 1 GB",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 10000,
@@ -1572,7 +1572,7 @@
       "storageGb": 6
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "Radeon HD 7870, 2 GB / GeForce GTX 660, 2 GB",
       "cpuBenchmark": 10200,
       "gpuBenchmark": 14100,
@@ -1595,7 +1595,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
     "officialUrl": "https://store.steampowered.com/app/2050650/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 (64 bit) Processor: AMD Ryzen 3 1200 / Intel Core i5-7500",
+      "cpuName": "AMD Ryzen 3 1200 / Intel Core i5-7500",
       "gpuName": "AMD Radeon RX 560 with 4GB VRAM / NVIDIA GeForce GTX 1050 Ti with 4GB VRAM",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 3100,
@@ -1603,7 +1603,7 @@
       "storageGb": 51
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 (64 bit)/Windows 11 (64 bit) Processor: AMD Ryzen 5 3600 / Intel Core i7 8700",
+      "cpuName": "AMD Ryzen 5 3600 / Intel Core i7 8700",
       "gpuName": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
       "cpuBenchmark": 11700,
       "gpuBenchmark": 7800,
@@ -1625,7 +1625,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1776927117",
     "officialUrl": "https://store.steampowered.com/app/1196590/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 (64 bit) Processor: AMD Ryzen 3 1200 ／ Intel Core i5-7500",
+      "cpuName": "AMD Ryzen 3 1200 ／ Intel Core i5-7500",
       "gpuName": "AMD Radeon RX 560 with 4GB VRAM ／ NVIDIA GeForce GTX 1050 Ti with 4GB VRAM",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 4000,
@@ -1633,7 +1633,7 @@
       "storageGb": 55
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 (64 bit)/Windows 11 (64 bit) Processor: AMD Ryzen 5 3600 ／ Intel Core i7 8700",
+      "cpuName": "AMD Ryzen 5 3600 ／ Intel Core i7 8700",
       "gpuName": "AMD Radeon RX 5700 ／ NVIDIA GeForce GTX 1070",
       "cpuBenchmark": 13200,
       "gpuBenchmark": 9300,
@@ -1657,7 +1657,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/0a424398a10445bbb922b45771dab7118fe139d2/header_alt_assets_10.jpg?t=1778659672",
     "officialUrl": "https://store.steampowered.com/app/739630/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64Bit Processor: Intel Core i5-4590 / AMD Ryzen 5 2600",
+      "cpuName": "Intel Core i5-4590 / AMD Ryzen 5 2600",
       "gpuName": "NVIDIA GTX 970 / AMD Radeon R9 390",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 4900,
@@ -1665,7 +1665,7 @@
       "storageGb": 21
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64Bit Processor: Intel Core i5-10600 / AMD Ryzen 5 3600",
+      "cpuName": "Intel Core i5-10600 / AMD Ryzen 5 3600",
       "gpuName": "NVIDIA RTX 2060 / AMD Radeon RX 5700",
       "cpuBenchmark": 14700,
       "gpuBenchmark": 10800,
@@ -1687,7 +1687,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/8512297f0f02ec3e592f45b21779f61624941964/header_alt_assets_6.jpg?t=1778880603",
     "officialUrl": "https://store.steampowered.com/app/381210/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64-bit Operating System Processor: Intel Core i3-4170 or AMD FX-8120",
+      "cpuName": "Intel Core i3-4170 or AMD FX-8120",
       "gpuName": "DX11 Compatible GeForce GTX 460 1GB or AMD HD 6850 1GB",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 5800,
@@ -1695,7 +1695,7 @@
       "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64-bit Operating System Processor: Intel Core i3-4170 or AMD FX-8300 or higher",
+      "cpuName": "Intel Core i3-4170 or AMD FX-8300 or higher",
       "gpuName": "DX11 Compatible GeForce 760 or AMD HD 8800 or higher with 4GB of RAM",
       "cpuBenchmark": 16200,
       "gpuBenchmark": 12300,
@@ -1720,7 +1720,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
     "officialUrl": "https://store.steampowered.com/app/242760/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "NVIDIA GeForce 8800GT",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 6700,
@@ -1728,7 +1728,7 @@
       "storageGb": 5
     },
     "recSpecs": {
-      "cpuName": "Quad Core Processor",
+      "cpuName": "Bộ nhớ: 4 GB RAM Đồ họa: NVIDIA GeForce GTX 560",
       "gpuName": "NVIDIA GeForce GTX 560",
       "cpuBenchmark": 10500,
       "gpuBenchmark": 13800,
@@ -1753,7 +1753,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
     "officialUrl": "https://store.steampowered.com/app/1326470/",
     "minSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+      "cpuName": "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
       "gpuName": "NVIDIA GeForce GTX 1060 3GB or AMD Radeon RX 570 4GB",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 7600,
@@ -1761,7 +1761,7 @@
       "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+      "cpuName": "INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
       "gpuName": "NVIDIA GeForce 1080Ti or AMD Radeon RX 5700 XT",
       "cpuBenchmark": 12000,
       "gpuBenchmark": 15300,
@@ -1785,7 +1785,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
     "officialUrl": "https://store.steampowered.com/app/648800/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "GeForce GTX 700 series or similar",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 8500,
@@ -1793,7 +1793,7 @@
       "storageGb": 10
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "GeForce GTX 1050 series or similar",
       "cpuBenchmark": 8600,
       "gpuBenchmark": 12000,
@@ -1816,15 +1816,15 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
     "officialUrl": "https://store.steampowered.com/app/264710/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "Intel HD 4600 or equivalent - This includes most GPUs scoring greater than 950 points in the 3DMark Fire Strike benchmar",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "s scoring greater than 950 points in the 3DMark Fire Strike benchmark",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 9400,
       "ramGb": 4,
       "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "Nvidia GTX 550 Ti or equivalent, 2GB VRAM",
       "cpuBenchmark": 10100,
       "gpuBenchmark": 13500,
@@ -1847,16 +1847,16 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/0daeafb115c92d9afd4c7a670384688adbde91e0/header_alt_assets_25.jpg?t=1776675618",
     "officialUrl": "https://store.steampowered.com/app/275850/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10/11 (64-bit versions) Processor: Intel Core i3",
-      "gpuName": "Nvidia GTX 1060 3GB, AMD RX 470 4GB, Intel UHD graphics 630",
+      "cpuName": "Intel Core i3",
+      "gpuName": "630 Lưu trữ: 15 GB chỗ trống khả dụng Hỗ trợ VR: SteamVR",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 10300,
       "ramGb": 8,
       "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "and operating system",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 64-bit tương thích Windows",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 11600,
       "gpuBenchmark": 15000,
       "ramGb": 8,
@@ -1871,7 +1871,7 @@
       "Hành động",
       "Phiêu lưu",
       "Độc lập",
-      "Nhập vai",
+      "Nhập vai (RPG)",
       "Truy cập sớm"
     ],
     "sizeGb": 19.5,
@@ -1881,7 +1881,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1765967243",
     "officialUrl": "https://store.steampowered.com/app/892970/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "GeForce GTX 950 or Radeon HD 7970",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 11200,
@@ -1889,7 +1889,7 @@
       "storageGb": 1
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 or later Processor: i5 3GHz or Ryzen 5 3GHz",
+      "cpuName": "i5 3GHz or Ryzen 5 3GHz",
       "gpuName": "GeForce GTX 1060 or Radeon RX 580",
       "cpuBenchmark": 13100,
       "gpuBenchmark": 16500,
@@ -1906,7 +1906,7 @@
       "Phiêu lưu",
       "Độc lập",
       "Nhiều người chơi",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 23,
     "price": 13550000,
@@ -1940,7 +1940,7 @@
       "Phiêu lưu",
       "Độc lập",
       "Nhiều người chơi",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 26.5,
     "price": 50000000,
@@ -1949,7 +1949,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1778597738",
     "officialUrl": "https://store.steampowered.com/app/252490/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 11 64bit Processor: AMD Ryzen 5 1400 or Intel Core i5-6600",
+      "cpuName": "AMD Ryzen 5 1400 or Intel Core i5-6600",
       "gpuName": "AMD Radeon RX 470, NVIDIA GeForce GTX 1060, Intel® Arc™ A580",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 4000,
@@ -1957,7 +1957,7 @@
       "storageGb": 45
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 11 64bit Processor: AMD Ryzen 7 3700X or Intel® Core i7-6700K",
+      "cpuName": "AMD Ryzen 7 3700X or Intel® Core i7-6700K",
       "gpuName": "AMD Radeon RX 6600XT, NVIDIA GeForce RTX 3060, Intel Arc B580",
       "cpuBenchmark": 16100,
       "gpuBenchmark": 10500,
@@ -2003,27 +2003,27 @@
     "steamId": "108600",
     "genres": [
       "Độc lập",
-      "Nhập vai",
+      "Nhập vai (RPG)",
       "Mô phỏng",
       "Truy cập sớm"
     ],
     "sizeGb": 33.5,
     "price": 26000000,
     "isFree": false,
-    "description": "Project Zomboid là trò chơi độc lập, nhập vai, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Project Zomboid là trò chơi độc lập, nhập vai (rpg), mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1777298596",
     "officialUrl": "https://store.steampowered.com/app/108600/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 5800,
       "ramGb": 8,
       "storageGb": 34
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 7000,
       "gpuBenchmark": 13500,
       "ramGb": 8,
@@ -2038,7 +2038,7 @@
       "Hành động",
       "Phiêu lưu",
       "Độc lập",
-      "Nhập vai",
+      "Nhập vai (RPG)",
       "Mô phỏng",
       "Chiến thuật"
     ],
@@ -2049,16 +2049,16 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/14496a5926156fbaf8b026f8224ba8c34e9b5096/header_alt_assets_49.jpg?t=1777913126",
     "officialUrl": "https://store.steampowered.com/app/322330/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 6700,
       "ramGb": 1,
       "storageGb": 3
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 8500,
       "gpuBenchmark": 10200,
       "ramGb": 1,
@@ -2072,16 +2072,16 @@
     "genres": [
       "Hành động",
       "Độc lập",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 40.5,
     "price": 32100000,
     "isFree": false,
-    "description": "Hades là trò chơi hành động, độc lập, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Hades là trò chơi hành động, độc lập, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
     "officialUrl": "https://store.steampowered.com/app/1145360/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "1GB VRAM /",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 7600,
@@ -2089,7 +2089,7 @@
       "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "2GB VRAM /",
       "cpuBenchmark": 10000,
       "gpuBenchmark": 11700,
@@ -2113,7 +2113,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
     "officialUrl": "https://store.steampowered.com/app/367520/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 version 21H1 (build 19043) or newer Processor: Intel Core i3-3240, AMD FX-4300",
+      "cpuName": "Intel Core i3-3240, AMD FX-4300",
       "gpuName": "GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB)",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 8500,
@@ -2121,7 +2121,7 @@
       "storageGb": 9
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 version 21H1 (build 19043) or newer Processor: Intel Core i5-3470",
+      "cpuName": "Intel Core i5-3470",
       "gpuName": "GeForce GTX 1050 (2GB), Radeon R9 380 (2GB)",
       "cpuBenchmark": 11500,
       "gpuBenchmark": 13200,
@@ -2144,7 +2144,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1709068852",
     "officialUrl": "https://store.steampowered.com/app/268910/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "Geforce 9600 GT or AMD HD 3870 512MB or higher",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 9400,
@@ -2152,8 +2152,8 @@
       "storageGb": 4
     },
     "recSpecs": {
-      "cpuName": "and operating system",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 64-bit tương thích Windows",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 13000,
       "gpuBenchmark": 14700,
       "ramGb": 8,
@@ -2237,14 +2237,14 @@
     "officialUrl": "https://store.steampowered.com/app/813780/",
     "minSpecs": {
       "cpuName": "Intel Core 2 Duo or AMD Athlon 64x2 5600+",
-      "gpuName": "NVIDIA® GeForce® GT 420 or ATI™ Radeon™ HD 6850 or Intel® HD Graphics 4000 or better with 2 GB VRAM",
+      "gpuName": "4000 or better with 2 GB VRAM",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 3100,
       "ramGb": 4,
       "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "Nvidia® GTX 650 or AMD HD 5850 or better",
       "cpuBenchmark": 12600,
       "gpuBenchmark": 10200,
@@ -2266,7 +2266,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg?t=1778176408",
     "officialUrl": "https://store.steampowered.com/app/1466860/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64bit | Windows 11 64bit Processor: Intel Core i5-6300U or AMD Ryzen 5 2400G | CPU w",
+      "cpuName": "with AVX support required Bộ nhớ: 8 GB RAM Đồ họa: Intel HD 520 or AMD Radeon RX Vega 11",
       "gpuName": "Intel HD 520 or AMD Radeon RX Vega 11",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 4000,
@@ -2274,8 +2274,8 @@
       "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "with AVX support required",
-      "gpuName": "Nvidia GeForce 970 GPU or AMD Radeon RX 570 GPU with 4GB of VRAM",
+      "cpuName": "with AVX support required Bộ nhớ: 16 GB RAM Đồ họa: Nvidia GeForce 970",
+      "gpuName": "or AMD Radeon RX 570 GPU with 4GB of VRAM",
       "cpuBenchmark": 14100,
       "gpuBenchmark": 11700,
       "ramGb": 16,
@@ -2296,15 +2296,15 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1740607040",
     "officialUrl": "https://store.steampowered.com/app/289070/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "1 GB & AMD 5570 or nVidia 450 or Intel Integrated Graphics 530",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "530",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 4900,
       "ramGb": 4,
       "storageGb": 17
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "2GB & AMD 7970 or nVidia 770 or greater",
       "cpuBenchmark": 8400,
       "gpuBenchmark": 8400,
@@ -2327,15 +2327,15 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg?t=1778847914",
     "officialUrl": "https://store.steampowered.com/app/779340/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GTX 650 Ti 1GB|HD 7850 1GB|Intel UHD Graphics 620",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "620",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 5800,
       "ramGb": 4,
       "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 64 Bit Processor: Intel i5-6600 | Ryzen 5 2600X",
+      "cpuName": "Intel i5-6600 | Ryzen 5 2600X",
       "gpuName": "GTX 970 | R9 Fury X 4GB VRAM",
       "cpuBenchmark": 9900,
       "gpuBenchmark": 9900,
@@ -2358,16 +2358,16 @@
     "coverImage": "/images/games/starcraft-ii.svg",
     "officialUrl": "https://store.steampowered.com/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 6700,
       "ramGb": 8,
       "storageGb": 9
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 11400,
       "gpuBenchmark": 11400,
       "ramGb": 8,
@@ -2381,28 +2381,28 @@
     "genres": [
       "Hành động",
       "Phiêu lưu",
-      "Giải trí nhẹ",
+      "Đơn giản",
       "Nhiều người chơi",
-      "Nhập vai",
-      "Miễn phí"
+      "Nhập vai (RPG)",
+      "Chơi miễn phí"
     ],
     "sizeGb": 12.5,
     "price": 0,
     "isFree": false,
-    "description": "Diablo® IV là trò chơi hành động, phiêu lưu, giải trí nhẹ, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Diablo® IV là trò chơi hành động, phiêu lưu, đơn giản, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/2953f199b4c075b22c0cf8ff03d88b0b1c267823/header_alt_assets_11.jpg?t=1777501665",
     "officialUrl": "https://store.steampowered.com/app/2344520/",
     "minSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows® 10 version 1909 or newer Processor: Intel® Core™ i5-2500K or AMD™ FX-8350",
-      "gpuName": "NVIDIA® GeForce® GTX 660 or Intel® Arc™ A380 or AMD Radeon™ R9 280",
+      "cpuName": "Intel® Core™ i5-2500K or AMD™ FX-8350",
+      "gpuName": "settings, 30fps, SSD Required",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 8800,
       "ramGb": 8,
       "storageGb": 90
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: 64-bit Windows® 10 version 1909 or newer Processor: Intel® Core™ i5-4670K or AMD Ryzen™ 1300X",
-      "gpuName": "NVIDIA® GeForce® GTX 970 or Intel® Arc™ A750 or AMD Radeon™ RX 470",
+      "cpuName": "Intel® Core™ i5-4670K or AMD Ryzen™ 1300X",
+      "gpuName": "settings, 60fps, SSD Required",
       "cpuBenchmark": 12900,
       "gpuBenchmark": 14100,
       "ramGb": 16,
@@ -2424,16 +2424,16 @@
     "coverImage": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blte3178c04d93773f1/67ce27f440e6651e27e17582/og_image.webp",
     "officialUrl": "https://diablo3.blizzard.com/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 9700,
       "ramGb": 4,
       "storageGb": 16
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 14400,
       "gpuBenchmark": 15600,
       "ramGb": 8,
@@ -2448,25 +2448,25 @@
       "Hành động",
       "Phiêu lưu",
       "Độc lập",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 19.5,
     "price": 18800000,
     "isFree": false,
     "description": "Torchlight II là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
-    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1767670785",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1779262562",
     "officialUrl": "https://store.steampowered.com/app/200710/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 10600,
       "ramGb": 1,
       "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 11000,
       "gpuBenchmark": 17100,
       "ramGb": 1,
@@ -2481,7 +2481,7 @@
       "Hành động",
       "Phiêu lưu",
       "Độc lập",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 23,
     "price": 32100000,
@@ -2490,7 +2490,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219990/header.jpg?t=1726250949",
     "officialUrl": "https://store.steampowered.com/app/219990/",
     "minSpecs": {
-      "cpuName": "(Intel 2nd generation core i-series or equivalent)",
+      "cpuName": "(Intel 2nd generation core i-series or equivalent) Bộ nhớ: 2 GB RAM Đồ họa: 512MB NVIDIA GeForce 6800 series or ATI Rade",
       "gpuName": "512MB NVIDIA GeForce 6800 series or ATI Radeon X800 series or better",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 11500,
@@ -2499,7 +2499,7 @@
     },
     "recSpecs": {
       "cpuName": "(Intel 4th generation core i-series or better)",
-      "gpuName": "GPU gaming tam trung",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 12500,
       "gpuBenchmark": 18600,
       "ramGb": 6,
@@ -2520,7 +2520,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1773328926",
     "officialUrl": "https://store.steampowered.com/app/582010/",
     "minSpecs": {
-      "cpuName": "and operating system OS: WINDOWS® 10 (64-bit required) Processor: Intel® Core™ i5 4460 or Core™ i3 9100F or AMD FX™-6300",
+      "cpuName": "Intel® Core™ i5 4460 or Core™ i3 9100F or AMD FX™-6300",
       "gpuName": "NVIDIA®GeForce®GTX 760 or GTX1050 or AMD Radeon™ R7 260x or RX 560",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 12400,
@@ -2528,8 +2528,8 @@
       "storageGb": 52
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: WINDOWS® 10 (64-bit required) Processor: Intel® Core™ i7 3770 or Core™ i3 8350 or Core™ i3 9350",
-      "gpuName": "NVIDIA® GeForce® GTX 1060 (VRAM 3GB) or GTX 1650 / AMD Radeon™ RX 480 or RX 570",
+      "cpuName": "Intel® Core™ i7 3770 or Core™ i3 8350 or Core™ i3 9350",
+      "gpuName": "(graphics board or video card) are required for",
       "cpuBenchmark": 14000,
       "gpuBenchmark": 20100,
       "ramGb": 8,
@@ -2550,7 +2550,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
     "officialUrl": "https://store.steampowered.com/app/1446780/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 （64-bit） Processor: Intel® Core™ i3-4130 or Core™ i5-3470 or AMD FX™-6100",
+      "cpuName": "Intel® Core™ i3-4130 or Core™ i5-3470 or AMD FX™-6100",
       "gpuName": "NVIDIA® GeForce® GT 1030 (DDR4) or AMD Radeon™ RX 550",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 4300,
@@ -2558,7 +2558,7 @@
       "storageGb": 36
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 （64-bit） Processor: Intel® Core™ i5-4460 or AMD FX™-8300",
+      "cpuName": "Intel® Core™ i5-4460 or AMD FX™-8300",
       "gpuName": "NVIDIA® GeForce® GTX 1060 (VRAM 3GB) or AMD Radeon™ RX 570 (VRAM 4GB)",
       "cpuBenchmark": 15500,
       "gpuBenchmark": 7800,
@@ -2633,16 +2633,16 @@
     "steamId": "1325200",
     "genres": [
       "Hành động",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 40.5,
     "price": 420000,
     "isFree": false,
-    "description": "Nioh 2 – The Complete Edition là trò chơi hành động, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Nioh 2 – The Complete Edition là trò chơi hành động, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/header.jpg?t=1775540023",
     "officialUrl": "https://store.steampowered.com/app/1325200/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows® 10 64bit Processor: Intel Core i5 4460 or over",
+      "cpuName": "Intel Core i5 4460 or over",
       "gpuName": "NVIDIA GeForce GTX 970 or over, VRAM 4GB or over",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 7000,
@@ -2650,7 +2650,7 @@
       "storageGb": 85
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows® 10 64bit Processor: Intel Core i7 6700K or over",
+      "cpuName": "Intel Core i7 6700K or over",
       "gpuName": "NVIDIA GeForce GTX 1660 SUPER or over, VRAM 6GB or over",
       "cpuBenchmark": 12800,
       "gpuBenchmark": 12300,
@@ -2665,16 +2665,16 @@
     "genres": [
       "Hành động",
       "Phiêu lưu",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 44,
     "price": 99000000,
     "isFree": false,
-    "description": "Assassin's Creed Valhalla là trò chơi hành động, phiêu lưu, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Assassin's Creed Valhalla là trò chơi hành động, phiêu lưu, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/header.jpg?t=1754572990",
     "officialUrl": "https://store.steampowered.com/app/2208920/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "AMD R9 380 /NVIDIA GeForce GTX 960",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 7900,
@@ -2682,7 +2682,7 @@
       "storageGb": 160
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "AMD R9 380 /NVIDIA GeForce GTX 960",
       "cpuBenchmark": 9400,
       "gpuBenchmark": 13800,
@@ -2697,25 +2697,25 @@
     "genres": [
       "Hành động",
       "Phiêu lưu",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 47.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Assassin's Creed® Odyssey là trò chơi hành động, phiêu lưu, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Assassin's Creed® Odyssey là trò chơi hành động, phiêu lưu, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1777476997",
     "officialUrl": "https://store.steampowered.com/app/812140/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 8800,
       "ramGb": 8,
       "storageGb": 48
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 10900,
       "gpuBenchmark": 15300,
       "ramGb": 8,
@@ -2737,16 +2737,16 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg?t=1762190084",
     "officialUrl": "https://store.steampowered.com/app/552520/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 9700,
       "ramGb": 8,
       "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 12400,
       "gpuBenchmark": 16800,
       "ramGb": 8,
@@ -2768,7 +2768,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/header.jpg?t=1758656170",
     "officialUrl": "https://store.steampowered.com/app/2369390/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "AMD RX 460 (4 GB) or NVIDIA GeForce GTX 960 (4 GB)",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 10600,
@@ -2776,7 +2776,7 @@
       "storageGb": 170
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "AMD RX Vega 64 (8 GB) or NVIDIA GeForce GTX 1080 (8 GB)",
       "cpuBenchmark": 13900,
       "gpuBenchmark": 18300,
@@ -2799,7 +2799,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg?t=1751986887",
     "officialUrl": "https://store.steampowered.com/app/447040/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "NVIDIA GeForce GTX 660 with 2 GB VRAM or AMD Radeon HD 7870, with 2 GB VRAM or better - See supported List*",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 11500,
@@ -2807,7 +2807,7 @@
       "storageGb": 27
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "NVIDIA GeForce GTX 780 | AMD Radeon R9 290, with 3GB VRAM or better - See supported List*",
       "cpuBenchmark": 15400,
       "gpuBenchmark": 15000,
@@ -2830,7 +2830,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239550/header.jpg?t=1747655055",
     "officialUrl": "https://store.steampowered.com/app/2239550/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 (64-bit versions) Processor: Intel Core i5-4460 or AMD Ryzen 5 1400 290X",
+      "cpuName": "Intel Core i5-4460 or AMD Ryzen 5 1400 290X",
       "gpuName": "NVIDIA GeForce GTX 970, NVIDIA GeForce GTX 1650, or AMD Radeon R9 290X",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 12400,
@@ -2838,7 +2838,7 @@
       "storageGb": 115
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 (64-bit versions) Processor: Intel Core i7-4790 or AMD Ryzen 5 1600",
+      "cpuName": "Intel Core i7-4790 or AMD Ryzen 5 1600",
       "gpuName": "NVIDIA GeForce GTX 1060, NVIDIA GeForce GTX 1660 S, or AMD Radeon RX 480",
       "cpuBenchmark": 16900,
       "gpuBenchmark": 16500,
@@ -2861,7 +2861,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1775822834",
     "officialUrl": "https://store.steampowered.com/app/870780/",
     "minSpecs": {
-      "cpuName": "and operating system OS *: Windows 7, 64-bit Processor: Intel Core i5-4690 / AMD FX 4350",
+      "cpuName": "Intel Core i5-4690 / AMD FX 4350",
       "gpuName": "NVIDIA GeForce GTX 780 / AMD Radeon R9 280X",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 4300,
@@ -2869,7 +2869,7 @@
       "storageGb": 42
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10, 64-bit Processor: Intel Core i5-7600K / AMD Ryzen 5 1600X",
+      "cpuName": "Intel Core i5-7600K / AMD Ryzen 5 1600X",
       "gpuName": "NVIDIA GeForce GTX 1660/1060 / AMD Radeon RX 580 AMD | For Ray Tracing: GeForce RTX 2060",
       "cpuBenchmark": 11200,
       "gpuBenchmark": 9000,
@@ -2888,20 +2888,20 @@
     "sizeGb": 5.5,
     "price": 420000,
     "isFree": false,
-    "description": "Alan Wake 2 là trò chơi moba, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Alan Wake 2 là trò chơi MOBA, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png",
     "officialUrl": "https://www.alanwake.com/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
-      "gpuName": "GPU pho thong",
+      "cpuName": "CPU phổ thông 4 luồng",
+      "gpuName": "GPU phổ thông",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 5200,
       "ramGb": 8,
       "storageGb": 6
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
-      "gpuName": "GPU gaming tam trung",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU gaming tầm trung",
       "cpuBenchmark": 7800,
       "gpuBenchmark": 10500,
       "ramGb": 8,
@@ -2922,7 +2922,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
     "officialUrl": "https://store.steampowered.com/app/412020/",
     "minSpecs": {
-      "cpuName": "and operating system OS *: Windows 7/8/10 Processor: Intel Core i5-4440 or equivalent",
+      "cpuName": "Intel Core i5-4440 or equivalent",
       "gpuName": "GeForce GTX 670 / GeForce GTX 1050 / AMD Radeon HD 7870",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 6100,
@@ -2930,7 +2930,7 @@
       "storageGb": 59
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i7-4770k or equivalent",
+      "cpuName": "Intel Core i7-4770k or equivalent",
       "gpuName": "GeForce GTX 1070 / GeForce RTX 2060 / AMD RX VEGA 56",
       "cpuBenchmark": 9300,
       "gpuBenchmark": 12000,
@@ -2945,16 +2945,16 @@
     "genres": [
       "Hành động",
       "Phiêu lưu",
-      "Nhập vai"
+      "Nhập vai (RPG)"
     ],
     "sizeGb": 12.5,
     "price": 99000000,
     "isFree": false,
-    "description": "Dying Light 2 Stay Human: Reloaded Edition là trò chơi hành động, phiêu lưu, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "Dying Light 2 Stay Human: Reloaded Edition là trò chơi hành động, phiêu lưu, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1772550031",
     "officialUrl": "https://store.steampowered.com/app/534380/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows® 10 Processor: Intel Core i3-9100 / AMD Ryzen 3 2300X",
+      "cpuName": "Intel Core i3-9100 / AMD Ryzen 3 2300X",
       "gpuName": "NVIDIA® GeForce® GTX 1050 Ti / AMD Radeon™ RX 560 (4GB VRAM)",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 7000,
@@ -2962,7 +2962,7 @@
       "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "NVIDIA® GeForce RTX™ 2060 6GB or AMD RX Vega 56 8GB or newer",
       "cpuBenchmark": 10800,
       "gpuBenchmark": 13500,
@@ -2985,7 +2985,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/header.jpg?t=1759852929",
     "officialUrl": "https://store.steampowered.com/app/1030840/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 7900,
@@ -2993,7 +2993,7 @@
       "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "NVIDIA GeForce GTX 1080 / AMD Radeon RX 5700",
       "cpuBenchmark": 12300,
       "gpuBenchmark": 15000,
@@ -3016,7 +3016,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header.jpg?t=1777550698",
     "officialUrl": "https://store.steampowered.com/app/1659040/",
     "minSpecs": {
-      "cpuName": "Phenom II X4 940",
+      "cpuName": "Phenom II X4 940 Bộ nhớ: 8 GB RAM Đồ họa: NVIDIA GeForce GTX 660 / Radeon HD 7870",
       "gpuName": "NVIDIA GeForce GTX 660 / Radeon HD 7870",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 8800,
@@ -3024,8 +3024,8 @@
       "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: OS 64-bit Windows 10 Processor: Intel CPU Core i7 4790 4 GHz",
-      "gpuName": "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
+      "cpuName": "Core i7 4790 4 GHz Bộ nhớ: 16 GB RAM Đồ họa: Nvidia",
+      "gpuName": "GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
       "cpuBenchmark": 13800,
       "gpuBenchmark": 16500,
       "ramGb": 16,
@@ -3047,7 +3047,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/9e67774e97cdd155f287146e62611eb445514ac6/header.jpg?t=1765220424",
     "officialUrl": "https://store.steampowered.com/app/203160/",
     "minSpecs": {
-      "cpuName": "CPU pho thong 4 luong",
+      "cpuName": "CPU phổ thông 4 luồng",
       "gpuName": "DirectX 9 graphics card with 512Mb Video RAM: AMD Radeon HD 2600 XT, nVidia 8600",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 9700,
@@ -3086,7 +3086,7 @@
       "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhan hoac tot hon",
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
       "gpuName": "Nvidia GTX 1060 6GB or AMD Radeon RX 480, 8GB",
       "cpuBenchmark": 16800,
       "gpuBenchmark": 14700,
@@ -3109,7 +3109,7 @@
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906",
     "officialUrl": "https://store.steampowered.com/app/1332010/",
     "minSpecs": {
-      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i5-2300 | AMD FX-6350",
+      "cpuName": "Intel Core i5-2300 | AMD FX-6350",
       "gpuName": "NVIDIA GeForce GTX 650 Ti, 2 GB | AMD Radeon R7 360, 2 GB",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 11500,
@@ -3117,7 +3117,7 @@
       "storageGb": 10
     },
     "recSpecs": {
-      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i5-8400 | AMD Ryzen 5 2600",
+      "cpuName": "Intel Core i5-8400 | AMD Ryzen 5 2600",
       "gpuName": "NVIDIA GeForce GTX 780, 3 GB | AMD Radeon R9 290X, 4 GB",
       "cpuBenchmark": 13400,
       "gpuBenchmark": 16200,
@@ -3131,14 +3131,14 @@
     "steamId": "1868140",
     "genres": [
       "Phiêu lưu",
-      "Giải trí nhẹ",
-      "Nhập vai",
+      "Đơn giản",
+      "Nhập vai (RPG)",
       "Mô phỏng"
     ],
     "sizeGb": 33.5,
     "price": 26000000,
     "isFree": false,
-    "description": "DAVE THE DIVER là trò chơi phiêu lưu, giải trí nhẹ, nhập vai, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
+    "description": "DAVE THE DIVER là trò chơi phiêu lưu, đơn giản, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/81bdb3bce15d27ca1b4554a642d91096e89be229/header.jpg?t=1776394908",
     "officialUrl": "https://store.steampowered.com/app/1868140/",
     "minSpecs": {

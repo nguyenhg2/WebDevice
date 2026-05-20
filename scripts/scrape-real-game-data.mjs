@@ -155,14 +155,61 @@ function translateGenre(genre) {
 }
 
 function buildVietnameseDescription(game, genres) {
-  const genreText = genres.length ? genres.slice(0, 3).join(", ").toLowerCase() : "giải trí";
+  const genreText = genres.length ? genres.slice(0, 3).join(", ").toLowerCase().replace(/\bmoba\b/g, "MOBA").replace(/\bfps\b/g, "FPS") : "giải trí";
   const priceText = game.isFree ? "miễn phí" : "trả phí";
   return `${game.name} là trò chơi ${genreText}, thuộc nhóm ${priceText}. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.`;
 }
 
+function hasLikelyEnglishText(value) {
+  return /\b(the|and|with|players|gameplay|features|experience|world|battle|official|download|discover|support)\b/i.test(String(value || ""));
+}
+
 function localizeGame(game) {
   const genres = (game.genres || []).map(translateGenre);
-  return { ...game, genres, description: buildVietnameseDescription({ ...game, genres }, genres) };
+  return {
+    ...game,
+    genres,
+    description: buildVietnameseDescription({ ...game, genres }, genres),
+    minSpecs: localizeSpecBlock(game.minSpecs),
+    recSpecs: localizeSpecBlock(game.recSpecs),
+  };
+}
+
+function localizeSpecBlock(specs) {
+  return {
+    ...specs,
+    cpuName: localizeSpecName(specs?.cpuName, "cpu"),
+    gpuName: localizeSpecName(specs?.gpuName, "gpu"),
+  };
+}
+
+function localizeSpecName(value, type) {
+  const text = String(value || "").trim();
+  const replacements = new Map([
+    ["CPU pho thong 4 luong", "CPU phổ thông 4 luồng"],
+    ["GPU pho thong", "GPU phổ thông"],
+    ["CPU 6 nhan hoac tot hon", "CPU 6 nhân hoặc tốt hơn"],
+    ["GPU gaming tam trung", "GPU gaming tầm trung"],
+    ["CPU phổ thông 4 luồng", "CPU phổ thông 4 luồng"],
+    ["GPU phổ thông", "GPU phổ thông"],
+    ["CPU 6 nhân hoặc tốt hơn", "CPU 6 nhân hoặc tốt hơn"],
+    ["GPU gaming tầm trung", "GPU gaming tầm trung"],
+  ]);
+  if (replacements.has(text)) return replacements.get(text);
+
+  if (/video card must be/i.test(text)) return "Card đồ họa hỗ trợ DirectX 11, VRAM 1GB trở lên";
+  if (/^and operating system$/i.test(text)) return type === "cpu" ? "CPU 64-bit tương thích Windows" : "GPU hỗ trợ DirectX";
+  if (/and operating system|processor:/i.test(text)) {
+    const processor = text.match(/processor:\s*([^;]+)/i)?.[1]?.trim();
+    if (processor) return processor;
+  }
+  if (/graphics:/i.test(text)) {
+    const graphics = text.match(/graphics:\s*([^;]+)/i)?.[1]?.trim();
+    if (graphics) return graphics;
+  }
+
+  if (!text) return type === "cpu" ? "CPU phổ thông" : "GPU phổ thông";
+  return text;
 }
 
 function decodeHtmlAttribute(value) {
@@ -272,7 +319,7 @@ async function findSteamAppId(game) {
   const data = await fetchJson(STEAM_SEARCH_URL, {
     term: game.name,
     cc: "vn",
-    l: "english",
+    l: "vietnamese",
   });
   const target = normalize(game.name);
   const match = (data.items || []).find((item) => normalize(item.name) === target) || (data.items || [])[0];
@@ -285,7 +332,7 @@ async function getSteamDetails(appid) {
     const data = await fetchJson(STEAM_DETAILS_URL, {
       appids: appid,
       cc,
-      l: "english",
+      l: "vietnamese",
     });
     const entry = data[String(appid)];
     if (entry?.success && entry.data && entry.data.type === "game") return entry.data;
@@ -298,6 +345,7 @@ function mergeSteamGame(game, appid, details) {
   const minHtml = details.pc_requirements?.minimum || "";
   const recHtml = details.pc_requirements?.recommended || "";
   const finalPrice = details.price_overview?.final;
+  const localizedDescription = stripHtml(details.short_description);
   const genres = Array.isArray(details.genres) && details.genres.length > 0
     ? details.genres.map((genre) => translateGenre(genre.description)).filter(Boolean)
     : game.genres;
@@ -316,7 +364,9 @@ function mergeSteamGame(game, appid, details) {
 
   return {
     ...nextGame,
-    description: buildVietnameseDescription(nextGame, genres),
+    description: localizedDescription && !hasLikelyEnglishText(localizedDescription)
+      ? localizedDescription
+      : buildVietnameseDescription(nextGame, genres),
   };
 }
 
