@@ -70,7 +70,7 @@ async function upsertBenchmark(client: PgClient, benchmark: any) {
      ON CONFLICT ("gameId","gpuId","resolution") DO UPDATE SET
      "fpsLow"=EXCLUDED."fpsLow","fpsMedium"=EXCLUDED."fpsMedium","fpsHigh"=EXCLUDED."fpsHigh","fpsUltra"=EXCLUDED."fpsUltra",
      "recommendedSetting"=EXCLUDED."recommendedSetting","status"=EXCLUDED."status","videoTestUrl"=EXCLUDED."videoTestUrl","source"=EXCLUDED."source"`,
-    [idFromSlug("bench", `${benchmark.gameSlug}_${benchmark.gpuSlug}_${benchmark.resolution}`), idFromSlug("game", benchmark.gameSlug), idFromSlug("gpu", benchmark.gpuSlug), benchmark.resolution, benchmark.fpsLow ?? 0, benchmark.fpsMedium ?? 0, benchmark.fpsHigh ?? 0, benchmark.fpsUltra ?? 0, benchmark.recommendedSetting ?? "Low", benchmark.status ?? "playable", benchmark.videoTestUrl ?? null, benchmark.source ?? "Admin"],
+    [idFromSlug("bench", `${benchmark.gameSlug}_${benchmark.gpuSlug}_${benchmark.resolution}`), idFromSlug("game", benchmark.gameSlug), idFromSlug("gpu", benchmark.gpuSlug), benchmark.resolution, benchmark.fpsLow ?? 0, benchmark.fpsMedium ?? 0, benchmark.fpsHigh ?? 0, benchmark.fpsUltra ?? 0, benchmark.recommendedSetting ?? "Thấp", benchmark.status ?? "playable", benchmark.videoTestUrl ?? null, benchmark.source ?? "Quản trị"],
   );
 }
 
