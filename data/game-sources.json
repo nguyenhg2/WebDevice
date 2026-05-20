@@ -1,0 +1,802 @@
+[
+  {
+    "slug": "counter-strike-2",
+    "name": "Counter-Strike 2",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/730/",
+    "updatedAt": "2026-05-20T05:51:39.564Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "valorant",
+    "name": "Valorant",
+    "source": "official-site",
+    "url": "https://playvalorant.com/",
+    "updatedAt": "2026-05-20T05:51:40.512Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "genshin-impact",
+    "name": "Genshin Impact",
+    "source": "official-site",
+    "url": "https://genshin.hoyoverse.com/",
+    "updatedAt": "2026-05-20T05:51:40.777Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "lien-minh-huyen-thoai",
+    "name": "Lien Minh Huyen Thoai",
+    "source": "official-site",
+    "url": "https://www.leagueoflegends.com/",
+    "updatedAt": "2026-05-20T05:51:41.030Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "dota-2",
+    "name": "Dota 2",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/570/",
+    "updatedAt": "2026-05-20T05:51:41.281Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "pubg-battlegrounds",
+    "name": "PUBG: BATTLEGROUNDS",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/578080/",
+    "updatedAt": "2026-05-20T05:51:42.080Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "apex-legends",
+    "name": "Apex Legends™",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1172470/",
+    "updatedAt": "2026-05-20T05:51:42.895Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "fortnite",
+    "name": "Fortnite",
+    "source": "official-site",
+    "url": "https://www.fortnite.com/",
+    "updatedAt": "2026-05-20T05:51:43.679Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "minecraft",
+    "name": "Minecraft",
+    "source": "official-site",
+    "url": "https://www.minecraft.net/",
+    "updatedAt": "2026-05-20T05:51:43.930Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "roblox",
+    "name": "Roblox",
+    "source": "official-site",
+    "url": "https://www.roblox.com/",
+    "updatedAt": "2026-05-20T05:51:44.181Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "ea-sports-fc-24",
+    "name": "EA SPORTS FC™ 24",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/2195250/",
+    "updatedAt": "2026-05-20T05:51:44.444Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "grand-theft-auto-v",
+    "name": "Grand Theft Auto V Legacy",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/271590/",
+    "updatedAt": "2026-05-20T05:51:45.199Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1174180/",
+    "updatedAt": "2026-05-20T05:51:45.938Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "cyberpunk-2077",
+    "name": "Cyberpunk 2077",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1091500/",
+    "updatedAt": "2026-05-20T05:51:46.659Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "elden-ring",
+    "name": "ELDEN RING",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1245620/",
+    "updatedAt": "2026-05-20T05:51:47.384Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "the-witcher-3",
+    "name": "The Witcher 3: Wild Hunt",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/292030/",
+    "updatedAt": "2026-05-20T05:51:48.120Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "hogwarts-legacy",
+    "name": "Hogwarts Legacy",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/990080/",
+    "updatedAt": "2026-05-20T05:51:48.845Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "palworld",
+    "name": "Palworld",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1623730/",
+    "updatedAt": "2026-05-20T05:51:49.567Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "helldivers-2",
+    "name": "HELLDIVERS™ 2",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/553850/",
+    "updatedAt": "2026-05-20T05:51:50.292Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "baldur-s-gate-3",
+    "name": "Baldur's Gate 3",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1086940/",
+    "updatedAt": "2026-05-20T05:51:51.362Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "warframe",
+    "name": "Warframe",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/230410/",
+    "updatedAt": "2026-05-20T05:51:52.090Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "path-of-exile",
+    "name": "Path of Exile",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/238960/",
+    "updatedAt": "2026-05-20T05:51:52.814Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "lost-ark",
+    "name": "Lost Ark",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1599340/",
+    "updatedAt": "2026-05-20T05:51:53.919Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "world-of-tanks",
+    "name": "World of Tanks",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1407200/",
+    "updatedAt": "2026-05-20T05:51:54.956Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "war-thunder",
+    "name": "War Thunder",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/236390/",
+    "updatedAt": "2026-05-20T05:51:55.786Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "euro-truck-simulator-2",
+    "name": "Euro Truck Simulator 2",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/227300/",
+    "updatedAt": "2026-05-20T05:51:56.570Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "farming-simulator-22",
+    "name": "Farming Simulator 22",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1248130/",
+    "updatedAt": "2026-05-20T05:51:57.325Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "the-sims-4",
+    "name": "The Sims™ 4",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1222670/",
+    "updatedAt": "2026-05-20T05:51:58.109Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "cities-skylines",
+    "name": "Cities: Skylines",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/255710/",
+    "updatedAt": "2026-05-20T05:51:58.944Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "terraria",
+    "name": "Terraria",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/105600/",
+    "updatedAt": "2026-05-20T05:51:59.998Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "stardew-valley",
+    "name": "Stardew Valley",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/413150/",
+    "updatedAt": "2026-05-20T05:52:00.767Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "among-us",
+    "name": "Among Us",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/945360/",
+    "updatedAt": "2026-05-20T05:52:01.506Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "left-4-dead-2",
+    "name": "Left 4 Dead 2",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/550/",
+    "updatedAt": "2026-05-20T05:52:02.321Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "team-fortress-2",
+    "name": "Team Fortress 2",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/440/",
+    "updatedAt": "2026-05-20T05:52:03.079Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "rainbow-six-siege",
+    "name": "Tom Clancy's Rainbow Six Siege",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/359550/",
+    "updatedAt": "2026-05-20T05:52:03.853Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "overwatch-2",
+    "name": "Overwatch®",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/2357570/",
+    "updatedAt": "2026-05-20T05:52:04.611Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "rocket-league",
+    "name": "Rocket League®",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/252950/",
+    "updatedAt": "2026-05-20T05:52:05.351Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "forza-horizon-5",
+    "name": "Forza Horizon 5",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1551360/",
+    "updatedAt": "2026-05-20T05:52:06.107Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "need-for-speed-heat",
+    "name": "Need for Speed™ Heat",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1222680/",
+    "updatedAt": "2026-05-20T05:52:06.910Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "assetto-corsa",
+    "name": "Assetto Corsa",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/244210/",
+    "updatedAt": "2026-05-20T05:52:07.701Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "fifa-online-4",
+    "name": "FIFA Online 4",
+    "source": "official-site",
+    "url": "https://fo4.garena.vn/",
+    "updatedAt": "2026-05-20T05:52:08.439Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "dot-kich",
+    "name": "Dot Kich",
+    "source": "official-site",
+    "url": "https://cf.goplay.vn/",
+    "updatedAt": "2026-05-20T05:52:08.689Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "audition",
+    "name": "Audition",
+    "source": "official-site",
+    "url": "https://au.vtcgame.vn/",
+    "updatedAt": "2026-05-20T05:52:08.942Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "blade-soul",
+    "name": "Blade & Soul Heroes",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/3616890/",
+    "updatedAt": "2026-05-20T05:52:09.194Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "black-desert-online",
+    "name": "Black Desert",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/582660/",
+    "updatedAt": "2026-05-20T05:52:10.508Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "naruto-to-boruto-shinobi-striker",
+    "name": "NARUTO TO BORUTO: SHINOBI STRIKER",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/633230/",
+    "updatedAt": "2026-05-20T05:52:11.276Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "tekken-8",
+    "name": "TEKKEN 8",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1778820/",
+    "updatedAt": "2026-05-20T05:52:12.102Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "street-fighter-6",
+    "name": "Street Fighter™ 6",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1364780/",
+    "updatedAt": "2026-05-20T05:52:12.872Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "mortal-kombat-11",
+    "name": "Mortal Kombat 11",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/976310/",
+    "updatedAt": "2026-05-20T05:52:13.645Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "dragon-ball-fighterz",
+    "name": "DRAGON BALL FighterZ",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/678950/",
+    "updatedAt": "2026-05-20T05:52:14.397Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "resident-evil-4-remake",
+    "name": "Resident Evil 4",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/2050650/",
+    "updatedAt": "2026-05-20T05:52:15.194Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "resident-evil-village",
+    "name": "Resident Evil Village",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1196590/",
+    "updatedAt": "2026-05-20T05:52:15.996Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "phasmophobia",
+    "name": "Phasmophobia",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/739630/",
+    "updatedAt": "2026-05-20T05:52:16.747Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "dead-by-daylight",
+    "name": "Dead by Daylight",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/381210/",
+    "updatedAt": "2026-05-20T05:52:17.473Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "the-forest",
+    "name": "The Forest",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/242760/",
+    "updatedAt": "2026-05-20T05:52:18.242Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "sons-of-the-forest",
+    "name": "Sons Of The Forest",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1326470/",
+    "updatedAt": "2026-05-20T05:52:18.963Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "raft",
+    "name": "Raft",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/648800/",
+    "updatedAt": "2026-05-20T05:52:19.690Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "subnautica",
+    "name": "Subnautica",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/264710/",
+    "updatedAt": "2026-05-20T05:52:20.441Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "no-man-s-sky",
+    "name": "No Man's Sky",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/275850/",
+    "updatedAt": "2026-05-20T05:52:21.162Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "valheim",
+    "name": "Valheim",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/892970/",
+    "updatedAt": "2026-05-20T05:52:21.900Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "ark-survival-evolved",
+    "name": "ARK: Survival Evolved",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/346110/",
+    "updatedAt": "2026-05-20T05:52:22.623Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "rust",
+    "name": "Rust",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/252490/",
+    "updatedAt": "2026-05-20T05:52:23.452Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "dayz",
+    "name": "DayZ",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/221100/",
+    "updatedAt": "2026-05-20T05:52:24.192Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "project-zomboid",
+    "name": "Project Zomboid",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/108600/",
+    "updatedAt": "2026-05-20T05:52:24.963Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "don-t-starve-together",
+    "name": "Don't Starve Together",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/322330/",
+    "updatedAt": "2026-05-20T05:52:25.718Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "hades",
+    "name": "Hades",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1145360/",
+    "updatedAt": "2026-05-20T05:52:26.515Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "hollow-knight",
+    "name": "Hollow Knight",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/367520/",
+    "updatedAt": "2026-05-20T05:52:27.268Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "cuphead",
+    "name": "Cuphead",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/268910/",
+    "updatedAt": "2026-05-20T05:52:28.009Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "celeste",
+    "name": "Celeste",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/504230/",
+    "updatedAt": "2026-05-20T05:52:28.735Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "ori-and-the-will-of-the-wisps",
+    "name": "Ori and the Will of the Wisps",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1057090/",
+    "updatedAt": "2026-05-20T05:52:29.471Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "age-of-empires-ii-definitive-edition",
+    "name": "Age of Empires II: Definitive Edition",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/813780/",
+    "updatedAt": "2026-05-20T05:52:30.223Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "age-of-empires-iv",
+    "name": "Age of Empires IV: Anniversary Edition",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1466860/",
+    "updatedAt": "2026-05-20T05:52:30.964Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "civilization-vi",
+    "name": "Sid Meier’s Civilization® VI",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/289070/",
+    "updatedAt": "2026-05-20T05:52:31.705Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "total-war-three-kingdoms",
+    "name": "Total War: THREE KINGDOMS",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/779340/",
+    "updatedAt": "2026-05-20T05:52:32.443Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "starcraft-ii",
+    "name": "StarCraft II",
+    "source": "manual-seed",
+    "url": "https://store.steampowered.com/",
+    "updatedAt": "2026-05-20T05:52:33.215Z",
+    "note": "No trusted automated source matched; kept existing curated values."
+  },
+  {
+    "slug": "diablo-iv",
+    "name": "Diablo® IV",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/2344520/",
+    "updatedAt": "2026-05-20T05:52:33.669Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "diablo-iii",
+    "name": "Diablo III",
+    "source": "official-site",
+    "url": "https://diablo3.blizzard.com/",
+    "updatedAt": "2026-05-20T05:52:34.441Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "torchlight-ii",
+    "name": "Torchlight II",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/200710/",
+    "updatedAt": "2026-05-20T05:52:34.706Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "grim-dawn",
+    "name": "Grim Dawn",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/219990/",
+    "updatedAt": "2026-05-20T05:52:35.463Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "monster-hunter-world",
+    "name": "Monster Hunter: World",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/582010/",
+    "updatedAt": "2026-05-20T05:52:36.232Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "monster-hunter-rise",
+    "name": "MONSTER HUNTER RISE",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1446780/",
+    "updatedAt": "2026-05-20T05:52:37.129Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "sekiro-shadows-die-twice",
+    "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/814380/",
+    "updatedAt": "2026-05-20T05:52:38.037Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "dark-souls-iii",
+    "name": "DARK SOULS™ III",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/374320/",
+    "updatedAt": "2026-05-20T05:52:38.759Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "nioh-2",
+    "name": "Nioh 2 – The Complete Edition",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1325200/",
+    "updatedAt": "2026-05-20T05:52:39.483Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "assassin-s-creed-valhalla",
+    "name": "Assassin's Creed Valhalla",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/2208920/",
+    "updatedAt": "2026-05-20T05:52:40.206Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "assassin-s-creed-odyssey",
+    "name": "Assassin's Creed® Odyssey",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/812140/",
+    "updatedAt": "2026-05-20T05:52:40.976Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "far-cry-5",
+    "name": "Far Cry® 5",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/552520/",
+    "updatedAt": "2026-05-20T05:52:41.727Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "far-cry-6",
+    "name": "Far Cry® 6",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/2369390/",
+    "updatedAt": "2026-05-20T05:52:42.539Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "watch-dogs-2",
+    "name": "Watch_Dogs® 2",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/447040/",
+    "updatedAt": "2026-05-20T05:52:43.293Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "watch-dogs-legion",
+    "name": "Watch Dogs®: Legion",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/2239550/",
+    "updatedAt": "2026-05-20T05:52:44.065Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "control",
+    "name": "CONTROL Ultimate Edition",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/870780/",
+    "updatedAt": "2026-05-20T05:52:44.801Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "alan-wake-2",
+    "name": "Alan Wake 2",
+    "source": "official-site",
+    "url": "https://www.alanwake.com/",
+    "updatedAt": "2026-05-20T05:52:45.522Z",
+    "note": "No Steam app used; official publisher/game site recorded."
+  },
+  {
+    "slug": "metro-exodus",
+    "name": "Metro Exodus",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/412020/",
+    "updatedAt": "2026-05-20T05:52:45.772Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "dying-light-2",
+    "name": "Dying Light 2 Stay Human: Reloaded Edition",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/534380/",
+    "updatedAt": "2026-05-20T05:52:46.586Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "mafia-definitive-edition",
+    "name": "Mafia: Definitive Edition",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1030840/",
+    "updatedAt": "2026-05-20T05:52:47.340Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "hitman-3",
+    "name": "HITMAN World of Assassination",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1659040/",
+    "updatedAt": "2026-05-20T05:52:48.158Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "tomb-raider",
+    "name": "Tomb Raider Game of the Year",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/203160/",
+    "updatedAt": "2026-05-20T05:52:48.909Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "shadow-of-the-tomb-raider",
+    "name": "Shadow of the Tomb Raider: Definitive Edition",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/750920/",
+    "updatedAt": "2026-05-20T05:52:49.699Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "stray",
+    "name": "Stray",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1332010/",
+    "updatedAt": "2026-05-20T05:52:50.483Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "dave-the-diver",
+    "name": "DAVE THE DIVER",
+    "source": "steam-store-api",
+    "url": "https://store.steampowered.com/app/1868140/",
+    "updatedAt": "2026-05-20T05:52:51.206Z",
+    "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  }
+]

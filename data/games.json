@@ -4,30 +4,30 @@
     "slug": "counter-strike-2",
     "steamId": "730",
     "genres": [
-      "FPS",
-      "Sinh tồn"
+      "Action",
+      "Free To Play"
     ],
     "sizeGb": 2,
     "price": 0,
     "isFree": true,
-    "description": "Counter-Strike 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
     "coverImage": "/images/games/counter-strike-2.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/730/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "4 hardware CPU threads - Intel® Core™ i5 750 or higher",
+      "gpuName": "Video card must be 1 GB or more and should be a",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 700,
-      "ramGb": 4,
-      "storageGb": 2
+      "ramGb": 8,
+      "storageGb": 85
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "4 hardware CPU threads - Intel® Core™ i5 750 or higher",
+      "gpuName": "Video card must be 1 GB or more and should be a",
       "cpuBenchmark": 7000,
       "gpuBenchmark": 4200,
-      "ramGb": 16,
-      "storageGb": 2
+      "ramGb": 8,
+      "storageGb": 85
     }
   },
   {
@@ -36,25 +36,25 @@
     "steamId": null,
     "genres": [
       "MOBA",
-      "Đua xe"
+      "ua xe"
     ],
     "sizeGb": 5.5,
     "price": 240000,
     "isFree": false,
-    "description": "Valorant là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Valorant la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/valorant.svg",
-    "officialUrl": null,
+    "officialUrl": "https://playvalorant.com/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 1600,
       "ramGb": 8,
       "storageGb": 6
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 8500,
       "gpuBenchmark": 5700,
       "ramGb": 8,
@@ -67,25 +67,25 @@
     "steamId": null,
     "genres": [
       "RPG",
-      "Chiến thuật"
+      "Chin thut"
     ],
     "sizeGb": 9,
     "price": 330000,
     "isFree": false,
-    "description": "Genshin Impact là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Genshin Impact la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/genshin-impact.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://genshin.hoyoverse.com/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 2500,
       "ramGb": 8,
       "storageGb": 9
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 10000,
       "gpuBenchmark": 7200,
       "ramGb": 8,
@@ -93,30 +93,30 @@
     }
   },
   {
-    "name": "Liên Minh Huyền Thoại",
+    "name": "Lien Minh Huyen Thoai",
     "slug": "lien-minh-huyen-thoai",
     "steamId": null,
     "genres": [
-      "Sinh tồn",
+      "Sinh tn",
       "Co-op"
     ],
     "sizeGb": 12.5,
     "price": 0,
     "isFree": true,
-    "description": "Liên Minh Huyền Thoại là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Lien Minh Huyen Thoai la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/lien-minh-huyen-thoai.svg",
-    "officialUrl": null,
+    "officialUrl": "https://www.leagueoflegends.com/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 3400,
       "ramGb": 8,
       "storageGb": 13
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 11500,
       "gpuBenchmark": 8700,
       "ramGb": 8,
@@ -126,94 +126,98 @@
   {
     "name": "Dota 2",
     "slug": "dota-2",
-    "steamId": "734",
+    "steamId": "570",
     "genres": [
-      "Đua xe",
-      "Offline"
+      "Action",
+      "Strategy",
+      "Free To Play"
     ],
     "sizeGb": 16,
-    "price": 510000,
-    "isFree": false,
-    "description": "Dota 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 0,
+    "isFree": true,
+    "description": "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
     "coverImage": "/images/games/dota-2.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/570/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 4300,
       "ramGb": 4,
-      "storageGb": 16
+      "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
       "cpuBenchmark": 13000,
       "gpuBenchmark": 10200,
-      "ramGb": 8,
-      "storageGb": 16
+      "ramGb": 4,
+      "storageGb": 60
     }
   },
   {
-    "name": "PUBG Battlegrounds",
+    "name": "PUBG: BATTLEGROUNDS",
     "slug": "pubg-battlegrounds",
-    "steamId": null,
+    "steamId": "578080",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "Action",
+      "Adventure",
+      "Massively Multiplayer",
+      "Free To Play"
     ],
     "sizeGb": 19.5,
-    "price": 600000,
-    "isFree": false,
-    "description": "PUBG Battlegrounds là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 0,
+    "isFree": true,
+    "description": "PUBG: BATTLEGROUNDS, the high-stakes winner-take-all shooter that started the Battle Royale craze, is free-to-play! Drop into diverse maps, loot unique weapons and supplies, and survive in an ever-shrinking zone where every turn could be your last.",
     "coverImage": "/images/games/pubg-battlegrounds.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/578080/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Intel Core i5-4430 / AMD FX-6300",
+      "gpuName": "NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 5200,
       "ramGb": 8,
-      "storageGb": 20
+      "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Intel Core i5-6600K / AMD Ryzen 5 1600",
+      "gpuName": "NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 580 4GB",
       "cpuBenchmark": 14500,
       "gpuBenchmark": 11700,
       "ramGb": 16,
-      "storageGb": 20
+      "storageGb": 50
     }
   },
   {
-    "name": "Apex Legends",
+    "name": "Apex Legends™",
     "slug": "apex-legends",
-    "steamId": null,
+    "steamId": "1172470",
     "genres": [
-      "Co-op",
-      "Mô phỏng"
+      "Action",
+      "Adventure",
+      "Free To Play"
     ],
     "sizeGb": 23,
     "price": 0,
     "isFree": true,
-    "description": "Apex Legends là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.",
     "coverImage": "/images/games/apex-legends.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1172470/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
+      "gpuName": "AMD Radeon™ HD 7790 (2 GB), NVIDIA GeForce® GTX 950",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 6100,
-      "ramGb": 8,
-      "storageGb": 23
+      "ramGb": 6,
+      "storageGb": 75
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Ryzen 5 CPU or Equivalent",
+      "gpuName": "AMD Radeon™ R9 290, NVIDIA GeForce® GTX 970",
       "cpuBenchmark": 16000,
       "gpuBenchmark": 13200,
       "ramGb": 8,
-      "storageGb": 23
+      "storageGb": 75
     }
   },
   {
@@ -227,20 +231,20 @@
     "sizeGb": 26.5,
     "price": 780000,
     "isFree": false,
-    "description": "Fortnite là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Fortnite la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/fortnite.svg",
-    "officialUrl": null,
+    "officialUrl": "https://www.fortnite.com/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 7000,
       "ramGb": 8,
       "storageGb": 27
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 12600,
       "gpuBenchmark": 14700,
       "ramGb": 8,
@@ -252,26 +256,26 @@
     "slug": "minecraft",
     "steamId": "738",
     "genres": [
-      "Thể thao",
+      "Th thao",
       "MOBA"
     ],
     "sizeGb": 30,
     "price": 150000,
     "isFree": false,
-    "description": "Minecraft là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Minecraft la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/minecraft.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://www.minecraft.net/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 7900,
       "ramGb": 4,
       "storageGb": 30
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 14100,
       "gpuBenchmark": 11400,
       "ramGb": 8,
@@ -283,26 +287,26 @@
     "slug": "roblox",
     "steamId": null,
     "genres": [
-      "Mô phỏng",
+      "M phng",
       "RPG"
     ],
     "sizeGb": 33.5,
     "price": 0,
     "isFree": true,
-    "description": "Roblox là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Roblox la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/roblox.svg",
-    "officialUrl": null,
+    "officialUrl": "https://www.roblox.com/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 8800,
       "ramGb": 8,
       "storageGb": 34
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 8400,
       "gpuBenchmark": 12900,
       "ramGb": 8,
@@ -310,933 +314,958 @@
     }
   },
   {
-    "name": "EA Sports FC 24",
+    "name": "EA SPORTS FC™ 24",
     "slug": "ea-sports-fc-24",
-    "steamId": null,
+    "steamId": "2195250",
     "genres": [
-      "FPS",
-      "Sinh tồn"
+      "Simulation",
+      "Sports"
     ],
     "sizeGb": 37,
     "price": 330000,
     "isFree": false,
-    "description": "EA Sports FC 24 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "EA SPORTS FC™ 24 welcomes you to The World’s Game: the most true-to-football experience ever with HyperMotionV, PlayStyles optimised by Opta, and an enhanced Frostbite™ Engine.",
     "coverImage": "/images/games/ea-sports-fc-24.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/2195250/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "NVIDIA GeForce GTX 1050 Ti 4GB or AMD Radeon RX 570 4GB",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 700,
       "ramGb": 8,
-      "storageGb": 37
+      "storageGb": 100
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "NVIDIA GeForce GTX 1660 or AMD RX 5600 XT",
       "cpuBenchmark": 9900,
       "gpuBenchmark": 5400,
-      "ramGb": 16,
-      "storageGb": 37
+      "ramGb": 12,
+      "storageGb": 100
     }
   },
   {
-    "name": "Grand Theft Auto V",
+    "name": "Grand Theft Auto V Legacy",
     "slug": "grand-theft-auto-v",
-    "steamId": null,
+    "steamId": "271590",
     "genres": [
-      "MOBA",
-      "Đua xe"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 40.5,
     "price": 420000,
     "isFree": false,
-    "description": "Grand Theft Auto V là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
     "coverImage": "/images/games/grand-theft-auto-v.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/271590/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 1600,
-      "ramGb": 8,
-      "storageGb": 41
+      "ramGb": 4,
+      "storageGb": 125
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "s) / AMD X8 FX-8350 @ 4GHz (8 CPUs)",
+      "gpuName": "NVIDIA GTX 660 2GB / AMD HD 7870 2GB",
       "cpuBenchmark": 11400,
       "gpuBenchmark": 6900,
       "ramGb": 8,
-      "storageGb": 41
+      "storageGb": 2
     }
   },
   {
     "name": "Red Dead Redemption 2",
     "slug": "red-dead-redemption-2",
-    "steamId": "742",
+    "steamId": "1174180",
     "genres": [
-      "RPG",
-      "Chiến thuật"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 44,
-    "price": 0,
-    "isFree": true,
-    "description": "Red Dead Redemption 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 33950000,
+    "isFree": false,
+    "description": "Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and bounty hunters massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland in order to survive.",
     "coverImage": "/images/games/red-dead-redemption-2.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1174180/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 - 64-bit Processor: Intel® Core™ i5-2500K / AMD FX-6300",
+      "gpuName": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 2500,
-      "ramGb": 4,
-      "storageGb": 44
+      "ramGb": 8,
+      "storageGb": 150
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 - 64-bit Processor: Intel® Core™ i7-4770K / AMD Ryzen 5 1500X",
+      "gpuName": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
       "cpuBenchmark": 12900,
       "gpuBenchmark": 8400,
-      "ramGb": 8,
-      "storageGb": 44
+      "ramGb": 12,
+      "storageGb": 150
     }
   },
   {
     "name": "Cyberpunk 2077",
     "slug": "cyberpunk-2077",
-    "steamId": null,
+    "steamId": "1091500",
     "genres": [
-      "Sinh tồn",
-      "Co-op"
+      "RPG"
     ],
     "sizeGb": 47.5,
-    "price": 600000,
+    "price": 99000000,
     "isFree": false,
-    "description": "Cyberpunk 2077 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.",
     "coverImage": "/images/games/cyberpunk-2077.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1091500/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Core i7-6700 or Ryzen 5 1600",
+      "gpuName": "GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 3400,
-      "ramGb": 8,
-      "storageGb": 48
+      "ramGb": 12,
+      "storageGb": 70
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Core i7-12700 or Ryzen 7 7800X3D",
+      "gpuName": "GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770",
       "cpuBenchmark": 14400,
       "gpuBenchmark": 9900,
-      "ramGb": 8,
-      "storageGb": 48
+      "ramGb": 16,
+      "storageGb": 70
     }
   },
   {
-    "name": "Elden Ring",
+    "name": "ELDEN RING",
     "slug": "elden-ring",
-    "steamId": null,
+    "steamId": "1245620",
     "genres": [
-      "Đua xe",
-      "Offline"
+      "Action",
+      "RPG"
     ],
     "sizeGb": 51,
-    "price": 690000,
+    "price": 99000000,
     "isFree": false,
-    "description": "Elden Ring là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "THE CRITICALLY ACCLAIMED FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
     "coverImage": "/images/games/elden-ring.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1245620/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 Processor: INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+      "gpuName": "NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 4300,
-      "ramGb": 8,
-      "storageGb": 51
+      "ramGb": 12,
+      "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10/11 Processor: INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+      "gpuName": "NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB",
       "cpuBenchmark": 11000,
       "gpuBenchmark": 11400,
-      "ramGb": 8,
-      "storageGb": 51
+      "ramGb": 16,
+      "storageGb": 60
     }
   },
   {
-    "name": "The Witcher 3",
+    "name": "The Witcher 3: Wild Hunt",
     "slug": "the-witcher-3",
-    "steamId": null,
+    "steamId": "292030",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "RPG"
     ],
     "sizeGb": 54.5,
-    "price": 0,
-    "isFree": true,
-    "description": "The Witcher 3 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 66000000,
+    "isFree": false,
+    "description": "You are Geralt of Rivia, mercenary monster slayer. Before you stands a war-torn, monster-infested continent you can explore at will. Your current contract? Tracking down Ciri — the Child of Prophecy, a living weapon that can alter the shape of the world.",
     "coverImage": "/images/games/the-witcher-3.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/292030/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 5200,
-      "ramGb": 8,
-      "storageGb": 55
+      "ramGb": 6,
+      "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i5-7400 / Ryzen 5 1600",
+      "gpuName": "Nvidia GTX 1070 / Radeon RX 480",
       "cpuBenchmark": 12500,
       "gpuBenchmark": 12900,
-      "ramGb": 16,
-      "storageGb": 55
+      "ramGb": 8,
+      "storageGb": 50
     }
   },
   {
     "name": "Hogwarts Legacy",
     "slug": "hogwarts-legacy",
-    "steamId": "746",
+    "steamId": "990080",
     "genres": [
-      "Co-op",
-      "Mô phỏng"
+      "Action",
+      "Adventure",
+      "RPG"
     ],
     "sizeGb": 58,
     "price": 150000,
     "isFree": false,
-    "description": "Hogwarts Legacy là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
     "coverImage": "/images/games/hogwarts-legacy.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/990080/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "NVIDIA GeForce GTX 960 4GB or AMD Radeon RX 470 4GB",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 6100,
-      "ramGb": 4,
-      "storageGb": 58
+      "ramGb": 16,
+      "storageGb": 85
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "NVIDIA GeForce 1080 Ti or AMD Radeon RX 5700 XT or INTEL Arc A770",
       "cpuBenchmark": 14000,
       "gpuBenchmark": 9600,
-      "ramGb": 8,
-      "storageGb": 58
+      "ramGb": 16,
+      "storageGb": 85
     }
   },
   {
     "name": "Palworld",
     "slug": "palworld",
-    "steamId": null,
+    "steamId": "1623730",
     "genres": [
-      "Offline",
-      "FPS"
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG",
+      "Early Access"
     ],
     "sizeGb": 61.5,
-    "price": 240000,
+    "price": 38500000,
     "isFree": false,
-    "description": "Palworld là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Fight, farm, build and work alongside mysterious creatures called \"Pals\" in this completely new multiplayer, open world survival and crafting game!",
     "coverImage": "/images/games/palworld.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1623730/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GeForce GTX 1050 (2GB)",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 7000,
-      "ramGb": 8,
-      "storageGb": 62
+      "ramGb": 16,
+      "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GeForce RTX 2070",
       "cpuBenchmark": 15500,
       "gpuBenchmark": 11100,
-      "ramGb": 8,
-      "storageGb": 62
+      "ramGb": 32,
+      "storageGb": 40
     }
   },
   {
-    "name": "Helldivers 2",
+    "name": "HELLDIVERS™ 2",
     "slug": "helldivers-2",
-    "steamId": null,
+    "steamId": "553850",
     "genres": [
-      "Thể thao",
-      "MOBA"
+      "Action"
     ],
     "sizeGb": 2,
-    "price": 0,
-    "isFree": true,
-    "description": "Helldivers 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 3999,
+    "isFree": false,
+    "description": "The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person shooter.",
     "coverImage": "/images/games/helldivers-2.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/553850/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i7-4790K or AMD Ryzen 5 1500X",
+      "gpuName": "NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 470",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 7900,
       "ramGb": 8,
-      "storageGb": 2
+      "storageGb": 135
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i7-9700K or AMD Ryzen 7 3700X",
+      "gpuName": "NVIDIA GeForce RTX 2060 or AMD Radeon RX 6600XT",
       "cpuBenchmark": 9800,
       "gpuBenchmark": 12600,
-      "ramGb": 8,
-      "storageGb": 2
+      "ramGb": 16,
+      "storageGb": 135
     }
   },
   {
     "name": "Baldur's Gate 3",
     "slug": "baldur-s-gate-3",
-    "steamId": null,
+    "steamId": "1086940",
     "genres": [
-      "Mô phỏng",
-      "RPG"
+      "Adventure",
+      "RPG",
+      "Strategy"
     ],
     "sizeGb": 5.5,
-    "price": 420000,
+    "price": 99000000,
     "isFree": false,
-    "description": "Baldur's Gate 3 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
     "coverImage": "/images/games/baldur-s-gate-3.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1086940/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 64-bit Processor: Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite",
+      "gpuName": "Nvidia GTX 970 / RX 480 / Intel Arc A380 / Qualcomm Adreno X1 (4GB+ of VRAM)",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 8800,
       "ramGb": 8,
-      "storageGb": 6
+      "storageGb": 150
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 64-bit Processor: Intel i7 8700K / AMD r5 3600",
+      "gpuName": "Nvidia 2060 Super / RX 5700 XT / Intel Arc A580 (8GB+ of VRAM)",
       "cpuBenchmark": 11300,
       "gpuBenchmark": 14100,
-      "ramGb": 8,
-      "storageGb": 6
+      "ramGb": 16,
+      "storageGb": 150
     }
   },
   {
     "name": "Warframe",
     "slug": "warframe",
-    "steamId": "750",
+    "steamId": "230410",
     "genres": [
-      "FPS",
-      "Sinh tồn"
+      "Action",
+      "RPG",
+      "Free To Play"
     ],
     "sizeGb": 9,
-    "price": 510000,
-    "isFree": false,
-    "description": "Warframe là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 0,
+    "isFree": true,
+    "description": "Awaken as an unstoppable warrior and battle alongside your friends in this story-driven free-to-play online action game",
     "coverImage": "/images/games/warframe.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/230410/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "Card Memory: 4 GB RAM",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 700,
       "ramGb": 4,
-      "storageGb": 9
+      "storageGb": 75
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "Card Memory: 4 GB RAM",
       "cpuBenchmark": 12800,
       "gpuBenchmark": 6600,
-      "ramGb": 16,
-      "storageGb": 9
+      "ramGb": 4,
+      "storageGb": 75
     }
   },
   {
     "name": "Path of Exile",
     "slug": "path-of-exile",
-    "steamId": null,
+    "steamId": "238960",
     "genres": [
-      "MOBA",
-      "Đua xe"
+      "Action",
+      "Adventure",
+      "Indie",
+      "Massively Multiplayer",
+      "RPG",
+      "Free To Play"
     ],
     "sizeGb": 12.5,
     "price": 0,
     "isFree": true,
-    "description": "Path of Exile là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "You are an Exile, struggling to survive on the dark continent of Wraeclast, as you fight to earn power that will allow you to exact your revenge against those who wronged you. Path of Exile is an online Action RPG set in a dark fantasy world. The game is completely free and will never be pay-to-win.",
     "coverImage": "/images/games/path-of-exile.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/238960/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "NVIDIA® GeForce® GTX 650 Ti or ATI Radeon™ HD 7850",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 1600,
       "ramGb": 8,
-      "storageGb": 13
+      "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "NVIDIA® GeForce® GTX 1050 Ti or ATI Radeon™ RX560",
       "cpuBenchmark": 9400,
       "gpuBenchmark": 8100,
-      "ramGb": 8,
-      "storageGb": 13
+      "ramGb": 16,
+      "storageGb": 40
     }
   },
   {
     "name": "Lost Ark",
     "slug": "lost-ark",
-    "steamId": null,
+    "steamId": "1599340",
     "genres": [
+      "Action",
+      "Adventure",
+      "Massively Multiplayer",
       "RPG",
-      "Chiến thuật"
+      "Free To Play"
     ],
     "sizeGb": 16,
-    "price": 690000,
-    "isFree": false,
-    "description": "Lost Ark là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 0,
+    "isFree": true,
+    "description": "Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore new lands, seek out lost treasures, and test yourself in thrilling action combat in this action-packed free-to-play RPG.",
     "coverImage": "/images/games/lost-ark.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1599340/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 (64-bit only) Processor: Intel Core i3 – 10100 AMD Ryzen3 3100",
+      "gpuName": "Nvidia Geforce GTX 1050 Ti / AMD Radeon RX 560",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 2500,
-      "ramGb": 8,
-      "storageGb": 16
+      "ramGb": 16,
+      "storageGb": 110
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 11 (64-bit only) Processor: Intel Core i5 – 9400 AMD Ryzen5 2600",
+      "gpuName": "Nvidia Geforce GTX 1660 Super / AMD Radeon RX 6600",
       "cpuBenchmark": 10900,
       "gpuBenchmark": 9600,
-      "ramGb": 8,
-      "storageGb": 16
+      "ramGb": 16,
+      "storageGb": 110
     }
   },
   {
     "name": "World of Tanks",
     "slug": "world-of-tanks",
-    "steamId": null,
+    "steamId": "1407200",
     "genres": [
-      "Sinh tồn",
-      "Co-op"
+      "Action",
+      "Massively Multiplayer",
+      "Simulation",
+      "Free To Play"
     ],
     "sizeGb": 19.5,
-    "price": 780000,
-    "isFree": false,
-    "description": "World of Tanks là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 0,
+    "isFree": true,
+    "description": "World of Tanks is a tactical action game with very different gameplay depending on the vehicle type and role. Aside from regular PvP, there are competitive and clan-based modes, special PvE and PvPvE events, and much more. Whether you play to dominate or just enjoy the ride, you'll fit right in.",
     "coverImage": "/images/games/world-of-tanks.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1407200/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i5-3330 / AMD FX-6300",
+      "gpuName": "NVIDIA GeForce GTX 460 / AMD Radeon HD 8770, 1280x768 screen resolution",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 3400,
-      "ramGb": 8,
-      "storageGb": 20
+      "ramGb": 4,
+      "storageGb": 85
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 / 11 (64-bit only) with the latest updates Processor: Intel Core i3-9100F / AMD Ryze",
+      "gpuName": "Nvidia GTX 1650 / AMD Radeon RX 580",
       "cpuBenchmark": 12400,
       "gpuBenchmark": 11100,
-      "ramGb": 8,
-      "storageGb": 20
+      "ramGb": 16,
+      "storageGb": 85
     }
   },
   {
     "name": "War Thunder",
     "slug": "war-thunder",
-    "steamId": "754",
+    "steamId": "236390",
     "genres": [
-      "Đua xe",
-      "Offline"
+      "Action",
+      "Massively Multiplayer",
+      "Simulation",
+      "Free To Play"
     ],
     "sizeGb": 23,
     "price": 0,
     "isFree": true,
-    "description": "War Thunder là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, and naval craft, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea.",
     "coverImage": "/images/games/war-thunder.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/236390/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 4300,
       "ramGb": 4,
-      "storageGb": 23
+      "storageGb": 70
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i5 or Ryzen 5 3600 or better",
+      "gpuName": "DirectX 11 level video card or higher and drivers: Nvidia GeForce 1060 and higher, Radeon RX 570 and higher",
       "cpuBenchmark": 13900,
       "gpuBenchmark": 7800,
-      "ramGb": 8,
-      "storageGb": 23
+      "ramGb": 16,
+      "storageGb": 95
     }
   },
   {
     "name": "Euro Truck Simulator 2",
     "slug": "euro-truck-simulator-2",
-    "steamId": null,
+    "steamId": "227300",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "Indie",
+      "Simulation"
     ],
     "sizeGb": 26.5,
-    "price": 240000,
+    "price": 7000000,
     "isFree": false,
-    "description": "Euro Truck Simulator 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Travel across Europe as king of the road, a trucker who delivers important cargo across impressive distances! With dozens of cities to explore, your endurance, skill and speed will all be pushed to their limits.",
     "coverImage": "/images/games/euro-truck-simulator-2.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/227300/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i5-6400 or AMD Ryzen 3 1200 or similar",
+      "gpuName": "NVIDIA GeForce GTX 660 or AMD Radeon RX 460 or Intel HD 630 (2GB VRAM) Hard Drive: 25 GB available space (Euro Truck Sim",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 6400,
       "ramGb": 8,
-      "storageGb": 27
+      "storageGb": 25
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i5-9600 or AMD Ryzen 5 3600 or similar",
+      "gpuName": "NVIDIA GeForce GTX 1660 or AMD Radeon RX 590 (2GB VRAM) Hard Drive: 25 GB available space (Euro Truck Simulator 2 base g",
       "cpuBenchmark": 15400,
       "gpuBenchmark": 10500,
-      "ramGb": 16,
-      "storageGb": 27
+      "ramGb": 12,
+      "storageGb": 25
     }
   },
   {
     "name": "Farming Simulator 22",
     "slug": "farming-simulator-22",
-    "steamId": null,
+    "steamId": "1248130",
     "genres": [
-      "Co-op",
-      "Mô phỏng"
+      "Simulation"
     ],
     "sizeGb": 30,
-    "price": 330000,
+    "price": 46000000,
     "isFree": false,
-    "description": "Farming Simulator 22 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Create your farm and let the good times grow! Harvest crops, tend to animals, manage productions, and take on seasonal challenges.",
     "coverImage": "/images/games/farming-simulator-22.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1248130/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 Home (x64) Processor: Intel Core i5-3330 or AMD FX-8320 or better",
+      "gpuName": "GeForce GTX 660 or AMD Radeon R7 265 or better (min 2GB VRAM)",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 7300,
       "ramGb": 8,
-      "storageGb": 30
+      "storageGb": 35
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 Home (x64) Processor: Intel Core i5-5675C or AMD Ryzen 5 1600 or better",
+      "gpuName": "GeForce GTX 1060 or Radeon RX 570 or better (min 6GB VRAM)",
       "cpuBenchmark": 16900,
       "gpuBenchmark": 12000,
       "ramGb": 8,
-      "storageGb": 30
+      "storageGb": 35
     }
   },
   {
-    "name": "The Sims 4",
+    "name": "The Sims™ 4",
     "slug": "the-sims-4",
-    "steamId": null,
+    "steamId": "1222670",
     "genres": [
-      "Offline",
-      "FPS"
+      "Adventure",
+      "Casual",
+      "Simulation",
+      "Free To Play"
     ],
     "sizeGb": 33.5,
     "price": 0,
     "isFree": true,
-    "description": "The Sims 4 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Play with life and discover the possibilities. Unleash your imagination and create a world of Sims that’s wholly unique. Explore and customize every detail from Sims to homes–and much more.",
     "coverImage": "/images/games/the-sims-4.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1222670/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "s: NVIDIA GeForce 6600 or better, ATI Radeon X1300 or better, Intel GMA X4500 or better",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 8200,
-      "ramGb": 8,
-      "storageGb": 34
+      "ramGb": 4,
+      "storageGb": 26
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: 64 Bit Windows 10 Processor: Intel core i5 (4 cores), AMD Ryzen 5 or better",
+      "gpuName": "1 GB of Video RAM, NVIDIA GTX 650, AMD Radeon HD 7750, or better",
       "cpuBenchmark": 11200,
       "gpuBenchmark": 13500,
       "ramGb": 8,
-      "storageGb": 34
+      "storageGb": 51
     }
   },
   {
-    "name": "Cities Skylines",
+    "name": "Cities: Skylines",
     "slug": "cities-skylines",
-    "steamId": "758",
+    "steamId": "255710",
     "genres": [
-      "Thể thao",
-      "MOBA"
+      "Simulation",
+      "Strategy"
     ],
     "sizeGb": 37,
-    "price": 510000,
+    "price": 52300000,
     "isFree": false,
-    "description": "Cities Skylines là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience.",
     "coverImage": "/images/games/cities-skylines.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/255710/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows® 10 Home 64 Bit Processor: Intel® Core™ I7 930 | AMD® FX 6350",
+      "gpuName": "Nvidia® GeForce™ GTS 450 (1 GB) | AMD® R7 250 (2 GB) | Intel Iris Xe G7 (Tiger Lake)",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 9100,
-      "ramGb": 4,
-      "storageGb": 37
+      "ramGb": 8,
+      "storageGb": 4
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows® 10 Home 64 bit Processor: Intel® Core™ I7 2700K | AMD® Ryzen 7 2700X",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 7800,
       "gpuBenchmark": 15000,
-      "ramGb": 8,
-      "storageGb": 37
+      "ramGb": 16,
+      "storageGb": 4
     }
   },
   {
     "name": "Terraria",
     "slug": "terraria",
-    "steamId": null,
+    "steamId": "105600",
     "genres": [
-      "Mô phỏng",
+      "Action",
+      "Adventure",
+      "Indie",
       "RPG"
     ],
     "sizeGb": 40.5,
-    "price": 600000,
+    "price": 14200000,
     "isFree": false,
-    "description": "Terraria là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
     "coverImage": "/images/games/terraria.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/105600/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 10000,
-      "ramGb": 8,
+      "ramGb": 2.5,
       "storageGb": 41
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 9300,
       "gpuBenchmark": 16500,
-      "ramGb": 8,
+      "ramGb": 4,
       "storageGb": 41
     }
   },
   {
     "name": "Stardew Valley",
     "slug": "stardew-valley",
-    "steamId": null,
+    "steamId": "413150",
     "genres": [
-      "FPS",
-      "Sinh tồn"
+      "Indie",
+      "RPG",
+      "Simulation"
     ],
     "sizeGb": 44,
-    "price": 0,
-    "isFree": true,
-    "description": "Stardew Valley là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 8250000,
+    "isFree": false,
+    "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
     "coverImage": "/images/games/stardew-valley.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/413150/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "2 Ghz",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 1900,
-      "ramGb": 8,
+      "ramGb": 2,
       "storageGb": 44
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "2 Ghz",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 10800,
       "gpuBenchmark": 9000,
-      "ramGb": 16,
+      "ramGb": 2,
       "storageGb": 44
     }
   },
   {
     "name": "Among Us",
     "slug": "among-us",
-    "steamId": null,
+    "steamId": "945360",
     "genres": [
-      "MOBA",
-      "Đua xe"
+      "Casual"
     ],
     "sizeGb": 47.5,
-    "price": 780000,
+    "price": 7000000,
     "isFree": false,
-    "description": "Among Us là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
     "coverImage": "/images/games/among-us.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/945360/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "INTEL i3-4330",
+      "gpuName": "INTEL HD Graphics 4600",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 2800,
-      "ramGb": 8,
+      "ramGb": 1,
       "storageGb": 48
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "INTEL i3-4330",
+      "gpuName": "Nvidia GTX 650",
       "cpuBenchmark": 12300,
       "gpuBenchmark": 10500,
-      "ramGb": 8,
+      "ramGb": 4,
       "storageGb": 48
     }
   },
   {
     "name": "Left 4 Dead 2",
     "slug": "left-4-dead-2",
-    "steamId": "762",
+    "steamId": "550",
     "genres": [
-      "RPG",
-      "Chiến thuật"
+      "Action"
     ],
     "sizeGb": 51,
-    "price": 150000,
+    "price": 14200000,
     "isFree": false,
-    "description": "Left 4 Dead 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.",
     "coverImage": "/images/games/left-4-dead-2.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/550/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 3700,
-      "ramGb": 4,
-      "storageGb": 51
+      "ramGb": 2,
+      "storageGb": 13
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 13800,
       "gpuBenchmark": 7200,
-      "ramGb": 8,
-      "storageGb": 51
+      "ramGb": 2,
+      "storageGb": 13
     }
   },
   {
     "name": "Team Fortress 2",
     "slug": "team-fortress-2",
-    "steamId": null,
+    "steamId": "440",
     "genres": [
-      "Sinh tồn",
-      "Co-op"
+      "Action",
+      "Free To Play"
     ],
     "sizeGb": 54.5,
     "price": 0,
     "isFree": true,
-    "description": "Team Fortress 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
     "coverImage": "/images/games/team-fortress-2.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/440/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "or better",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 4600,
       "ramGb": 8,
-      "storageGb": 55
+      "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 15300,
       "gpuBenchmark": 8700,
-      "ramGb": 8,
-      "storageGb": 55
+      "ramGb": 1,
+      "storageGb": 15
     }
   },
   {
-    "name": "Rainbow Six Siege",
+    "name": "Tom Clancy's Rainbow Six Siege",
     "slug": "rainbow-six-siege",
-    "steamId": null,
+    "steamId": "359550",
     "genres": [
-      "Đua xe",
-      "Offline"
+      "Action",
+      "Free To Play"
     ],
     "sizeGb": 58,
-    "price": 330000,
-    "isFree": false,
-    "description": "Rainbow Six Siege là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 0,
+    "isFree": true,
+    "description": "Rainbow Six® Siege is the reference in tactical team shooters, where elite strategy and execution triumph. Enjoy free access to Quick Match, Unranked, and Dual Front game modes with a selection of operators.",
     "coverImage": "/images/games/rainbow-six-siege.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/359550/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "AMD Ryzen 3 3100 / Intel i3-8100",
+      "gpuName": "Nvidia GTX 1650 4GB / AMD RX 5500XT 4GB / Intel ARC A380 6GB",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 5500,
       "ramGb": 8,
-      "storageGb": 58
+      "storageGb": 65
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "AMD Ryzen5 3600 / Intel i5-10400",
+      "gpuName": "NVIDIA RTX 2060 6GB / AMD RX 6600 8GB",
       "cpuBenchmark": 16800,
       "gpuBenchmark": 10200,
       "ramGb": 8,
-      "storageGb": 58
+      "storageGb": 65
     }
   },
   {
-    "name": "Overwatch 2",
+    "name": "Overwatch®",
     "slug": "overwatch-2",
-    "steamId": null,
+    "steamId": "2357570",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "Action",
+      "Free To Play"
     ],
     "sizeGb": 61.5,
-    "price": 420000,
-    "isFree": false,
-    "description": "Overwatch 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 0,
+    "isFree": true,
+    "description": "Overwatch®, A FUTURE WORTH FIGHTING FOR! Overwatch® is an always-on and ever-evolving free-to-play, team-based action game set in an optimistic future, where every match is the ultimate 5v5 or 6v6 battlefield brawl.",
     "coverImage": "/images/games/overwatch-2.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/2357570/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows® 10 64-bit (latest Service Pack) Processor: Intel® Core™ i3 or AMD Phenom™ X3 8650",
+      "gpuName": "NVIDIA® GeForce® GTX 600 series, AMD Radeon™ HD 7000 series",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 6400,
-      "ramGb": 8,
-      "storageGb": 62
+      "ramGb": 6,
+      "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows® 10 64-bit (latest Service Pack) Processor: Intel® Core™ i7 or AMD Ryzen™ 5",
+      "gpuName": "NVIDIA® GeForce® GTX 1060/ GeForce® GTX 1650 or AMD R9 380/AMD RX 6400 or Intel® Arc™ A770",
       "cpuBenchmark": 13400,
       "gpuBenchmark": 11700,
-      "ramGb": 16,
-      "storageGb": 62
+      "ramGb": 8,
+      "storageGb": 50
     }
   },
   {
-    "name": "Rocket League",
+    "name": "Rocket League®",
     "slug": "rocket-league",
-    "steamId": "766",
+    "steamId": "252950",
     "genres": [
-      "Co-op",
-      "Mô phỏng"
+      "Action",
+      "Indie",
+      "Racing",
+      "Sports"
     ],
     "sizeGb": 2,
     "price": 0,
-    "isFree": true,
-    "description": "Rocket League là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "isFree": false,
+    "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
     "coverImage": "/images/games/rocket-league.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/252950/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "NVIDIA GeForce 760, AMD Radeon R7 270X, or better",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 7300,
       "ramGb": 4,
-      "storageGb": 2
+      "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "NVIDIA GeForce GTX 1060, AMD Radeon RX 470, or better",
       "cpuBenchmark": 7700,
       "gpuBenchmark": 13200,
       "ramGb": 8,
-      "storageGb": 2
+      "storageGb": 20
     }
   },
   {
     "name": "Forza Horizon 5",
     "slug": "forza-horizon-5",
-    "steamId": null,
+    "steamId": "1551360",
     "genres": [
-      "Offline",
-      "FPS"
+      "Action",
+      "Adventure",
+      "Racing",
+      "Simulation",
+      "Sports"
     ],
     "sizeGb": 5.5,
-    "price": 600000,
+    "price": 99000000,
     "isFree": false,
-    "description": "Forza Horizon 5 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Explore the vibrant open world landscapes of Mexico with limitless, fun driving action in the world’s greatest cars.",
     "coverImage": "/images/games/forza-horizon-5.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1551360/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel i5-4460 or AMD Ryzen 3 1200",
+      "gpuName": "NVidia GTX 970, AMD RX 470, OR Intel Arc A380",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 8200,
       "ramGb": 8,
-      "storageGb": 6
+      "storageGb": 110
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel i5-8400 or AMD Ryzen 5 1500X",
+      "gpuName": "NVidia GTX 1070, AMD RX 590, OR Intel Arc A750",
       "cpuBenchmark": 9200,
       "gpuBenchmark": 14700,
-      "ramGb": 8,
-      "storageGb": 6
+      "ramGb": 16,
+      "storageGb": 110
     }
   },
   {
-    "name": "Need for Speed Heat",
+    "name": "Need for Speed™ Heat",
     "slug": "need-for-speed-heat",
-    "steamId": null,
+    "steamId": "1222680",
     "genres": [
-      "Thể thao",
-      "MOBA"
+      "Action",
+      "Adventure",
+      "Racing",
+      "Sports"
     ],
     "sizeGb": 9,
     "price": 690000,
     "isFree": false,
-    "description": "Need for Speed Heat là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Hustle by day and risk it all at night in Need for Speed™ Heat Deluxe Edition, a white-knuckle street racer, where the lines of the law fade as the sun starts to set.",
     "coverImage": "/images/games/need-for-speed-heat.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1222680/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 9100,
       "ramGb": 8,
-      "storageGb": 9
+      "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 10700,
       "gpuBenchmark": 16200,
-      "ramGb": 8,
-      "storageGb": 9
+      "ramGb": 16,
+      "storageGb": 50
     }
   },
   {
     "name": "Assetto Corsa",
     "slug": "assetto-corsa",
-    "steamId": null,
+    "steamId": "244210",
     "genres": [
-      "Mô phỏng",
-      "RPG"
+      "Indie",
+      "Racing",
+      "Simulation",
+      "Sports"
     ],
     "sizeGb": 12.5,
-    "price": 0,
-    "isFree": true,
-    "description": "Assetto Corsa là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 26000000,
+    "isFree": false,
+    "description": "Assetto Corsa v1.16 introduces the new \"Laguna Seca\" laser-scanned track, 7 new cars among which the eagerly awaited Alfa Romeo Giulia Quadrifoglio! Check the changelog for further info!",
     "coverImage": "/images/games/assetto-corsa.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/244210/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 10000,
-      "ramGb": 8,
-      "storageGb": 13
+      "ramGb": 2,
+      "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "AMD Six-Core CPU, Intel Quad-Core CPU",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 12200,
       "gpuBenchmark": 17700,
-      "ramGb": 8,
-      "storageGb": 13
+      "ramGb": 6,
+      "storageGb": 30
     }
   },
   {
@@ -1245,25 +1274,25 @@
     "steamId": "770",
     "genres": [
       "FPS",
-      "Sinh tồn"
+      "Sinh tn"
     ],
     "sizeGb": 16,
     "price": 150000,
     "isFree": false,
-    "description": "FIFA Online 4 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "FIFA Online 4 la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/fifa-online-4.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://fo4.garena.vn/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 1900,
       "ramGb": 4,
       "storageGb": 16
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 13700,
       "gpuBenchmark": 5400,
       "ramGb": 16,
@@ -1271,30 +1300,30 @@
     }
   },
   {
-    "name": "Đột Kích",
+    "name": "Dot Kich",
     "slug": "dot-kich",
     "steamId": null,
     "genres": [
       "MOBA",
-      "Đua xe"
+      "ua xe"
     ],
     "sizeGb": 19.5,
     "price": 240000,
     "isFree": false,
-    "description": "Đột Kích là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Dot Kich la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/dot-kich.svg",
-    "officialUrl": null,
+    "officialUrl": "https://cf.goplay.vn/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 2800,
       "ramGb": 8,
       "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 15200,
       "gpuBenchmark": 6900,
       "ramGb": 8,
@@ -1307,25 +1336,25 @@
     "steamId": null,
     "genres": [
       "RPG",
-      "Chiến thuật"
+      "Chin thut"
     ],
     "sizeGb": 23,
     "price": 0,
     "isFree": true,
-    "description": "Audition là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Audition la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/audition.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://au.vtcgame.vn/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 3700,
       "ramGb": 8,
       "storageGb": 23
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 11800,
       "gpuBenchmark": 8400,
       "ramGb": 8,
@@ -1333,185 +1362,188 @@
     }
   },
   {
-    "name": "Blade & Soul",
+    "name": "Blade & Soul Heroes",
     "slug": "blade-soul",
-    "steamId": null,
+    "steamId": "3616890",
     "genres": [
-      "Sinh tồn",
-      "Co-op"
+      "Action",
+      "Adventure",
+      "Massively Multiplayer",
+      "Strategy",
+      "Free To Play"
     ],
     "sizeGb": 26.5,
-    "price": 420000,
-    "isFree": false,
-    "description": "Blade & Soul là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 0,
+    "isFree": true,
+    "description": "This thrilling free-to-play Collectible Action MMORPG offers the duality of turn-based strategy & real-time action. Experience exciting cross-platform play and embark on an epic quest where numerous stories are waiting to be discovered alongside your five member team. Unite your heroes!",
     "coverImage": "/images/games/blade-soul.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/3616890/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 64-bit v1607+ Processor: Intel i5-6500 or AMD Ryzen 5 1600",
+      "gpuName": "GeForce GTX 1060 3G or AMD Radeon RX 480 8G or INTEL® Arc A380 (6GB, Alchemist)",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 4600,
       "ramGb": 8,
-      "storageGb": 27
+      "storageGb": 35
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 64-bit v1607+ Processor: Intel i7-7700 or AMD Ryzen 5 3600",
+      "gpuName": "GeForce RTX 2060 6G or AMD Radeon RX 6600 6G or INTEL® Arc A580 (8GB, Alchemist)",
       "cpuBenchmark": 13300,
       "gpuBenchmark": 9900,
-      "ramGb": 8,
-      "storageGb": 27
+      "ramGb": 16,
+      "storageGb": 40
     }
   },
   {
-    "name": "Black Desert Online",
+    "name": "Black Desert",
     "slug": "black-desert-online",
-    "steamId": "774",
+    "steamId": "582660",
     "genres": [
-      "Đua xe",
-      "Offline"
+      "Action",
+      "Adventure",
+      "Massively Multiplayer",
+      "RPG",
+      "Strategy"
     ],
     "sizeGb": 30,
-    "price": 510000,
+    "price": 8000000,
     "isFree": false,
-    "description": "Black Desert Online là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Played by over 20 million Adventurers - Black Desert Online is an open-world, action MMORPG. Experience intense, action-packed combat, battle massive world bosses, fight alongside friends to siege and conquer castles, and train in professions such as fishing, trading, crafting, cooking, and more!",
     "coverImage": "/images/games/black-desert-online.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/582660/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i3 (4th Generation)",
+      "gpuName": "GeForce GTX 970, Radeon RX 480",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 5500,
-      "ramGb": 4,
-      "storageGb": 30
+      "ramGb": 8,
+      "storageGb": 80
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i5 (8th Generation), AMD Ryzen 5 2000 Series",
+      "gpuName": "GeForce GTX 1660 Super",
       "cpuBenchmark": 14800,
       "gpuBenchmark": 11400,
-      "ramGb": 8,
-      "storageGb": 30
+      "ramGb": 16,
+      "storageGb": 80
     }
   },
   {
-    "name": "Naruto to Boruto Shinobi Striker",
+    "name": "NARUTO TO BORUTO: SHINOBI STRIKER",
     "slug": "naruto-to-boruto-shinobi-striker",
-    "steamId": null,
+    "steamId": "633230",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "Action"
     ],
     "sizeGb": 33.5,
-    "price": 0,
-    "isFree": true,
-    "description": "Naruto to Boruto Shinobi Striker là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 29800000,
+    "isFree": false,
+    "description": "Battle as a team of 4 to compete against other teams online! Graphically, SHINOBI STRIKER is also built from the ground up in a completely new graphic style. Lead your team and fight online to see who the best ninjas are!",
     "coverImage": "/images/games/naruto-to-boruto-shinobi-striker.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/633230/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i3-8350K",
+      "gpuName": "Nvidia GeForce GT 640",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 6400,
-      "ramGb": 8,
-      "storageGb": 34
+      "ramGb": 4,
+      "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "AMD Radeon R9 270X / R7 265 2 GB / Nvidia GeForce GTX 660 2 GB",
       "cpuBenchmark": 9100,
       "gpuBenchmark": 12900,
-      "ramGb": 16,
-      "storageGb": 34
+      "ramGb": 6,
+      "storageGb": 40
     }
   },
   {
-    "name": "Tekken 8",
+    "name": "TEKKEN 8",
     "slug": "tekken-8",
-    "steamId": null,
+    "steamId": "1778820",
     "genres": [
-      "Co-op",
-      "Mô phỏng"
+      "Action"
     ],
     "sizeGb": 37,
-    "price": 690000,
+    "price": 79000000,
     "isFree": false,
-    "description": "Tekken 8 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "TEKKEN 8 is the latest addition to the TEKKEN series, the pinnacle of 3D fighting games. Join the fight with over 32 characters and bear witness to the next installment in this epic saga. Get ready for the biggest and best TEKKEN game ever made!",
     "coverImage": "/images/games/tekken-8.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1778820/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 64-Bit Processor: Intel Core i5-6600K/AMD Ryzen 5 1600",
+      "gpuName": "Nvidia GeForce GTX 1050Ti/AMD Radeon R9 380X",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 7300,
       "ramGb": 8,
-      "storageGb": 37
+      "storageGb": 100
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 64-Bit Processor: Intel Core i7-7700K/AMD Ryzen 5 2600",
+      "gpuName": "Nvidia GeForce RTX 2070/AMD Radeon RX 5700 XT",
       "cpuBenchmark": 10600,
       "gpuBenchmark": 14400,
-      "ramGb": 8,
-      "storageGb": 37
+      "ramGb": 16,
+      "storageGb": 100
     }
   },
   {
-    "name": "Street Fighter 6",
+    "name": "Street Fighter™ 6",
     "slug": "street-fighter-6",
-    "steamId": null,
+    "steamId": "1364780",
     "genres": [
-      "Offline",
-      "FPS"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 40.5,
-    "price": 780000,
+    "price": 79400000,
     "isFree": false,
-    "description": "Street Fighter 6 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Here comes Capcom’s newest challenger! Street Fighter™ 6 launches worldwide on June 2nd, 2023 and represents the next evolution of the Street Fighter™ series! Street Fighter 6 spans three distinct game modes, including World Tour, Fighting Ground and Battle Hub.",
     "coverImage": "/images/games/street-fighter-6.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1364780/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 (64 bit required) Processor: Intel Core i5-7500 / AMD Ryzen 3 1200",
+      "gpuName": "GTX1060 (VRAM 6GB) / Radeon RX 580 (VRAM 4GB)",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 8200,
       "ramGb": 8,
-      "storageGb": 41
+      "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 (64 bit)/Windows 11 (64 bit) Processor: Intel Core i7 8700 / AMD Ryzen 5 3600",
+      "gpuName": "RTX2070 / Radeon RX 5700XT",
       "cpuBenchmark": 12100,
       "gpuBenchmark": 15900,
-      "ramGb": 8,
-      "storageGb": 41
+      "ramGb": 16,
+      "storageGb": 60
     }
   },
   {
-    "name": "Mortal Kombat 11",
+    "name": "Mortal Kombat 11",
     "slug": "mortal-kombat-11",
-    "steamId": "778",
+    "steamId": "976310",
     "genres": [
-      "Thể thao",
-      "MOBA"
+      "Action"
     ],
     "sizeGb": 44,
-    "price": 0,
-    "isFree": true,
-    "description": "Mortal Kombat 11 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 59000000,
+    "isFree": false,
+    "description": "Mortal Kombat is back and better than ever in the next evolution of the iconic franchise.",
     "coverImage": "/images/games/mortal-kombat-11.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/976310/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "NVIDIA® GeForce™ GTX 670 or NVIDIA® GeForce™ GTX 1050 / AMD® Radeon™ HD 7950 or AMD® Radeon™ R9 270",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 9100,
-      "ramGb": 4,
+      "ramGb": 8,
       "storageGb": 44
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "NVIDIA® GeForce™ GTX 780 or NVIDIA® GeForce™ GTX 1060-6GB / AMD® Radeon™ R9 290 or RX 570",
       "cpuBenchmark": 13600,
       "gpuBenchmark": 12600,
       "ramGb": 8,
@@ -1519,61 +1551,60 @@
     }
   },
   {
-    "name": "Dragon Ball FighterZ",
+    "name": "DRAGON BALL FighterZ",
     "slug": "dragon-ball-fighterz",
-    "steamId": null,
+    "steamId": "678950",
     "genres": [
-      "Mô phỏng",
-      "RPG"
+      "Action"
     ],
     "sizeGb": 47.5,
-    "price": 240000,
+    "price": 19050000,
     "isFree": false,
-    "description": "Dragon Ball FighterZ là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "DRAGON BALL FighterZ is born from what makes the DRAGON BALL series so loved and famous: endless spectacular fights with its all-powerful fighters.",
     "coverImage": "/images/games/dragon-ball-fighterz.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/678950/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "Radeon HD 6870, 1 GB / GeForce GTX 650 Ti, 1 GB",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 10000,
-      "ramGb": 8,
-      "storageGb": 48
+      "ramGb": 4,
+      "storageGb": 6
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "Radeon HD 7870, 2 GB / GeForce GTX 660, 2 GB",
       "cpuBenchmark": 10200,
       "gpuBenchmark": 14100,
       "ramGb": 8,
-      "storageGb": 48
+      "storageGb": 6
     }
   },
   {
-    "name": "Resident Evil 4 Remake",
+    "name": "Resident Evil 4",
     "slug": "resident-evil-4-remake",
-    "steamId": null,
+    "steamId": "2050650",
     "genres": [
-      "FPS",
-      "Sinh tồn"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 51,
-    "price": 330000,
+    "price": 85000000,
     "isFree": false,
-    "description": "Resident Evil 4 Remake là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Survival is just the beginning. Six years have passed since the biological disaster in Raccoon City. Leon S. Kennedy, one of the survivors, tracks the president's kidnapped daughter to a secluded European village, where there is something terribly wrong with the locals.",
     "coverImage": "/images/games/resident-evil-4-remake.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/2050650/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 (64 bit) Processor: AMD Ryzen 3 1200 / Intel Core i5-7500",
+      "gpuName": "AMD Radeon RX 560 with 4GB VRAM / NVIDIA GeForce GTX 1050 Ti with 4GB VRAM",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 3100,
       "ramGb": 8,
       "storageGb": 51
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 (64 bit)/Windows 11 (64 bit) Processor: AMD Ryzen 5 3600 / Intel Core i7 8700",
+      "gpuName": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
       "cpuBenchmark": 11700,
       "gpuBenchmark": 7800,
       "ramGb": 16,
@@ -1583,245 +1614,249 @@
   {
     "name": "Resident Evil Village",
     "slug": "resident-evil-village",
-    "steamId": null,
+    "steamId": "1196590",
     "genres": [
-      "MOBA",
-      "Đua xe"
+      "Action"
     ],
     "sizeGb": 54.5,
-    "price": 0,
-    "isFree": true,
-    "description": "Resident Evil Village là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 85000000,
+    "isFree": false,
+    "description": "Experience survival horror like never before in the 8th major installment in the Resident Evil franchise - Resident Evil Village. With detailed graphics, intense first-person action and masterful storytelling, the terror has never felt more realistic.",
     "coverImage": "/images/games/resident-evil-village.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1196590/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 (64 bit) Processor: AMD Ryzen 3 1200 ／ Intel Core i5-7500",
+      "gpuName": "AMD Radeon RX 560 with 4GB VRAM ／ NVIDIA GeForce GTX 1050 Ti with 4GB VRAM",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 4000,
       "ramGb": 8,
       "storageGb": 55
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 (64 bit)/Windows 11 (64 bit) Processor: AMD Ryzen 5 3600 ／ Intel Core i7 8700",
+      "gpuName": "AMD Radeon RX 5700 ／ NVIDIA GeForce GTX 1070",
       "cpuBenchmark": 13200,
       "gpuBenchmark": 9300,
-      "ramGb": 8,
+      "ramGb": 16,
       "storageGb": 55
     }
   },
   {
     "name": "Phasmophobia",
     "slug": "phasmophobia",
-    "steamId": "782",
+    "steamId": "739630",
     "genres": [
-      "RPG",
-      "Chiến thuật"
+      "Action",
+      "Indie",
+      "Early Access"
     ],
     "sizeGb": 58,
-    "price": 510000,
+    "price": 25000000,
     "isFree": false,
-    "description": "Phasmophobia là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Phasmophobia is a 4 player online co-op psychological horror. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting equipment at your disposal in order to gather as much evidence as you can.",
     "coverImage": "/images/games/phasmophobia.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/739630/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 64Bit Processor: Intel Core i5-4590 / AMD Ryzen 5 2600",
+      "gpuName": "NVIDIA GTX 970 / AMD Radeon R9 390",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 4900,
-      "ramGb": 4,
-      "storageGb": 58
+      "ramGb": 8,
+      "storageGb": 21
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 64Bit Processor: Intel Core i5-10600 / AMD Ryzen 5 3600",
+      "gpuName": "NVIDIA RTX 2060 / AMD Radeon RX 5700",
       "cpuBenchmark": 14700,
       "gpuBenchmark": 10800,
       "ramGb": 8,
-      "storageGb": 58
+      "storageGb": 21
     }
   },
   {
     "name": "Dead by Daylight",
     "slug": "dead-by-daylight",
-    "steamId": null,
+    "steamId": "381210",
     "genres": [
-      "Sinh tồn",
-      "Co-op"
+      "Action"
     ],
     "sizeGb": 61.5,
-    "price": 600000,
+    "price": 34000000,
     "isFree": false,
-    "description": "Dead by Daylight là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Trapped forever in a realm of eldritch evil where even death is not an escape, four determined Survivors face a bloodthirsty Killer in a vicious game of nerve and wits.",
     "coverImage": "/images/games/dead-by-daylight.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/381210/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 64-bit Operating System Processor: Intel Core i3-4170 or AMD FX-8120",
+      "gpuName": "DX11 Compatible GeForce GTX 460 1GB or AMD HD 6850 1GB",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 5800,
       "ramGb": 8,
-      "storageGb": 62
+      "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 64-bit Operating System Processor: Intel Core i3-4170 or AMD FX-8300 or higher",
+      "gpuName": "DX11 Compatible GeForce 760 or AMD HD 8800 or higher with 4GB of RAM",
       "cpuBenchmark": 16200,
       "gpuBenchmark": 12300,
       "ramGb": 8,
-      "storageGb": 62
+      "storageGb": 50
     }
   },
   {
     "name": "The Forest",
     "slug": "the-forest",
-    "steamId": null,
+    "steamId": "242760",
     "genres": [
-      "Đua xe",
-      "Offline"
+      "Action",
+      "Adventure",
+      "Indie",
+      "Simulation"
     ],
     "sizeGb": 2,
-    "price": 0,
-    "isFree": true,
-    "description": "The Forest là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 18800000,
+    "isFree": false,
+    "description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator.",
     "coverImage": "/images/games/the-forest.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/242760/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "NVIDIA GeForce 8800GT",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 6700,
-      "ramGb": 8,
-      "storageGb": 2
+      "ramGb": 4,
+      "storageGb": 5
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Quad Core Processor",
+      "gpuName": "NVIDIA GeForce GTX 560",
       "cpuBenchmark": 10500,
       "gpuBenchmark": 13800,
-      "ramGb": 8,
-      "storageGb": 2
+      "ramGb": 4,
+      "storageGb": 5
     }
   },
   {
-    "name": "Sons of the Forest",
+    "name": "Sons Of The Forest",
     "slug": "sons-of-the-forest",
-    "steamId": null,
+    "steamId": "1326470",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "Action",
+      "Adventure",
+      "Indie",
+      "Simulation"
     ],
     "sizeGb": 5.5,
-    "price": 780000,
+    "price": 38500000,
     "isFree": false,
-    "description": "Sons of the Forest là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
     "coverImage": "/images/games/sons-of-the-forest.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1326470/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+      "gpuName": "NVIDIA GeForce GTX 1060 3GB or AMD Radeon RX 570 4GB",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 7600,
-      "ramGb": 8,
-      "storageGb": 6
+      "ramGb": 12,
+      "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: 64-bit Windows 10 Processor: INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+      "gpuName": "NVIDIA GeForce 1080Ti or AMD Radeon RX 5700 XT",
       "cpuBenchmark": 12000,
       "gpuBenchmark": 15300,
       "ramGb": 16,
-      "storageGb": 6
+      "storageGb": 20
     }
   },
   {
     "name": "Raft",
     "slug": "raft",
-    "steamId": "786",
+    "steamId": "648800",
     "genres": [
-      "Co-op",
-      "Mô phỏng"
+      "Adventure",
+      "Indie",
+      "Simulation"
     ],
     "sizeGb": 9,
-    "price": 150000,
+    "price": 27400000,
     "isFree": false,
-    "description": "Raft là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!",
     "coverImage": "/images/games/raft.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/648800/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GeForce GTX 700 series or similar",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 8500,
-      "ramGb": 4,
-      "storageGb": 9
+      "ramGb": 6,
+      "storageGb": 10
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GeForce GTX 1050 series or similar",
       "cpuBenchmark": 8600,
       "gpuBenchmark": 12000,
       "ramGb": 8,
-      "storageGb": 9
+      "storageGb": 10
     }
   },
   {
     "name": "Subnautica",
     "slug": "subnautica",
-    "steamId": null,
+    "steamId": "264710",
     "genres": [
-      "Offline",
-      "FPS"
+      "Adventure",
+      "Indie"
     ],
     "sizeGb": 12.5,
-    "price": 0,
-    "isFree": true,
-    "description": "Subnautica là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 14850000,
+    "isFree": false,
+    "description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
     "coverImage": "/images/games/subnautica.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/264710/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "Intel HD 4600 or equivalent - This includes most GPUs scoring greater than 950 points in the 3DMark Fire Strike benchmar",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 9400,
-      "ramGb": 8,
-      "storageGb": 13
+      "ramGb": 4,
+      "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "Nvidia GTX 550 Ti or equivalent, 2GB VRAM",
       "cpuBenchmark": 10100,
       "gpuBenchmark": 13500,
       "ramGb": 8,
-      "storageGb": 13
+      "storageGb": 20
     }
   },
   {
     "name": "No Man's Sky",
     "slug": "no-man-s-sky",
-    "steamId": null,
+    "steamId": "275850",
     "genres": [
-      "Thể thao",
-      "MOBA"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 16,
-    "price": 330000,
+    "price": 70500000,
     "isFree": false,
-    "description": "No Man's Sky là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "No Man's Sky is a game about exploration and survival in an infinite procedurally generated universe.",
     "coverImage": "/images/games/no-man-s-sky.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/275850/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10/11 (64-bit versions) Processor: Intel Core i3",
+      "gpuName": "Nvidia GTX 1060 3GB, AMD RX 470 4GB, Intel UHD graphics 630",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 10300,
       "ramGb": 8,
-      "storageGb": 16
+      "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 11600,
       "gpuBenchmark": 15000,
       "ramGb": 8,
@@ -1831,152 +1866,164 @@
   {
     "name": "Valheim",
     "slug": "valheim",
-    "steamId": null,
+    "steamId": "892970",
     "genres": [
-      "Mô phỏng",
-      "RPG"
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG",
+      "Early Access"
     ],
     "sizeGb": 19.5,
-    "price": 420000,
+    "price": 34900000,
     "isFree": false,
-    "description": "Valheim là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
     "coverImage": "/images/games/valheim.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/892970/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GeForce GTX 950 or Radeon HD 7970",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 11200,
       "ramGb": 8,
-      "storageGb": 20
+      "storageGb": 1
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 or later Processor: i5 3GHz or Ryzen 5 3GHz",
+      "gpuName": "GeForce GTX 1060 or Radeon RX 580",
       "cpuBenchmark": 13100,
       "gpuBenchmark": 16500,
-      "ramGb": 8,
-      "storageGb": 20
+      "ramGb": 16,
+      "storageGb": 1
     }
   },
   {
-    "name": "ARK Survival Evolved",
+    "name": "ARK: Survival Evolved",
     "slug": "ark-survival-evolved",
-    "steamId": "790",
+    "steamId": "346110",
     "genres": [
-      "FPS",
-      "Sinh tồn"
+      "Action",
+      "Adventure",
+      "Indie",
+      "Massively Multiplayer",
+      "RPG"
     ],
     "sizeGb": 23,
-    "price": 0,
-    "isFree": true,
-    "description": "ARK Survival Evolved là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 13550000,
+    "isFree": false,
+    "description": "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!",
     "coverImage": "/images/games/ark-survival-evolved.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/346110/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i5-2400/AMD FX-8320 or better",
+      "gpuName": "NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 3100,
-      "ramGb": 4,
-      "storageGb": 23
+      "ramGb": 8,
+      "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i5-2400/AMD FX-8320 or better",
+      "gpuName": "NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better",
       "cpuBenchmark": 14600,
       "gpuBenchmark": 9000,
-      "ramGb": 16,
-      "storageGb": 23
+      "ramGb": 8,
+      "storageGb": 60
     }
   },
   {
     "name": "Rust",
     "slug": "rust",
-    "steamId": null,
+    "steamId": "252490",
     "genres": [
-      "MOBA",
-      "Đua xe"
+      "Action",
+      "Adventure",
+      "Indie",
+      "Massively Multiplayer",
+      "RPG"
     ],
     "sizeGb": 26.5,
-    "price": 600000,
+    "price": 50000000,
     "isFree": false,
-    "description": "Rust là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
     "coverImage": "/images/games/rust.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/252490/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 11 64bit Processor: AMD Ryzen 5 1400 or Intel Core i5-6600",
+      "gpuName": "AMD Radeon RX 470, NVIDIA GeForce GTX 1060, Intel® Arc™ A580",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 4000,
-      "ramGb": 8,
-      "storageGb": 27
+      "ramGb": 12,
+      "storageGb": 45
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 11 64bit Processor: AMD Ryzen 7 3700X or Intel® Core i7-6700K",
+      "gpuName": "AMD Radeon RX 6600XT, NVIDIA GeForce RTX 3060, Intel Arc B580",
       "cpuBenchmark": 16100,
       "gpuBenchmark": 10500,
-      "ramGb": 8,
-      "storageGb": 27
+      "ramGb": 16,
+      "storageGb": 45
     }
   },
   {
     "name": "DayZ",
     "slug": "dayz",
-    "steamId": null,
+    "steamId": "221100",
     "genres": [
-      "RPG",
-      "Chiến thuật"
+      "Action",
+      "Adventure",
+      "Massively Multiplayer"
     ],
     "sizeGb": 30,
     "price": 690000,
     "isFree": false,
-    "description": "DayZ là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "How long can you survive a post-apocalyptic world? A land overrun with an infected \"zombie\" population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is your story.",
     "coverImage": "/images/games/dayz.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/221100/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i5-4430 or AMD Ryzen 5 2600 Six-Core",
+      "gpuName": "NVIDIA GeForce GTX 760 or AMD R9 270X",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 4900,
       "ramGb": 8,
-      "storageGb": 30
+      "storageGb": 25
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i5-6600K or AMD R5 1600X",
+      "gpuName": "NVIDIA GeForce GTX 1060 or AMD RX 580",
       "cpuBenchmark": 17600,
       "gpuBenchmark": 12000,
-      "ramGb": 8,
+      "ramGb": 12,
       "storageGb": 30
     }
   },
   {
     "name": "Project Zomboid",
     "slug": "project-zomboid",
-    "steamId": null,
+    "steamId": "108600",
     "genres": [
-      "Sinh tồn",
-      "Co-op"
+      "Indie",
+      "RPG",
+      "Simulation",
+      "Early Access"
     ],
     "sizeGb": 33.5,
-    "price": 0,
-    "isFree": true,
-    "description": "Project Zomboid là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 26000000,
+    "isFree": false,
+    "description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
     "coverImage": "/images/games/project-zomboid.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/108600/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 5800,
       "ramGb": 8,
       "storageGb": 34
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 7000,
       "gpuBenchmark": 13500,
       "ramGb": 8,
@@ -1986,121 +2033,127 @@
   {
     "name": "Don't Starve Together",
     "slug": "don-t-starve-together",
-    "steamId": "794",
+    "steamId": "322330",
     "genres": [
-      "Đua xe",
-      "Offline"
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG",
+      "Simulation",
+      "Strategy"
     ],
     "sizeGb": 37,
-    "price": 150000,
+    "price": 16500000,
     "isFree": false,
-    "description": "Don't Starve Together là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve.",
     "coverImage": "/images/games/don-t-starve-together.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/322330/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 6700,
-      "ramGb": 4,
-      "storageGb": 37
+      "ramGb": 1,
+      "storageGb": 3
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 8500,
       "gpuBenchmark": 10200,
-      "ramGb": 8,
-      "storageGb": 37
+      "ramGb": 1,
+      "storageGb": 3
     }
   },
   {
     "name": "Hades",
     "slug": "hades",
-    "steamId": null,
+    "steamId": "1145360",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "Action",
+      "Indie",
+      "RPG"
     ],
     "sizeGb": 40.5,
-    "price": 240000,
+    "price": 32100000,
     "isFree": false,
-    "description": "Hades là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
     "coverImage": "/images/games/hades.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1145360/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "1GB VRAM /",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 7600,
-      "ramGb": 8,
-      "storageGb": 41
+      "ramGb": 4,
+      "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "2GB VRAM /",
       "cpuBenchmark": 10000,
       "gpuBenchmark": 11700,
-      "ramGb": 16,
-      "storageGb": 41
+      "ramGb": 8,
+      "storageGb": 20
     }
   },
   {
     "name": "Hollow Knight",
     "slug": "hollow-knight",
-    "steamId": null,
+    "steamId": "367520",
     "genres": [
-      "Co-op",
-      "Mô phỏng"
+      "Action",
+      "Adventure",
+      "Indie"
     ],
     "sizeGb": 44,
-    "price": 0,
-    "isFree": true,
-    "description": "Hollow Knight là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 16500000,
+    "isFree": false,
+    "description": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
     "coverImage": "/images/games/hollow-knight.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/367520/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 version 21H1 (build 19043) or newer Processor: Intel Core i3-3240, AMD FX-4300",
+      "gpuName": "GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB)",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 8500,
-      "ramGb": 8,
-      "storageGb": 44
+      "ramGb": 4,
+      "storageGb": 9
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 version 21H1 (build 19043) or newer Processor: Intel Core i5-3470",
+      "gpuName": "GeForce GTX 1050 (2GB), Radeon R9 380 (2GB)",
       "cpuBenchmark": 11500,
       "gpuBenchmark": 13200,
       "ramGb": 8,
-      "storageGb": 44
+      "storageGb": 9
     }
   },
   {
     "name": "Cuphead",
     "slug": "cuphead",
-    "steamId": null,
+    "steamId": "268910",
     "genres": [
-      "Offline",
-      "FPS"
+      "Action",
+      "Indie"
     ],
     "sizeGb": 47.5,
-    "price": 420000,
+    "price": 18800000,
     "isFree": false,
-    "description": "Cuphead là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings.",
     "coverImage": "/images/games/cuphead.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/268910/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "Geforce 9600 GT or AMD HD 3870 512MB or higher",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 9400,
-      "ramGb": 8,
-      "storageGb": 48
+      "ramGb": 3,
+      "storageGb": 4
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 13000,
       "gpuBenchmark": 14700,
       "ramGb": 8,
@@ -2110,187 +2163,184 @@
   {
     "name": "Celeste",
     "slug": "celeste",
-    "steamId": "798",
+    "steamId": "504230",
     "genres": [
-      "Thể thao",
-      "MOBA"
+      "Action",
+      "Adventure",
+      "Indie"
     ],
     "sizeGb": 51,
-    "price": 510000,
+    "price": 25000000,
     "isFree": false,
-    "description": "Celeste là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
     "coverImage": "/images/games/celeste.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/504230/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i3 M380",
+      "gpuName": "Intel HD 4000",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 10300,
-      "ramGb": 4,
+      "ramGb": 2,
       "storageGb": 51
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i3 M380",
+      "gpuName": "Intel HD 4000",
       "cpuBenchmark": 14500,
       "gpuBenchmark": 16200,
-      "ramGb": 8,
+      "ramGb": 2,
       "storageGb": 51
     }
   },
   {
     "name": "Ori and the Will of the Wisps",
     "slug": "ori-and-the-will-of-the-wisps",
-    "steamId": null,
+    "steamId": "1057090",
     "genres": [
-      "Mô phỏng",
-      "RPG"
+      "Action"
     ],
     "sizeGb": 54.5,
-    "price": 0,
-    "isFree": true,
-    "description": "Ori and the Will of the Wisps là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 25000000,
+    "isFree": false,
+    "description": "Play the critically acclaimed masterpiece. Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies and challenging puzzles on your quest to unravel Ori’s destiny.",
     "coverImage": "/images/games/ori-and-the-will-of-the-wisps.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1057090/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "AMD Athlon X4 | Intel Core i5 4460",
+      "gpuName": "Nvidia GTX 950 | AMD R7 370",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 11200,
       "ramGb": 8,
-      "storageGb": 55
+      "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "AMD Ryzen 3 | Intel i5 Skylake",
+      "gpuName": "Nvidia GTX 970 | AMD RX 570",
       "cpuBenchmark": 16000,
       "gpuBenchmark": 17700,
       "ramGb": 8,
-      "storageGb": 55
+      "storageGb": 20
     }
   },
   {
-    "name": "Age of Empires II Definitive Edition",
+    "name": "Age of Empires II: Definitive Edition",
     "slug": "age-of-empires-ii-definitive-edition",
-    "steamId": null,
+    "steamId": "813780",
     "genres": [
-      "FPS",
-      "Sinh tồn"
+      "Strategy"
     ],
     "sizeGb": 58,
-    "price": 690000,
+    "price": 45000000,
     "isFree": false,
-    "description": "Age of Empires II Definitive Edition là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.",
     "coverImage": "/images/games/age-of-empires-ii-definitive-edition.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/813780/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core 2 Duo or AMD Athlon 64x2 5600+",
+      "gpuName": "NVIDIA® GeForce® GT 420 or ATI™ Radeon™ HD 6850 or Intel® HD Graphics 4000 or better with 2 GB VRAM",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 3100,
-      "ramGb": 8,
-      "storageGb": 58
+      "ramGb": 4,
+      "storageGb": 15
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "Nvidia® GTX 650 or AMD HD 5850 or better",
       "cpuBenchmark": 12600,
       "gpuBenchmark": 10200,
-      "ramGb": 16,
-      "storageGb": 58
+      "ramGb": 8,
+      "storageGb": 15
     }
   },
   {
-    "name": "Age of Empires IV",
+    "name": "Age of Empires IV: Anniversary Edition",
     "slug": "age-of-empires-iv",
-    "steamId": null,
+    "steamId": "1466860",
     "genres": [
-      "MOBA",
-      "Đua xe"
+      "Strategy"
     ],
     "sizeGb": 61.5,
-    "price": 780000,
+    "price": 48000000,
     "isFree": false,
-    "description": "Age of Empires IV là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Celebrating its first year of delighting millions of global players, the award-winning and best-selling strategy franchise continues with Age of Empires IV: Anniversary Edition, putting you at the center of even more epic historical battles that shaped the world.",
     "coverImage": "/images/games/age-of-empires-iv.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1466860/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 64bit | Windows 11 64bit Processor: Intel Core i5-6300U or AMD Ryzen 5 2400G | CPU w",
+      "gpuName": "Intel HD 520 or AMD Radeon RX Vega 11",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 4000,
       "ramGb": 8,
-      "storageGb": 62
+      "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "with AVX support required",
+      "gpuName": "Nvidia GeForce 970 GPU or AMD Radeon RX 570 GPU with 4GB of VRAM",
       "cpuBenchmark": 14100,
       "gpuBenchmark": 11700,
-      "ramGb": 8,
-      "storageGb": 62
+      "ramGb": 16,
+      "storageGb": 50
     }
   },
   {
-    "name": "Civilization VI",
+    "name": "Sid Meier’s Civilization® VI",
     "slug": "civilization-vi",
-    "steamId": "802",
+    "steamId": "289070",
     "genres": [
-      "RPG",
-      "Chiến thuật"
+      "Strategy"
     ],
     "sizeGb": 2,
-    "price": 0,
-    "isFree": true,
-    "description": "Civilization VI là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 70500000,
+    "isFree": false,
+    "description": "Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?",
     "coverImage": "/images/games/civilization-vi.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/289070/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "1 GB & AMD 5570 or nVidia 450 or Intel Integrated Graphics 530",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 4900,
       "ramGb": 4,
-      "storageGb": 2
+      "storageGb": 17
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "2GB & AMD 7970 or nVidia 770 or greater",
       "cpuBenchmark": 8400,
       "gpuBenchmark": 8400,
       "ramGb": 8,
-      "storageGb": 2
+      "storageGb": 23
     }
   },
   {
-    "name": "Total War Three Kingdoms",
+    "name": "Total War: THREE KINGDOMS",
     "slug": "total-war-three-kingdoms",
-    "steamId": null,
+    "steamId": "779340",
     "genres": [
-      "Sinh tồn",
-      "Co-op"
+      "Action",
+      "Strategy"
     ],
     "sizeGb": 5.5,
-    "price": 240000,
+    "price": 71900000,
     "isFree": false,
-    "description": "Total War Three Kingdoms là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China. Combining a gripping turn-based campaign of empire-building & conquest with stunning real-time battles, THREE KINGDOMS redefines the series in an age of heroes & legends.",
     "coverImage": "/images/games/total-war-three-kingdoms.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/779340/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GTX 650 Ti 1GB|HD 7850 1GB|Intel UHD Graphics 620",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 5800,
-      "ramGb": 8,
-      "storageGb": 6
+      "ramGb": 4,
+      "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 64 Bit Processor: Intel i5-6600 | Ryzen 5 2600X",
+      "gpuName": "GTX 970 | R9 Fury X 4GB VRAM",
       "cpuBenchmark": 9900,
       "gpuBenchmark": 9900,
       "ramGb": 8,
-      "storageGb": 6
+      "storageGb": 60
     }
   },
   {
@@ -2298,26 +2348,26 @@
     "slug": "starcraft-ii",
     "steamId": null,
     "genres": [
-      "Đua xe",
+      "ua xe",
       "Offline"
     ],
     "sizeGb": 9,
     "price": 330000,
     "isFree": false,
-    "description": "StarCraft II là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "StarCraft II la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/starcraft-ii.svg",
     "officialUrl": "https://store.steampowered.com/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 6700,
       "ramGb": 8,
       "storageGb": 9
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 11400,
       "gpuBenchmark": 11400,
       "ramGb": 8,
@@ -2325,34 +2375,38 @@
     }
   },
   {
-    "name": "Diablo IV",
+    "name": "Diablo® IV",
     "slug": "diablo-iv",
-    "steamId": null,
+    "steamId": "2344520",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "Action",
+      "Adventure",
+      "Casual",
+      "Massively Multiplayer",
+      "RPG",
+      "Free To Play"
     ],
     "sizeGb": 12.5,
     "price": 0,
-    "isFree": true,
-    "description": "Diablo IV là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "isFree": false,
+    "description": "Join the fight for Sanctuary in Diablo® IV, the ultimate action RPG adventure. Experience the critically acclaimed campaign and new seasonal content.",
     "coverImage": "/images/games/diablo-iv.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/2344520/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: 64-bit Windows® 10 version 1909 or newer Processor: Intel® Core™ i5-2500K or AMD™ FX-8350",
+      "gpuName": "NVIDIA® GeForce® GTX 660 or Intel® Arc™ A380 or AMD Radeon™ R9 280",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 8800,
       "ramGb": 8,
-      "storageGb": 13
+      "storageGb": 90
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: 64-bit Windows® 10 version 1909 or newer Processor: Intel® Core™ i5-4670K or AMD Ryzen™ 1300X",
+      "gpuName": "NVIDIA® GeForce® GTX 970 or Intel® Arc™ A750 or AMD Radeon™ RX 470",
       "cpuBenchmark": 12900,
       "gpuBenchmark": 14100,
       "ramGb": 16,
-      "storageGb": 13
+      "storageGb": 90
     }
   },
   {
@@ -2361,25 +2415,25 @@
     "steamId": "806",
     "genres": [
       "Co-op",
-      "Mô phỏng"
+      "M phng"
     ],
     "sizeGb": 16,
     "price": 510000,
     "isFree": false,
-    "description": "Diablo III là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Diablo III la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/diablo-iii.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://diablo3.blizzard.com/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 9700,
       "ramGb": 4,
       "storageGb": 16
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 14400,
       "gpuBenchmark": 15600,
       "ramGb": 8,
@@ -2389,435 +2443,438 @@
   {
     "name": "Torchlight II",
     "slug": "torchlight-ii",
-    "steamId": null,
+    "steamId": "200710",
     "genres": [
-      "Offline",
-      "FPS"
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG"
     ],
     "sizeGb": 19.5,
-    "price": 600000,
+    "price": 18800000,
     "isFree": false,
-    "description": "Torchlight II là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "The adventure continues in Torchlight II! An Action RPG filled with epic battles, bountiful treasure, and a fully randomized world. Bring your friends along for the journey with online and LAN multiplayer.",
     "coverImage": "/images/games/torchlight-ii.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/200710/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 10600,
-      "ramGb": 8,
+      "ramGb": 1,
       "storageGb": 20
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 11000,
       "gpuBenchmark": 17100,
-      "ramGb": 8,
+      "ramGb": 1,
       "storageGb": 20
     }
   },
   {
     "name": "Grim Dawn",
     "slug": "grim-dawn",
-    "steamId": null,
+    "steamId": "219990",
     "genres": [
-      "Thể thao",
-      "MOBA"
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG"
     ],
     "sizeGb": 23,
-    "price": 0,
-    "isFree": true,
-    "description": "Grim Dawn là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 32100000,
+    "isFree": false,
+    "description": "Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.",
     "coverImage": "/images/games/grim-dawn.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/219990/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "(Intel 2nd generation core i-series or equivalent)",
+      "gpuName": "512MB NVIDIA GeForce 6800 series or ATI Radeon X800 series or better",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 11500,
-      "ramGb": 8,
-      "storageGb": 23
+      "ramGb": 2,
+      "storageGb": 5
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "(Intel 4th generation core i-series or better)",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 12500,
       "gpuBenchmark": 18600,
-      "ramGb": 8,
-      "storageGb": 23
+      "ramGb": 6,
+      "storageGb": 5
     }
   },
   {
-    "name": "Monster Hunter World",
+    "name": "Monster Hunter: World",
     "slug": "monster-hunter-world",
-    "steamId": null,
+    "steamId": "582010",
     "genres": [
-      "Mô phỏng",
-      "RPG"
+      "Action"
     ],
     "sizeGb": 26.5,
-    "price": 780000,
+    "price": 62000000,
     "isFree": false,
-    "description": "Monster Hunter World là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement.",
     "coverImage": "/images/games/monster-hunter-world.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/582010/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: WINDOWS® 10 (64-bit required) Processor: Intel® Core™ i5 4460 or Core™ i3 9100F or AMD FX™-6300",
+      "gpuName": "NVIDIA®GeForce®GTX 760 or GTX1050 or AMD Radeon™ R7 260x or RX 560",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 12400,
       "ramGb": 8,
-      "storageGb": 27
+      "storageGb": 52
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: WINDOWS® 10 (64-bit required) Processor: Intel® Core™ i7 3770 or Core™ i3 8350 or Core™ i3 9350",
+      "gpuName": "NVIDIA® GeForce® GTX 1060 (VRAM 3GB) or GTX 1650 / AMD Radeon™ RX 480 or RX 570",
       "cpuBenchmark": 14000,
       "gpuBenchmark": 20100,
       "ramGb": 8,
-      "storageGb": 27
+      "storageGb": 52
     }
   },
   {
-    "name": "Monster Hunter Rise",
+    "name": "MONSTER HUNTER RISE",
     "slug": "monster-hunter-rise",
-    "steamId": "810",
+    "steamId": "1446780",
     "genres": [
-      "FPS",
-      "Sinh tồn"
+      "Action"
     ],
     "sizeGb": 30,
-    "price": 150000,
+    "price": 85000000,
     "isFree": false,
-    "description": "Monster Hunter Rise là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Rise to the challenge and join the hunt! In Monster Hunter Rise, the latest installment in the award-winning and top-selling Monster Hunter series, you’ll become a hunter, explore brand new maps and use a variety of weapons to take down fearsome monsters as part of an all-new storyline.",
     "coverImage": "/images/games/monster-hunter-rise.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1446780/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 （64-bit） Processor: Intel® Core™ i3-4130 or Core™ i5-3470 or AMD FX™-6100",
+      "gpuName": "NVIDIA® GeForce® GT 1030 (DDR4) or AMD Radeon™ RX 550",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 4300,
-      "ramGb": 4,
-      "storageGb": 30
+      "ramGb": 8,
+      "storageGb": 36
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 （64-bit） Processor: Intel® Core™ i5-4460 or AMD FX™-8300",
+      "gpuName": "NVIDIA® GeForce® GTX 1060 (VRAM 3GB) or AMD Radeon™ RX 570 (VRAM 4GB)",
       "cpuBenchmark": 15500,
       "gpuBenchmark": 7800,
-      "ramGb": 16,
-      "storageGb": 30
+      "ramGb": 8,
+      "storageGb": 36
     }
   },
   {
-    "name": "Sekiro Shadows Die Twice",
+    "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
     "slug": "sekiro-shadows-die-twice",
-    "steamId": null,
+    "steamId": "814380",
     "genres": [
-      "MOBA",
-      "Đua xe"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 33.5,
     "price": 0,
-    "isFree": true,
-    "description": "Sekiro Shadows Die Twice là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "isFree": false,
+    "description": "Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.",
     "coverImage": "/images/games/sekiro-shadows-die-twice.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/814380/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i3-2100 | AMD FX-6300",
+      "gpuName": "NVIDIA GeForce GTX 760 | AMD Radeon HD 7950",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 5200,
-      "ramGb": 8,
-      "storageGb": 34
+      "ramGb": 4,
+      "storageGb": 25
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i5-2500K | AMD Ryzen 5 1400",
+      "gpuName": "NVIDIA GeForce GTX 970 | AMD Radeon RX 570",
       "cpuBenchmark": 9800,
       "gpuBenchmark": 9300,
       "ramGb": 8,
-      "storageGb": 34
+      "storageGb": 25
     }
   },
   {
-    "name": "Dark Souls III",
+    "name": "DARK SOULS™ III",
     "slug": "dark-souls-iii",
-    "steamId": null,
+    "steamId": "374320",
     "genres": [
-      "RPG",
-      "Chiến thuật"
+      "Action"
     ],
     "sizeGb": 37,
-    "price": 330000,
+    "price": 97000000,
     "isFree": false,
-    "description": "Dark Souls III là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series. Prepare yourself and Embrace The Darkness!",
     "coverImage": "/images/games/dark-souls-iii.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/374320/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i3-2100 / AMD® FX-6300",
+      "gpuName": "NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 6100,
-      "ramGb": 8,
-      "storageGb": 37
+      "ramGb": 4,
+      "storageGb": 25
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i7-3770 / AMD® FX-8350",
+      "gpuName": "NVIDIA® GeForce GTX 970 / ATI Radeon R9 series",
       "cpuBenchmark": 11300,
       "gpuBenchmark": 10800,
       "ramGb": 8,
-      "storageGb": 37
+      "storageGb": 25
     }
   },
   {
-    "name": "Nioh 2",
+    "name": "Nioh 2 – The Complete Edition",
     "slug": "nioh-2",
-    "steamId": null,
+    "steamId": "1325200",
     "genres": [
-      "Sinh tồn",
-      "Co-op"
+      "Action",
+      "RPG"
     ],
     "sizeGb": 40.5,
     "price": 420000,
     "isFree": false,
-    "description": "Nioh 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Battle hordes of yokai in this masocore Action RPG. Create your protagonist and embark on an adventure through a myriad of locales across Japan during the Sengoku period. Utilize the new Yokai Shift ability to defeat even the most ferocious yokai and be prepared to brave through Dark Realms created by your enemies.",
     "coverImage": "/images/games/nioh-2.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1325200/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows® 10 64bit Processor: Intel Core i5 4460 or over",
+      "gpuName": "NVIDIA GeForce GTX 970 or over, VRAM 4GB or over",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 7000,
-      "ramGb": 8,
-      "storageGb": 41
+      "ramGb": 6,
+      "storageGb": 85
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows® 10 64bit Processor: Intel Core i7 6700K or over",
+      "gpuName": "NVIDIA GeForce GTX 1660 SUPER or over, VRAM 6GB or over",
       "cpuBenchmark": 12800,
       "gpuBenchmark": 12300,
-      "ramGb": 8,
-      "storageGb": 41
+      "ramGb": 16,
+      "storageGb": 85
     }
   },
   {
     "name": "Assassin's Creed Valhalla",
     "slug": "assassin-s-creed-valhalla",
-    "steamId": "814",
+    "steamId": "2208920",
     "genres": [
-      "Đua xe",
-      "Offline"
+      "Action",
+      "Adventure",
+      "RPG"
     ],
     "sizeGb": 44,
-    "price": 0,
-    "isFree": true,
-    "description": "Assassin's Creed Valhalla là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 99000000,
+    "isFree": false,
+    "description": "Assassin’s Creed Valhalla is an action-adventure game in which you are a Viking warrior raised on tales of battle and glory. Explore a dynamic open world set in England’s Dark Ages. Raid your enemies and grow your settlement to earn your place among the gods in Valhalla.",
     "coverImage": "/images/games/assassin-s-creed-valhalla.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/2208920/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "AMD R9 380 /NVIDIA GeForce GTX 960",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 7900,
-      "ramGb": 4,
-      "storageGb": 44
+      "ramGb": 8,
+      "storageGb": 160
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "AMD R9 380 /NVIDIA GeForce GTX 960",
       "cpuBenchmark": 9400,
       "gpuBenchmark": 13800,
       "ramGb": 8,
-      "storageGb": 44
+      "storageGb": 160
     }
   },
   {
-    "name": "Assassin's Creed Odyssey",
+    "name": "Assassin's Creed® Odyssey",
     "slug": "assassin-s-creed-odyssey",
-    "steamId": null,
+    "steamId": "812140",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "Action",
+      "Adventure",
+      "RPG"
     ],
     "sizeGb": 47.5,
-    "price": 600000,
+    "price": 99000000,
     "isFree": false,
-    "description": "Assassin's Creed Odyssey là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "In this action-adventure game, set sail for Ancient Greece to alter its fate. Fight in visceral battles on land and sea, shape your destiny from outcast to legend, and uncover secrets of your past.",
     "coverImage": "/images/games/assassin-s-creed-odyssey.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/812140/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 8800,
       "ramGb": 8,
       "storageGb": 48
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 10900,
       "gpuBenchmark": 15300,
-      "ramGb": 16,
+      "ramGb": 8,
       "storageGb": 48
     }
   },
   {
-    "name": "Far Cry 5",
+    "name": "Far Cry® 5",
     "slug": "far-cry-5",
-    "steamId": null,
+    "steamId": "552520",
     "genres": [
-      "Co-op",
-      "Mô phỏng"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 51,
-    "price": 690000,
+    "price": 14850000,
     "isFree": false,
-    "description": "Far Cry 5 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Discover the open world of Hope County, Montana, besieged by a fanatical doomsday cult. Dive into the action solo or two-player co-op in the story campaign, use a vast arsenal of weapons and allies, and free Hope County from Joseph Seed and his cult.",
     "coverImage": "/images/games/far-cry-5.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/552520/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 9700,
       "ramGb": 8,
-      "storageGb": 51
+      "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 12400,
       "gpuBenchmark": 16800,
       "ramGb": 8,
-      "storageGb": 51
+      "storageGb": 40
     }
   },
   {
-    "name": "Far Cry 6",
+    "name": "Far Cry® 6",
     "slug": "far-cry-6",
-    "steamId": null,
+    "steamId": "2369390",
     "genres": [
-      "Offline",
-      "FPS"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 54.5,
-    "price": 0,
-    "isFree": true,
-    "description": "Far Cry 6 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 99000000,
+    "isFree": false,
+    "description": "Enter the adrenaline-filled world of a modern-day guerrilla revolution. With stunning vistas, visceral gunplay, and a huge variety of gameplay experiences, there's never been a better time to join the fight.",
     "coverImage": "/images/games/far-cry-6.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/2369390/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "AMD RX 460 (4 GB) or NVIDIA GeForce GTX 960 (4 GB)",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 10600,
       "ramGb": 8,
-      "storageGb": 55
+      "storageGb": 170
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "AMD RX Vega 64 (8 GB) or NVIDIA GeForce GTX 1080 (8 GB)",
       "cpuBenchmark": 13900,
       "gpuBenchmark": 18300,
-      "ramGb": 8,
-      "storageGb": 55
+      "ramGb": 16,
+      "storageGb": 170
     }
   },
   {
-    "name": "Watch Dogs 2",
+    "name": "Watch_Dogs® 2",
     "slug": "watch-dogs-2",
-    "steamId": "818",
+    "steamId": "447040",
     "genres": [
-      "Thể thao",
-      "MOBA"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 58,
-    "price": 150000,
+    "price": 99000000,
     "isFree": false,
-    "description": "Watch Dogs 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Welcome to San Francisco. Play as Marcus, a brilliant young hacker, and join the most notorious hacker group, DedSec. Your objective: execute the biggest hack of history.",
     "coverImage": "/images/games/watch-dogs-2.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/447040/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "NVIDIA GeForce GTX 660 with 2 GB VRAM or AMD Radeon HD 7870, with 2 GB VRAM or better - See supported List*",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 11500,
-      "ramGb": 4,
-      "storageGb": 58
+      "ramGb": 6,
+      "storageGb": 27
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "NVIDIA GeForce GTX 780 | AMD Radeon R9 290, with 3GB VRAM or better - See supported List*",
       "cpuBenchmark": 15400,
       "gpuBenchmark": 15000,
       "ramGb": 8,
-      "storageGb": 58
+      "storageGb": 27
     }
   },
   {
-    "name": "Watch Dogs Legion",
+    "name": "Watch Dogs®: Legion",
     "slug": "watch-dogs-legion",
-    "steamId": null,
+    "steamId": "2239550",
     "genres": [
-      "Mô phỏng",
-      "RPG"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 61.5,
-    "price": 240000,
+    "price": 14850000,
     "isFree": false,
-    "description": "Watch Dogs Legion là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Build a resistance as you fight to take back a near-future London facing its downfall. Welcome to the Resistance.",
     "coverImage": "/images/games/watch-dogs-legion.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/2239550/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 (64-bit versions) Processor: Intel Core i5-4460 or AMD Ryzen 5 1400 290X",
+      "gpuName": "NVIDIA GeForce GTX 970, NVIDIA GeForce GTX 1650, or AMD Radeon R9 290X",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 12400,
       "ramGb": 8,
-      "storageGb": 62
+      "storageGb": 115
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 (64-bit versions) Processor: Intel Core i7-4790 or AMD Ryzen 5 1600",
+      "gpuName": "NVIDIA GeForce GTX 1060, NVIDIA GeForce GTX 1660 S, or AMD Radeon RX 480",
       "cpuBenchmark": 16900,
       "gpuBenchmark": 16500,
       "ramGb": 8,
-      "storageGb": 62
+      "storageGb": 115
     }
   },
   {
-    "name": "Control",
+    "name": "CONTROL Ultimate Edition",
     "slug": "control",
-    "steamId": null,
+    "steamId": "870780",
     "genres": [
-      "FPS",
-      "Sinh tồn"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 2,
-    "price": 0,
-    "isFree": true,
-    "description": "Control là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 49500000,
+    "isFree": false,
+    "description": "Winner of over 80 awards, CONTROL is a visually stunning third-person action-adventure that will keep you on the edge of your seat.",
     "coverImage": "/images/games/control.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/870780/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS *: Windows 7, 64-bit Processor: Intel Core i5-4690 / AMD FX 4350",
+      "gpuName": "NVIDIA GeForce GTX 780 / AMD Radeon R9 280X",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 4300,
       "ramGb": 8,
-      "storageGb": 2
+      "storageGb": 42
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10, 64-bit Processor: Intel Core i5-7600K / AMD Ryzen 5 1600X",
+      "gpuName": "NVIDIA GeForce GTX 1660/1060 / AMD Radeon RX 580 AMD | For Ray Tracing: GeForce RTX 2060",
       "cpuBenchmark": 11200,
       "gpuBenchmark": 9000,
       "ramGb": 16,
-      "storageGb": 2
+      "storageGb": 42
     }
   },
   {
@@ -2826,25 +2883,25 @@
     "steamId": null,
     "genres": [
       "MOBA",
-      "Đua xe"
+      "ua xe"
     ],
     "sizeGb": 5.5,
     "price": 420000,
     "isFree": false,
-    "description": "Alan Wake 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Alan Wake 2 la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
     "coverImage": "/images/games/alan-wake-2.svg",
-    "officialUrl": null,
+    "officialUrl": "https://www.alanwake.com/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "GPU pho thong",
       "cpuBenchmark": 3300,
       "gpuBenchmark": 5200,
       "ramGb": 8,
       "storageGb": 6
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "GPU gaming tam trung",
       "cpuBenchmark": 7800,
       "gpuBenchmark": 10500,
       "ramGb": 8,
@@ -2854,249 +2911,251 @@
   {
     "name": "Metro Exodus",
     "slug": "metro-exodus",
-    "steamId": "822",
+    "steamId": "412020",
     "genres": [
-      "RPG",
-      "Chiến thuật"
+      "Action"
     ],
     "sizeGb": 9,
-    "price": 510000,
+    "price": 49950000,
     "isFree": false,
-    "description": "Metro Exodus là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Flee the shattered ruins of the Moscow Metro and embark on an epic, continent-spanning journey across the post-apocalyptic Russian wilderness. Explore vast, non-linear levels, lose yourself in an immersive, sandbox survival experience, and follow a thrilling story-line that spans an entire year in the greatest Metro adventure yet.",
     "coverImage": "/images/games/metro-exodus.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/412020/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS *: Windows 7/8/10 Processor: Intel Core i5-4440 or equivalent",
+      "gpuName": "GeForce GTX 670 / GeForce GTX 1050 / AMD Radeon HD 7870",
       "cpuBenchmark": 4100,
       "gpuBenchmark": 6100,
-      "ramGb": 4,
-      "storageGb": 9
+      "ramGb": 8,
+      "storageGb": 59
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i7-4770k or equivalent",
+      "gpuName": "GeForce GTX 1070 / GeForce RTX 2060 / AMD RX VEGA 56",
       "cpuBenchmark": 9300,
       "gpuBenchmark": 12000,
       "ramGb": 8,
-      "storageGb": 9
+      "storageGb": 59
     }
   },
   {
-    "name": "Dying Light 2",
+    "name": "Dying Light 2 Stay Human: Reloaded Edition",
     "slug": "dying-light-2",
-    "steamId": null,
+    "steamId": "534380",
     "genres": [
-      "Sinh tồn",
-      "Co-op"
+      "Action",
+      "Adventure",
+      "RPG"
     ],
     "sizeGb": 12.5,
-    "price": 0,
-    "isFree": true,
-    "description": "Dying Light 2 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 99000000,
+    "isFree": false,
+    "description": "Humanity is fighting a losing battle against the virus. Experience a post-apocalyptic open world overrun by hordes of zombies, where your parkour and combat skills are key to survival. Traverse the City freely during the day, but watch the monsters take over during the night.",
     "coverImage": "/images/games/dying-light-2.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/534380/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows® 10 Processor: Intel Core i3-9100 / AMD Ryzen 3 2300X",
+      "gpuName": "NVIDIA® GeForce® GTX 1050 Ti / AMD Radeon™ RX 560 (4GB VRAM)",
       "cpuBenchmark": 4900,
       "gpuBenchmark": 7000,
       "ramGb": 8,
-      "storageGb": 13
+      "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "NVIDIA® GeForce RTX™ 2060 6GB or AMD RX Vega 56 8GB or newer",
       "cpuBenchmark": 10800,
       "gpuBenchmark": 13500,
-      "ramGb": 8,
-      "storageGb": 13
+      "ramGb": 16,
+      "storageGb": 60
     }
   },
   {
-    "name": "Mafia Definitive Edition",
+    "name": "Mafia: Definitive Edition",
     "slug": "mafia-definitive-edition",
-    "steamId": null,
+    "steamId": "1030840",
     "genres": [
-      "Đua xe",
-      "Offline"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 16,
-    "price": 690000,
+    "price": 69800000,
     "isFree": false,
-    "description": "Mafia Definitive Edition là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "An inadvertent brush with the mob thrusts cabdriver Tommy Angelo into the world of organized crime. Initially uneasy about falling in with the Salieri family, the rewards become too big to ignore.",
     "coverImage": "/images/games/mafia-definitive-edition.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1030840/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
       "cpuBenchmark": 5700,
       "gpuBenchmark": 7900,
-      "ramGb": 8,
-      "storageGb": 16
+      "ramGb": 6,
+      "storageGb": 50
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "NVIDIA GeForce GTX 1080 / AMD Radeon RX 5700",
       "cpuBenchmark": 12300,
       "gpuBenchmark": 15000,
-      "ramGb": 8,
-      "storageGb": 16
+      "ramGb": 16,
+      "storageGb": 50
     }
   },
   {
-    "name": "Hitman 3",
+    "name": "HITMAN World of Assassination",
     "slug": "hitman-3",
-    "steamId": null,
+    "steamId": "1659040",
     "genres": [
-      "Chiến thuật",
-      "Thể thao"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 19.5,
-    "price": 780000,
+    "price": 7700000,
     "isFree": false,
-    "description": "Hitman 3 là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Enter the world of the ultimate assassin. HITMAN World of Assassination delivers the definitive stealth action experience, putting you in the shoes of Agent 47, a master assassin. Explore immersive locations, uncover hidden secrets, and eliminate targets with complete freedom of approach.",
     "coverImage": "/images/games/hitman-3.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1659040/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Phenom II X4 940",
+      "gpuName": "NVIDIA GeForce GTX 660 / Radeon HD 7870",
       "cpuBenchmark": 6500,
       "gpuBenchmark": 8800,
       "ramGb": 8,
-      "storageGb": 20
+      "storageGb": 60
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: OS 64-bit Windows 10 Processor: Intel CPU Core i7 4790 4 GHz",
+      "gpuName": "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
       "cpuBenchmark": 13800,
       "gpuBenchmark": 16500,
       "ramGb": 16,
-      "storageGb": 20
+      "storageGb": 60
     }
   },
   {
-    "name": "Tomb Raider",
+    "name": "Tomb Raider Game of the Year",
     "slug": "tomb-raider",
-    "steamId": "826",
+    "steamId": "203160",
     "genres": [
-      "Co-op",
-      "Mô phỏng"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 23,
-    "price": 0,
-    "isFree": true,
-    "description": "Tomb Raider là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 33000000,
+    "isFree": false,
+    "description": "Tomb Raider explores the intense origin story of Lara Croft and her ascent from a young woman to a hardened survivor.",
     "coverImage": "/images/games/tomb-raider.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/203160/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "CPU pho thong 4 luong",
+      "gpuName": "DirectX 9 graphics card with 512Mb Video RAM: AMD Radeon HD 2600 XT, nVidia 8600",
       "cpuBenchmark": 7300,
       "gpuBenchmark": 9700,
-      "ramGb": 4,
+      "ramGb": 1,
       "storageGb": 23
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Quad core CPU: AMD Phenom II X4 955, Intel Core i5-750",
+      "gpuName": "DirectX 11 graphics card with 1GB Video RAM: AMD Radeon HD 5870, nVidia GTX 480",
       "cpuBenchmark": 15300,
       "gpuBenchmark": 13200,
-      "ramGb": 8,
+      "ramGb": 4,
       "storageGb": 23
     }
   },
   {
-    "name": "Shadow of the Tomb Raider",
+    "name": "Shadow of the Tomb Raider: Definitive Edition",
     "slug": "shadow-of-the-tomb-raider",
-    "steamId": null,
+    "steamId": "750920",
     "genres": [
-      "Offline",
-      "FPS"
+      "Action",
+      "Adventure"
     ],
     "sizeGb": 26.5,
-    "price": 240000,
+    "price": 66000000,
     "isFree": false,
-    "description": "Shadow of the Tomb Raider là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be.",
     "coverImage": "/images/games/shadow-of-the-tomb-raider.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/750920/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "i3-3220 INTEL or AMD Equivalent",
+      "gpuName": "Nvidia GTX 660/GTX 1050 or AMD Radeon HD 7770",
       "cpuBenchmark": 8100,
       "gpuBenchmark": 10600,
       "ramGb": 8,
-      "storageGb": 27
+      "storageGb": 40
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "CPU 6 nhan hoac tot hon",
+      "gpuName": "Nvidia GTX 1060 6GB or AMD Radeon RX 480, 8GB",
       "cpuBenchmark": 16800,
       "gpuBenchmark": 14700,
-      "ramGb": 8,
-      "storageGb": 27
+      "ramGb": 16,
+      "storageGb": 40
     }
   },
   {
     "name": "Stray",
     "slug": "stray",
-    "steamId": null,
+    "steamId": "1332010",
     "genres": [
-      "Thể thao",
-      "MOBA"
+      "Adventure",
+      "Indie"
     ],
     "sizeGb": 30,
-    "price": 330000,
+    "price": 37500000,
     "isFree": false,
-    "description": "Stray là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "description": "Lost, alone and separated from family, a stray cat must untangle an ancient mystery to escape a long-forgotten cybercity and find their way home.",
     "coverImage": "/images/games/stray.svg",
-    "officialUrl": "https://store.steampowered.com/",
+    "officialUrl": "https://store.steampowered.com/app/1332010/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i5-2300 | AMD FX-6350",
+      "gpuName": "NVIDIA GeForce GTX 650 Ti, 2 GB | AMD Radeon R7 360, 2 GB",
       "cpuBenchmark": 8900,
       "gpuBenchmark": 11500,
       "ramGb": 8,
-      "storageGb": 30
+      "storageGb": 10
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i5-8400 | AMD Ryzen 5 2600",
+      "gpuName": "NVIDIA GeForce GTX 780, 3 GB | AMD Radeon R9 290X, 4 GB",
       "cpuBenchmark": 13400,
       "gpuBenchmark": 16200,
       "ramGb": 8,
-      "storageGb": 30
+      "storageGb": 10
     }
   },
   {
-    "name": "Dave the Diver",
+    "name": "DAVE THE DIVER",
     "slug": "dave-the-diver",
-    "steamId": null,
+    "steamId": "1868140",
     "genres": [
-      "Mô phỏng",
-      "RPG"
+      "Adventure",
+      "Casual",
+      "RPG",
+      "Simulation"
     ],
     "sizeGb": 33.5,
-    "price": 0,
-    "isFree": true,
-    "description": "Dave the Diver là game phổ biến với cộng đồng game thủ Việt Nam. Dữ liệu cấu hình trong dự án dùng để ước tính nhanh mức FPS theo phần cứng thường gặp.",
+    "price": 26000000,
+    "isFree": false,
+    "description": "DAVE THE DIVER is a casual, singleplayer adventure RPG featuring deep-sea exploration and fishing during the day and sushi restaurant management at night. Join Dave and his quirky friends as they seek to uncover the secrets of the mysterious Blue Hole.",
     "coverImage": "/images/games/dave-the-diver.svg",
-    "officialUrl": null,
+    "officialUrl": "https://store.steampowered.com/app/1868140/",
     "minSpecs": {
-      "cpuName": "CPU phổ thông 4 luồng",
-      "gpuName": "GPU phổ thông",
+      "cpuName": "Intel Core i3 Dual Core",
+      "gpuName": "NVIDIA Geforce GTS 450 / AMD Radeon HD 5570",
       "cpuBenchmark": 2500,
       "gpuBenchmark": 12400,
       "ramGb": 8,
-      "storageGb": 34
+      "storageGb": 10
     },
     "recSpecs": {
-      "cpuName": "CPU 6 nhân hoặc tốt hơn",
-      "gpuName": "GPU gaming tầm trung",
+      "cpuName": "Intel Core i5 - i7 Quad Core",
+      "gpuName": "NVIDIA Geforce GTX 750Ti / AMD Radeon R9 270x",
       "cpuBenchmark": 7700,
       "gpuBenchmark": 17700,
-      "ramGb": 8,
-      "storageGb": 34
+      "ramGb": 16,
+      "storageGb": 10
     }
   }
 ]

@@ -6,6 +6,7 @@
     "lint": "next lint",
     "seed": "tsx prisma/seed.ts",
     "seed:pg": "node --env-file=.env.local scripts/supabase-seed.mjs",
+    "data:scrape": "node scripts/scrape-real-game-data.mjs",
     "prisma:generate": "prisma generate"
   },
   "dependencies": {

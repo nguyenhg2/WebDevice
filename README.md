@@ -1,8 +1,8 @@
-# MáyNàyChơiĐược.vn
+# MayNayChoiDuoc.vn
 
-Nền tảng tra cứu game theo cấu hình PC/laptop cho thị trường Việt Nam, dùng Next.js 15, TypeScript, Tailwind CSS 4, Supabase, Redis Cloud và Vercel free tier.
+Nen tang tra cuu game theo cau hinh PC/laptop cho thi truong Viet Nam, dung Next.js 15, TypeScript, Tailwind CSS 4, Supabase, Redis Cloud va Vercel free tier.
 
-## Cài đặt
+## Cai dat
 
 ```bash
 npm install
@@ -12,7 +12,7 @@ npm run seed
 npm run dev
 ```
 
-Các biến môi trường cần cấu hình trên Vercel:
+Bien moi truong can cau hinh tren Vercel:
 
 - `NEXT_PUBLIC_SUPABASE_URL`
 - `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
@@ -23,10 +23,18 @@ Các biến môi trường cần cấu hình trên Vercel:
 - `NEXT_PUBLIC_GA_ID`
 - `NEXT_PUBLIC_SITE_URL`
 
-## Dữ liệu
+## Du lieu
 
-Dữ liệu seed nằm trong `data/`: 100 game, 50 GPU, 30 CPU, 30 thiết bị, hơn 500 benchmark và 20 bài blog.
+Du lieu seed nam trong `data/`: 100 game, 50 GPU, 30 CPU, 30 thiet bi, hon 500 benchmark va 20 bai blog.
+
+Game co the cap nhat tu nguon that bang:
+
+```bash
+npm run data:scrape
+```
+
+Script `scripts/scrape-real-game-data.mjs` lay du lieu tu Steam Store API voi vung `vn`, fallback `us` neu game bi gioi han vung. Cac game khong co tren Steam duoc gan website chinh thuc cua nha phat hanh. Nguon cua tung game nam trong `data/game-sources.json`.
 
 ## Deploy
 
-Đẩy repo lên GitHub, import vào Vercel, cấu hình các biến môi trường trong `.env.local.example`, sau đó deploy. Sitemap nằm tại `/sitemap.xml`, robots tại `/robots.txt`.
+Day repo len GitHub, import vao Vercel, cau hinh cac bien moi truong trong `.env.local.example`, sau do deploy. Sitemap nam tai `/sitemap.xml`, robots tai `/robots.txt`.
