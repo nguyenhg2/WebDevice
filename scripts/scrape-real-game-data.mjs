@@ -75,10 +75,10 @@ const steamIdOverrides = {
 };
 
 const officialUrlOverrides = {
-  "valorant": "https://playvalorant.com/",
+  "valorant": "https://playvalorant.com/vi-vn/",
   "genshin-impact": "https://genshin.hoyoverse.com/",
-  "lien-minh-huyen-thoai": "https://www.leagueoflegends.com/",
-  "fortnite": "https://www.fortnite.com/",
+  "lien-minh-huyen-thoai": "https://www.leagueoflegends.com/vi-vn/",
+  "fortnite": "https://www.fortnite.com/?lang=en-US&language=vietnamese",
   "minecraft": "https://www.minecraft.net/",
   "roblox": "https://www.roblox.com/",
   "fifa-online-4": "https://fo4.garena.vn/",
@@ -86,6 +86,57 @@ const officialUrlOverrides = {
   "audition": "https://au.vtcgame.vn/",
   "alan-wake-2": "https://www.alanwake.com/",
   "diablo-iii": "https://diablo3.blizzard.com/",
+};
+
+const curatedSpecOverrides = {
+  "valorant": {
+    minSpecs: { cpuName: "Intel Core 2 Duo E8400 hoặc AMD Athlon 200GE", gpuName: "Intel HD 4000 hoặc AMD Radeon R5 200", ramGb: 4, storageGb: 30 },
+    recSpecs: { cpuName: "Intel Core i3-4150 hoặc AMD Ryzen 3 1200 trở lên", gpuName: "NVIDIA GeForce GT 730 hoặc AMD Radeon R7 240 trở lên", ramGb: 4, storageGb: 30 },
+  },
+  "genshin-impact": {
+    minSpecs: { cpuName: "Intel Core i5 thế hệ 4 hoặc tương đương", gpuName: "NVIDIA GeForce GT 1030 hoặc tương đương", ramGb: 8, storageGb: 100 },
+    recSpecs: { cpuName: "Intel Core i7 thế hệ 7 hoặc tương đương trở lên", gpuName: "NVIDIA GeForce GTX 1060 6GB trở lên", ramGb: 16, storageGb: 100 },
+  },
+  "lien-minh-huyen-thoai": {
+    minSpecs: { cpuName: "Intel Core i3-530 hoặc AMD A6-3650", gpuName: "NVIDIA GeForce 9600GT hoặc AMD HD 6570", ramGb: 2, storageGb: 16 },
+    recSpecs: { cpuName: "Intel Core i5-3300 hoặc AMD Ryzen 3 1200 trở lên", gpuName: "NVIDIA GeForce GTX 560 hoặc AMD Radeon HD 6950 trở lên", ramGb: 4, storageGb: 16 },
+  },
+  "fortnite": {
+    minSpecs: { cpuName: "Intel Core i3-3225 3.3GHz", gpuName: "Intel HD 4000 hoặc AMD Radeon Vega 8", ramGb: 8, storageGb: 50 },
+    recSpecs: { cpuName: "Intel Core i5-7300U 3.5GHz hoặc AMD Ryzen 3 3300U trở lên", gpuName: "NVIDIA GTX 960, AMD R9 280 hoặc DX11 GPU tương đương", ramGb: 16, storageGb: 50 },
+  },
+  "minecraft": {
+    minSpecs: { cpuName: "Intel Core i3-3210 hoặc AMD A8-7600", gpuName: "Intel HD 4000 hoặc AMD Radeon R5", ramGb: 4, storageGb: 4 },
+    recSpecs: { cpuName: "Intel Core i5-4690 hoặc AMD A10-7800 trở lên", gpuName: "NVIDIA GeForce 700 Series hoặc AMD Radeon Rx 200 Series trở lên", ramGb: 8, storageGb: 4 },
+  },
+  "roblox": {
+    minSpecs: { cpuName: "CPU 1.6GHz sản xuất từ năm 2005 trở lên", gpuName: "GPU hỗ trợ DirectX 10 trở lên", ramGb: 1, storageGb: 2 },
+    recSpecs: { cpuName: "Intel Core i3 hoặc AMD Ryzen 3 trở lên", gpuName: "Intel UHD 620 hoặc GPU rời phổ thông trở lên", ramGb: 4, storageGb: 2 },
+  },
+  "fifa-online-4": {
+    minSpecs: { cpuName: "Intel Core i3-2100 3.1GHz", gpuName: "NVIDIA GeForce GT 730 hoặc AMD Radeon HD 7570", ramGb: 4, storageGb: 20 },
+    recSpecs: { cpuName: "Intel Core i5-2550 3.4GHz trở lên", gpuName: "NVIDIA GeForce GTX 460 hoặc AMD Radeon HD 6870 trở lên", ramGb: 8, storageGb: 20 },
+  },
+  "dot-kich": {
+    minSpecs: { cpuName: "Intel Pentium 4 2.0GHz", gpuName: "NVIDIA GeForce 6600 hoặc ATI Radeon X1600", ramGb: 2, storageGb: 15 },
+    recSpecs: { cpuName: "Intel Core 2 Duo E6600 trở lên", gpuName: "NVIDIA GeForce 8600GT hoặc AMD Radeon HD 2600 trở lên", ramGb: 4, storageGb: 15 },
+  },
+  "audition": {
+    minSpecs: { cpuName: "Intel Pentium 4 2.4GHz", gpuName: "GPU hỗ trợ DirectX 9.0c", ramGb: 2, storageGb: 10 },
+    recSpecs: { cpuName: "Intel Core i3 hoặc AMD tương đương trở lên", gpuName: "NVIDIA GeForce GT 730 hoặc Intel UHD 620 trở lên", ramGb: 4, storageGb: 10 },
+  },
+  "diablo-iii": {
+    minSpecs: { cpuName: "Intel Core 2 Duo hoặc AMD Athlon 64 X2", gpuName: "NVIDIA GeForce 8800GT hoặc ATI Radeon HD 2900 XT", ramGb: 4, storageGb: 25 },
+    recSpecs: { cpuName: "Intel Core i5 hoặc AMD FX trở lên", gpuName: "NVIDIA GeForce GTX 260 hoặc ATI Radeon HD 4870 trở lên", ramGb: 8, storageGb: 25 },
+  },
+  "alan-wake-2": {
+    minSpecs: { cpuName: "Intel Core i5-7600K hoặc AMD Ryzen 5 1600", gpuName: "NVIDIA RTX 2060 hoặc AMD Radeon RX 6600", ramGb: 16, storageGb: 90 },
+    recSpecs: { cpuName: "AMD Ryzen 7 3700X hoặc Intel Core i7-10700K trở lên", gpuName: "NVIDIA RTX 3070 hoặc AMD Radeon RX 6700 XT trở lên", ramGb: 16, storageGb: 90 },
+  },
+  "starcraft-ii": {
+    minSpecs: { cpuName: "Intel Core 2 Duo hoặc AMD Athlon 64 X2 5600+", gpuName: "NVIDIA GeForce 7600 GT hoặc ATI Radeon HD 2600 XT", ramGb: 2, storageGb: 30 },
+    recSpecs: { cpuName: "Intel Core i5 hoặc AMD FX Series trở lên", gpuName: "NVIDIA GeForce GTX 650 hoặc AMD Radeon HD 7790 trở lên", ramGb: 4, storageGb: 30 },
+  },
 };
 
 const genreTranslations = {
@@ -166,12 +217,19 @@ function hasLikelyEnglishText(value) {
 
 function localizeGame(game) {
   const genres = (game.genres || []).map(translateGenre);
-  return {
+  const curated = curatedSpecOverrides[game.slug];
+  const localized = {
     ...game,
     genres,
     description: buildVietnameseDescription({ ...game, genres }, genres),
     minSpecs: localizeSpecBlock(game.minSpecs),
     recSpecs: localizeSpecBlock(game.recSpecs),
+  };
+  if (!curated) return localized;
+  return {
+    ...localized,
+    minSpecs: { ...localized.minSpecs, ...curated.minSpecs },
+    recSpecs: { ...localized.recSpecs, ...curated.recSpecs },
   };
 }
 
@@ -196,6 +254,7 @@ function localizeSpecName(value, type) {
     ["GPU gaming tầm trung", "GPU gaming tầm trung"],
   ]);
   if (replacements.has(text)) return replacements.get(text);
+  if (/\bor higher\b/i.test(text)) return text.replace(/\bor higher\b/gi, "trở lên");
 
   if (/video card must be/i.test(text)) return "Card đồ họa hỗ trợ DirectX 11, VRAM 1GB trở lên";
   if (/^and operating system$/i.test(text)) return type === "cpu" ? "CPU 64-bit tương thích Windows" : "GPU hỗ trợ DirectX";
