@@ -90,6 +90,15 @@ const officialUrlOverrides = {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+function resolveUrl(baseUrl, value) {
+  if (!value) return null;
+  try {
+    return new URL(value, baseUrl).toString();
+  } catch {
+    return null;
+  }
+}
+
 function normalize(value) {
   return String(value)
     .toLowerCase()
@@ -110,6 +119,15 @@ function stripHtml(value) {
     .replace(/&#39;/g, "'")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function decodeHtmlAttribute(value) {
+  return String(value || "")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
 }
 
 function pickNumber(text, patterns) {
@@ -170,6 +188,37 @@ async function fetchJson(url, params) {
   return response.json();
 }
 
+async function fetchHtml(url) {
+  const response = await fetch(url, {
+    headers: {
+      "User-Agent": "Maynaychoiduoc.vn data updater (contact: local project)",
+      Accept: "text/html",
+    },
+  });
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+  return response.text();
+}
+
+function extractOgImage(baseUrl, html) {
+  const patterns = [
+    /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["'][^>]*>/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["'][^>]*>/i,
+    /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["'][^>]*>/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["'][^>]*>/i,
+  ];
+  for (const pattern of patterns) {
+    const match = html.match(pattern);
+    const image = resolveUrl(baseUrl, decodeHtmlAttribute(match?.[1]));
+    if (image) return image;
+  }
+  return null;
+}
+
+async function getOfficialImage(url) {
+  const html = await fetchHtml(url);
+  return extractOgImage(url, html);
+}
+
 async function findSteamAppId(game) {
   if (Object.prototype.hasOwnProperty.call(steamIdOverrides, game.slug)) {
     return steamIdOverrides[game.slug];
@@ -217,6 +266,7 @@ function mergeSteamGame(game, appid, details) {
     price: details.is_free ? 0 : Number.isFinite(finalPrice) ? finalPrice : game.price,
     isFree: Boolean(details.is_free),
     description: stripHtml(details.short_description) || game.description,
+    coverImage: details.header_image || game.coverImage,
     officialUrl: `https://store.steampowered.com/app/${appid}/`,
     minSpecs: mergeSpec(game.minSpecs, minHtml),
     recSpecs: mergeSpec(game.recSpecs, recHtml || minHtml),
@@ -261,11 +311,15 @@ async function main() {
         }
       } else if (officialUrlOverrides[game.slug]) {
         nextGame.officialUrl = officialUrlOverrides[game.slug];
+        const image = await getOfficialImage(nextGame.officialUrl).catch(() => null);
+        if (image) nextGame.coverImage = image;
         source = {
           ...source,
           source: "official-site",
           url: nextGame.officialUrl,
-          note: "No Steam app used; official publisher/game site recorded.",
+          note: image
+            ? "No Steam app used; official publisher/game site and social preview image recorded."
+            : "No Steam app used; official publisher/game site recorded.",
         };
       } else {
         source.note = "No trusted automated source matched; kept existing curated values.";

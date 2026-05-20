@@ -1,4 +1,4 @@
-# MayNayChoiDuoc.vn
+# Maynaychoiduoc.vn
 
 Nen tang tra cuu game theo cau hinh PC/laptop cho thi truong Viet Nam, dung Next.js 15, TypeScript, Tailwind CSS 4, Supabase, Redis Cloud va Vercel free tier.
 

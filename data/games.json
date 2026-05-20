@@ -11,7 +11,7 @@
     "price": 0,
     "isFree": true,
     "description": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
-    "coverImage": "/images/games/counter-strike-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
     "officialUrl": "https://store.steampowered.com/app/730/",
     "minSpecs": {
       "cpuName": "4 hardware CPU threads - Intel® Core™ i5 750 or higher",
@@ -42,7 +42,7 @@
     "price": 240000,
     "isFree": false,
     "description": "Valorant la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
-    "coverImage": "/images/games/valorant.svg",
+    "coverImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL?w=1200&h=630&fm=webp&fit=crop&crop=center",
     "officialUrl": "https://playvalorant.com/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -73,7 +73,7 @@
     "price": 330000,
     "isFree": false,
     "description": "Genshin Impact la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
-    "coverImage": "/images/games/genshin-impact.svg",
+    "coverImage": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
     "officialUrl": "https://genshin.hoyoverse.com/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -104,7 +104,7 @@
     "price": 0,
     "isFree": true,
     "description": "Lien Minh Huyen Thoai la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
-    "coverImage": "/images/games/lien-minh-huyen-thoai.svg",
+    "coverImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0ad60463de21fac1bdd711becb0a4ed8986f9d55-1200x630.jpg?accountingTag=LoL?w=1200&h=630&fm=webp&fit=crop&crop=center",
     "officialUrl": "https://www.leagueoflegends.com/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -136,7 +136,7 @@
     "price": 0,
     "isFree": true,
     "description": "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
-    "coverImage": "/images/games/dota-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
     "officialUrl": "https://store.steampowered.com/app/570/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -169,7 +169,7 @@
     "price": 0,
     "isFree": true,
     "description": "PUBG: BATTLEGROUNDS, the high-stakes winner-take-all shooter that started the Battle Royale craze, is free-to-play! Drop into diverse maps, loot unique weapons and supplies, and survive in an ever-shrinking zone where every turn could be your last.",
-    "coverImage": "/images/games/pubg-battlegrounds.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1778634253",
     "officialUrl": "https://store.steampowered.com/app/578080/",
     "minSpecs": {
       "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Intel Core i5-4430 / AMD FX-6300",
@@ -201,7 +201,7 @@
     "price": 0,
     "isFree": true,
     "description": "Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.",
-    "coverImage": "/images/games/apex-legends.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/0bd74245b869287a2dc7f682e6013f7ed08d98e3/header.jpg?t=1778502442",
     "officialUrl": "https://store.steampowered.com/app/1172470/",
     "minSpecs": {
       "cpuName": "and operating system OS: 64-bit Windows 10 Processor: AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
@@ -263,7 +263,7 @@
     "price": 150000,
     "isFree": false,
     "description": "Minecraft la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
-    "coverImage": "/images/games/minecraft.svg",
+    "coverImage": "https://www.minecraft.net/content/dam/minecraftnet/franchise/logos/minecraft-creeper-face.jpg",
     "officialUrl": "https://www.minecraft.net/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -325,7 +325,7 @@
     "price": 330000,
     "isFree": false,
     "description": "EA SPORTS FC™ 24 welcomes you to The World’s Game: the most true-to-football experience ever with HyperMotionV, PlayStyles optimised by Opta, and an enhanced Frostbite™ Engine.",
-    "coverImage": "/images/games/ea-sports-fc-24.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/header.jpg?t=1752167366",
     "officialUrl": "https://store.steampowered.com/app/2195250/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -356,7 +356,7 @@
     "price": 420000,
     "isFree": false,
     "description": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
-    "coverImage": "/images/games/grand-theft-auto-v.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
     "officialUrl": "https://store.steampowered.com/app/271590/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -387,7 +387,7 @@
     "price": 33950000,
     "isFree": false,
     "description": "Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and bounty hunters massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland in order to survive.",
-    "coverImage": "/images/games/red-dead-redemption-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
     "officialUrl": "https://store.steampowered.com/app/1174180/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 - 64-bit Processor: Intel® Core™ i5-2500K / AMD FX-6300",
@@ -417,7 +417,7 @@
     "price": 99000000,
     "isFree": false,
     "description": "Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.",
-    "coverImage": "/images/games/cyberpunk-2077.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377",
     "officialUrl": "https://store.steampowered.com/app/1091500/",
     "minSpecs": {
       "cpuName": "and operating system OS: 64-bit Windows 10 Processor: Core i7-6700 or Ryzen 5 1600",
@@ -448,7 +448,7 @@
     "price": 99000000,
     "isFree": false,
     "description": "THE CRITICALLY ACCLAIMED FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
-    "coverImage": "/images/games/elden-ring.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1767883716",
     "officialUrl": "https://store.steampowered.com/app/1245620/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 Processor: INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
@@ -478,7 +478,7 @@
     "price": 66000000,
     "isFree": false,
     "description": "You are Geralt of Rivia, mercenary monster slayer. Before you stands a war-torn, monster-infested continent you can explore at will. Your current contract? Tracking down Ciri — the Child of Prophecy, a living weapon that can alter the shape of the world.",
-    "coverImage": "/images/games/the-witcher-3.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg?t=1768303991",
     "officialUrl": "https://store.steampowered.com/app/292030/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -510,7 +510,7 @@
     "price": 150000,
     "isFree": false,
     "description": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
-    "coverImage": "/images/games/hogwarts-legacy.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header.jpg?t=1778797474",
     "officialUrl": "https://store.steampowered.com/app/990080/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -544,7 +544,7 @@
     "price": 38500000,
     "isFree": false,
     "description": "Fight, farm, build and work alongside mysterious creatures called \"Pals\" in this completely new multiplayer, open world survival and crafting game!",
-    "coverImage": "/images/games/palworld.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/058bd87dc17a7179e07c446aa64d0574ca43ab9d/header.jpg?t=1773936597",
     "officialUrl": "https://store.steampowered.com/app/1623730/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -574,7 +574,7 @@
     "price": 3999,
     "isFree": false,
     "description": "The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person shooter.",
-    "coverImage": "/images/games/helldivers-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/f11c258b04a5e3e7771c1bab60f324ebf6c6c6fb/header.jpg?t=1770747641",
     "officialUrl": "https://store.steampowered.com/app/553850/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i7-4790K or AMD Ryzen 5 1500X",
@@ -606,7 +606,7 @@
     "price": 99000000,
     "isFree": false,
     "description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
-    "coverImage": "/images/games/baldur-s-gate-3.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
     "officialUrl": "https://store.steampowered.com/app/1086940/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 64-bit Processor: Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite",
@@ -638,7 +638,7 @@
     "price": 0,
     "isFree": true,
     "description": "Awaken as an unstoppable warrior and battle alongside your friends in this story-driven free-to-play online action game",
-    "coverImage": "/images/games/warframe.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/60ce7425b864dd3c0dd855bfc66004c6f9ca4844/header.jpg?t=1778595605",
     "officialUrl": "https://store.steampowered.com/app/230410/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -673,7 +673,7 @@
     "price": 0,
     "isFree": true,
     "description": "You are an Exile, struggling to survive on the dark continent of Wraeclast, as you fight to earn power that will allow you to exact your revenge against those who wronged you. Path of Exile is an online Action RPG set in a dark fantasy world. The game is completely free and will never be pay-to-win.",
-    "coverImage": "/images/games/path-of-exile.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/558fd9078de800b7528a8e96bee0108a8fac17aa/header.jpg?t=1773177577",
     "officialUrl": "https://store.steampowered.com/app/238960/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -707,7 +707,7 @@
     "price": 0,
     "isFree": true,
     "description": "Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore new lands, seek out lost treasures, and test yourself in thrilling action combat in this action-packed free-to-play RPG.",
-    "coverImage": "/images/games/lost-ark.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg?t=1763571534",
     "officialUrl": "https://store.steampowered.com/app/1599340/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 (64-bit only) Processor: Intel Core i3 – 10100 AMD Ryzen3 3100",
@@ -740,7 +740,7 @@
     "price": 0,
     "isFree": true,
     "description": "World of Tanks is a tactical action game with very different gameplay depending on the vehicle type and role. Aside from regular PvP, there are competitive and clan-based modes, special PvE and PvPvE events, and much more. Whether you play to dominate or just enjoy the ride, you'll fit right in.",
-    "coverImage": "/images/games/world-of-tanks.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/819fc92f7ddb96ef10792a6d72382c5b814d671a/header.jpg?t=1777450200",
     "officialUrl": "https://store.steampowered.com/app/1407200/",
     "minSpecs": {
       "cpuName": "Intel Core i5-3330 / AMD FX-6300",
@@ -773,7 +773,7 @@
     "price": 0,
     "isFree": true,
     "description": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, and naval craft, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea.",
-    "coverImage": "/images/games/war-thunder.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/ceff9434460880755b42a90b8915e87dff4482ad/header.jpg?t=1779186880",
     "officialUrl": "https://store.steampowered.com/app/236390/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -804,7 +804,7 @@
     "price": 7000000,
     "isFree": false,
     "description": "Travel across Europe as king of the road, a trucker who delivers important cargo across impressive distances! With dozens of cities to explore, your endurance, skill and speed will all be pushed to their limits.",
-    "coverImage": "/images/games/euro-truck-simulator-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1773641450",
     "officialUrl": "https://store.steampowered.com/app/227300/",
     "minSpecs": {
       "cpuName": "Intel Core i5-6400 or AMD Ryzen 3 1200 or similar",
@@ -834,7 +834,7 @@
     "price": 46000000,
     "isFree": false,
     "description": "Create your farm and let the good times grow! Harvest crops, tend to animals, manage productions, and take on seasonal challenges.",
-    "coverImage": "/images/games/farming-simulator-22.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1248130/7ff56320788fa4b1f46ac9a62ff955d3ef3f109c/header.jpg?t=1765792398",
     "officialUrl": "https://store.steampowered.com/app/1248130/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 Home (x64) Processor: Intel Core i5-3330 or AMD FX-8320 or better",
@@ -867,7 +867,7 @@
     "price": 0,
     "isFree": true,
     "description": "Play with life and discover the possibilities. Unleash your imagination and create a world of Sims that’s wholly unique. Explore and customize every detail from Sims to homes–and much more.",
-    "coverImage": "/images/games/the-sims-4.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/header.jpg?t=1778778231",
     "officialUrl": "https://store.steampowered.com/app/1222670/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -898,7 +898,7 @@
     "price": 52300000,
     "isFree": false,
     "description": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience.",
-    "coverImage": "/images/games/cities-skylines.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg?t=1777568415",
     "officialUrl": "https://store.steampowered.com/app/255710/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows® 10 Home 64 Bit Processor: Intel® Core™ I7 930 | AMD® FX 6350",
@@ -931,7 +931,7 @@
     "price": 14200000,
     "isFree": false,
     "description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
-    "coverImage": "/images/games/terraria.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
     "officialUrl": "https://store.steampowered.com/app/105600/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -963,7 +963,7 @@
     "price": 8250000,
     "isFree": false,
     "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
-    "coverImage": "/images/games/stardew-valley.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
     "officialUrl": "https://store.steampowered.com/app/413150/",
     "minSpecs": {
       "cpuName": "2 Ghz",
@@ -993,7 +993,7 @@
     "price": 7000000,
     "isFree": false,
     "description": "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "coverImage": "/images/games/among-us.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1757444903",
     "officialUrl": "https://store.steampowered.com/app/945360/",
     "minSpecs": {
       "cpuName": "INTEL i3-4330",
@@ -1023,7 +1023,7 @@
     "price": 14200000,
     "isFree": false,
     "description": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.",
-    "coverImage": "/images/games/left-4-dead-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1772742214",
     "officialUrl": "https://store.steampowered.com/app/550/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1054,7 +1054,7 @@
     "price": 0,
     "isFree": true,
     "description": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
-    "coverImage": "/images/games/team-fortress-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
     "officialUrl": "https://store.steampowered.com/app/440/",
     "minSpecs": {
       "cpuName": "or better",
@@ -1085,7 +1085,7 @@
     "price": 0,
     "isFree": true,
     "description": "Rainbow Six® Siege is the reference in tactical team shooters, where elite strategy and execution triumph. Enjoy free access to Quick Match, Unranked, and Dual Front game modes with a selection of operators.",
-    "coverImage": "/images/games/rainbow-six-siege.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/97ce482d2a8ec5d2beb1081e954ac1ec16eea1fb/header_alt_assets_21.jpg?t=1779209046",
     "officialUrl": "https://store.steampowered.com/app/359550/",
     "minSpecs": {
       "cpuName": "AMD Ryzen 3 3100 / Intel i3-8100",
@@ -1116,7 +1116,7 @@
     "price": 0,
     "isFree": true,
     "description": "Overwatch®, A FUTURE WORTH FIGHTING FOR! Overwatch® is an always-on and ever-evolving free-to-play, team-based action game set in an optimistic future, where every match is the ultimate 5v5 or 6v6 battlefield brawl.",
-    "coverImage": "/images/games/overwatch-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/1f84e73b8095ab9f40b1bc2c81845330979afc09/header_alt_assets_20.jpg?t=1778610036",
     "officialUrl": "https://store.steampowered.com/app/2357570/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows® 10 64-bit (latest Service Pack) Processor: Intel® Core™ i3 or AMD Phenom™ X3 8650",
@@ -1149,7 +1149,7 @@
     "price": 0,
     "isFree": false,
     "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
-    "coverImage": "/images/games/rocket-league.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/1bcf75584d0c3613b02b2d0a2721a6b411375784/header_alt_assets_15.jpg?t=1773251703",
     "officialUrl": "https://store.steampowered.com/app/252950/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1183,7 +1183,7 @@
     "price": 99000000,
     "isFree": false,
     "description": "Explore the vibrant open world landscapes of Mexico with limitless, fun driving action in the world’s greatest cars.",
-    "coverImage": "/images/games/forza-horizon-5.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1746471508",
     "officialUrl": "https://store.steampowered.com/app/1551360/",
     "minSpecs": {
       "cpuName": "Intel i5-4460 or AMD Ryzen 3 1200",
@@ -1216,7 +1216,7 @@
     "price": 690000,
     "isFree": false,
     "description": "Hustle by day and risk it all at night in Need for Speed™ Heat Deluxe Edition, a white-knuckle street racer, where the lines of the law fade as the sun starts to set.",
-    "coverImage": "/images/games/need-for-speed-heat.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg?t=1777414224",
     "officialUrl": "https://store.steampowered.com/app/1222680/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1249,7 +1249,7 @@
     "price": 26000000,
     "isFree": false,
     "description": "Assetto Corsa v1.16 introduces the new \"Laguna Seca\" laser-scanned track, 7 new cars among which the eagerly awaited Alfa Romeo Giulia Quadrifoglio! Check the changelog for further info!",
-    "coverImage": "/images/games/assetto-corsa.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1754985171",
     "officialUrl": "https://store.steampowered.com/app/244210/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1311,7 +1311,7 @@
     "price": 240000,
     "isFree": false,
     "description": "Dot Kich la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
-    "coverImage": "/images/games/dot-kich.svg",
+    "coverImage": "https://cf.goplay.vn/~/newdesign/images/cf_log_thum.png",
     "officialUrl": "https://cf.goplay.vn/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1342,7 +1342,7 @@
     "price": 0,
     "isFree": true,
     "description": "Audition la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
-    "coverImage": "/images/games/audition.svg",
+    "coverImage": "https://cdnmedia.vtcgame.vn/aupc/trangchu/assets/images/Thumb_Audition.jpg",
     "officialUrl": "https://au.vtcgame.vn/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1376,7 +1376,7 @@
     "price": 0,
     "isFree": true,
     "description": "This thrilling free-to-play Collectible Action MMORPG offers the duality of turn-based strategy & real-time action. Experience exciting cross-platform play and embark on an epic quest where numerous stories are waiting to be discovered alongside your five member team. Unite your heroes!",
-    "coverImage": "/images/games/blade-soul.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3616890/60a5e0d12b59e64a40ea6633c50799ebdf9f4674/header.jpg?t=1771982264",
     "officialUrl": "https://store.steampowered.com/app/3616890/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 64-bit v1607+ Processor: Intel i5-6500 or AMD Ryzen 5 1600",
@@ -1410,7 +1410,7 @@
     "price": 8000000,
     "isFree": false,
     "description": "Played by over 20 million Adventurers - Black Desert Online is an open-world, action MMORPG. Experience intense, action-packed combat, battle massive world bosses, fight alongside friends to siege and conquer castles, and train in professions such as fishing, trading, crafting, cooking, and more!",
-    "coverImage": "/images/games/black-desert-online.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/4f0ea9284b5fae9464dadc528bb572c629666313/header_alt_assets_27.jpg?t=1773974827",
     "officialUrl": "https://store.steampowered.com/app/582660/",
     "minSpecs": {
       "cpuName": "Intel Core i3 (4th Generation)",
@@ -1440,7 +1440,7 @@
     "price": 29800000,
     "isFree": false,
     "description": "Battle as a team of 4 to compete against other teams online! Graphically, SHINOBI STRIKER is also built from the ground up in a completely new graphic style. Lead your team and fight online to see who the best ninjas are!",
-    "coverImage": "/images/games/naruto-to-boruto-shinobi-striker.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/633230/header.jpg?t=1778877162",
     "officialUrl": "https://store.steampowered.com/app/633230/",
     "minSpecs": {
       "cpuName": "Intel Core i3-8350K",
@@ -1470,7 +1470,7 @@
     "price": 79000000,
     "isFree": false,
     "description": "TEKKEN 8 is the latest addition to the TEKKEN series, the pinnacle of 3D fighting games. Join the fight with over 32 characters and bear witness to the next installment in this epic saga. Get ready for the biggest and best TEKKEN game ever made!",
-    "coverImage": "/images/games/tekken-8.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/f69b0f7c35aa8c966d9ff74c2bae548dbea072e4/header.jpg?t=1770678135",
     "officialUrl": "https://store.steampowered.com/app/1778820/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 64-Bit Processor: Intel Core i5-6600K/AMD Ryzen 5 1600",
@@ -1501,7 +1501,7 @@
     "price": 79400000,
     "isFree": false,
     "description": "Here comes Capcom’s newest challenger! Street Fighter™ 6 launches worldwide on June 2nd, 2023 and represents the next evolution of the Street Fighter™ series! Street Fighter 6 spans three distinct game modes, including World Tour, Fighting Ground and Battle Hub.",
-    "coverImage": "/images/games/street-fighter-6.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1776917924",
     "officialUrl": "https://store.steampowered.com/app/1364780/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 (64 bit required) Processor: Intel Core i5-7500 / AMD Ryzen 3 1200",
@@ -1531,7 +1531,7 @@
     "price": 59000000,
     "isFree": false,
     "description": "Mortal Kombat is back and better than ever in the next evolution of the iconic franchise.",
-    "coverImage": "/images/games/mortal-kombat-11.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976310/header.jpg?t=1775508340",
     "officialUrl": "https://store.steampowered.com/app/976310/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1561,7 +1561,7 @@
     "price": 19050000,
     "isFree": false,
     "description": "DRAGON BALL FighterZ is born from what makes the DRAGON BALL series so loved and famous: endless spectacular fights with its all-powerful fighters.",
-    "coverImage": "/images/games/dragon-ball-fighterz.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/678950/df2f6b9630a969448a14eed5aba183d27d2ca65b/header_alt_assets_6.jpg?t=1776898545",
     "officialUrl": "https://store.steampowered.com/app/678950/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1592,7 +1592,7 @@
     "price": 85000000,
     "isFree": false,
     "description": "Survival is just the beginning. Six years have passed since the biological disaster in Raccoon City. Leon S. Kennedy, one of the survivors, tracks the president's kidnapped daughter to a secluded European village, where there is something terribly wrong with the locals.",
-    "coverImage": "/images/games/resident-evil-4-remake.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
     "officialUrl": "https://store.steampowered.com/app/2050650/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 (64 bit) Processor: AMD Ryzen 3 1200 / Intel Core i5-7500",
@@ -1622,7 +1622,7 @@
     "price": 85000000,
     "isFree": false,
     "description": "Experience survival horror like never before in the 8th major installment in the Resident Evil franchise - Resident Evil Village. With detailed graphics, intense first-person action and masterful storytelling, the terror has never felt more realistic.",
-    "coverImage": "/images/games/resident-evil-village.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1776927117",
     "officialUrl": "https://store.steampowered.com/app/1196590/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 (64 bit) Processor: AMD Ryzen 3 1200 ／ Intel Core i5-7500",
@@ -1654,7 +1654,7 @@
     "price": 25000000,
     "isFree": false,
     "description": "Phasmophobia is a 4 player online co-op psychological horror. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting equipment at your disposal in order to gather as much evidence as you can.",
-    "coverImage": "/images/games/phasmophobia.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/0a424398a10445bbb922b45771dab7118fe139d2/header_alt_assets_10.jpg?t=1778659672",
     "officialUrl": "https://store.steampowered.com/app/739630/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 64Bit Processor: Intel Core i5-4590 / AMD Ryzen 5 2600",
@@ -1684,7 +1684,7 @@
     "price": 34000000,
     "isFree": false,
     "description": "10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Trapped forever in a realm of eldritch evil where even death is not an escape, four determined Survivors face a bloodthirsty Killer in a vicious game of nerve and wits.",
-    "coverImage": "/images/games/dead-by-daylight.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/8512297f0f02ec3e592f45b21779f61624941964/header_alt_assets_6.jpg?t=1778880603",
     "officialUrl": "https://store.steampowered.com/app/381210/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 64-bit Operating System Processor: Intel Core i3-4170 or AMD FX-8120",
@@ -1717,7 +1717,7 @@
     "price": 18800000,
     "isFree": false,
     "description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator.",
-    "coverImage": "/images/games/the-forest.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
     "officialUrl": "https://store.steampowered.com/app/242760/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1750,7 +1750,7 @@
     "price": 38500000,
     "isFree": false,
     "description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
-    "coverImage": "/images/games/sons-of-the-forest.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
     "officialUrl": "https://store.steampowered.com/app/1326470/",
     "minSpecs": {
       "cpuName": "and operating system OS: 64-bit Windows 10 Processor: INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
@@ -1782,7 +1782,7 @@
     "price": 27400000,
     "isFree": false,
     "description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!",
-    "coverImage": "/images/games/raft.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
     "officialUrl": "https://store.steampowered.com/app/648800/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1813,7 +1813,7 @@
     "price": 14850000,
     "isFree": false,
     "description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
-    "coverImage": "/images/games/subnautica.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
     "officialUrl": "https://store.steampowered.com/app/264710/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1844,7 +1844,7 @@
     "price": 70500000,
     "isFree": false,
     "description": "No Man's Sky is a game about exploration and survival in an infinite procedurally generated universe.",
-    "coverImage": "/images/games/no-man-s-sky.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/0daeafb115c92d9afd4c7a670384688adbde91e0/header_alt_assets_25.jpg?t=1776675618",
     "officialUrl": "https://store.steampowered.com/app/275850/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10/11 (64-bit versions) Processor: Intel Core i3",
@@ -1878,7 +1878,7 @@
     "price": 34900000,
     "isFree": false,
     "description": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
-    "coverImage": "/images/games/valheim.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1765967243",
     "officialUrl": "https://store.steampowered.com/app/892970/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -1912,7 +1912,7 @@
     "price": 13550000,
     "isFree": false,
     "description": "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!",
-    "coverImage": "/images/games/ark-survival-evolved.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1765677889",
     "officialUrl": "https://store.steampowered.com/app/346110/",
     "minSpecs": {
       "cpuName": "Intel Core i5-2400/AMD FX-8320 or better",
@@ -1946,7 +1946,7 @@
     "price": 50000000,
     "isFree": false,
     "description": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
-    "coverImage": "/images/games/rust.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1778597738",
     "officialUrl": "https://store.steampowered.com/app/252490/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 11 64bit Processor: AMD Ryzen 5 1400 or Intel Core i5-6600",
@@ -1978,7 +1978,7 @@
     "price": 690000,
     "isFree": false,
     "description": "How long can you survive a post-apocalyptic world? A land overrun with an infected \"zombie\" population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is your story.",
-    "coverImage": "/images/games/dayz.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1769695513",
     "officialUrl": "https://store.steampowered.com/app/221100/",
     "minSpecs": {
       "cpuName": "Intel Core i5-4430 or AMD Ryzen 5 2600 Six-Core",
@@ -2011,7 +2011,7 @@
     "price": 26000000,
     "isFree": false,
     "description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
-    "coverImage": "/images/games/project-zomboid.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1777298596",
     "officialUrl": "https://store.steampowered.com/app/108600/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2046,7 +2046,7 @@
     "price": 16500000,
     "isFree": false,
     "description": "Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve.",
-    "coverImage": "/images/games/don-t-starve-together.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/14496a5926156fbaf8b026f8224ba8c34e9b5096/header_alt_assets_49.jpg?t=1777913126",
     "officialUrl": "https://store.steampowered.com/app/322330/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2078,7 +2078,7 @@
     "price": 32100000,
     "isFree": false,
     "description": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
-    "coverImage": "/images/games/hades.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
     "officialUrl": "https://store.steampowered.com/app/1145360/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2110,7 +2110,7 @@
     "price": 16500000,
     "isFree": false,
     "description": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
-    "coverImage": "/images/games/hollow-knight.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
     "officialUrl": "https://store.steampowered.com/app/367520/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 version 21H1 (build 19043) or newer Processor: Intel Core i3-3240, AMD FX-4300",
@@ -2141,7 +2141,7 @@
     "price": 18800000,
     "isFree": false,
     "description": "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings.",
-    "coverImage": "/images/games/cuphead.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1709068852",
     "officialUrl": "https://store.steampowered.com/app/268910/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2173,7 +2173,7 @@
     "price": 25000000,
     "isFree": false,
     "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
-    "coverImage": "/images/games/celeste.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
     "officialUrl": "https://store.steampowered.com/app/504230/",
     "minSpecs": {
       "cpuName": "Intel Core i3 M380",
@@ -2203,7 +2203,7 @@
     "price": 25000000,
     "isFree": false,
     "description": "Play the critically acclaimed masterpiece. Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies and challenging puzzles on your quest to unravel Ori’s destiny.",
-    "coverImage": "/images/games/ori-and-the-will-of-the-wisps.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg?t=1759530749",
     "officialUrl": "https://store.steampowered.com/app/1057090/",
     "minSpecs": {
       "cpuName": "AMD Athlon X4 | Intel Core i5 4460",
@@ -2233,7 +2233,7 @@
     "price": 45000000,
     "isFree": false,
     "description": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.",
-    "coverImage": "/images/games/age-of-empires-ii-definitive-edition.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg?t=1777577197",
     "officialUrl": "https://store.steampowered.com/app/813780/",
     "minSpecs": {
       "cpuName": "Intel Core 2 Duo or AMD Athlon 64x2 5600+",
@@ -2263,7 +2263,7 @@
     "price": 48000000,
     "isFree": false,
     "description": "Celebrating its first year of delighting millions of global players, the award-winning and best-selling strategy franchise continues with Age of Empires IV: Anniversary Edition, putting you at the center of even more epic historical battles that shaped the world.",
-    "coverImage": "/images/games/age-of-empires-iv.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg?t=1778176408",
     "officialUrl": "https://store.steampowered.com/app/1466860/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 64bit | Windows 11 64bit Processor: Intel Core i5-6300U or AMD Ryzen 5 2400G | CPU w",
@@ -2293,7 +2293,7 @@
     "price": 70500000,
     "isFree": false,
     "description": "Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?",
-    "coverImage": "/images/games/civilization-vi.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1740607040",
     "officialUrl": "https://store.steampowered.com/app/289070/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2324,7 +2324,7 @@
     "price": 71900000,
     "isFree": false,
     "description": "Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China. Combining a gripping turn-based campaign of empire-building & conquest with stunning real-time battles, THREE KINGDOMS redefines the series in an age of heroes & legends.",
-    "coverImage": "/images/games/total-war-three-kingdoms.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg?t=1778847914",
     "officialUrl": "https://store.steampowered.com/app/779340/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2390,7 +2390,7 @@
     "price": 0,
     "isFree": false,
     "description": "Join the fight for Sanctuary in Diablo® IV, the ultimate action RPG adventure. Experience the critically acclaimed campaign and new seasonal content.",
-    "coverImage": "/images/games/diablo-iv.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/2953f199b4c075b22c0cf8ff03d88b0b1c267823/header_alt_assets_11.jpg?t=1777501665",
     "officialUrl": "https://store.steampowered.com/app/2344520/",
     "minSpecs": {
       "cpuName": "and operating system OS: 64-bit Windows® 10 version 1909 or newer Processor: Intel® Core™ i5-2500K or AMD™ FX-8350",
@@ -2421,7 +2421,7 @@
     "price": 510000,
     "isFree": false,
     "description": "Diablo III la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
-    "coverImage": "/images/games/diablo-iii.svg",
+    "coverImage": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blte3178c04d93773f1/67ce27f440e6651e27e17582/og_image.webp",
     "officialUrl": "https://diablo3.blizzard.com/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2454,7 +2454,7 @@
     "price": 18800000,
     "isFree": false,
     "description": "The adventure continues in Torchlight II! An Action RPG filled with epic battles, bountiful treasure, and a fully randomized world. Bring your friends along for the journey with online and LAN multiplayer.",
-    "coverImage": "/images/games/torchlight-ii.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1767670785",
     "officialUrl": "https://store.steampowered.com/app/200710/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2487,7 +2487,7 @@
     "price": 32100000,
     "isFree": false,
     "description": "Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.",
-    "coverImage": "/images/games/grim-dawn.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219990/header.jpg?t=1726250949",
     "officialUrl": "https://store.steampowered.com/app/219990/",
     "minSpecs": {
       "cpuName": "(Intel 2nd generation core i-series or equivalent)",
@@ -2517,7 +2517,7 @@
     "price": 62000000,
     "isFree": false,
     "description": "Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement.",
-    "coverImage": "/images/games/monster-hunter-world.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1773328926",
     "officialUrl": "https://store.steampowered.com/app/582010/",
     "minSpecs": {
       "cpuName": "and operating system OS: WINDOWS® 10 (64-bit required) Processor: Intel® Core™ i5 4460 or Core™ i3 9100F or AMD FX™-6300",
@@ -2547,7 +2547,7 @@
     "price": 85000000,
     "isFree": false,
     "description": "Rise to the challenge and join the hunt! In Monster Hunter Rise, the latest installment in the award-winning and top-selling Monster Hunter series, you’ll become a hunter, explore brand new maps and use a variety of weapons to take down fearsome monsters as part of an all-new storyline.",
-    "coverImage": "/images/games/monster-hunter-rise.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
     "officialUrl": "https://store.steampowered.com/app/1446780/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 （64-bit） Processor: Intel® Core™ i3-4130 or Core™ i5-3470 or AMD FX™-6100",
@@ -2578,7 +2578,7 @@
     "price": 0,
     "isFree": false,
     "description": "Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.",
-    "coverImage": "/images/games/sekiro-shadows-die-twice.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
     "officialUrl": "https://store.steampowered.com/app/814380/",
     "minSpecs": {
       "cpuName": "Intel Core i3-2100 | AMD FX-6300",
@@ -2608,7 +2608,7 @@
     "price": 97000000,
     "isFree": false,
     "description": "Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series. Prepare yourself and Embrace The Darkness!",
-    "coverImage": "/images/games/dark-souls-iii.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
     "officialUrl": "https://store.steampowered.com/app/374320/",
     "minSpecs": {
       "cpuName": "Intel Core i3-2100 / AMD® FX-6300",
@@ -2639,7 +2639,7 @@
     "price": 420000,
     "isFree": false,
     "description": "Battle hordes of yokai in this masocore Action RPG. Create your protagonist and embark on an adventure through a myriad of locales across Japan during the Sengoku period. Utilize the new Yokai Shift ability to defeat even the most ferocious yokai and be prepared to brave through Dark Realms created by your enemies.",
-    "coverImage": "/images/games/nioh-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/header.jpg?t=1775540023",
     "officialUrl": "https://store.steampowered.com/app/1325200/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows® 10 64bit Processor: Intel Core i5 4460 or over",
@@ -2671,7 +2671,7 @@
     "price": 99000000,
     "isFree": false,
     "description": "Assassin’s Creed Valhalla is an action-adventure game in which you are a Viking warrior raised on tales of battle and glory. Explore a dynamic open world set in England’s Dark Ages. Raid your enemies and grow your settlement to earn your place among the gods in Valhalla.",
-    "coverImage": "/images/games/assassin-s-creed-valhalla.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/header.jpg?t=1754572990",
     "officialUrl": "https://store.steampowered.com/app/2208920/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2703,7 +2703,7 @@
     "price": 99000000,
     "isFree": false,
     "description": "In this action-adventure game, set sail for Ancient Greece to alter its fate. Fight in visceral battles on land and sea, shape your destiny from outcast to legend, and uncover secrets of your past.",
-    "coverImage": "/images/games/assassin-s-creed-odyssey.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1777476997",
     "officialUrl": "https://store.steampowered.com/app/812140/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2734,7 +2734,7 @@
     "price": 14850000,
     "isFree": false,
     "description": "Discover the open world of Hope County, Montana, besieged by a fanatical doomsday cult. Dive into the action solo or two-player co-op in the story campaign, use a vast arsenal of weapons and allies, and free Hope County from Joseph Seed and his cult.",
-    "coverImage": "/images/games/far-cry-5.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg?t=1762190084",
     "officialUrl": "https://store.steampowered.com/app/552520/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2765,7 +2765,7 @@
     "price": 99000000,
     "isFree": false,
     "description": "Enter the adrenaline-filled world of a modern-day guerrilla revolution. With stunning vistas, visceral gunplay, and a huge variety of gameplay experiences, there's never been a better time to join the fight.",
-    "coverImage": "/images/games/far-cry-6.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/header.jpg?t=1758656170",
     "officialUrl": "https://store.steampowered.com/app/2369390/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2796,7 +2796,7 @@
     "price": 99000000,
     "isFree": false,
     "description": "Welcome to San Francisco. Play as Marcus, a brilliant young hacker, and join the most notorious hacker group, DedSec. Your objective: execute the biggest hack of history.",
-    "coverImage": "/images/games/watch-dogs-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg?t=1751986887",
     "officialUrl": "https://store.steampowered.com/app/447040/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2827,7 +2827,7 @@
     "price": 14850000,
     "isFree": false,
     "description": "Build a resistance as you fight to take back a near-future London facing its downfall. Welcome to the Resistance.",
-    "coverImage": "/images/games/watch-dogs-legion.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239550/header.jpg?t=1747655055",
     "officialUrl": "https://store.steampowered.com/app/2239550/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 (64-bit versions) Processor: Intel Core i5-4460 or AMD Ryzen 5 1400 290X",
@@ -2858,7 +2858,7 @@
     "price": 49500000,
     "isFree": false,
     "description": "Winner of over 80 awards, CONTROL is a visually stunning third-person action-adventure that will keep you on the edge of your seat.",
-    "coverImage": "/images/games/control.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1775822834",
     "officialUrl": "https://store.steampowered.com/app/870780/",
     "minSpecs": {
       "cpuName": "and operating system OS *: Windows 7, 64-bit Processor: Intel Core i5-4690 / AMD FX 4350",
@@ -2889,7 +2889,7 @@
     "price": 420000,
     "isFree": false,
     "description": "Alan Wake 2 la game pho bien voi cong dong game thu Viet Nam. Du lieu cau hinh trong du an dung de uoc tinh nhanh muc FPS theo phan cung thuong gap.",
-    "coverImage": "/images/games/alan-wake-2.svg",
+    "coverImage": "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png",
     "officialUrl": "https://www.alanwake.com/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -2919,7 +2919,7 @@
     "price": 49950000,
     "isFree": false,
     "description": "Flee the shattered ruins of the Moscow Metro and embark on an epic, continent-spanning journey across the post-apocalyptic Russian wilderness. Explore vast, non-linear levels, lose yourself in an immersive, sandbox survival experience, and follow a thrilling story-line that spans an entire year in the greatest Metro adventure yet.",
-    "coverImage": "/images/games/metro-exodus.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
     "officialUrl": "https://store.steampowered.com/app/412020/",
     "minSpecs": {
       "cpuName": "and operating system OS *: Windows 7/8/10 Processor: Intel Core i5-4440 or equivalent",
@@ -2951,7 +2951,7 @@
     "price": 99000000,
     "isFree": false,
     "description": "Humanity is fighting a losing battle against the virus. Experience a post-apocalyptic open world overrun by hordes of zombies, where your parkour and combat skills are key to survival. Traverse the City freely during the day, but watch the monsters take over during the night.",
-    "coverImage": "/images/games/dying-light-2.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1772550031",
     "officialUrl": "https://store.steampowered.com/app/534380/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows® 10 Processor: Intel Core i3-9100 / AMD Ryzen 3 2300X",
@@ -2982,7 +2982,7 @@
     "price": 69800000,
     "isFree": false,
     "description": "An inadvertent brush with the mob thrusts cabdriver Tommy Angelo into the world of organized crime. Initially uneasy about falling in with the Salieri family, the rewards become too big to ignore.",
-    "coverImage": "/images/games/mafia-definitive-edition.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/header.jpg?t=1759852929",
     "officialUrl": "https://store.steampowered.com/app/1030840/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -3013,7 +3013,7 @@
     "price": 7700000,
     "isFree": false,
     "description": "Enter the world of the ultimate assassin. HITMAN World of Assassination delivers the definitive stealth action experience, putting you in the shoes of Agent 47, a master assassin. Explore immersive locations, uncover hidden secrets, and eliminate targets with complete freedom of approach.",
-    "coverImage": "/images/games/hitman-3.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header.jpg?t=1777550698",
     "officialUrl": "https://store.steampowered.com/app/1659040/",
     "minSpecs": {
       "cpuName": "Phenom II X4 940",
@@ -3044,7 +3044,7 @@
     "price": 33000000,
     "isFree": false,
     "description": "Tomb Raider explores the intense origin story of Lara Croft and her ascent from a young woman to a hardened survivor.",
-    "coverImage": "/images/games/tomb-raider.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/9e67774e97cdd155f287146e62611eb445514ac6/header.jpg?t=1765220424",
     "officialUrl": "https://store.steampowered.com/app/203160/",
     "minSpecs": {
       "cpuName": "CPU pho thong 4 luong",
@@ -3075,7 +3075,7 @@
     "price": 66000000,
     "isFree": false,
     "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be.",
-    "coverImage": "/images/games/shadow-of-the-tomb-raider.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/header.jpg?t=1765239925",
     "officialUrl": "https://store.steampowered.com/app/750920/",
     "minSpecs": {
       "cpuName": "i3-3220 INTEL or AMD Equivalent",
@@ -3106,7 +3106,7 @@
     "price": 37500000,
     "isFree": false,
     "description": "Lost, alone and separated from family, a stray cat must untangle an ancient mystery to escape a long-forgotten cybercity and find their way home.",
-    "coverImage": "/images/games/stray.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906",
     "officialUrl": "https://store.steampowered.com/app/1332010/",
     "minSpecs": {
       "cpuName": "and operating system OS: Windows 10 Processor: Intel Core i5-2300 | AMD FX-6350",
@@ -3139,7 +3139,7 @@
     "price": 26000000,
     "isFree": false,
     "description": "DAVE THE DIVER is a casual, singleplayer adventure RPG featuring deep-sea exploration and fishing during the day and sushi restaurant management at night. Join Dave and his quirky friends as they seek to uncover the secrets of the mysterious Blue Hole.",
-    "coverImage": "/images/games/dave-the-diver.svg",
+    "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/81bdb3bce15d27ca1b4554a642d91096e89be229/header.jpg?t=1776394908",
     "officialUrl": "https://store.steampowered.com/app/1868140/",
     "minSpecs": {
       "cpuName": "Intel Core i3 Dual Core",

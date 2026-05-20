@@ -1,11 +1,19 @@
 import GameCard from "@/components/GameCard";
-import GpuCard from "@/components/GpuCard";
-import DeviceCard from "@/components/DeviceCard";
-import BenchmarkTable from "@/components/BenchmarkTable";
-import Breadcrumb from "@/components/Breadcrumb";
 import UpgradeAdviceCard from "@/components/UpgradeAdviceCard";
-import { games,gpus,cpus,devices,blogPosts,findGame,findGpu,findCpu,findDevice,findPost,benchmarks } from "@/lib/data";
 import { classifyGame } from "@/lib/compatibility-engine";
-import { getBenchmarkTable, getCompatibleDevices, getRecommendedConfigs } from "@/lib/reverse-lookup";
-import { formatVnd, priceRangeLabel } from "@/lib/utils";
-export default async function Lookup({searchParams}:{searchParams:Promise<{gpu?:string;cpu?:string;ram?:string;res?:string}>}){ const query=await searchParams; const gpu=findGpu(query.gpu??"nvidia-gtx-750-ti")??gpus[4]; const cpu=findCpu(query.cpu??"intel-core-i5-10400")??cpus[7]; const ram=Number(query.ram??8); const res=(query.res??"1080p") as "1080p"; const rows=games.map(game=>({game,...classifyGame(gpu.benchmarkScore,cpu.benchmarkScore,ram,res,game.minSpecs,game.recSpecs)})); return <section className="container py-8"><h1 className="text-3xl font-black">Tra cứu cấu hình chơi game</h1><form className="card mt-5 grid gap-3 p-4 md:grid-cols-5"><select name="gpu" className="input" defaultValue={gpu.slug}>{gpus.map(g=><option key={g.slug} value={g.slug}>{g.name}</option>)}</select><select name="cpu" className="input" defaultValue={cpu.slug}>{cpus.map(c=><option key={c.slug} value={c.slug}>{c.name}</option>)}</select><select name="ram" className="input" defaultValue={ram}><option value="4">4GB</option><option value="8">8GB</option><option value="16">16GB</option><option value="32">32GB</option></select><select name="res" className="input" defaultValue={res}><option value="720p">720p</option><option value="1080p">1080p</option><option value="1440p">1440p</option><option value="4k">4K</option></select><button className="btn">Kiểm tra cấu hình</button><label className="text-sm"><input type="checkbox" /> Card đồ họa tích hợp</label></form>{(["smooth","playable","not_recommended"] as const).map(status=><div key={status}><h2 className="mt-8 text-2xl font-black">{status==="smooth"?"Chơi mượt":status==="playable"?"Chơi được":"Không chạy nổi"} ({rows.filter(r=>r.status===status).length} game)</h2><div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{rows.filter(r=>r.status===status).slice(0,9).map(r=><GameCard key={r.game.slug} game={r.game} status={r.status} fps={r.estimatedFps} setting={r.recommendedSetting}/>)}</div></div>)}<div className="mt-8 grid gap-4 md:grid-cols-3">{rows[0].upgradeAdvice.map(a=><UpgradeAdviceCard key={a} advice={a}/>)}</div></section> }
+import { cpus, games, gpus } from "@/lib/data";
+
+export default function LookupPage({ searchParams }: { searchParams: Promise<{ gpu?: string; cpu?: string; ram?: string; res?: string }> }) {
+  return <LookupContent searchParams={searchParams} />;
+}
+
+async function LookupContent({ searchParams }: { searchParams: Promise<{ gpu?: string; cpu?: string; ram?: string; res?: string }> }) {
+  const params = await searchParams;
+  const gpu = gpus.find((item) => item.slug === params.gpu) ?? gpus[0];
+  const cpu = cpus.find((item) => item.slug === params.cpu) ?? cpus[0];
+  const ram = Number(params.ram ?? 8);
+  const res = (params.res ?? "1080p") as "720p" | "1080p" | "1440p" | "4k";
+  const rows = games.map((game) => ({ game, ...classifyGame(gpu.benchmarkScore, cpu.benchmarkScore, ram, res, game.minSpecs, game.recSpecs) }));
+
+  return <section className="container py-8"><h1 className="text-3xl font-black">Tra cứu cấu hình chơi game</h1><form className="card mt-5 grid gap-3 p-4 md:grid-cols-5"><select name="gpu" className="input" defaultValue={gpu.slug}>{gpus.map((item) => <option key={item.slug} value={item.slug}>{item.name}</option>)}</select><select name="cpu" className="input" defaultValue={cpu.slug}>{cpus.map((item) => <option key={item.slug} value={item.slug}>{item.name}</option>)}</select><select name="ram" className="input" defaultValue={ram}><option value="4">4GB</option><option value="8">8GB</option><option value="16">16GB</option><option value="32">32GB</option></select><select name="res" className="input" defaultValue={res}><option value="720p">720p</option><option value="1080p">1080p</option><option value="1440p">1440p</option><option value="4k">4K</option></select><button className="btn">Kiểm tra cấu hình</button></form>{(["smooth", "playable", "not_recommended"] as const).map((status) => <div key={status}><h2 className="mt-8 text-2xl font-black">{status === "smooth" ? "Chơi mượt" : status === "playable" ? "Chơi được" : "Không khuyến nghị"} ({rows.filter((row) => row.status === status).length} game)</h2><div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{rows.filter((row) => row.status === status).slice(0, 9).map((row) => <GameCard key={row.game.slug} game={row.game} status={row.status} fps={row.estimatedFps} setting={row.recommendedSetting} />)}</div></div>)}<div className="mt-8 grid gap-4 md:grid-cols-3">{rows[0].upgradeAdvice.map((advice) => <UpgradeAdviceCard key={advice} advice={advice} />)}</div></section>;
+}
