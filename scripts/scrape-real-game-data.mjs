@@ -88,6 +88,33 @@ const officialUrlOverrides = {
   "diablo-iii": "https://diablo3.blizzard.com/",
 };
 
+const freeGameOverrides = new Set([
+  "counter-strike-2",
+  "valorant",
+  "genshin-impact",
+  "lien-minh-huyen-thoai",
+  "dota-2",
+  "pubg-battlegrounds",
+  "apex-legends",
+  "fortnite",
+  "roblox",
+  "warframe",
+  "path-of-exile",
+  "lost-ark",
+  "world-of-tanks",
+  "war-thunder",
+  "the-sims-4",
+  "team-fortress-2",
+  "overwatch-2",
+  "rocket-league",
+  "fifa-online-4",
+  "dot-kich",
+  "audition",
+  "blade-soul",
+  "blade-soul-heroes",
+  "starcraft-ii",
+]);
+
 const curatedSpecOverrides = {
   "valorant": {
     minSpecs: { cpuName: "Intel Core 2 Duo E8400 hoặc AMD Athlon 200GE", gpuName: "Intel HD 4000 hoặc AMD Radeon R5 200", ramGb: 4, storageGb: 30 },
@@ -403,7 +430,8 @@ async function getSteamDetails(appid) {
 function mergeSteamGame(game, appid, details) {
   const minHtml = details.pc_requirements?.minimum || "";
   const recHtml = details.pc_requirements?.recommended || "";
-  const finalPrice = details.price_overview?.final;
+  const finalPrice = normalizeSteamPrice(details.price_overview);
+  const isFree = freeGameOverrides.has(game.slug) || Boolean(details.is_free);
   const localizedDescription = stripHtml(details.short_description);
   const genres = Array.isArray(details.genres) && details.genres.length > 0
     ? details.genres.map((genre) => translateGenre(genre.description)).filter(Boolean)
@@ -413,8 +441,8 @@ function mergeSteamGame(game, appid, details) {
     name: details.name || game.name,
     steamId: String(appid),
     genres,
-    price: details.is_free ? 0 : Number.isFinite(finalPrice) ? finalPrice : game.price,
-    isFree: Boolean(details.is_free),
+    price: isFree ? 0 : Number.isFinite(finalPrice) ? finalPrice : null,
+    isFree,
     coverImage: details.header_image || game.coverImage,
     officialUrl: `https://store.steampowered.com/app/${appid}/`,
     minSpecs: mergeSpec(game.minSpecs, minHtml),
@@ -427,6 +455,28 @@ function mergeSteamGame(game, appid, details) {
       ? localizedDescription
       : buildVietnameseDescription(nextGame, genres),
   };
+}
+
+function normalizeSteamPrice(priceOverview) {
+  if (!priceOverview) return null;
+  const formatted = String(priceOverview.final_formatted || priceOverview.initial_formatted || "");
+  const formattedNumber = parseLocalizedPrice(formatted);
+  if (Number.isFinite(formattedNumber)) return formattedNumber;
+
+  const raw = Number(priceOverview.final ?? priceOverview.initial);
+  if (!Number.isFinite(raw)) return null;
+
+  // Steam stores prices in the smallest unit. For VND this still comes back
+  // multiplied by 100, e.g. 99000000 means 990.000₫.
+  return Math.round(raw / 100);
+}
+
+function parseLocalizedPrice(value) {
+  const text = String(value || "").trim();
+  if (!text || /free|miễn phí/i.test(text)) return 0;
+  const digits = text.replace(/[^\d]/g, "");
+  if (!digits) return null;
+  return Number(digits);
 }
 
 async function main() {

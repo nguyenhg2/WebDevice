@@ -5,3 +5,4 @@ node_modules
 prisma/*.db
 .vercel
 tsconfig.tsbuildinfo
+data/.technical-city-debug/

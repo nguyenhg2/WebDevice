@@ -38,6 +38,7 @@ const manualGameAliases = new Map([
   ["PUBG: BATTLEGROUNDS", "pubg-battlegrounds"],
   ["Red Dead Redemption 2", "red-dead-redemption-2"],
   ["Resident Evil 4 Remake", "resident-evil-4-remake"],
+  ["Shadow of the Tomb Raider", "shadow-of-the-tomb-raider"],
   ["The Witcher 3", "the-witcher-3"],
   ["The Witcher 3: Wild Hunt", "the-witcher-3"],
   ["Valorant", "valorant"],
@@ -79,6 +80,44 @@ const gpuSlugOverrides = new Map([
   ["amd-radeon-rx-6650-xt", "Radeon-RX-6650-XT"],
   ["amd-radeon-rx-6700-xt", "Radeon-RX-6700-XT"],
   ["amd-radeon-rx-7600", "Radeon-RX-7600"],
+]);
+
+const nanoReviewGpuSlugOverrides = new Map([
+  ["intel-hd-4000", "hd-graphics-4000"],
+  ["intel-uhd-620", "uhd-graphics-620"],
+  ["intel-iris-xe-graphics", "iris-xe-graphics-g7-96eu"],
+  ["amd-radeon-vega-8", "radeon-rx-vega-8"],
+  ["nvidia-gt-730", "geforce-gt-730"],
+  ["nvidia-gtx-750-ti", "geforce-gtx-750-ti"],
+  ["nvidia-gtx-950", "geforce-gtx-950"],
+  ["nvidia-gtx-1050", "geforce-gtx-1050"],
+  ["nvidia-gtx-1050-ti", "geforce-gtx-1050-ti"],
+  ["nvidia-gtx-1060-3gb", "geforce-gtx-1060-3-gb"],
+  ["nvidia-gtx-1060-6gb", "geforce-gtx-1060-6-gb"],
+  ["nvidia-gtx-1650", "geforce-gtx-1650"],
+  ["nvidia-gtx-1650-laptop", "geforce-gtx-1650-mobile"],
+  ["nvidia-gtx-1660-super", "geforce-gtx-1660-super"],
+  ["nvidia-gtx-1660-ti", "geforce-gtx-1660-ti"],
+  ["nvidia-rtx-2050-laptop", "geforce-rtx-2050-mobile"],
+  ["nvidia-rtx-3050-laptop", "geforce-rtx-3050-mobile"],
+  ["nvidia-rtx-3050", "geforce-rtx-3050"],
+  ["nvidia-rtx-3060-laptop", "geforce-rtx-3060-mobile"],
+  ["nvidia-rtx-3060", "geforce-rtx-3060"],
+  ["nvidia-rtx-4060-laptop", "geforce-rtx-4060-mobile"],
+  ["nvidia-rtx-4060", "geforce-rtx-4060"],
+  ["nvidia-rtx-3070", "geforce-rtx-3070"],
+  ["nvidia-rtx-4070", "geforce-rtx-4070"],
+  ["nvidia-rtx-4080", "geforce-rtx-4080"],
+  ["amd-radeon-rx-550", "radeon-rx-550"],
+  ["amd-radeon-rx-560", "radeon-rx-560"],
+  ["amd-radeon-rx-570", "radeon-rx-570"],
+  ["amd-radeon-rx-580", "radeon-rx-580"],
+  ["amd-radeon-rx-5500-xt", "radeon-rx-5500-xt"],
+  ["amd-radeon-rx-5600-xt", "radeon-rx-5600-xt"],
+  ["amd-radeon-rx-6600", "radeon-rx-6600"],
+  ["amd-radeon-rx-6650-xt", "radeon-rx-6650-xt"],
+  ["amd-radeon-rx-6700-xt", "radeon-rx-6700-xt"],
+  ["amd-radeon-rx-7600", "radeon-rx-7600"],
 ]);
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -181,6 +220,78 @@ function parseBenchmarks(html, games) {
   return parseBenchmarksFromPlainText(html, aliases);
 }
 
+function parseNanoReviewBenchmarks(html, games) {
+  const gameSlugByTitle = new Map(buildGameAliases(games).map(([title, slug]) => [title.toLowerCase(), slug]));
+  const rows = [];
+  const jsonBlocks = [
+    ...html.matchAll(/<script[^>]+id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/gi),
+    ...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi),
+    ...html.matchAll(/<script[^>]*>([\s\S]*?"fps"[\s\S]*?)<\/script>/gi),
+  ].map((match) => decodeHtml(match[1]));
+
+  for (const block of jsonBlocks) {
+    try {
+      collectNanoReviewRows(JSON.parse(block), rows, gameSlugByTitle);
+    } catch {
+      collectNanoReviewTextRows(block, rows, gameSlugByTitle);
+    }
+  }
+
+  if (!rows.length) collectNanoReviewTextRows(plainTextFromHtml(html), rows, gameSlugByTitle);
+  return rows;
+}
+
+function collectNanoReviewRows(value, rows, gameSlugByTitle) {
+  if (!value || typeof value !== "object") return;
+  if (Array.isArray(value)) {
+    for (const item of value) collectNanoReviewRows(item, rows, gameSlugByTitle);
+    return;
+  }
+
+  const title = value.game || value.gameName || value.title || value.name;
+  const normalizedTitle = typeof title === "string" ? cleanGameName(title).toLowerCase() : "";
+  const gameSlug = gameSlugByTitle.get(normalizedTitle);
+  if (gameSlug) {
+    addNanoReviewFps(rows, gameSlug, value);
+  }
+
+  for (const nested of Object.values(value)) collectNanoReviewRows(nested, rows, gameSlugByTitle);
+}
+
+function addNanoReviewFps(rows, gameSlug, value) {
+  const candidates = [
+    ["1080p", "High", value.fullHdHigh ?? value.fhdHigh ?? value.high1080p ?? value.avgFps1080pHigh],
+    ["1080p", "Ultra", value.fullHdUltra ?? value.fhdUltra ?? value.ultra1080p ?? value.avgFps1080pUltra],
+    ["1440p", "Ultra", value.qhdUltra ?? value.ultra1440p ?? value.avgFps1440pUltra],
+    ["4k", "Ultra", value.uhdUltra ?? value.ultra4k ?? value.avgFps4kUltra],
+  ];
+
+  for (const [resolution, setting, rawFps] of candidates) {
+    const fps = Number(rawFps);
+    if (Number.isFinite(fps) && fps > 0) rows.push({ gameSlug, resolution, setting, fps: Math.round(fps) });
+  }
+}
+
+function collectNanoReviewTextRows(text, rows, gameSlugByTitle) {
+  for (const [title, gameSlug] of gameSlugByTitle) {
+    const titlePattern = escapeRegex(title);
+    const nearby = new RegExp(`${titlePattern}[\\s\\S]{0,900}`, "gi");
+    for (const match of text.matchAll(nearby)) {
+      const chunk = match[0];
+      const candidates = [
+        ["1080p", "High", /(?:fullHdHigh|fhdHigh|high1080p|1080p[^0-9]{0,80}High)["':\s]+(\d+)/i],
+        ["1080p", "Ultra", /(?:fullHdUltra|fhdUltra|ultra1080p|1080p[^0-9]{0,80}Ultra)["':\s]+(\d+)/i],
+        ["1440p", "Ultra", /(?:qhdUltra|ultra1440p|1440p[^0-9]{0,80}Ultra)["':\s]+(\d+)/i],
+        ["4k", "Ultra", /(?:uhdUltra|ultra4k|4K[^0-9]{0,80}Ultra)["':\s]+(\d+)/i],
+      ];
+      for (const [resolution, setting, pattern] of candidates) {
+        const fps = Number(chunk.match(pattern)?.[1]);
+        if (Number.isFinite(fps) && fps > 0) rows.push({ gameSlug, resolution, setting, fps });
+      }
+    }
+  }
+}
+
 function parseBenchmarksFromLines(html, aliases) {
   const lines = pageToLines(html);
   const rows = [];
@@ -280,6 +391,41 @@ async function fetchGpuPage(technicalSlug) {
   return { url, html: await response.text() };
 }
 
+async function fetchNanoReviewGpuPage(nanoReviewSlug) {
+  const url = `https://nanoreview.net/en/gpu/${nanoReviewSlug}`;
+  const response = await fetch(url, {
+    headers: {
+      "User-Agent": "Maynaychoiduoc.vn benchmark importer (local project; source attribution retained)",
+      "Accept-Language": "en-US,en;q=0.9",
+    },
+  });
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+  return { url, html: await response.text() };
+}
+
+function mergeBenchmarkRow(byKey, parsed, gpuSlug, url, source) {
+  const key = `${parsed.gameSlug}|${gpuSlug}|${parsed.resolution}`;
+  const row = byKey.get(key) ?? {
+    gameSlug: parsed.gameSlug,
+    gpuSlug,
+    resolution: parsed.resolution,
+    fpsLow: 0,
+    fpsMedium: 0,
+    fpsHigh: 0,
+    fpsUltra: 0,
+    recommendedSetting: "Low",
+    status: "not_recommended",
+    videoTestUrl: url,
+    source,
+  };
+  row[`fps${parsed.setting}`] = parsed.fps;
+  row.recommendedSetting = recommendedSetting(row);
+  row.status = rowStatus(row);
+  row.videoTestUrl = row.videoTestUrl ?? url;
+  row.source = row.source === source || row.source.includes(source) ? row.source : `${row.source}; ${source}`;
+  byKey.set(key, row);
+}
+
 async function main() {
   const [games, gpus] = await Promise.all([
     fs.readFile(gamesPath, "utf8").then(JSON.parse),
@@ -291,41 +437,37 @@ async function main() {
 
   for (const gpu of gpus) {
     const technicalSlug = gpuSlugOverrides.get(gpu.slug);
-    if (!technicalSlug) continue;
-
-    try {
-      const { url, html } = await fetchGpuPage(technicalSlug);
-      const rows = parseBenchmarks(html, games);
-      if (rows.length === 0) emptyPages.push({ slug: gpu.slug, html });
-
-      for (const parsed of rows) {
-        const key = `${parsed.gameSlug}|${gpu.slug}|${parsed.resolution}`;
-        const row = byKey.get(key) ?? {
-          gameSlug: parsed.gameSlug,
-          gpuSlug: gpu.slug,
-          resolution: parsed.resolution,
-          fpsLow: 0,
-          fpsMedium: 0,
-          fpsHigh: 0,
-          fpsUltra: 0,
-          recommendedSetting: "Low",
-          status: "not_recommended",
-          videoTestUrl: url,
-          source: "Technical.city, gaming benchmarks credited to Notebookcheck",
-        };
-        row[`fps${parsed.setting}`] = parsed.fps;
-        row.recommendedSetting = recommendedSetting(row);
-        row.status = rowStatus(row);
-        byKey.set(key, row);
+    if (technicalSlug) {
+      try {
+        const { url, html } = await fetchGpuPage(technicalSlug);
+        const rows = parseBenchmarks(html, games);
+        if (rows.length === 0) emptyPages.push({ slug: gpu.slug, html });
+        for (const parsed of rows) {
+          mergeBenchmarkRow(byKey, parsed, gpu.slug, url, "Technical.city, gaming benchmarks credited to Notebookcheck");
+        }
+        console.log(`${gpu.name} Technical.city: ${rows.length} FPS entries`);
+      } catch (error) {
+        failures.push(`${gpu.name} Technical.city: ${error instanceof Error ? error.message : String(error)}`);
+        console.warn(`Failed ${gpu.name} Technical.city:`, error instanceof Error ? error.message : error);
       }
-
-      console.log(`${gpu.name}: ${rows.length} FPS entries`);
-    } catch (error) {
-      failures.push(`${gpu.name}: ${error instanceof Error ? error.message : String(error)}`);
-      console.warn(`Failed ${gpu.name}:`, error instanceof Error ? error.message : error);
+      await sleep(600);
     }
 
-    await sleep(900);
+    const nanoReviewSlug = nanoReviewGpuSlugOverrides.get(gpu.slug);
+    if (nanoReviewSlug) {
+      try {
+        const { url, html } = await fetchNanoReviewGpuPage(nanoReviewSlug);
+        const rows = parseNanoReviewBenchmarks(html, games);
+        for (const parsed of rows) {
+          mergeBenchmarkRow(byKey, parsed, gpu.slug, url, "NanoReview game FPS database");
+        }
+        console.log(`${gpu.name} NanoReview: ${rows.length} FPS entries`);
+      } catch (error) {
+        failures.push(`${gpu.name} NanoReview: ${error instanceof Error ? error.message : String(error)}`);
+        console.warn(`Failed ${gpu.name} NanoReview:`, error instanceof Error ? error.message : error);
+      }
+      await sleep(600);
+    }
   }
 
   const benchmarks = [...byKey.values()].sort((a, b) =>

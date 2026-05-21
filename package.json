@@ -7,7 +7,9 @@
     "seed": "tsx prisma/seed.ts",
     "seed:pg": "node --env-file=.env.local scripts/supabase-seed.mjs",
     "data:scrape": "node scripts/scrape-real-game-data.mjs",
+    "data:prices": "node scripts/scrape-official-game-prices.mjs",
     "data:benchmarks": "node scripts/scrape-technical-city-benchmarks.mjs",
+    "data:images": "node scripts/scrape-game-images.mjs",
     "prisma:generate": "prisma generate"
   },
   "dependencies": {

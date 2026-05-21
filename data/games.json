@@ -39,8 +39,8 @@
       "Đua xe"
     ],
     "sizeGb": 5.5,
-    "price": 240000,
-    "isFree": false,
+    "price": 0,
+    "isFree": true,
     "description": "Valorant là trò chơi MOBA, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL?w=1200&h=630&fm=webp&fit=crop&crop=center",
     "officialUrl": "https://playvalorant.com/vi-vn/",
@@ -70,8 +70,8 @@
       "Chiến thuật"
     ],
     "sizeGb": 9,
-    "price": 330000,
-    "isFree": false,
+    "price": 0,
+    "isFree": true,
     "description": "Genshin Impact là trò chơi nhập vai, chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
     "officialUrl": "https://genshin.hoyoverse.com/",
@@ -229,8 +229,8 @@
       "FPS"
     ],
     "sizeGb": 26.5,
-    "price": 780000,
-    "isFree": false,
+    "price": 0,
+    "isFree": true,
     "description": "Fortnite là trò chơi chơi offline, FPS, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/fortnite.svg",
     "officialUrl": "https://www.fortnite.com/?lang=en-US&language=vietnamese",
@@ -254,13 +254,13 @@
   {
     "name": "Minecraft",
     "slug": "minecraft",
-    "steamId": "738",
+    "steamId": null,
     "genres": [
       "Thể thao",
       "MOBA"
     ],
     "sizeGb": 30,
-    "price": 150000,
+    "price": null,
     "isFree": false,
     "description": "Minecraft là trò chơi thể thao, MOBA, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://www.minecraft.net/content/dam/minecraftnet/franchise/logos/minecraft-creeper-face.jpg",
@@ -384,7 +384,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 44,
-    "price": 33950000,
+    "price": 339500,
     "isFree": false,
     "description": "Red Dead Redemption 2 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
@@ -414,7 +414,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 47.5,
-    "price": 99000000,
+    "price": 990000,
     "isFree": false,
     "description": "Cyberpunk 2077 là trò chơi nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377",
@@ -445,7 +445,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 51,
-    "price": 99000000,
+    "price": 990000,
     "isFree": false,
     "description": "ELDEN RING là trò chơi hành động, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1767883716",
@@ -475,7 +475,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 54.5,
-    "price": 66000000,
+    "price": 660000,
     "isFree": false,
     "description": "The Witcher 3: Wild Hunt là trò chơi nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg?t=1768303991",
@@ -541,7 +541,7 @@
       "Truy cập sớm"
     ],
     "sizeGb": 61.5,
-    "price": 38500000,
+    "price": 385000,
     "isFree": false,
     "description": "Palworld là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/058bd87dc17a7179e07c446aa64d0574ca43ab9d/header.jpg?t=1773936597",
@@ -571,7 +571,7 @@
       "Hành động"
     ],
     "sizeGb": 2,
-    "price": 3999,
+    "price": 999000,
     "isFree": false,
     "description": "HELLDIVERS™ 2 là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/f11c258b04a5e3e7771c1bab60f324ebf6c6c6fb/header.jpg?t=1770747641",
@@ -603,7 +603,7 @@
       "Chiến thuật"
     ],
     "sizeGb": 5.5,
-    "price": 99000000,
+    "price": 990000,
     "isFree": false,
     "description": "Baldur's Gate 3 là trò chơi phiêu lưu, nhập vai (rpg), chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
@@ -801,7 +801,7 @@
       "Mô phỏng"
     ],
     "sizeGb": 26.5,
-    "price": 7000000,
+    "price": 70000,
     "isFree": false,
     "description": "Euro Truck Simulator 2 là trò chơi độc lập, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1773641450",
@@ -831,7 +831,7 @@
       "Mô phỏng"
     ],
     "sizeGb": 30,
-    "price": 46000000,
+    "price": 460000,
     "isFree": false,
     "description": "Farming Simulator 22 là trò chơi mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1248130/7ff56320788fa4b1f46ac9a62ff955d3ef3f109c/header.jpg?t=1765792398",
@@ -895,7 +895,7 @@
       "Chiến thuật"
     ],
     "sizeGb": 37,
-    "price": 52300000,
+    "price": 523000,
     "isFree": false,
     "description": "Cities: Skylines là trò chơi mô phỏng, chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg?t=1777568415",
@@ -928,7 +928,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 40.5,
-    "price": 14200000,
+    "price": 142000,
     "isFree": false,
     "description": "Terraria là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
@@ -960,7 +960,7 @@
       "Mô phỏng"
     ],
     "sizeGb": 44,
-    "price": 8250000,
+    "price": 82500,
     "isFree": false,
     "description": "Stardew Valley là trò chơi độc lập, nhập vai (rpg), mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
@@ -990,7 +990,7 @@
       "Đơn giản"
     ],
     "sizeGb": 47.5,
-    "price": 7000000,
+    "price": 70000,
     "isFree": false,
     "description": "Among Us là trò chơi đơn giản, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1757444903",
@@ -1020,7 +1020,7 @@
       "Hành động"
     ],
     "sizeGb": 51,
-    "price": 14200000,
+    "price": 142000,
     "isFree": false,
     "description": "Left 4 Dead 2 là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1772742214",
@@ -1082,8 +1082,8 @@
       "Chơi miễn phí"
     ],
     "sizeGb": 58,
-    "price": 0,
-    "isFree": true,
+    "price": 399000,
+    "isFree": false,
     "description": "Tom Clancy's Rainbow Six Siege là trò chơi hành động, chơi miễn phí, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/97ce482d2a8ec5d2beb1081e954ac1ec16eea1fb/header_alt_assets_21.jpg?t=1779209046",
     "officialUrl": "https://store.steampowered.com/app/359550/",
@@ -1147,7 +1147,7 @@
     ],
     "sizeGb": 2,
     "price": 0,
-    "isFree": false,
+    "isFree": true,
     "description": "Rocket League® là trò chơi hành động, độc lập, đua tốc độ, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/1bcf75584d0c3613b02b2d0a2721a6b411375784/header_alt_assets_15.jpg?t=1773251703",
     "officialUrl": "https://store.steampowered.com/app/252950/",
@@ -1180,7 +1180,7 @@
       "Thể thao"
     ],
     "sizeGb": 5.5,
-    "price": 99000000,
+    "price": 990000,
     "isFree": false,
     "description": "Forza Horizon 5 là trò chơi hành động, phiêu lưu, đua tốc độ, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1746471508",
@@ -1246,7 +1246,7 @@
       "Thể thao"
     ],
     "sizeGb": 12.5,
-    "price": 26000000,
+    "price": 260000,
     "isFree": false,
     "description": "Assetto Corsa là trò chơi độc lập, đua tốc độ, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1754985171",
@@ -1271,14 +1271,14 @@
   {
     "name": "FIFA Online 4",
     "slug": "fifa-online-4",
-    "steamId": "770",
+    "steamId": null,
     "genres": [
       "FPS",
       "Sinh tồn"
     ],
     "sizeGb": 16,
-    "price": 150000,
-    "isFree": false,
+    "price": 0,
+    "isFree": true,
     "description": "FIFA Online 4 là trò chơi FPS, sinh tồn, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/fifa-online-4.svg",
     "officialUrl": "https://fo4.garena.vn/",
@@ -1308,8 +1308,8 @@
       "Đua xe"
     ],
     "sizeGb": 19.5,
-    "price": 240000,
-    "isFree": false,
+    "price": 0,
+    "isFree": true,
     "description": "Dot Kich là trò chơi MOBA, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://cf.goplay.vn/~/newdesign/images/cf_log_thum.png",
     "officialUrl": "https://cf.goplay.vn/",
@@ -1407,7 +1407,7 @@
       "Chiến thuật"
     ],
     "sizeGb": 30,
-    "price": 8000000,
+    "price": 80000,
     "isFree": false,
     "description": "Black Desert là trò chơi hành động, phiêu lưu, nhiều người chơi, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/4f0ea9284b5fae9464dadc528bb572c629666313/header_alt_assets_27.jpg?t=1773974827",
@@ -1437,7 +1437,7 @@
       "Hành động"
     ],
     "sizeGb": 33.5,
-    "price": 29800000,
+    "price": 298000,
     "isFree": false,
     "description": "NARUTO TO BORUTO: SHINOBI STRIKER là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/633230/header.jpg?t=1778877162",
@@ -1467,7 +1467,7 @@
       "Hành động"
     ],
     "sizeGb": 37,
-    "price": 79000000,
+    "price": 790000,
     "isFree": false,
     "description": "TEKKEN 8 là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/f69b0f7c35aa8c966d9ff74c2bae548dbea072e4/header.jpg?t=1770678135",
@@ -1498,7 +1498,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 40.5,
-    "price": 79400000,
+    "price": 794000,
     "isFree": false,
     "description": "Street Fighter™ 6 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1776917924",
@@ -1528,7 +1528,7 @@
       "Hành động"
     ],
     "sizeGb": 44,
-    "price": 59000000,
+    "price": 590000,
     "isFree": false,
     "description": "Mortal Kombat 11 là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976310/header.jpg?t=1775508340",
@@ -1558,7 +1558,7 @@
       "Hành động"
     ],
     "sizeGb": 47.5,
-    "price": 19050000,
+    "price": 190500,
     "isFree": false,
     "description": "DRAGON BALL FighterZ là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/678950/df2f6b9630a969448a14eed5aba183d27d2ca65b/header_alt_assets_6.jpg?t=1776898545",
@@ -1589,7 +1589,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 51,
-    "price": 85000000,
+    "price": 850000,
     "isFree": false,
     "description": "Resident Evil 4 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
@@ -1619,7 +1619,7 @@
       "Hành động"
     ],
     "sizeGb": 54.5,
-    "price": 85000000,
+    "price": 850000,
     "isFree": false,
     "description": "Resident Evil Village là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1776927117",
@@ -1651,7 +1651,7 @@
       "Truy cập sớm"
     ],
     "sizeGb": 58,
-    "price": 25000000,
+    "price": 250000,
     "isFree": false,
     "description": "Phasmophobia là trò chơi hành động, độc lập, truy cập sớm, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/0a424398a10445bbb922b45771dab7118fe139d2/header_alt_assets_10.jpg?t=1778659672",
@@ -1681,7 +1681,7 @@
       "Hành động"
     ],
     "sizeGb": 61.5,
-    "price": 34000000,
+    "price": 340000,
     "isFree": false,
     "description": "Dead by Daylight là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/8512297f0f02ec3e592f45b21779f61624941964/header_alt_assets_6.jpg?t=1778880603",
@@ -1714,7 +1714,7 @@
       "Mô phỏng"
     ],
     "sizeGb": 2,
-    "price": 18800000,
+    "price": 188000,
     "isFree": false,
     "description": "The Forest là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
@@ -1747,7 +1747,7 @@
       "Mô phỏng"
     ],
     "sizeGb": 5.5,
-    "price": 38500000,
+    "price": 385000,
     "isFree": false,
     "description": "Sons Of The Forest là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
@@ -1779,7 +1779,7 @@
       "Mô phỏng"
     ],
     "sizeGb": 9,
-    "price": 27400000,
+    "price": 274000,
     "isFree": false,
     "description": "Raft là trò chơi phiêu lưu, độc lập, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
@@ -1810,7 +1810,7 @@
       "Độc lập"
     ],
     "sizeGb": 12.5,
-    "price": 14850000,
+    "price": 148500,
     "isFree": false,
     "description": "Subnautica là trò chơi phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
@@ -1841,7 +1841,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 16,
-    "price": 70500000,
+    "price": 705000,
     "isFree": false,
     "description": "No Man's Sky là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/0daeafb115c92d9afd4c7a670384688adbde91e0/header_alt_assets_25.jpg?t=1776675618",
@@ -1875,7 +1875,7 @@
       "Truy cập sớm"
     ],
     "sizeGb": 19.5,
-    "price": 34900000,
+    "price": 349000,
     "isFree": false,
     "description": "Valheim là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1765967243",
@@ -1909,7 +1909,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 23,
-    "price": 13550000,
+    "price": 135500,
     "isFree": false,
     "description": "ARK: Survival Evolved là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1765677889",
@@ -1943,7 +1943,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 26.5,
-    "price": 50000000,
+    "price": 500000,
     "isFree": false,
     "description": "Rust là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1778597738",
@@ -2008,7 +2008,7 @@
       "Truy cập sớm"
     ],
     "sizeGb": 33.5,
-    "price": 26000000,
+    "price": 260000,
     "isFree": false,
     "description": "Project Zomboid là trò chơi độc lập, nhập vai (rpg), mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1777298596",
@@ -2043,7 +2043,7 @@
       "Chiến thuật"
     ],
     "sizeGb": 37,
-    "price": 16500000,
+    "price": 165000,
     "isFree": false,
     "description": "Don't Starve Together là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/14496a5926156fbaf8b026f8224ba8c34e9b5096/header_alt_assets_49.jpg?t=1777913126",
@@ -2075,7 +2075,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 40.5,
-    "price": 32100000,
+    "price": 321000,
     "isFree": false,
     "description": "Hades là trò chơi hành động, độc lập, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
@@ -2107,7 +2107,7 @@
       "Độc lập"
     ],
     "sizeGb": 44,
-    "price": 16500000,
+    "price": 165000,
     "isFree": false,
     "description": "Hollow Knight là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
@@ -2138,7 +2138,7 @@
       "Độc lập"
     ],
     "sizeGb": 47.5,
-    "price": 18800000,
+    "price": 188000,
     "isFree": false,
     "description": "Cuphead là trò chơi hành động, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1709068852",
@@ -2170,7 +2170,7 @@
       "Độc lập"
     ],
     "sizeGb": 51,
-    "price": 25000000,
+    "price": 250000,
     "isFree": false,
     "description": "Celeste là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
@@ -2200,7 +2200,7 @@
       "Hành động"
     ],
     "sizeGb": 54.5,
-    "price": 25000000,
+    "price": 250000,
     "isFree": false,
     "description": "Ori and the Will of the Wisps là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg?t=1759530749",
@@ -2230,7 +2230,7 @@
       "Chiến thuật"
     ],
     "sizeGb": 58,
-    "price": 45000000,
+    "price": 450000,
     "isFree": false,
     "description": "Age of Empires II: Definitive Edition là trò chơi chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg?t=1777577197",
@@ -2260,7 +2260,7 @@
       "Chiến thuật"
     ],
     "sizeGb": 61.5,
-    "price": 48000000,
+    "price": 480000,
     "isFree": false,
     "description": "Age of Empires IV: Anniversary Edition là trò chơi chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg?t=1778176408",
@@ -2290,7 +2290,7 @@
       "Chiến thuật"
     ],
     "sizeGb": 2,
-    "price": 70500000,
+    "price": 705000,
     "isFree": false,
     "description": "Sid Meier’s Civilization® VI là trò chơi chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1740607040",
@@ -2321,7 +2321,7 @@
       "Chiến thuật"
     ],
     "sizeGb": 5.5,
-    "price": 71900000,
+    "price": 719000,
     "isFree": false,
     "description": "Total War: THREE KINGDOMS là trò chơi hành động, chiến thuật, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg?t=1778847914",
@@ -2352,8 +2352,8 @@
       "Chơi offline"
     ],
     "sizeGb": 9,
-    "price": 330000,
-    "isFree": false,
+    "price": 0,
+    "isFree": true,
     "description": "StarCraft II là trò chơi đua xe, chơi offline, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/starcraft-ii.svg",
     "officialUrl": "https://store.steampowered.com/",
@@ -2387,7 +2387,7 @@
       "Chơi miễn phí"
     ],
     "sizeGb": 12.5,
-    "price": 0,
+    "price": 10900,
     "isFree": false,
     "description": "Diablo® IV là trò chơi hành động, phiêu lưu, đơn giản, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/2953f199b4c075b22c0cf8ff03d88b0b1c267823/header_alt_assets_11.jpg?t=1777501665",
@@ -2412,13 +2412,13 @@
   {
     "name": "Diablo III",
     "slug": "diablo-iii",
-    "steamId": "806",
+    "steamId": null,
     "genres": [
       "Phối hợp",
       "Mô phỏng"
     ],
     "sizeGb": 16,
-    "price": 510000,
+    "price": null,
     "isFree": false,
     "description": "Diablo III là trò chơi phối hợp, mô phỏng, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blte3178c04d93773f1/67ce27f440e6651e27e17582/og_image.webp",
@@ -2451,7 +2451,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 19.5,
-    "price": 18800000,
+    "price": 188000,
     "isFree": false,
     "description": "Torchlight II là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1779262562",
@@ -2484,7 +2484,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 23,
-    "price": 32100000,
+    "price": 321000,
     "isFree": false,
     "description": "Grim Dawn là trò chơi hành động, phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219990/header.jpg?t=1726250949",
@@ -2514,7 +2514,7 @@
       "Hành động"
     ],
     "sizeGb": 26.5,
-    "price": 62000000,
+    "price": 620000,
     "isFree": false,
     "description": "Monster Hunter: World là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1773328926",
@@ -2544,7 +2544,7 @@
       "Hành động"
     ],
     "sizeGb": 30,
-    "price": 85000000,
+    "price": 850000,
     "isFree": false,
     "description": "MONSTER HUNTER RISE là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
@@ -2575,7 +2575,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 33.5,
-    "price": 0,
+    "price": 970000,
     "isFree": false,
     "description": "Sekiro™: Shadows Die Twice - GOTY Edition là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
@@ -2605,7 +2605,7 @@
       "Hành động"
     ],
     "sizeGb": 37,
-    "price": 97000000,
+    "price": 970000,
     "isFree": false,
     "description": "DARK SOULS™ III là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
@@ -2668,7 +2668,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 44,
-    "price": 99000000,
+    "price": 990000,
     "isFree": false,
     "description": "Assassin's Creed Valhalla là trò chơi hành động, phiêu lưu, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/header.jpg?t=1754572990",
@@ -2700,7 +2700,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 47.5,
-    "price": 99000000,
+    "price": 990000,
     "isFree": false,
     "description": "Assassin's Creed® Odyssey là trò chơi hành động, phiêu lưu, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1777476997",
@@ -2731,7 +2731,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 51,
-    "price": 14850000,
+    "price": 148500,
     "isFree": false,
     "description": "Far Cry® 5 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg?t=1762190084",
@@ -2762,7 +2762,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 54.5,
-    "price": 99000000,
+    "price": 990000,
     "isFree": false,
     "description": "Far Cry® 6 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/header.jpg?t=1758656170",
@@ -2793,7 +2793,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 58,
-    "price": 99000000,
+    "price": 990000,
     "isFree": false,
     "description": "Watch_Dogs® 2 là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg?t=1751986887",
@@ -2824,7 +2824,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 61.5,
-    "price": 14850000,
+    "price": 148500,
     "isFree": false,
     "description": "Watch Dogs®: Legion là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239550/header.jpg?t=1747655055",
@@ -2855,7 +2855,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 2,
-    "price": 49500000,
+    "price": 495000,
     "isFree": false,
     "description": "CONTROL Ultimate Edition là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1775822834",
@@ -2886,7 +2886,7 @@
       "Đua xe"
     ],
     "sizeGb": 5.5,
-    "price": 420000,
+    "price": null,
     "isFree": false,
     "description": "Alan Wake 2 là trò chơi MOBA, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png",
@@ -2916,7 +2916,7 @@
       "Hành động"
     ],
     "sizeGb": 9,
-    "price": 49950000,
+    "price": 499500,
     "isFree": false,
     "description": "Metro Exodus là trò chơi hành động, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
@@ -2948,7 +2948,7 @@
       "Nhập vai (RPG)"
     ],
     "sizeGb": 12.5,
-    "price": 99000000,
+    "price": 990000,
     "isFree": false,
     "description": "Dying Light 2 Stay Human: Reloaded Edition là trò chơi hành động, phiêu lưu, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1772550031",
@@ -2979,7 +2979,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 16,
-    "price": 69800000,
+    "price": 698000,
     "isFree": false,
     "description": "Mafia: Definitive Edition là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/header.jpg?t=1759852929",
@@ -3010,7 +3010,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 19.5,
-    "price": 7700000,
+    "price": 77000,
     "isFree": false,
     "description": "HITMAN World of Assassination là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header.jpg?t=1777550698",
@@ -3041,7 +3041,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 23,
-    "price": 33000000,
+    "price": 330000,
     "isFree": false,
     "description": "Tomb Raider Game of the Year là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/9e67774e97cdd155f287146e62611eb445514ac6/header.jpg?t=1765220424",
@@ -3072,7 +3072,7 @@
       "Phiêu lưu"
     ],
     "sizeGb": 26.5,
-    "price": 66000000,
+    "price": 660000,
     "isFree": false,
     "description": "Shadow of the Tomb Raider: Definitive Edition là trò chơi hành động, phiêu lưu, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/header.jpg?t=1765239925",
@@ -3103,7 +3103,7 @@
       "Độc lập"
     ],
     "sizeGb": 30,
-    "price": 37500000,
+    "price": 375000,
     "isFree": false,
     "description": "Stray là trò chơi phiêu lưu, độc lập, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906",
@@ -3136,7 +3136,7 @@
       "Mô phỏng"
     ],
     "sizeGb": 33.5,
-    "price": 26000000,
+    "price": 260000,
     "isFree": false,
     "description": "DAVE THE DIVER là trò chơi phiêu lưu, đơn giản, nhập vai (rpg), thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/81bdb3bce15d27ca1b4554a642d91096e89be229/header.jpg?t=1776394908",
