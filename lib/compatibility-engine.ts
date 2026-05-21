@@ -1,4 +1,4 @@
-import type { Resolution, SpecBlock, Status } from "@/types";
+import type { Benchmark, Resolution, SpecBlock, Status } from "@/types";
 import { clamp } from "@/lib/utils";
 
 export interface CompatibilityResult {
@@ -9,11 +9,16 @@ export interface CompatibilityResult {
   upgradeAdvice: string[];
 }
 
-const factor: Record<Resolution, number> = { "720p": 1.5, "1080p": 1, "1440p": 0.65, "4k": 0.35 };
+type BenchmarkHint = Pick<Benchmark, "fpsLow" | "fpsMedium" | "fpsHigh" | "fpsUltra" | "recommendedSetting" | "status">;
+
+const legacyResolutionFactor: Record<Resolution, number> = { "720p": 1.5, "1080p": 1, "1440p": 0.65, "4k": 0.35 };
+const gpuDemandByResolution: Record<Resolution, number> = { "720p": 0.72, "1080p": 1, "1440p": 1.45, "4k": 2.35 };
+const cpuDemandByResolution: Record<Resolution, number> = { "720p": 1.08, "1080p": 1, "1440p": 0.96, "4k": 0.92 };
+const ramExtraByResolution: Record<Resolution, number> = { "720p": 0, "1080p": 0, "1440p": 2, "4k": 4 };
 
 export function estimateFps(gpuBenchmark: number, gameGpuMin: number, gameGpuRec: number, resolution: Resolution): number {
   const ratio = gpuBenchmark >= gameGpuRec ? gpuBenchmark / gameGpuRec : (gpuBenchmark / Math.max(gameGpuMin, 1)) * 0.62;
-  return Math.round(clamp(52 * ratio * factor[resolution], 12, 180));
+  return Math.round(clamp(52 * ratio * legacyResolutionFactor[resolution], 12, 180));
 }
 
 export function getBottleneck(gpuScore: number, cpuScore: number, ramGb: number, gameSpecs: SpecBlock): string {
@@ -34,6 +39,54 @@ export function getUpgradeAdvice(config: { gpuScore: number; cpuScore: number; r
   return advice.length ? advice : ["Cấu hình hiện tại đã phù hợp, nên giữ driver và Windows ổn định."];
 }
 
+function getResolutionAdjustedSpecs(specs: SpecBlock, resolution: Resolution): SpecBlock {
+  return {
+    ...specs,
+    gpuBenchmark: Math.round(specs.gpuBenchmark * gpuDemandByResolution[resolution]),
+    cpuBenchmark: Math.round(specs.cpuBenchmark * cpuDemandByResolution[resolution]),
+    ramGb: specs.ramGb + ramExtraByResolution[resolution],
+  };
+}
+
+function fpsFromBenchmark(benchmark: BenchmarkHint): number {
+  const setting = benchmark.recommendedSetting.toLowerCase();
+  if (setting.includes("ultra")) return benchmark.fpsUltra;
+  if (setting.includes("high")) return benchmark.fpsHigh;
+  if (setting.includes("medium")) return benchmark.fpsMedium;
+  return benchmark.fpsLow;
+}
+
+function statusFromFps(fps: number): Status {
+  if (fps >= 55) return "smooth";
+  if (fps >= 30) return "playable";
+  return "not_recommended";
+}
+
+function lowerStatus(a: Status, b: Status): Status {
+  const rank: Record<Status, number> = { smooth: 2, playable: 1, not_recommended: 0 };
+  return rank[a] <= rank[b] ? a : b;
+}
+
+function estimateFpsWithSystem(
+  userGpuBenchmark: number,
+  userCpuBenchmark: number,
+  userRamGb: number,
+  minSpecs: SpecBlock,
+  recSpecs: SpecBlock,
+): number {
+  const gpuRatio = userGpuBenchmark / Math.max(recSpecs.gpuBenchmark, 1);
+  const cpuRatio = userCpuBenchmark / Math.max(recSpecs.cpuBenchmark, 1);
+  const ramRatio = userRamGb / Math.max(recSpecs.ramGb, 1);
+  const balancedRatio = Math.min(gpuRatio, cpuRatio * 1.08, ramRatio < 1 ? ramRatio * 0.9 : 1.35);
+  const minRatio = Math.min(
+    userGpuBenchmark / Math.max(minSpecs.gpuBenchmark, 1),
+    userCpuBenchmark / Math.max(minSpecs.cpuBenchmark, 1),
+    userRamGb / Math.max(minSpecs.ramGb, 1),
+  );
+  const fps = balancedRatio >= 1 ? 60 * balancedRatio : 30 + Math.max(0, minRatio - 1) * 28;
+  return Math.round(clamp(fps, 8, 180));
+}
+
 export function classifyGame(
   userGpuBenchmark: number,
   userCpuBenchmark: number,
@@ -41,17 +94,30 @@ export function classifyGame(
   userResolution: Resolution,
   gameMinSpecs: SpecBlock,
   gameRecSpecs: SpecBlock,
+  benchmark?: BenchmarkHint,
 ): CompatibilityResult {
-  const meetsRec = userGpuBenchmark >= gameRecSpecs.gpuBenchmark && userCpuBenchmark >= gameRecSpecs.cpuBenchmark && userRamGb >= gameRecSpecs.ramGb;
-  const meetsMin = userGpuBenchmark >= gameMinSpecs.gpuBenchmark && userCpuBenchmark >= gameMinSpecs.cpuBenchmark && userRamGb >= gameMinSpecs.ramGb;
-  const estimatedFps = estimateFps(userGpuBenchmark, gameMinSpecs.gpuBenchmark, gameRecSpecs.gpuBenchmark, userResolution);
-  const status: Status = meetsRec ? "smooth" : meetsMin ? "playable" : "not_recommended";
+  const adjustedMinSpecs = getResolutionAdjustedSpecs(gameMinSpecs, userResolution);
+  const adjustedRecSpecs = getResolutionAdjustedSpecs(gameRecSpecs, userResolution);
+  const meetsRec =
+    userGpuBenchmark >= adjustedRecSpecs.gpuBenchmark &&
+    userCpuBenchmark >= adjustedRecSpecs.cpuBenchmark &&
+    userRamGb >= adjustedRecSpecs.ramGb;
+  const meetsMin =
+    userGpuBenchmark >= adjustedMinSpecs.gpuBenchmark &&
+    userCpuBenchmark >= adjustedMinSpecs.cpuBenchmark &&
+    userRamGb >= adjustedMinSpecs.ramGb;
+  const estimatedFps = benchmark
+    ? fpsFromBenchmark(benchmark)
+    : estimateFpsWithSystem(userGpuBenchmark, userCpuBenchmark, userRamGb, adjustedMinSpecs, adjustedRecSpecs);
+  const hardwareStatus: Status = meetsRec ? "smooth" : meetsMin ? "playable" : "not_recommended";
+  const status = lowerStatus(hardwareStatus, statusFromFps(estimatedFps));
 
   return {
     status,
-    estimatedFps: status === "smooth" ? Math.max(50, estimatedFps) : status === "playable" ? clamp(estimatedFps, 30, 50) : Math.min(29, estimatedFps),
-    recommendedSetting: status === "smooth" ? (estimatedFps > 80 ? "Ultra" : "High") : status === "playable" ? "Medium" : "Low",
-    bottleneck: getBottleneck(userGpuBenchmark, userCpuBenchmark, userRamGb, status === "smooth" ? gameRecSpecs : gameMinSpecs),
+    estimatedFps: Math.round(clamp(estimatedFps, 8, 180)),
+    recommendedSetting:
+      benchmark?.recommendedSetting ?? (status === "smooth" ? (estimatedFps > 90 ? "Ultra" : "High") : status === "playable" ? "Medium" : "Low"),
+    bottleneck: getBottleneck(userGpuBenchmark, userCpuBenchmark, userRamGb, status === "smooth" ? adjustedRecSpecs : adjustedMinSpecs),
     upgradeAdvice: getUpgradeAdvice({ gpuScore: userGpuBenchmark, cpuScore: userCpuBenchmark, ramGb: userRamGb }, { minSpecs: gameMinSpecs, recSpecs: gameRecSpecs }),
   };
 }

@@ -2,7 +2,7 @@ import GameCard from "@/components/GameCard";
 import SystemDetector from "@/components/SystemDetector";
 import UpgradeAdviceCard from "@/components/UpgradeAdviceCard";
 import { classifyGame } from "@/lib/compatibility-engine";
-import { cpus, games, gpus } from "@/lib/data";
+import { benchmarks, cpus, games, gpus } from "@/lib/data";
 import type { Resolution, Status } from "@/types";
 
 type LookupParams = {
@@ -28,10 +28,20 @@ async function LookupContent({ searchParams }: { searchParams: Promise<LookupPar
   const selectedCpu = cpus.find((item) => item.slug === params.cpu) ?? cpus[0];
   const ramGb = normalizeRam(params.ram);
   const resolution = normalizeResolution(params.res);
-  const rows = games.map((game) => ({
-    game,
-    ...classifyGame(selectedGpu.benchmarkScore, selectedCpu.benchmarkScore, ramGb, resolution, game.minSpecs, game.recSpecs),
-  }));
+  const rows = games
+    .map((game) => ({
+      game,
+      ...classifyGame(
+        selectedGpu.benchmarkScore,
+        selectedCpu.benchmarkScore,
+        ramGb,
+        resolution,
+        game.minSpecs,
+        game.recSpecs,
+        benchmarks.find((row) => row.gameSlug === game.slug && row.gpuSlug === selectedGpu.slug && row.resolution === resolution),
+      ),
+    }))
+    .sort((a, b) => b.estimatedFps - a.estimatedFps);
 
   return (
     <section className="container py-8">

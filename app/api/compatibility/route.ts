@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { classifyGame } from "@/lib/compatibility-engine";
 import { enforceRateLimit, fail, ok, paginate } from "@/lib/api";
-import { findCpu, findGpu, games } from "@/lib/data";
+import { benchmarks, findCpu, findGpu, games } from "@/lib/data";
 import type { Resolution } from "@/types";
 
 export async function GET(req: Request) {
@@ -45,6 +45,7 @@ export async function GET(req: Request) {
           query.resolution as Resolution,
           game.minSpecs,
           game.recSpecs,
+          gpu ? benchmarks.find((row) => row.gameSlug === game.slug && row.gpuSlug === gpu.slug && row.resolution === query.resolution) : undefined,
         ),
       }))
       .sort(
