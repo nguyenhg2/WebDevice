@@ -385,6 +385,39 @@ function dedupeImages(items, coverImage) {
     .slice(0, MAX_GALLERY_SIZE);
 }
 
+function isRelevantImageForGame(item, game) {
+  const url = item.url.toLowerCase();
+  const sourceUrl = String(item.sourceUrl || "").toLowerCase();
+  if (item.source === "catalog-cover" || item.source?.startsWith("steam")) return true;
+
+  if (/app-store\.png|support|gamecenter|googleusercontent\.com\/xl04gurqer|xboxgamepass|xgp-cross-sell|xpa_super-hero|freegamespromotions/i.test(url)) return false;
+
+  if (game.slug === "fortnite") {
+    if (/model-builder|eternal-threads|lost-castle|xboxgamepass|xgp-cross-sell|xpa_super-hero/i.test(url)) return false;
+    return /fortnite|epicgames|unrealengine|playstation|xbox/i.test(url) || /fortnite|epicgames|playstation|xbox/i.test(sourceUrl);
+  }
+
+  if (game.slug === "roblox") {
+    if (/app-store\.png|support|gamecenter/i.test(url)) return false;
+    return /roblox|rbxcdn|googleusercontent|mzstatic|store-images/i.test(url) || /roblox|apple\.com|google\.com|xbox\.com/i.test(sourceUrl);
+  }
+
+  if (game.slug === "genshin-impact") {
+    if (/app-store\.png|support|gamecenter|hero-in-game-companion/i.test(url)) return false;
+    return /genshin|hoyoverse|mihoyo|googleusercontent|mzstatic/i.test(url) || /genshin|hoyoverse|mihoyo|apple\.com|google\.com/i.test(sourceUrl);
+  }
+
+  if (game.slug === "audition") {
+    return /audition|aupc|vtcgame|cdnmedia/i.test(url) || /vtcgame/i.test(sourceUrl);
+  }
+
+  return true;
+}
+
+function filterImagesForGame(items, game) {
+  return items.filter((item) => isRelevantImageForGame(item, game));
+}
+
 async function mapLimit(items, limit, mapper) {
   const results = new Array(items.length);
   let nextIndex = 0;
@@ -412,7 +445,7 @@ async function scrapeGameImages(game, existingSources) {
     pushImage(items, game.coverImage, "catalog-cover", game.officialUrl || "data/games.json");
   }
 
-  const baseline = dedupeImages(items, game.coverImage);
+  const baseline = dedupeImages(filterImagesForGame(items, game), game.coverImage);
   const needsMoreImages = baseline.length < FULL_GALLERY_SIZE;
   const hasFullGallery = baseline.length >= MAX_GALLERY_SIZE;
   const shouldUseSourcePack = needsMoreImages && sourcePackTargetSlugs.has(game.slug);
@@ -436,7 +469,7 @@ async function scrapeGameImages(game, existingSources) {
     }
   }
 
-  const clean = dedupeImages(items, game.coverImage);
+  const clean = dedupeImages(filterImagesForGame(items, game), game.coverImage);
   return { game, clean, failures: gameFailures };
 }
 
