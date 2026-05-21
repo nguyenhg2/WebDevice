@@ -7,6 +7,7 @@ const imagesPath = path.join(ROOT, "data", "game-images.json");
 const sourcesPath = path.join(ROOT, "data", "game-image-sources.json");
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const REQUEST_TIMEOUT_MS = 18000;
 
 function decodeHtml(value) {
   return String(value || "")
@@ -41,35 +42,45 @@ function absolutizeUrl(baseUrl, value) {
   }
 }
 
-function isGoodImage(url) {
-  if (!/^https?:\/\//i.test(url)) return false;
-  if (!/\.(avif|gif|jpe?g|png|webp)(\?|#|$)/i.test(url)) return false;
-  if (/favicon|apple-touch-icon|icon[-_.]?\d|sprite|avatar|badge|logo|mark|emblem|social|facebook|twitter|youtube|discord|steamdeck|controller|rating|esrb|pegi/i.test(url)) return false;
-  if (/(?:^|[?&])(w|width|h|height)=([1-9]\d?|1\d\d)(?:&|$)/i.test(url)) return false;
-  if (/\/(icons?|logos?|avatars?|badges?)\//i.test(url)) return false;
+function isGoodImage(url, source) {
+  const isRemote = /^https?:\/\//i.test(url);
+  const isLocal = url.startsWith("/images/");
+  if (!isRemote && !isLocal) return false;
+  if (!/\.(avif|gif|jpe?g|png|svg|webp)(\?|#|$)/i.test(url)) return false;
+  if (source !== "catalog-cover" && /favicon|apple-touch-icon|icon[-_.]?\d|sprite|avatar|badge|logo|mark|emblem|social|facebook|twitter|youtube|discord|steamdeck|controller|rating|esrb|pegi/i.test(url)) return false;
+  if (isRemote && /(?:^|[?&])(w|width|h|height)=([1-9]\d?|1\d\d)(?:&|$)/i.test(url)) return false;
+  if (source !== "catalog-cover" && /\/(icons?|logos?|avatars?|badges?)\//i.test(url)) return false;
   return true;
 }
 
 async function fetchJson(url) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
   const response = await fetch(url, {
+    signal: controller.signal,
     headers: {
       "User-Agent": "Maynaychoiduoc.vn image importer (local project; official sources only)",
       "Accept-Language": "en-US,en;q=0.9",
       Accept: "application/json,text/plain,*/*",
     },
   });
+  clearTimeout(timeout);
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   return response.json();
 }
 
 async function fetchText(url) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
   const response = await fetch(url, {
+    signal: controller.signal,
     headers: {
       "User-Agent": "Maynaychoiduoc.vn image importer (local project; official sources only)",
       "Accept-Language": "en-US,en;q=0.9",
       Accept: "text/html,application/xhtml+xml,*/*",
     },
   });
+  clearTimeout(timeout);
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   return response.text();
 }
@@ -83,20 +94,6 @@ async function steamImages(steamId) {
   if (!steamId) return [];
   const items = [];
   const storeUrl = `https://store.steampowered.com/app/${steamId}/`;
-  const apiUrl = `https://store.steampowered.com/api/appdetails?appids=${steamId}&filters=basic,screenshots`;
-  const payload = await fetchJson(apiUrl);
-  const data = payload?.[steamId]?.data;
-
-  pushImage(items, data?.header_image, "steam-store-api", storeUrl);
-  pushImage(items, data?.capsule_image, "steam-store-api", storeUrl);
-  pushImage(items, data?.capsule_imagev5, "steam-store-api", storeUrl);
-  pushImage(items, data?.background_raw || data?.background, "steam-store-api", storeUrl);
-
-  for (const screenshot of data?.screenshots ?? []) {
-    pushImage(items, screenshot?.path_full, "steam-screenshot", storeUrl);
-    pushImage(items, screenshot?.path_thumbnail, "steam-screenshot", storeUrl);
-  }
-
   const cdnBase = `https://cdn.akamai.steamstatic.com/steam/apps/${steamId}`;
   for (const asset of [
     "header.jpg",
@@ -108,6 +105,33 @@ async function steamImages(steamId) {
     "page_bg_generated_v6b.jpg",
   ]) {
     pushImage(items, `${cdnBase}/${asset}`, "steam-cdn-pattern", storeUrl);
+  }
+
+  const apiUrl = `https://store.steampowered.com/api/appdetails?appids=${steamId}&filters=basic,screenshots`;
+  try {
+    const payload = await fetchJson(apiUrl);
+    const data = payload?.[steamId]?.data;
+
+    pushImage(items, data?.header_image, "steam-store-api", storeUrl);
+    pushImage(items, data?.capsule_image, "steam-store-api", storeUrl);
+    pushImage(items, data?.capsule_imagev5, "steam-store-api", storeUrl);
+    pushImage(items, data?.background_raw || data?.background, "steam-store-api", storeUrl);
+
+    for (const screenshot of data?.screenshots ?? []) {
+      pushImage(items, screenshot?.path_full, "steam-screenshot", storeUrl);
+      pushImage(items, screenshot?.path_thumbnail, "steam-screenshot", storeUrl);
+    }
+  } catch {
+    // Keep deterministic CDN candidates even when Steam API blocks or times out.
+  }
+
+  try {
+    const html = await fetchText(storeUrl);
+    for (const image of extractOfficialImages(storeUrl, html)) {
+      pushImage(items, image, "steam-store-html", storeUrl);
+    }
+  } catch {
+    // Store HTML is a bonus source; Steam API/CDN candidates remain usable.
   }
 
   return items;
@@ -156,8 +180,9 @@ function extractOfficialImages(baseUrl, html) {
     /<meta[^>]+(?:property|name)=["'](?:og:image|og:image:secure_url|twitter:image|twitter:image:src|image)["'][^>]+content=["']([^"']+)["'][^>]*>/gi,
     /<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|og:image:secure_url|twitter:image|twitter:image:src|image)["'][^>]*>/gi,
     /<link[^>]+rel=["'](?:image_src|preload)["'][^>]+href=["']([^"']+)["'][^>]*>/gi,
-    /<img[^>]+(?:src|data-src|data-original|data-lazy-src)=["']([^"']+)["'][^>]*>/gi,
-    /<(?:source|img)[^>]+srcset=["']([^"']+)["'][^>]*>/gi,
+    /<img[^>]+(?:src|data-src|data-original|data-lazy-src|data-fullsrc|data-full|data-image)=["']([^"']+)["'][^>]*>/gi,
+    /<(?:source|img)[^>]+(?:srcset|data-srcset|data-lazy-srcset)=["']([^"']+)["'][^>]*>/gi,
+    /<div[^>]+(?:data-background|data-bg|data-bgset)=["']([^"']+)["'][^>]*>/gi,
     /(?:background|background-image)\s*:\s*url\(([^)]+)\)/gi,
     /["'](https?:\/\/[^"']+\.(?:avif|gif|jpe?g|png|webp)(?:\?[^"']*)?)["']/gi,
   ];
@@ -187,8 +212,12 @@ async function officialSiteImages(pageUrl) {
 function scoreImage(item, coverImage) {
   const url = item.url.toLowerCase();
   let score = 0;
-  if (item.source.startsWith("steam")) score += 20;
-  if (item.source === "official-site") score += 12;
+  if (item.source === "steam-screenshot") score += 35;
+  if (item.source === "steam-store-api") score += 28;
+  if (item.source === "steam-store-html") score += 24;
+  if (item.source === "steam-cdn-pattern") score += 18;
+  if (item.source === "official-site") score += 22;
+  if (item.source === "catalog-cover") score += 4;
   if (/screenshot|ss_|gallery|media|screen|carousel|wallpaper|hero|background|capsule|header/.test(url)) score += 12;
   if (/library_600x900|capsule_467x181|thumbnail|thumb|small/.test(url)) score -= 8;
   if (coverImage && url.split("?")[0] === coverImage.split("?")[0].toLowerCase()) score -= 30;
@@ -198,7 +227,7 @@ function scoreImage(item, coverImage) {
 function dedupeImages(items, coverImage) {
   const byKey = new Map();
   for (const item of items) {
-    if (!isGoodImage(item.url)) continue;
+    if (!isGoodImage(item.url, item.source)) continue;
     const key = item.url.split("?")[0].toLowerCase();
     const existing = byKey.get(key);
     if (!existing || scoreImage(item, coverImage) > scoreImage(existing, coverImage)) byKey.set(key, item);
@@ -217,6 +246,9 @@ async function main() {
 
   for (const game of games) {
     const items = [];
+    if (game.coverImage) {
+      pushImage(items, game.coverImage, "catalog-cover", game.officialUrl || "data/games.json");
+    }
 
     try {
       items.push(...await steamImages(game.steamId));

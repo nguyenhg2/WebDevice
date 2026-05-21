@@ -1,1 +1,918 @@
-{}
+{
+  "counter-strike-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/730/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/730/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/730/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/730/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861"
+  ],
+  "valorant": [
+    "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL?w=1200&h=630&fm=webp&fit=crop&crop=center"
+  ],
+  "genshin-impact": [
+    "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg"
+  ],
+  "lien-minh-huyen-thoai": [
+    "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0ad60463de21fac1bdd711becb0a4ed8986f9d55-1200x630.jpg?accountingTag=LoL?w=1200&h=630&fm=webp&fit=crop&crop=center"
+  ],
+  "dota-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/570/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/570/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/570/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/570/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/570/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/570/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998"
+  ],
+  "pubg-battlegrounds": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/578080/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/578080/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/578080/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/578080/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/578080/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/578080/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/578080/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1778634253"
+  ],
+  "apex-legends": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1172470/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1172470/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1172470/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1172470/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1172470/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1172470/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1172470/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/0bd74245b869287a2dc7f682e6013f7ed08d98e3/header.jpg?t=1778502442"
+  ],
+  "fortnite": [
+    "/images/games/fortnite.svg"
+  ],
+  "minecraft": [
+    "https://www.minecraft.net/content/dam/minecraftnet/franchise/logos/minecraft-creeper-face.jpg"
+  ],
+  "roblox": [
+    "/images/games/roblox.svg"
+  ],
+  "ea-sports-fc-24": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/2195250/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2195250/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2195250/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2195250/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2195250/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2195250/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2195250/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/header.jpg?t=1752167366"
+  ],
+  "grand-theft-auto-v": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/271590/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/271590/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/271590/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/271590/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/271590/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/271590/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725"
+  ],
+  "red-dead-redemption-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1174180/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1174180/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1174180/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1174180/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961"
+  ],
+  "cyberpunk-2077": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1091500/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1091500/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1091500/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1091500/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1091500/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1091500/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377"
+  ],
+  "elden-ring": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1245620/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1245620/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1245620/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1245620/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1767883716"
+  ],
+  "the-witcher-3": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/292030/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/292030/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/292030/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/292030/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/292030/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/292030/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg?t=1768303991"
+  ],
+  "hogwarts-legacy": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/990080/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/990080/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/990080/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/990080/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/990080/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/990080/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header.jpg?t=1778797474"
+  ],
+  "palworld": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1623730/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1623730/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1623730/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1623730/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1623730/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1623730/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/058bd87dc17a7179e07c446aa64d0574ca43ab9d/header.jpg?t=1773936597"
+  ],
+  "helldivers-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/553850/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/553850/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/553850/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/553850/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/553850/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/553850/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/553850/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/f11c258b04a5e3e7771c1bab60f324ebf6c6c6fb/header.jpg?t=1770747641"
+  ],
+  "baldur-s-gate-3": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1086940/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1086940/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1086940/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1086940/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1086940/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1086940/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040"
+  ],
+  "warframe": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/230410/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/230410/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/230410/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/230410/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/230410/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/230410/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/230410/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/60ce7425b864dd3c0dd855bfc66004c6f9ca4844/header.jpg?t=1778595605"
+  ],
+  "path-of-exile": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/238960/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/238960/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/238960/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/238960/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/238960/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/238960/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/238960/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/558fd9078de800b7528a8e96bee0108a8fac17aa/header.jpg?t=1773177577"
+  ],
+  "lost-ark": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1599340/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1599340/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1599340/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1599340/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1599340/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1599340/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1599340/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg?t=1763571534"
+  ],
+  "world-of-tanks": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1407200/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1407200/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1407200/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1407200/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1407200/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1407200/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1407200/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/819fc92f7ddb96ef10792a6d72382c5b814d671a/header.jpg?t=1777450200"
+  ],
+  "war-thunder": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/236390/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/236390/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/236390/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/236390/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/236390/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/236390/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/236390/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/ceff9434460880755b42a90b8915e87dff4482ad/header.jpg?t=1779186880"
+  ],
+  "euro-truck-simulator-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/227300/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/227300/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/227300/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/227300/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/227300/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/227300/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/227300/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1773641450"
+  ],
+  "farming-simulator-22": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1248130/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1248130/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1248130/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1248130/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1248130/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1248130/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1248130/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1248130/7ff56320788fa4b1f46ac9a62ff955d3ef3f109c/header.jpg?t=1765792398"
+  ],
+  "the-sims-4": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222670/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222670/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222670/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222670/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222670/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222670/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222670/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/header.jpg?t=1778778231"
+  ],
+  "cities-skylines": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/255710/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/255710/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/255710/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/255710/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/255710/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/255710/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/255710/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg?t=1777568415"
+  ],
+  "terraria": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/105600/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/105600/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/105600/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/105600/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/105600/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/105600/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435"
+  ],
+  "stardew-valley": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/413150/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/413150/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/413150/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/413150/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/413150/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/413150/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865"
+  ],
+  "among-us": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/945360/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/945360/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/945360/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/945360/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/945360/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/945360/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1757444903"
+  ],
+  "left-4-dead-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/550/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/550/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/550/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/550/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/550/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/550/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/550/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1772742214"
+  ],
+  "team-fortress-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/440/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/440/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/440/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/440/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/440/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/440/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/440/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372"
+  ],
+  "rainbow-six-siege": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/359550/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/359550/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/359550/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/359550/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/359550/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/359550/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/359550/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/97ce482d2a8ec5d2beb1081e954ac1ec16eea1fb/header_alt_assets_21.jpg?t=1779209046"
+  ],
+  "overwatch-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/2357570/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2357570/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2357570/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2357570/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2357570/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2357570/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2357570/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/1f84e73b8095ab9f40b1bc2c81845330979afc09/header_alt_assets_20.jpg?t=1778610036"
+  ],
+  "rocket-league": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252950/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252950/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/1bcf75584d0c3613b02b2d0a2721a6b411375784/header_alt_assets_15.jpg?t=1773251703"
+  ],
+  "forza-horizon-5": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1551360/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1551360/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1551360/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1551360/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1551360/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1551360/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1746471508"
+  ],
+  "need-for-speed-heat": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222680/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222680/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222680/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222680/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222680/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222680/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1222680/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg?t=1777414224"
+  ],
+  "assetto-corsa": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/244210/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/244210/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/244210/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/244210/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/244210/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/244210/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/244210/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1754985171"
+  ],
+  "fifa-online-4": [
+    "/images/games/fifa-online-4.svg"
+  ],
+  "dot-kich": [
+    "https://cf.goplay.vn/~/newdesign/images/cf_log_thum.png"
+  ],
+  "audition": [
+    "https://cdnmedia.vtcgame.vn/aupc/trangchu/assets/images/Thumb_Audition.jpg"
+  ],
+  "blade-soul": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/3616890/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/3616890/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/3616890/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/3616890/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/3616890/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/3616890/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/3616890/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3616890/60a5e0d12b59e64a40ea6633c50799ebdf9f4674/header.jpg?t=1771982264"
+  ],
+  "black-desert-online": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/582660/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582660/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582660/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582660/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582660/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582660/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582660/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/4f0ea9284b5fae9464dadc528bb572c629666313/header_alt_assets_27.jpg?t=1773974827"
+  ],
+  "naruto-to-boruto-shinobi-striker": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/633230/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/633230/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/633230/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/633230/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/633230/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/633230/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/633230/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/633230/header.jpg?t=1778877162"
+  ],
+  "tekken-8": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1778820/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1778820/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1778820/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1778820/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1778820/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1778820/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1778820/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/f69b0f7c35aa8c966d9ff74c2bae548dbea072e4/header.jpg?t=1770678135"
+  ],
+  "street-fighter-6": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1364780/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1364780/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1364780/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1364780/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1364780/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1364780/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1364780/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1776917924"
+  ],
+  "mortal-kombat-11": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/976310/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/976310/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/976310/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/976310/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/976310/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/976310/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/976310/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976310/header.jpg?t=1775508340"
+  ],
+  "dragon-ball-fighterz": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/678950/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/678950/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/678950/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/678950/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/678950/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/678950/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/678950/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/678950/df2f6b9630a969448a14eed5aba183d27d2ca65b/header_alt_assets_6.jpg?t=1776898545"
+  ],
+  "resident-evil-4-remake": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/2050650/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2050650/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2050650/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2050650/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2050650/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2050650/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2050650/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922"
+  ],
+  "resident-evil-village": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1196590/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1196590/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1196590/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1196590/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1196590/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1196590/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1776927117"
+  ],
+  "phasmophobia": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/739630/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/739630/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/739630/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/739630/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/739630/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/739630/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/739630/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/0a424398a10445bbb922b45771dab7118fe139d2/header_alt_assets_10.jpg?t=1778659672"
+  ],
+  "dead-by-daylight": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/381210/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/381210/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/381210/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/381210/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/381210/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/381210/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/381210/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/8512297f0f02ec3e592f45b21779f61624941964/header_alt_assets_6.jpg?t=1778880603"
+  ],
+  "the-forest": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/242760/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/242760/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/242760/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/242760/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/242760/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/242760/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053"
+  ],
+  "sons-of-the-forest": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1326470/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1326470/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1326470/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1326470/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1326470/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1326470/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1326470/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856"
+  ],
+  "raft": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/648800/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/648800/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/648800/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/648800/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/648800/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/648800/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/648800/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011"
+  ],
+  "subnautica": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/264710/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/264710/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/264710/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/264710/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/264710/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/264710/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/264710/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112"
+  ],
+  "no-man-s-sky": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/275850/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/275850/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/275850/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/275850/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/275850/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/275850/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/275850/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/0daeafb115c92d9afd4c7a670384688adbde91e0/header_alt_assets_25.jpg?t=1776675618"
+  ],
+  "valheim": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/892970/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/892970/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/892970/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/892970/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/892970/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/892970/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1765967243"
+  ],
+  "ark-survival-evolved": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/346110/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/346110/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/346110/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/346110/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/346110/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/346110/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/346110/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1765677889"
+  ],
+  "rust": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252490/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252490/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252490/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252490/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252490/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/252490/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1778597738"
+  ],
+  "dayz": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/221100/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/221100/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/221100/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/221100/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/221100/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/221100/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1769695513"
+  ],
+  "project-zomboid": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/108600/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/108600/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/108600/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/108600/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/108600/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/108600/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/108600/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1777298596"
+  ],
+  "don-t-starve-together": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/322330/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/322330/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/322330/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/322330/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/322330/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/322330/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/322330/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/14496a5926156fbaf8b026f8224ba8c34e9b5096/header_alt_assets_49.jpg?t=1777913126"
+  ],
+  "hades": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1145360/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1145360/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1145360/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1145360/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1145360/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1145360/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023"
+  ],
+  "hollow-knight": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/367520/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/367520/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/367520/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/367520/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/367520/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/367520/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684"
+  ],
+  "cuphead": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/268910/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/268910/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/268910/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/268910/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/268910/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/268910/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1709068852"
+  ],
+  "celeste": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/504230/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/504230/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/504230/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/504230/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/504230/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/504230/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525"
+  ],
+  "ori-and-the-will-of-the-wisps": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1057090/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1057090/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1057090/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1057090/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1057090/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1057090/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1057090/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg?t=1759530749"
+  ],
+  "age-of-empires-ii-definitive-edition": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/813780/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/813780/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/813780/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/813780/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/813780/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/813780/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg?t=1777577197"
+  ],
+  "age-of-empires-iv": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1466860/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1466860/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1466860/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1466860/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1466860/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1466860/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1466860/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg?t=1778176408"
+  ],
+  "civilization-vi": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/289070/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/289070/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/289070/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/289070/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/289070/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/289070/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/289070/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1740607040"
+  ],
+  "total-war-three-kingdoms": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/779340/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/779340/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/779340/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/779340/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/779340/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/779340/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/779340/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg?t=1778847914"
+  ],
+  "starcraft-ii": [
+    "/images/games/starcraft-ii.svg"
+  ],
+  "diablo-iv": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/2344520/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2344520/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2344520/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2344520/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2344520/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2344520/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2344520/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/2953f199b4c075b22c0cf8ff03d88b0b1c267823/header_alt_assets_11.jpg?t=1777501665"
+  ],
+  "diablo-iii": [
+    "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blte3178c04d93773f1/67ce27f440e6651e27e17582/og_image.webp"
+  ],
+  "torchlight-ii": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/200710/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/200710/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/200710/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/200710/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/200710/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/200710/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/200710/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1779262562"
+  ],
+  "grim-dawn": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/219990/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/219990/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/219990/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/219990/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/219990/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/219990/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/219990/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219990/header.jpg?t=1726250949"
+  ],
+  "monster-hunter-world": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582010/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582010/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582010/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582010/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582010/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/582010/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1773328926"
+  ],
+  "monster-hunter-rise": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1446780/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1446780/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1446780/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1446780/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1446780/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1446780/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1446780/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444"
+  ],
+  "sekiro-shadows-die-twice": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/814380/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/814380/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/814380/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/814380/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/814380/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/814380/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662"
+  ],
+  "dark-souls-iii": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/374320/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/374320/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/374320/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/374320/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/374320/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/374320/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784"
+  ],
+  "nioh-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1325200/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1325200/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1325200/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1325200/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1325200/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1325200/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1325200/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/header.jpg?t=1775540023"
+  ],
+  "assassin-s-creed-valhalla": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/2208920/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2208920/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2208920/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2208920/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2208920/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2208920/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2208920/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/header.jpg?t=1754572990"
+  ],
+  "assassin-s-creed-odyssey": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/812140/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/812140/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/812140/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/812140/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/812140/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/812140/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/812140/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1777476997"
+  ],
+  "far-cry-5": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/552520/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/552520/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/552520/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/552520/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/552520/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/552520/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/552520/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg?t=1762190084"
+  ],
+  "far-cry-6": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/2369390/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2369390/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2369390/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2369390/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2369390/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2369390/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2369390/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/header.jpg?t=1758656170"
+  ],
+  "watch-dogs-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/447040/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/447040/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/447040/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/447040/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/447040/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/447040/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/447040/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg?t=1751986887"
+  ],
+  "watch-dogs-legion": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/2239550/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2239550/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2239550/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2239550/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2239550/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2239550/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/2239550/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239550/header.jpg?t=1747655055"
+  ],
+  "control": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/870780/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/870780/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/870780/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/870780/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/870780/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/870780/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/870780/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1775822834"
+  ],
+  "alan-wake-2": [
+    "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png"
+  ],
+  "metro-exodus": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/412020/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/412020/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/412020/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/412020/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/412020/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/412020/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/412020/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804"
+  ],
+  "dying-light-2": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/534380/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/534380/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/534380/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/534380/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/534380/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/534380/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/534380/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1772550031"
+  ],
+  "mafia-definitive-edition": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1030840/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1030840/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1030840/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1030840/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1030840/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1030840/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1030840/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/header.jpg?t=1759852929"
+  ],
+  "hitman-3": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1659040/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1659040/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1659040/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1659040/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1659040/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1659040/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1659040/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header.jpg?t=1777550698"
+  ],
+  "tomb-raider": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/203160/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/203160/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/203160/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/203160/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/203160/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/203160/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/203160/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/9e67774e97cdd155f287146e62611eb445514ac6/header.jpg?t=1765220424"
+  ],
+  "shadow-of-the-tomb-raider": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/750920/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/750920/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/750920/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/750920/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/750920/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/750920/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/750920/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/header.jpg?t=1765239925"
+  ],
+  "stray": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1332010/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1332010/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1332010/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1332010/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1332010/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1332010/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1332010/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906"
+  ],
+  "dave-the-diver": [
+    "https://cdn.akamai.steamstatic.com/steam/apps/1868140/header.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1868140/capsule_616x353.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1868140/library_hero.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1868140/hero_capsule.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1868140/capsule_467x181.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1868140/page_bg_generated_v6b.jpg",
+    "https://cdn.akamai.steamstatic.com/steam/apps/1868140/library_600x900.jpg",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/81bdb3bce15d27ca1b4554a642d91096e89be229/header.jpg?t=1776394908"
+  ]
+}
