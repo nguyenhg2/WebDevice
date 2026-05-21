@@ -1,0 +1,40 @@
+{
+  "fortnite": [
+    "https://egs-platform-service.store.epicgames.com/api/v1/egs/products/fn?locale=en-US&country=US",
+    "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US",
+    "https://www.fortnite.com/",
+    "https://www.fortnite.com/battle-royale",
+    "https://www.fortnite.com/creative",
+    "https://www.fortnite.com/news",
+    "https://www.fortnite.com/gallery?category=Screenshots",
+    "https://store.epicgames.com/en-US/p/fortnite?lang=en-US",
+    "https://www.xbox.com/en-US/games/store/fortnite/bt5p2x999vh2",
+    "https://store.playstation.com/en-us/concept/228748"
+  ],
+  "roblox": [
+    "https://games.roblox.com/v1/games/list?model.keyword=&model.maxRows=40&model.startRows=0",
+    "https://corp.roblox.com/press-kit/",
+    "https://corp.roblox.com/",
+    "https://www.roblox.com/",
+    "https://www.roblox.com/discover",
+    "https://apps.apple.com/us/app/roblox/id431946152",
+    "https://play.google.com/store/apps/details?id=com.roblox.client&hl=en_US&gl=US",
+    "https://www.xbox.com/en-US/games/store/roblox/9nblgggzm6wm"
+  ],
+  "genshin-impact": [
+    "https://genshin.hoyoverse.com/en/",
+    "https://genshin.hoyoverse.com/en/media",
+    "https://genshin.hoyoverse.com/en/news",
+    "https://apps.apple.com/us/app/genshin-impact/id1517783697",
+    "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=en_US&gl=US"
+  ],
+  "audition": [
+    "https://au.vtcgame.vn/",
+    "https://au.vtcgame.vn/tin-tuc"
+  ],
+  "fifa-online-4": [
+    "https://fconline.garena.vn/",
+    "https://play.google.com/store/apps/details?id=com.garena.game.fo4mvn&hl=vi&gl=VN",
+    "https://apps.apple.com/vn/app/fc-online-m-by-ea-sports/id1427414541"
+  ]
+}

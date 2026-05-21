@@ -96,6 +96,11 @@
       "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/c8157d71a4776dd821d05ed6b82d5d875ca03386-5120x1644.png",
       "source": "official-site",
       "sourceUrl": "https://playvalorant.com/vi-vn/"
+    },
+    {
+      "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL?w=1200&h=630&fm=webp&fit=crop&crop=center",
+      "source": "catalog-cover",
+      "sourceUrl": "https://playvalorant.com/vi-vn/"
     }
   ],
   "genshin-impact": [
@@ -154,6 +159,11 @@
     {
       "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/befd42ad6d2564159a441d08cfc3bf511532eb74-1628x1628.png",
       "source": "official-site",
+      "sourceUrl": "https://www.leagueoflegends.com/vi-vn/"
+    },
+    {
+      "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0ad60463de21fac1bdd711becb0a4ed8986f9d55-1200x630.jpg?accountingTag=LoL?w=1200&h=630&fm=webp&fit=crop&crop=center",
+      "source": "catalog-cover",
       "sourceUrl": "https://www.leagueoflegends.com/vi-vn/"
     }
   ],
@@ -5410,6 +5420,11 @@
     {
       "url": "https://www.alanwake.com/wp-content/uploads/2023/10/AWII_Launch_054-150x150.png",
       "source": "official-site",
+      "sourceUrl": "https://www.alanwake.com/"
+    },
+    {
+      "url": "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png",
+      "source": "catalog-cover",
       "sourceUrl": "https://www.alanwake.com/"
     }
   ],

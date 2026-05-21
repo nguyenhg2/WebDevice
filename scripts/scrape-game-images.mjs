@@ -5,14 +5,45 @@ const ROOT = process.cwd();
 const gamesPath = path.join(ROOT, "data", "games.json");
 const imagesPath = path.join(ROOT, "data", "game-images.json");
 const sourcesPath = path.join(ROOT, "data", "game-image-sources.json");
+const sourcePacksPath = path.join(ROOT, "data", "game-image-source-packs.json");
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const REQUEST_TIMEOUT_MS = 18000;
+const BROWSER_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36";
 
 const officialImageSourceOverrides = {
   fortnite: [
+    "https://egs-platform-service.store.epicgames.com/api/v1/egs/products/fn?locale=en-US&country=US",
+    "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US",
+    "https://www.fortnite.com/",
+    "https://www.fortnite.com/battle-royale",
+    "https://www.fortnite.com/creative",
+    "https://www.fortnite.com/news",
     "https://www.fortnite.com/gallery?category=Screenshots",
     "https://store.epicgames.com/en-US/p/fortnite?lang=en-US",
+    "https://www.xbox.com/en-US/games/store/fortnite/bt5p2x999vh2",
+    "https://store.playstation.com/en-us/concept/228748",
+  ],
+  roblox: [
+    "https://games.roblox.com/v1/games/list?model.keyword=&model.maxRows=40&model.startRows=0",
+    "https://corp.roblox.com/press-kit/",
+    "https://corp.roblox.com/",
+    "https://www.roblox.com/",
+    "https://www.roblox.com/discover",
+    "https://apps.apple.com/us/app/roblox/id431946152",
+    "https://play.google.com/store/apps/details?id=com.roblox.client&hl=en_US&gl=US",
+    "https://www.xbox.com/en-US/games/store/roblox/9nblgggzm6wm",
+  ],
+  "genshin-impact": [
+    "https://genshin.hoyoverse.com/en/",
+    "https://genshin.hoyoverse.com/en/media",
+    "https://genshin.hoyoverse.com/en/news",
+    "https://apps.apple.com/us/app/genshin-impact/id1517783697",
+    "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=en_US&gl=US",
+  ],
+  audition: [
+    "https://au.vtcgame.vn/",
+    "https://au.vtcgame.vn/tin-tuc",
   ],
   "fifa-online-4": [
     "https://fconline.garena.vn/",
@@ -20,6 +51,7 @@ const officialImageSourceOverrides = {
     "https://apps.apple.com/vn/app/fc-online-m-by-ea-sports/id1427414541",
   ],
 };
+let configuredOfficialImageSourceOverrides = officialImageSourceOverrides;
 
 function decodeHtml(value) {
   return String(value || "")
@@ -58,16 +90,18 @@ function isGoodImage(url, source) {
   const isRemote = /^https?:\/\//i.test(url);
   const isLocal = url.startsWith("/images/");
   if (!isRemote && !isLocal) return false;
+  const knownImageCdnWithoutExtension = /\/\/(?:cdn\d*\.epicgames\.com|cdn\d*\.unrealengine\.com|media\.contentapi\.ea\.com|tr\.rbxcdn\.com|play-lh\.googleusercontent\.com|is\d+-ssl\.mzstatic\.com|store-images\.s-microsoft\.com)\//i.test(url);
   if (source === "catalog-cover") {
     if (!/\.(avif|gif|jpe?g|png|svg|webp)(\?|#|$)/i.test(url)) return false;
-  } else if (!/\.(avif|jpe?g|png|webp)(\?|#|$)/i.test(url)) {
+  } else if (!knownImageCdnWithoutExtension && !/\.(avif|jpe?g|png|webp)(\?|#|$)/i.test(url)) {
     return false;
   }
+  if (/\.(?:pdf|zip|mp4|webm|mov|json|js|css)(\?|#|$)/i.test(url)) return false;
   if (source !== "catalog-cover" && /favicon|apple-touch-icon|icon[-_.]?\d|sprite|avatar|badge|logo|mark|emblem|social|facebook|twitter|youtube|discord|steamdeck|controller|rating|esrb|pegi/i.test(url)) return false;
   if (isRemote && /(?:^|[?&])(w|width|h|height)=([1-9]\d?|1\d\d)(?:&|$)/i.test(url)) return false;
   if (source !== "catalog-cover" && /\/(icons?|logos?|avatars?|badges?)\//i.test(url)) return false;
   if (source !== "catalog-cover" && /visualwebsiteoptimizer|\/_next\/static\/node_modules\/|\/assets\/(?:media|link|player|download)-square\.svg|\/puzzle\/b\.png/i.test(url)) return false;
-  if (source === "official-site" && !/(cmsassets|rgpub|sanity|hoyoverse|fastcdn|upload-static|minecraft|garena|garenanow|cdn|media|images?|screens?|screenshot|gallery|wallpaper|hero|banner|background|key-art|news|assets|content|dam)/i.test(url)) return false;
+  if ((source === "official-site" || source === "official-linked-page") && !/(cmsassets|rgpub|sanity|hoyoverse|fastcdn|upload-static|minecraft|garena|garenanow|rbxcdn|epicgames|unrealengine|googleusercontent|mzstatic|store-images|cdn|media|images?|screens?|screenshot|gallery|wallpaper|hero|banner|background|key-art|news|assets|content|dam)/i.test(url)) return false;
   return true;
 }
 
@@ -77,7 +111,7 @@ async function fetchJson(url) {
   const response = await fetch(url, {
     signal: controller.signal,
     headers: {
-      "User-Agent": "Maynaychoiduoc.vn image importer (local project; official sources only)",
+      "User-Agent": BROWSER_USER_AGENT,
       "Accept-Language": "en-US,en;q=0.9",
       Accept: "application/json,text/plain,*/*",
     },
@@ -93,7 +127,7 @@ async function fetchText(url) {
   const response = await fetch(url, {
     signal: controller.signal,
     headers: {
-      "User-Agent": "Maynaychoiduoc.vn image importer (local project; official sources only)",
+      "User-Agent": BROWSER_USER_AGENT,
       "Accept-Language": "en-US,en;q=0.9",
       Accept: "text/html,application/xhtml+xml,*/*",
     },
@@ -187,7 +221,7 @@ function collectJsonImages(value, images, baseUrl) {
     return;
   }
   if (typeof value !== "object") return;
-  for (const key of ["image", "thumbnail", "thumbnailUrl", "screenshot", "logo"]) {
+  for (const key of ["image", "images", "imageUrl", "imageUrls", "keyImages", "tileImage", "artwork", "artworks", "contentUrl", "screenshot", "screenshots", "screenshotUrls", "thumbnail", "thumbnails", "thumbnailUrl", "src", "url", "logo"]) {
     if (key in value) collectJsonImages(value[key], images, baseUrl);
   }
 }
@@ -218,6 +252,11 @@ function extractOfficialImages(baseUrl, html) {
   }
 
   images.push(...extractJsonLdImages(baseUrl, html));
+  try {
+    collectJsonImages(JSON.parse(decodeHtml(html)), images, baseUrl);
+  } catch {
+    // Most official pages are HTML; JSON endpoints are handled when they parse.
+  }
   return images;
 }
 
@@ -227,11 +266,70 @@ async function officialSiteImages(pageUrl) {
   return extractOfficialImages(pageUrl, html).map((url) => ({ url, source: "official-site", sourceUrl: pageUrl }));
 }
 
+function extractLinkedOfficialPages(baseUrl, html) {
+  const links = [];
+  let base;
+  try {
+    base = new URL(baseUrl);
+  } catch {
+    return links;
+  }
+
+  for (const match of html.matchAll(/<a[^>]+href=["']([^"']+)["'][^>]*>/gi)) {
+    const url = absolutizeUrl(baseUrl, match[1]);
+    if (!url) continue;
+    try {
+      const parsed = new URL(url);
+      const sameHost = parsed.hostname === base.hostname;
+      const relatedHost = /(?:epicgames|fortnite|roblox|hoyoverse|vtcgame|garena)/i.test(parsed.hostname);
+      const relatedPath = /(?:media|gallery|screens?|screenshot|press|kit|news|images?|creative|battle|game|games|tin-tuc|thu-vien)/i.test(parsed.pathname);
+      if ((sameHost || relatedHost) && relatedPath) links.push(parsed.toString());
+    } catch {
+      // Ignore malformed links.
+    }
+  }
+
+  return [...new Set(links)].slice(0, 8);
+}
+
+async function officialSiteImagesDeep(pageUrl) {
+  if (!pageUrl) return [];
+  const items = [];
+  const html = await fetchText(pageUrl);
+  for (const image of extractOfficialImages(pageUrl, html)) {
+    pushImage(items, image, "official-site", pageUrl);
+  }
+
+  for (const linkedPage of extractLinkedOfficialPages(pageUrl, html)) {
+    try {
+      const linkedHtml = await fetchText(linkedPage);
+      for (const image of extractOfficialImages(linkedPage, linkedHtml)) {
+        pushImage(items, image, "official-linked-page", linkedPage);
+      }
+      await sleep(120);
+    } catch {
+      // Linked pages are opportunistic; keep images from the seed page.
+    }
+  }
+
+  return items;
+}
+
 function officialImageUrlsForGame(game) {
   const urls = new Set();
-  if (game.officialUrl) urls.add(game.officialUrl);
-  for (const url of officialImageSourceOverrides[game.slug] ?? []) urls.add(url);
+  if (!game.steamId && game.officialUrl) urls.add(game.officialUrl);
+  for (const url of configuredOfficialImageSourceOverrides[game.slug] ?? []) urls.add(url);
   return [...urls];
+}
+
+async function readConfiguredSourcePacks() {
+  const sourcePacks = await fs.readFile(sourcePacksPath, "utf8").then((value) => JSON.parse(value)).catch(() => ({}));
+  const merged = { ...officialImageSourceOverrides };
+  for (const [slug, urls] of Object.entries(sourcePacks)) {
+    if (!Array.isArray(urls)) continue;
+    merged[slug] = [...new Set([...(merged[slug] ?? []), ...urls.filter((url) => typeof url === "string")])];
+  }
+  return merged;
 }
 
 async function officialImagesForGame(game) {
@@ -240,7 +338,7 @@ async function officialImagesForGame(game) {
 
   for (const url of officialImageUrlsForGame(game)) {
     try {
-      items.push(...await officialSiteImages(url));
+      items.push(...await officialSiteImagesDeep(url));
     } catch (error) {
       errors.push(`${url}: ${error instanceof Error ? error.message : String(error)}`);
     }
@@ -257,6 +355,7 @@ function scoreImage(item, coverImage) {
   if (item.source === "steam-store-html") score += 24;
   if (item.source === "steam-cdn-pattern") score += 18;
   if (item.source === "official-site") score += 22;
+  if (item.source === "official-linked-page") score += 20;
   if (item.source === "catalog-cover") score += 4;
   if (/screenshot|ss_|gallery|media|screen|carousel|wallpaper|hero|background|capsule|header/.test(url)) score += 12;
   if (/library_600x900|capsule_467x181|thumbnail|thumb|small/.test(url)) score -= 8;
@@ -280,6 +379,8 @@ function dedupeImages(items, coverImage) {
 
 async function main() {
   const games = JSON.parse(await fs.readFile(gamesPath, "utf8"));
+  configuredOfficialImageSourceOverrides = await readConfiguredSourcePacks();
+  const existingSources = await fs.readFile(sourcesPath, "utf8").then((value) => JSON.parse(value)).catch(() => ({}));
   const galleries = {};
   const sources = {};
   const failures = [];
@@ -287,6 +388,9 @@ async function main() {
   for (const game of games) {
     const items = [];
     const gameFailures = [];
+    for (const item of existingSources[game.slug] ?? []) {
+      pushImage(items, item.url, item.source || "previous-scrape", item.sourceUrl || "data/game-image-sources.json");
+    }
     if (game.coverImage) {
       pushImage(items, game.coverImage, "catalog-cover", game.officialUrl || "data/games.json");
     }
