@@ -58,10 +58,16 @@ function isGoodImage(url, source) {
   const isRemote = /^https?:\/\//i.test(url);
   const isLocal = url.startsWith("/images/");
   if (!isRemote && !isLocal) return false;
-  if (!/\.(avif|gif|jpe?g|png|svg|webp)(\?|#|$)/i.test(url)) return false;
+  if (source === "catalog-cover") {
+    if (!/\.(avif|gif|jpe?g|png|svg|webp)(\?|#|$)/i.test(url)) return false;
+  } else if (!/\.(avif|jpe?g|png|webp)(\?|#|$)/i.test(url)) {
+    return false;
+  }
   if (source !== "catalog-cover" && /favicon|apple-touch-icon|icon[-_.]?\d|sprite|avatar|badge|logo|mark|emblem|social|facebook|twitter|youtube|discord|steamdeck|controller|rating|esrb|pegi/i.test(url)) return false;
   if (isRemote && /(?:^|[?&])(w|width|h|height)=([1-9]\d?|1\d\d)(?:&|$)/i.test(url)) return false;
   if (source !== "catalog-cover" && /\/(icons?|logos?|avatars?|badges?)\//i.test(url)) return false;
+  if (source !== "catalog-cover" && /visualwebsiteoptimizer|\/_next\/static\/node_modules\/|\/assets\/(?:media|link|player|download)-square\.svg|\/puzzle\/b\.png/i.test(url)) return false;
+  if (source === "official-site" && !/(cmsassets|rgpub|sanity|hoyoverse|fastcdn|upload-static|minecraft|garena|garenanow|cdn|media|images?|screens?|screenshot|gallery|wallpaper|hero|banner|background|key-art|news|assets|content|dam)/i.test(url)) return false;
   return true;
 }
 

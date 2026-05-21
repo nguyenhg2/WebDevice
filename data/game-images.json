@@ -14,11 +14,6 @@
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.600x338.jpg?t=1749053861"
   ],
   "valorant": [
-    "https://playvalorant.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/media-square.svg",
-    "https://playvalorant.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/link-square.svg",
-    "https://playvalorant.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/player-square.svg",
-    "https://playvalorant.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/download-square.svg",
-    "https://dev.visualwebsiteoptimizer.com/ee.gif?a=",
     "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7b76209193f1bfe190d3ae6ef8728328870be9c3-736x138.png",
     "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fcb25b1ac30cf0e1eba39054619d979bfa5e7927-1920x1080.jpg",
     "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/7bfe51e8c510fddced89194d8b11e17b59c03687-1920x1080.jpg",
@@ -31,15 +26,9 @@
     "https://fastcdn.hoyoverse.com/static-resource-v2/2024/08/19/929753488ed9abdb8d6c48050da4e0eb_2788618069477720962.png",
     "https://fastcdn.hoyoverse.com/static-resource-v2/2024/08/19/bd35cf94d58753ca8d1512c907f97ae4_2258090926944326502.png",
     "https://fastcdn.hoyoverse.com/static-resource-v2/2024/08/19/40a2ed2ed3a6cb6596edd4bb5268ff24_5091933417970259165.png",
-    "https://act.hoyoverse.com/puzzle/b.png?k=hk4e_website&p=",
     "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg"
   ],
   "lien-minh-huyen-thoai": [
-    "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/media-square.svg",
-    "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/link-square.svg",
-    "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/player-square.svg",
-    "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/download-square.svg",
-    "https://dev.visualwebsiteoptimizer.com/ee.gif?a=",
     "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/11ab52782d701609b07ddd739a37419c039e2f30-8096x3568.png",
     "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4c59eeaf4adc540fd42745bd5c71563fba8f6288-3840x1328.png",
     "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/bd2ba4a4867cbf481132bb593bceb37ac8881055-1920x1080.jpg",
@@ -108,7 +97,6 @@
     "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Global-Header_Image-Tile_Game-Drops_321x321.jpg"
   ],
   "roblox": [
-    "https://images.rbxcdn.com/4bed93c91f909002b1f17f05c0ce13d1.gif",
     "https://images.rbxcdn.com/905bd722ee0a6ceda3caacde54c0b081.png",
     "https://images.rbxcdn.com/fc3f3e3158fc20ebb5ccc972064ebfe6.png",
     "/images/games/roblox.svg"
@@ -1231,9 +1219,6 @@
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ss_165fb4ca28f4db79b878e8c56ba6502e782c0bb2.600x338.jpg?t=1775822834"
   ],
   "alan-wake-2": [
-    "https://www.alanwake.com/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/images/revisit.svg",
-    "https://www.alanwake.com/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/images/close.svg",
-    "https://www.alanwake.com/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/images/webtoffee.svg",
     "https://www.alanwake.com/wp-content/uploads/2024/06/AlanWakeII_MockUp_DE-768x768.jpg",
     "https://www.alanwake.com/wp-content/uploads/2024/06/AlanWakeII_MockUp_DE-1080x1080.jpg",
     "https://www.alanwake.com/wp-content/uploads/2024/06/AlanWakeII_MockUp_DE-150x150.jpg",

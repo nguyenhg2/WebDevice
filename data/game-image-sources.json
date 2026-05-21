@@ -63,31 +63,6 @@
   ],
   "valorant": [
     {
-      "url": "https://playvalorant.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/media-square.svg",
-      "source": "official-site",
-      "sourceUrl": "https://playvalorant.com/vi-vn/"
-    },
-    {
-      "url": "https://playvalorant.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/link-square.svg",
-      "source": "official-site",
-      "sourceUrl": "https://playvalorant.com/vi-vn/"
-    },
-    {
-      "url": "https://playvalorant.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/player-square.svg",
-      "source": "official-site",
-      "sourceUrl": "https://playvalorant.com/vi-vn/"
-    },
-    {
-      "url": "https://playvalorant.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/download-square.svg",
-      "source": "official-site",
-      "sourceUrl": "https://playvalorant.com/vi-vn/"
-    },
-    {
-      "url": "https://dev.visualwebsiteoptimizer.com/ee.gif?a=",
-      "source": "official-site",
-      "sourceUrl": "https://playvalorant.com/vi-vn/"
-    },
-    {
       "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7b76209193f1bfe190d3ae6ef8728328870be9c3-736x138.png",
       "source": "official-site",
       "sourceUrl": "https://playvalorant.com/vi-vn/"
@@ -140,42 +115,12 @@
       "sourceUrl": "https://genshin.hoyoverse.com/"
     },
     {
-      "url": "https://act.hoyoverse.com/puzzle/b.png?k=hk4e_website&p=",
-      "source": "official-site",
-      "sourceUrl": "https://genshin.hoyoverse.com/"
-    },
-    {
       "url": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
       "source": "official-site",
       "sourceUrl": "https://genshin.hoyoverse.com/"
     }
   ],
   "lien-minh-huyen-thoai": [
-    {
-      "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/media-square.svg",
-      "source": "official-site",
-      "sourceUrl": "https://www.leagueoflegends.com/vi-vn/"
-    },
-    {
-      "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/link-square.svg",
-      "source": "official-site",
-      "sourceUrl": "https://www.leagueoflegends.com/vi-vn/"
-    },
-    {
-      "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/player-square.svg",
-      "source": "official-site",
-      "sourceUrl": "https://www.leagueoflegends.com/vi-vn/"
-    },
-    {
-      "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/download-square.svg",
-      "source": "official-site",
-      "sourceUrl": "https://www.leagueoflegends.com/vi-vn/"
-    },
-    {
-      "url": "https://dev.visualwebsiteoptimizer.com/ee.gif?a=",
-      "source": "official-site",
-      "sourceUrl": "https://www.leagueoflegends.com/vi-vn/"
-    },
     {
       "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/11ab52782d701609b07ddd739a37419c039e2f30-8096x3568.png",
       "source": "official-site",
@@ -468,11 +413,6 @@
     }
   ],
   "roblox": [
-    {
-      "url": "https://images.rbxcdn.com/4bed93c91f909002b1f17f05c0ce13d1.gif",
-      "source": "official-site",
-      "sourceUrl": "https://www.roblox.com/"
-    },
     {
       "url": "https://images.rbxcdn.com/905bd722ee0a6ceda3caacde54c0b081.png",
       "source": "official-site",
@@ -5427,21 +5367,6 @@
     }
   ],
   "alan-wake-2": [
-    {
-      "url": "https://www.alanwake.com/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/images/revisit.svg",
-      "source": "official-site",
-      "sourceUrl": "https://www.alanwake.com/"
-    },
-    {
-      "url": "https://www.alanwake.com/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/images/close.svg",
-      "source": "official-site",
-      "sourceUrl": "https://www.alanwake.com/"
-    },
-    {
-      "url": "https://www.alanwake.com/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/images/webtoffee.svg",
-      "source": "official-site",
-      "sourceUrl": "https://www.alanwake.com/"
-    },
     {
       "url": "https://www.alanwake.com/wp-content/uploads/2024/06/AlanWakeII_MockUp_DE-768x768.jpg",
       "source": "official-site",
