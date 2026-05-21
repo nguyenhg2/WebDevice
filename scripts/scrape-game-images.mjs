@@ -8,8 +8,12 @@ const sourcesPath = path.join(ROOT, "data", "game-image-sources.json");
 const sourcePacksPath = path.join(ROOT, "data", "game-image-source-packs.json");
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const REQUEST_TIMEOUT_MS = 18000;
+const REQUEST_TIMEOUT_MS = 8000;
+const CONCURRENCY = Number.parseInt(process.env.SCRAPE_IMAGE_CONCURRENCY || "5", 10);
+const FULL_GALLERY_SIZE = 8;
+const MAX_GALLERY_SIZE = 12;
 const BROWSER_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36";
+const sourcePackTargetSlugs = new Set(["fortnite", "roblox", "genshin-impact", "audition"]);
 
 const officialImageSourceOverrides = {
   fortnite: [
@@ -292,13 +296,15 @@ function extractLinkedOfficialPages(baseUrl, html) {
   return [...new Set(links)].slice(0, 8);
 }
 
-async function officialSiteImagesDeep(pageUrl) {
+async function officialSiteImagesDeep(pageUrl, deep = false) {
   if (!pageUrl) return [];
   const items = [];
   const html = await fetchText(pageUrl);
   for (const image of extractOfficialImages(pageUrl, html)) {
     pushImage(items, image, "official-site", pageUrl);
   }
+
+  if (!deep) return items;
 
   for (const linkedPage of extractLinkedOfficialPages(pageUrl, html)) {
     try {
@@ -315,10 +321,12 @@ async function officialSiteImagesDeep(pageUrl) {
   return items;
 }
 
-function officialImageUrlsForGame(game) {
+function officialImageUrlsForGame(game, includeSourcePack) {
   const urls = new Set();
   if (!game.steamId && game.officialUrl) urls.add(game.officialUrl);
-  for (const url of configuredOfficialImageSourceOverrides[game.slug] ?? []) urls.add(url);
+  if (includeSourcePack) {
+    for (const url of configuredOfficialImageSourceOverrides[game.slug] ?? []) urls.add(url);
+  }
   return [...urls];
 }
 
@@ -332,13 +340,13 @@ async function readConfiguredSourcePacks() {
   return merged;
 }
 
-async function officialImagesForGame(game) {
+async function officialImagesForGame(game, { includeSourcePack, deep }) {
   const items = [];
   const errors = [];
 
-  for (const url of officialImageUrlsForGame(game)) {
+  for (const url of officialImageUrlsForGame(game, includeSourcePack)) {
     try {
-      items.push(...await officialSiteImagesDeep(url));
+      items.push(...await officialSiteImagesDeep(url, deep));
     } catch (error) {
       errors.push(`${url}: ${error instanceof Error ? error.message : String(error)}`);
     }
@@ -374,7 +382,62 @@ function dedupeImages(items, coverImage) {
 
   return [...byKey.values()]
     .sort((a, b) => scoreImage(b, coverImage) - scoreImage(a, coverImage))
-    .slice(0, 12);
+    .slice(0, MAX_GALLERY_SIZE);
+}
+
+async function mapLimit(items, limit, mapper) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const currentIndex = nextIndex;
+      nextIndex += 1;
+      results[currentIndex] = await mapper(items[currentIndex], currentIndex);
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.max(1, Math.min(limit, items.length)) }, worker));
+  return results;
+}
+
+async function scrapeGameImages(game, existingSources) {
+  const items = [];
+  const gameFailures = [];
+
+  for (const item of existingSources[game.slug] ?? []) {
+    pushImage(items, item.url, item.source || "previous-scrape", item.sourceUrl || "data/game-image-sources.json");
+  }
+  if (game.coverImage) {
+    pushImage(items, game.coverImage, "catalog-cover", game.officialUrl || "data/games.json");
+  }
+
+  const baseline = dedupeImages(items, game.coverImage);
+  const needsMoreImages = baseline.length < FULL_GALLERY_SIZE;
+  const hasFullGallery = baseline.length >= MAX_GALLERY_SIZE;
+  const shouldUseSourcePack = needsMoreImages && sourcePackTargetSlugs.has(game.slug);
+
+  if (!hasFullGallery && game.steamId) {
+    try {
+      items.push(...await steamImages(game.steamId));
+    } catch (error) {
+      gameFailures.push(`steam: ${error instanceof Error ? error.message : String(error)}`);
+    }
+  }
+
+  if (needsMoreImages) {
+    const official = await officialImagesForGame(game, {
+      includeSourcePack: shouldUseSourcePack,
+      deep: shouldUseSourcePack,
+    });
+    items.push(...official.items);
+    if (official.items.length === 0 && official.errors.length) {
+      gameFailures.push(`official: ${official.errors.join("; ")}`);
+    }
+  }
+
+  const clean = dedupeImages(items, game.coverImage);
+  return { game, clean, failures: gameFailures };
 }
 
 async function main() {
@@ -385,29 +448,9 @@ async function main() {
   const sources = {};
   const failures = [];
 
-  for (const game of games) {
-    const items = [];
-    const gameFailures = [];
-    for (const item of existingSources[game.slug] ?? []) {
-      pushImage(items, item.url, item.source || "previous-scrape", item.sourceUrl || "data/game-image-sources.json");
-    }
-    if (game.coverImage) {
-      pushImage(items, game.coverImage, "catalog-cover", game.officialUrl || "data/games.json");
-    }
+  const results = await mapLimit(games, CONCURRENCY, (game) => scrapeGameImages(game, existingSources));
 
-    try {
-      items.push(...await steamImages(game.steamId));
-    } catch (error) {
-      gameFailures.push(`steam: ${error instanceof Error ? error.message : String(error)}`);
-    }
-
-    const official = await officialImagesForGame(game);
-    items.push(...official.items);
-    if (official.items.length === 0 && official.errors.length) {
-      gameFailures.push(`official: ${official.errors.join("; ")}`);
-    }
-
-    const clean = dedupeImages(items, game.coverImage);
+  for (const { game, clean, failures: gameFailures } of results) {
     if (clean.length) {
       galleries[game.slug] = clean.map((item) => item.url);
       sources[game.slug] = clean.map((item) => ({ url: item.url, source: item.source, sourceUrl: item.sourceUrl }));
@@ -420,7 +463,6 @@ async function main() {
 
     const sourceCount = new Set(clean.map((item) => item.source)).size;
     console.log(`${game.name}: ${clean.length} images from ${sourceCount} source types`);
-    await sleep(350);
   }
 
   if (Object.keys(galleries).length === 0) {
