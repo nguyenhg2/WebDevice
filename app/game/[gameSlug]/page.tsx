@@ -1,5 +1,3 @@
-import GamePage, { generateMetadata, generateStaticParams } from "@/app/chon-game/[gameSlug]/page";
-
-export const revalidate = 86400;
-export { generateMetadata, generateStaticParams };
+import GamePage, { generateMetadata } from "@/app/chon-game/[gameSlug]/page";
+export { generateMetadata };
 export default GamePage;

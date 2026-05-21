@@ -4,7 +4,7 @@ import { devices, findDevice, games, gpus } from "@/lib/data";
 import { classifyGame } from "@/lib/compatibility-engine";
 import { formatVnd } from "@/lib/utils";
 
-export function generateStaticParams() { return devices.map((device) => ({ deviceSlug: device.slug })); }
+export const dynamic = "force-dynamic";
 export default async function DeviceDetail({ params }: { params: Promise<{ deviceSlug: string }> }) {
   const { deviceSlug } = await params;
   const device = findDevice(deviceSlug);

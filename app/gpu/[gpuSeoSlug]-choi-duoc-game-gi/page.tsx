@@ -1,8 +1,7 @@
 import GpuPage from "@/app/gpu/[gpuSlug]/page";
 import { gpus } from "@/lib/data";
 
-export const revalidate = 86400;
-export function generateStaticParams() { return gpus.map((gpu) => ({ gpuSeoSlug: gpu.slug })); }
+export const dynamic = "force-dynamic";
 export async function generateMetadata({ params }: { params: Promise<{ gpuSeoSlug: string }> }) {
   const { gpuSeoSlug } = await params;
   const gpu = gpus.find((item) => item.slug === gpuSeoSlug);

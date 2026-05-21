@@ -4,7 +4,7 @@ import { benchmarks, findGame, findGpu, games, gpus } from "@/lib/data";
 import { classifyGame } from "@/lib/compatibility-engine";
 
 export const revalidate = 86400;
-export function generateStaticParams() { return games.flatMap((game) => gpus.map((gpu) => ({ gameSlug: game.slug, gpuSlug: gpu.slug }))); }
+export const dynamic = "force-dynamic";
 export default async function GameGpu({ params }: { params: Promise<{ gameSlug: string; gpuSlug: string }> }) {
   const { gameSlug, gpuSlug } = await params;
   const game = findGame(gameSlug);

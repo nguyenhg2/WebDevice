@@ -3,7 +3,7 @@ import UpgradeAdviceCard from "@/components/UpgradeAdviceCard";
 import { games } from "@/lib/data";
 import { classifyGame } from "@/lib/compatibility-engine";
 
-export function generateStaticParams() { return ["4", "8", "16", "32"].map((ramSize) => ({ ramSize })); }
+export const dynamic = "force-dynamic";
 export default async function RamPage({ params }: { params: Promise<{ ramSize: string }> }) {
   const { ramSize } = await params;
   const ram = Number(ramSize.replace("gb", ""));

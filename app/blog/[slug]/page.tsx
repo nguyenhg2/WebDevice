@@ -1,6 +1,6 @@
 import { blogPosts, findPost } from "@/lib/data";
 
-export function generateStaticParams() { return blogPosts.map((post) => ({ slug: post.slug })); }
+export const dynamic = "force-dynamic";
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = findPost(slug);

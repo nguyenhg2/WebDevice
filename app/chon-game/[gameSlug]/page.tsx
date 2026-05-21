@@ -10,10 +10,7 @@ import { getBenchmarkTable, getCompatibleDevices } from "@/lib/reverse-lookup";
 import { formatGamePrice } from "@/lib/utils";
 
 export const revalidate = 86400;
-
-export function generateStaticParams() {
-  return games.map((game) => ({ gameSlug: game.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ gameSlug: string }> }) {
   const { gameSlug } = await params;

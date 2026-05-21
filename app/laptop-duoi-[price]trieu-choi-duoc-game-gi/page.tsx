@@ -1,7 +1,7 @@
 import DeviceCard from "@/components/DeviceCard";
 import { devices } from "@/lib/data";
 
-export function generateStaticParams() { return ["10", "15", "20", "30"].map((price) => ({ price })); }
+export const dynamic = "force-dynamic";
 export default async function LaptopBudget({ params }: { params: Promise<{ price: string }> }) {
   const { price } = await params;
   const max = Number(price) * 1000000;
