@@ -9,6 +9,18 @@ const sourcesPath = path.join(ROOT, "data", "game-image-sources.json");
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const REQUEST_TIMEOUT_MS = 18000;
 
+const officialImageSourceOverrides = {
+  fortnite: [
+    "https://www.fortnite.com/gallery?category=Screenshots",
+    "https://store.epicgames.com/en-US/p/fortnite?lang=en-US",
+  ],
+  "fifa-online-4": [
+    "https://fconline.garena.vn/",
+    "https://play.google.com/store/apps/details?id=com.garena.game.fo4mvn&hl=vi&gl=VN",
+    "https://apps.apple.com/vn/app/fc-online-m-by-ea-sports/id1427414541",
+  ],
+};
+
 function decodeHtml(value) {
   return String(value || "")
     .replace(/&amp;/g, "&")
@@ -209,6 +221,28 @@ async function officialSiteImages(pageUrl) {
   return extractOfficialImages(pageUrl, html).map((url) => ({ url, source: "official-site", sourceUrl: pageUrl }));
 }
 
+function officialImageUrlsForGame(game) {
+  const urls = new Set();
+  if (game.officialUrl) urls.add(game.officialUrl);
+  for (const url of officialImageSourceOverrides[game.slug] ?? []) urls.add(url);
+  return [...urls];
+}
+
+async function officialImagesForGame(game) {
+  const items = [];
+  const errors = [];
+
+  for (const url of officialImageUrlsForGame(game)) {
+    try {
+      items.push(...await officialSiteImages(url));
+    } catch (error) {
+      errors.push(`${url}: ${error instanceof Error ? error.message : String(error)}`);
+    }
+  }
+
+  return { items, errors };
+}
+
 function scoreImage(item, coverImage) {
   const url = item.url.toLowerCase();
   let score = 0;
@@ -246,6 +280,7 @@ async function main() {
 
   for (const game of games) {
     const items = [];
+    const gameFailures = [];
     if (game.coverImage) {
       pushImage(items, game.coverImage, "catalog-cover", game.officialUrl || "data/games.json");
     }
@@ -253,19 +288,24 @@ async function main() {
     try {
       items.push(...await steamImages(game.steamId));
     } catch (error) {
-      failures.push(`${game.slug} steam: ${error instanceof Error ? error.message : String(error)}`);
+      gameFailures.push(`steam: ${error instanceof Error ? error.message : String(error)}`);
     }
 
-    try {
-      items.push(...await officialSiteImages(game.officialUrl));
-    } catch (error) {
-      failures.push(`${game.slug} official: ${error instanceof Error ? error.message : String(error)}`);
+    const official = await officialImagesForGame(game);
+    items.push(...official.items);
+    if (official.items.length === 0 && official.errors.length) {
+      gameFailures.push(`official: ${official.errors.join("; ")}`);
     }
 
     const clean = dedupeImages(items, game.coverImage);
     if (clean.length) {
       galleries[game.slug] = clean.map((item) => item.url);
       sources[game.slug] = clean.map((item) => ({ url: item.url, source: item.source, sourceUrl: item.sourceUrl }));
+      if (process.env.SCRAPE_VERBOSE_FAILURES === "1" && gameFailures.length) {
+        failures.push(`${game.slug} ${gameFailures.join("; ")}`);
+      }
+    } else if (gameFailures.length) {
+      failures.push(`${game.slug} ${gameFailures.join("; ")}`);
     }
 
     const sourceCount = new Set(clean.map((item) => item.source)).size;

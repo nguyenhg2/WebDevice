@@ -1281,7 +1281,7 @@
     "isFree": true,
     "description": "FIFA Online 4 là trò chơi FPS, sinh tồn, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
     "coverImage": "/images/games/fifa-online-4.svg",
-    "officialUrl": "https://fo4.garena.vn/",
+    "officialUrl": "https://fconline.garena.vn/",
     "minSpecs": {
       "cpuName": "Intel Core i3-2100 3.1GHz",
       "gpuName": "NVIDIA GeForce GT 730 hoặc AMD Radeon HD 7570",
