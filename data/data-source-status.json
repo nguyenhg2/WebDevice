@@ -1,0 +1,58 @@
+[
+  {
+    "key": "pcgamebenchmark",
+    "name": "PCGameBenchmark",
+    "url": "https://www.pcgamebenchmark.com/fps-calculator",
+    "robotsUrl": "https://www.pcgamebenchmark.com/robots.txt",
+    "status": "imported",
+    "checkedAt": "2026-05-22T09:08:11.632Z",
+    "recordsImported": 234,
+    "recordsDiscovered": 234,
+    "notes": [
+      "Rows are stored as external samples for admin review; values are normalized by sorting min/avg/max columns.",
+      "Queried 26/26 public FPS calculator pages."
+    ]
+  },
+  {
+    "key": "howmanyfps",
+    "name": "HowManyFPS",
+    "url": "https://howmanyfps.com/benchmarks",
+    "robotsUrl": "https://howmanyfps.com/robots.txt",
+    "status": "blocked",
+    "checkedAt": "2026-05-22T09:08:22.591Z",
+    "recordsImported": 0,
+    "recordsDiscovered": 174,
+    "notes": [
+      "Public sitemap exposes 174 benchmark URLs.",
+      "Benchmark pages currently require browser verification, so importer did not bypass Cloudflare."
+    ]
+  },
+  {
+    "key": "pc-builds",
+    "name": "PC-Builds",
+    "url": "https://pc-builds.com/fps-calculator/",
+    "robotsUrl": "https://pc-builds.com/robots.txt",
+    "status": "blocked",
+    "checkedAt": "2026-05-22T09:08:23.634Z",
+    "recordsImported": 0,
+    "recordsDiscovered": 0,
+    "notes": [
+      "robots.txt allows public pages, but FPS calculator is behind browser verification.",
+      "Importer did not attempt to bypass Cloudflare."
+    ]
+  },
+  {
+    "key": "userbenchmark",
+    "name": "UserBenchmark",
+    "url": "https://www.userbenchmark.com",
+    "robotsUrl": "https://www.userbenchmark.com/robots.txt",
+    "status": "disabled",
+    "checkedAt": "2026-05-22T09:08:24.072Z",
+    "recordsImported": 0,
+    "recordsDiscovered": 0,
+    "notes": [
+      "robots.txt contains Disallow: / for User-agent: *.",
+      "Direct scraping is disabled. Use an owned/exported CSV/JSON if you want to import this data."
+    ]
+  }
+]

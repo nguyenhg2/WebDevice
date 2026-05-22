@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/build-pc",
     "/tra-cuu",
     "/benchmark",
+    "/fps-samples",
     "/chon-game",
     "/gpu",
     "/laptop",

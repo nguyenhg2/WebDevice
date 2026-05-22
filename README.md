@@ -53,6 +53,14 @@ scripts\run-dropreference-import.cmd
 
 Runner nay goi importer DropReference o che do lay toan bo benchmark catalog tim thay qua pagination va sitemap, ghi log vao `data/dropreference-import.log`, tao tom tat `data/dropreference-import-summary.json`, roi chay `npm run build` de kiem tra du lieu sau khi merge.
 
+Bo sung lop du lieu FPS ngoai de admin duyet bang:
+
+```bash
+npm run data:fps-sources
+```
+
+Script nay doc FPS cong khai tu PCGameBenchmark vao `data/external-fps-samples.json`, cap nhat tinh trang nguon trong `data/data-source-status.json`, va khong bypass Cloudflare/robots.txt. HowManyFPS va PC-Builds se duoc ghi nhan neu bi browser verification chan; UserBenchmark bi tat truc tiep vi robots.txt `Disallow: /`.
+
 ## Deploy
 
 Day repo len GitHub, import vao Vercel, cau hinh cac bien moi truong trong `.env.local.example`, sau do deploy. Sitemap nam tai `/sitemap.xml`, robots tai `/robots.txt`.

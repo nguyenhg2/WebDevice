@@ -1,6 +1,7 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import AdminGameImageManager from "@/components/AdminGameImageManager";
+import AdminDataQualityPanel from "@/components/AdminDataQualityPanel";
 import AdminUpsertForm from "@/components/AdminUpsertForm";
 import { ADMIN_COOKIE, verifyAdminToken } from "@/lib/admin-auth";
 import { benchmarks, blogPosts, cpus, devices, gameImages, games, gpus } from "@/lib/data";
@@ -50,6 +51,16 @@ export default async function AdminPage() {
           </div>
         ))}
       </div>
+
+      <section className="mt-8">
+        <div className="mb-4">
+          <h2 className="text-2xl font-black">Chất lượng dữ liệu</h2>
+          <p className="mt-2 text-sm text-slate-600 dark:text-gray-300">
+            Kiểm tra coverage benchmark, tình trạng nguồn cào dữ liệu và các mẫu FPS ngoài cần duyệt trước khi nhập vào benchmark chính.
+          </p>
+        </div>
+        <AdminDataQualityPanel />
+      </section>
 
       <section className="mt-8">
         <div className="mb-4">

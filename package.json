@@ -10,6 +10,7 @@
     "data:prices": "node scripts/scrape-official-game-prices.mjs",
     "data:benchmarks": "node scripts/scrape-technical-city-benchmarks.mjs",
     "data:dropreference": "node scripts/scrape-dropreference-data.mjs",
+    "data:fps-sources": "node scripts/import-external-fps-sources.mjs",
     "data:images": "node scripts/scrape-game-images.mjs",
     "prisma:generate": "prisma generate"
   },

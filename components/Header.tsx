@@ -7,6 +7,7 @@ export default function Header() {
     ["/build-pc", "Build PC"],
     ["/tra-cuu", "Tra cứu"],
     ["/benchmark", "Benchmark"],
+    ["/fps-samples", "FPS mẫu"],
     ["/chon-game", "Game"],
     ["/gpu", "GPU"],
     ["/laptop", "Laptop"],

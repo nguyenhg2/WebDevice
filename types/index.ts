@@ -8,3 +8,34 @@ export interface Cpu { name: string; slug: string; brand: string; benchmarkScore
 export interface Device { name: string; slug: string; type: string; brand: string; cpu: string; gpu: string; ramGb: number; storageGb: number; storageType: string; screenSize: number | null; screenResolution: string | null; priceVnd: number; priceRange: PriceRange; shopeeUrl: string | null; tikiUrl: string | null; phongvuUrl: string | null; gearvnUrl: string | null; imageUrl: string | null; }
 export interface Benchmark { gameSlug: string; gpuSlug: string; resolution: Resolution; fpsLow: number; fpsMedium: number; fpsHigh: number; fpsUltra: number; recommendedSetting: string; status: Status; videoTestUrl: string | null; source: string; }
 export interface BlogPost { title: string; slug: string; content: string; excerpt: string; category: string; tags: string[]; metaTitle: string; metaDescription: string; publishedAt: string; }
+export type ExternalSourceStatus = "imported" | "partial" | "blocked" | "disabled" | "error";
+export type ExternalFpsConfidence = "matched" | "partial" | "raw";
+export interface ExternalFpsSample {
+  id: string;
+  source: string;
+  sourceName: string;
+  sourceUrl: string;
+  gameName: string;
+  gameSlug: string | null;
+  cpuName: string;
+  gpuName: string;
+  gpuSlug: string | null;
+  ramGb: number | null;
+  fpsLow: number;
+  fpsAverage: number;
+  fpsHigh: number;
+  normalizedFps: number;
+  confidence: ExternalFpsConfidence;
+  importedAt: string;
+}
+export interface DataSourceStatus {
+  key: string;
+  name: string;
+  url: string;
+  robotsUrl: string;
+  status: ExternalSourceStatus;
+  checkedAt: string;
+  recordsImported: number;
+  recordsDiscovered?: number;
+  notes: string[];
+}

@@ -90,6 +90,9 @@ export default function BenchmarkPage() {
               <p className="mt-3 text-sm text-slate-600 dark:text-gray-300">
                 FPS thực tế được ưu tiên khi có nguồn benchmark. Các game chưa có số đo trực tiếp vẫn dùng engine ước tính cấu hình của dự án.
               </p>
+              <Link href="/fps-samples" className="mt-4 inline-flex rounded-md border px-3 py-2 text-sm font-bold hover:bg-slate-50 dark:border-gray-700 dark:hover:bg-gray-800">
+                Xem mẫu FPS ngoài
+              </Link>
             </div>
           </aside>
         </div>
