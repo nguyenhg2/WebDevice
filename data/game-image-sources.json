@@ -59,6 +59,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.600x338.jpg?t=1749053861",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/730/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/counter-strike-2.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/counter-strike-2_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/counter-strike-2"
     }
   ],
   "valorant": [
@@ -101,6 +151,56 @@
       "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL?w=1200&h=630&fm=webp&fit=crop&crop=center",
       "source": "catalog-cover",
       "sourceUrl": "https://playvalorant.com/vi-vn/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/valorant.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/valorant_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valorant"
     }
   ],
   "genshin-impact": [
@@ -247,6 +347,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_b33a65678dc71cc98df4890e22a89601ee56a918.600x338.jpg?t=1769535998",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/570/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/dota-2.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/dota-2_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dota-2"
     }
   ],
   "pubg-battlegrounds": [
@@ -309,6 +459,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/eb19c1ce924ff4689105242257b6d377ffe2e264/ss_eb19c1ce924ff4689105242257b6d377ffe2e264.600x338.jpg?t=1778634253",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/578080/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/pubg-battlegrounds.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/pubg-battlegrounds_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/pubg-battlegrounds"
     }
   ],
   "apex-legends": [
@@ -371,6 +571,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/b622efa206400324df2ab812786578dda4cc3537/capsule_184x69.jpg?t=1778502442",
       "source": "steam-store-api",
       "sourceUrl": "https://store.steampowered.com/app/1172470/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/apex-legends.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/apex-legends_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/apex-legends"
     }
   ],
   "fortnite": [
@@ -413,6 +663,56 @@
       "url": "https://cdn2.unrealengine.com/06-fortnite-save-the-world-v36-00-1920x1080-5ef151d7e979.jpg",
       "source": "official-site",
       "sourceUrl": "https://store.epicgames.com/en-US/p/fortnite?lang=en-US"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/fortnite.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/fortnite_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/fortnite"
     }
   ],
   "minecraft": [
@@ -527,6 +827,21 @@
       "url": "/images/games/roblox.svg",
       "source": "catalog-cover",
       "sourceUrl": "https://www.roblox.com/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/roblox.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/roblox"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/roblox_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/roblox"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/roblox"
     }
   ],
   "ea-sports-fc-24": [
@@ -651,6 +966,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_bc5fc79d3366c837372327717249a4887aa46d63.600x338.jpg?t=1765387725",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/271590/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/grand-theft-auto-v--2.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/grand-theft-auto-v--2_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/grand-theft-auto-v"
     }
   ],
   "red-dead-redemption-2": [
@@ -713,6 +1078,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_184x69.jpg?t=1759502961",
       "source": "steam-store-api",
       "sourceUrl": "https://store.steampowered.com/app/1174180/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/red-dead-redemption-2.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/red-dead-redemption-2_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/red-dead-redemption-2"
     }
   ],
   "cyberpunk-2077": [
@@ -775,6 +1190,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.600x338.jpg?t=1769690377",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/1091500/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/cyberpunk-2077.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/cyberpunk-2077_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/cyberpunk-2077"
     }
   ],
   "elden-ring": [
@@ -837,6 +1302,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_b1b91299d7e4b94201ac840aa64de54d9f5cb7f3.600x338.jpg?t=1767883716",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/1245620/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/elden-ring.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/elden-ring_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/elden-ring"
     }
   ],
   "the-witcher-3": [
@@ -961,6 +1476,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/1b2e4eeed79dd06971492825a461bc5130bf7c28/capsule_184x69.jpg?t=1778797474",
       "source": "steam-store-api",
       "sourceUrl": "https://store.steampowered.com/app/990080/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/hogwarts-legacy.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/hogwarts-legacy_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_3090_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hogwarts-legacy"
     }
   ],
   "palworld": [
@@ -1075,6 +1640,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/f11c258b04a5e3e7771c1bab60f324ebf6c6c6fb/header.jpg?t=1770747641",
       "source": "catalog-cover",
       "sourceUrl": "https://store.steampowered.com/app/553850/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/helldivers-2.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/helldivers-2_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/helldivers-2"
     }
   ],
   "baldur-s-gate-3": [
@@ -1199,6 +1814,21 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_b06620c448c51d2bc5b71144a184da9ba37b703e.600x338.jpg?t=1778595605",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/230410/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/warframe.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/warframe"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/warframe_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/warframe"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/warframe"
     }
   ],
   "path-of-exile": [
@@ -1251,6 +1881,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/558fd9078de800b7528a8e96bee0108a8fac17aa/header.jpg?t=1773177577",
       "source": "catalog-cover",
       "sourceUrl": "https://store.steampowered.com/app/238960/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/path-of-exile.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/path-of-exile_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/path-of-exile"
     }
   ],
   "lost-ark": [
@@ -1365,6 +2045,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/ss_576b3fdaf75c5cf3971c42b1d90f5decba9abaa5.600x338.jpg?t=1777450200",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/1407200/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/world-of-tanks.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/world-of-tanks_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/world-of-tanks"
     }
   ],
   "war-thunder": [
@@ -1427,6 +2157,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/38d63d92458c950a7d839f1c46f20d55fc60a66f/ss_38d63d92458c950a7d839f1c46f20d55fc60a66f.600x338.jpg?t=1779186880",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/236390/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/war-thunder.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/war-thunder_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_3090_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_3090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/war-thunder"
     }
   ],
   "euro-truck-simulator-2": [
@@ -2047,6 +2827,21 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/2e76d6f8373d28a16d214d67565198fd2f729b69/ss_2e76d6f8373d28a16d214d67565198fd2f729b69.600x338.jpg?t=1779209046",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/359550/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/rainbow-six-siege.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rainbow-six-siege"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/rainbow-six-siege_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rainbow-six-siege"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rainbow-six-siege"
     }
   ],
   "overwatch-2": [
@@ -2109,6 +2904,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd/ss_5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd.600x338.jpg?t=1778610036",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/2357570/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/overwatch-2-invasion-bundle--1.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/overwatch-2-invasion-bundle--1_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/overwatch-2"
     }
   ],
   "rocket-league": [
@@ -2171,6 +3016,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/7bf3df882320660bf9e48727c1aa46fb53fbdb9e/ss_7bf3df882320660bf9e48727c1aa46fb53fbdb9e.600x338.jpg?t=1773251703",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/252950/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/rocket-league.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/rocket-league_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rocket-league"
     }
   ],
   "forza-horizon-5": [
@@ -2233,6 +3128,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0bc32360d32b21abdf889422385cd753862dd73e.600x338.jpg?t=1746471508",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/1551360/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/forza-horizon-5.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/forza-horizon-5_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/forza-horizon-5"
     }
   ],
   "need-for-speed-heat": [
@@ -3046,6 +3991,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_d296efbc9a5d87bf20b2ea19134f35ba203ae813.600x338.jpg?t=1776927117",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/1196590/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/resident-evil-village.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/resident-evil-village_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-village"
     }
   ],
   "phasmophobia": [
@@ -3294,6 +4289,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/ss_b05310f659a67129e9089fbb22e445b0998d6d1d.600x338.jpg?t=1708624856",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/1326470/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/sons-of-the-forest.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/sons-of-the-forest_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/sons-of-the-forest"
     }
   ],
   "raft": [
@@ -3542,6 +4587,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_551f06a43b72609d7ca3cd63e93c58e949d58384.600x338.jpg?t=1765967243",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/892970/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/valheim.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/valheim_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/valheim"
     }
   ],
   "ark-survival-evolved": [
@@ -3604,6 +4699,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/ss_cada382a940c062a1a5244db8da1326de55ddeae.600x338.jpg?t=1765677889",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/346110/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ark-survival-evolved.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ark-survival-evolved_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-evolved"
     }
   ],
   "rust": [
@@ -3666,6 +4811,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_827f1bb38361eb3f7de91cff9be5b7176a05a9ac.600x338.jpg?t=1778597738",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/252490/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/rust.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/rust_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/rust"
     }
   ],
   "dayz": [
@@ -3728,6 +4923,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/ss_54729794426ffcfb74cb90176edd80b2225eb4fc.600x338.jpg?t=1769695513",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/221100/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/dayz.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/dayz_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/dayz"
     }
   ],
   "project-zomboid": [
@@ -3790,6 +5035,21 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_0dc0cb896202ecfa344a0af981b695f2349317e1.600x338.jpg?t=1777298596",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/108600/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/project-zomboid.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/project-zomboid"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/project-zomboid_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/project-zomboid"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/project-zomboid"
     }
   ],
   "don-t-starve-together": [
@@ -4534,6 +5794,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ee4b4e1ba9c8a07f40aff563c7c43fd04477d60c/ss_ee4b4e1ba9c8a07f40aff563c7c43fd04477d60c.600x338.jpg?t=1777501665",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/2344520/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/diablo-iv.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/diablo-iv_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/diablo-iv"
     }
   ],
   "diablo-iii": [
@@ -4782,6 +6092,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_ce69dc57e6e442c73d874f1b701f2e4af405fb19.600x338.jpg?t=1773328926",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/582010/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/monster-hunter-world.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/monster-hunter-world_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-world"
     }
   ],
   "monster-hunter-rise": [
@@ -5092,6 +6452,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/capsule_184x69.jpg?t=1754572990",
       "source": "steam-store-api",
       "sourceUrl": "https://store.steampowered.com/app/2208920/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/assassins-creed-valhalla.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/assassins-creed-valhalla_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla"
     }
   ],
   "assassin-s-creed-odyssey": [
@@ -5154,6 +6564,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/ss_c334fed07712111399ab1951eee432ec9ed46d28.600x338.jpg?t=1777476997",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/812140/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/assassins-creed-odyssey.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/assassins-creed-odyssey_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey"
     }
   ],
   "far-cry-5": [
@@ -5216,6 +6676,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/ss_c6f08b3d2e156f705205f882504d3cd96f78cca1.600x338.jpg?t=1762190084",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/552520/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/far-cry-5.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/far-cry-5_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-5"
     }
   ],
   "far-cry-6": [
@@ -5278,6 +6788,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/capsule_184x69.jpg?t=1758656170",
       "source": "steam-store-api",
       "sourceUrl": "https://store.steampowered.com/app/2369390/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/far-cry-6.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/far-cry-6_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/far-cry-6"
     }
   ],
   "watch-dogs-2": [
@@ -5402,6 +6962,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239550/capsule_184x69.jpg?t=1747655055",
       "source": "steam-store-api",
       "sourceUrl": "https://store.steampowered.com/app/2239550/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/watch-dogs-legion.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/watch-dogs-legion_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/watch-dogs-legion"
     }
   ],
   "control": [
@@ -5516,6 +7126,56 @@
       "url": "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png",
       "source": "catalog-cover",
       "sourceUrl": "https://www.alanwake.com/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/alan-wake-2-deluxe-upgrade.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/alan-wake-2-deluxe-upgrade_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/alan-wake-2"
     }
   ],
   "metro-exodus": [
@@ -5578,6 +7238,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/ss_a142b2ad182bce7032a9a3d46216080feb76a3f6.600x338.jpg?t=1750772804",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/412020/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/metro-exodus.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/metro-exodus_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/metro-exodus"
     }
   ],
   "dying-light-2": [
@@ -5764,6 +7474,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/ss_33965f74f31503257ea4e4af3d31b10faedd5250.600x338.jpg?t=1777550698",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/1659040/"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/hitman-3.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/hitman-3_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/hitman-3"
     }
   ],
   "tomb-raider": [
@@ -5950,6 +7710,56 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/ss_a697971e484b3deef50153a13f2afd0539347d23.600x338.jpg?t=1733260906",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/1332010/"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/main/og-default.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/stray--1_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stray"
     }
   ],
   "dave-the-diver": [
@@ -6012,6 +7822,1425 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/ss_92a713e2f0ce374a446367c57f962ef942b2c173.600x338.jpg?t=1776394908",
       "source": "steam-screenshot",
       "sourceUrl": "https://store.steampowered.com/app/1868140/"
+    }
+  ],
+  "7-days-to-die": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/7-days-to-die.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/7-days-to-die"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/7-days-to-die_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/7-days-to-die"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/7-days-to-die"
+    }
+  ],
+  "arc-raiders": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/arc-raiders.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/arc-raiders_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/arc-raiders"
+    }
+  ],
+  "ark-survival-ascended": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/ark-survival-ascended.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-ascended"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/ark-survival-ascended_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-ascended"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ark-survival-ascended"
+    }
+  ],
+  "battlefield-6": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/battlefield-6.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/battlefield-6_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/battlefield-6"
+    }
+  ],
+  "black-myth-wukong": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/black-myth-wukong.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/black-myth-wukong_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/black-myth-wukong"
+    }
+  ],
+  "conan-exiles": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/conan-exiles.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/conan-exiles"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/conan-exiles_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/conan-exiles"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/conan-exiles"
+    }
+  ],
+  "delta-force": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/delta-force--1.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/delta-force--1_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/delta-force--1"
+    }
+  ],
+  "doom-the-dark-ages": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/doom-the-dark-ages.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/doom-the-dark-ages_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/doom-the-dark-ages"
+    }
+  ],
+  "escape-from-tarkov": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/escape-from-tarkov.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/escape-from-tarkov_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_3090_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_3090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/escape-from-tarkov"
+    }
+  ],
+  "farming-simulator-25": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/farming-simulator-25.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/farming-simulator-25"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/farming-simulator-25_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/farming-simulator-25"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/farming-simulator-25"
+    }
+  ],
+  "marvel-rivals": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/marvel-rivals.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/marvel-rivals"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/marvel-rivals_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/marvel-rivals"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/marvel-rivals"
+    }
+  ],
+  "monster-hunter-wilds": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/monster-hunter-wilds.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/monster-hunter-wilds_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/monster-hunter-wilds"
+    }
+  ],
+  "ready-or-not": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ready-or-not.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ready-or-not_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_gre.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/a770.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ready-or-not"
+    }
+  ],
+  "resident-evil-requiem": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/resident-evil-requiem.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/resident-evil-requiem_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-requiem"
+    }
+  ],
+  "satisfactory": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/satisfactory.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/satisfactory"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/satisfactory_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/satisfactory"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/satisfactory"
+    }
+  ],
+  "star-wars-jedi-survivor": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/star-wars-jedi-survivor.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/star-wars-jedi-survivor_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor"
+    }
+  ],
+  "the-first-descendant": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-first-descendant.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-first-descendant_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-first-descendant"
+    }
+  ],
+  "windrose": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/windrose.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/windrose"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/windrose_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/windrose"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/windrose"
+    }
+  ],
+  "assassin-s-creed-shadows": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/assassins-creed-shadows.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/assassins-creed-shadows_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/assassins-creed-shadows"
+    }
+  ],
+  "call-of-duty-black-ops-6": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/call-of-duty-black-ops-6.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/call-of-duty-black-ops-6_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6"
+    }
+  ],
+  "control-resonant": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/control-resonant--1.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/control-resonant--1_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/control"
+    }
+  ],
+  "crimson-desert": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/crimson-desert.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/crimson-desert_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/crimson-desert"
+    }
+  ],
+  "ghost-of-tsushima-director-s-cut": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ghost-of-tsushima-directors-cut.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ghost-of-tsushima-directors-cut_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/ghost-of-tsushima"
+    }
+  ],
+  "convergence-a-league-of-legends-story": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/convergence-a-league-of-legends-story.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/convergence-a-league-of-legends-story_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4070_ti_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/league-of-legends"
+    }
+  ],
+  "ark-the-lost-fairytale": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ark-the-lost-fairytale.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ark-the-lost-fairytale_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_3090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/lost-ark"
+    }
+  ],
+  "minecraft-dungeons": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/minecraft-dungeons.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/minecraft-dungeons_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/minecraft"
+    }
+  ],
+  "resident-evil-4": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/resident-evil-4.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/resident-evil-4_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/resident-evil-4"
+    }
+  ],
+  "shadow-of-the-tomb-raider-definitive-edition": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/shadow-of-the-tomb-raider-definitive-edition.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/shadow-of-the-tomb-raider-definitive-edition_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    },
+    {
+      "url": "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition"
+    }
+  ],
+  "s-t-a-l-k-e-r-2-heart-of-chornobyl": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/stalker-2-heart-of-chornobyl.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/stalker-2-heart-of-chornobyl_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl"
+    }
+  ],
+  "starfield": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/starfield.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/starfield_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/starfield"
+    }
+  ],
+  "the-last-of-us-part-i": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-last-of-us-part-i.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-last-of-us-part-i_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i"
+    }
+  ],
+  "the-witcher-3-wild-hunt": [
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-witcher-3-wild-hunt.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
+    },
+    {
+      "url": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-witcher-3-wild-hunt_vertical.jpg",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
+    },
+    {
+      "url": "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+      "source": "dropreference",
+      "sourceUrl": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt"
     }
   ]
 }

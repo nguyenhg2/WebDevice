@@ -21,7 +21,11 @@
     "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/bdc8fff83327dfee26ef896a00376dce23a96ceb-1920x1080.jpg",
     "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/cea6d1d00a4c8776128f5066f309193bc4970c75-3840x1020.jpg",
     "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/c8157d71a4776dd821d05ed6b82d5d875ca03386-5120x1644.png",
-    "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL?w=1200&h=630&fm=webp&fit=crop&crop=center"
+    "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL?w=1200&h=630&fm=webp&fit=crop&crop=center",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/valorant.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/valorant_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp"
   ],
   "genshin-impact": [
     "https://fastcdn.hoyoverse.com/static-resource-v2/2024/08/19/929753488ed9abdb8d6c48050da4e0eb_2788618069477720962.png",
@@ -93,7 +97,11 @@
     "https://cdn2.unrealengine.com/03-fortnite-lego-v36-00-3840x2160-261f25e0a8d2.jpg",
     "https://cdn2.unrealengine.com/04-fortnite-festival-v36-00-3840x2160-e689e651bac8.jpg",
     "https://cdn2.unrealengine.com/05-fortnite-rocket-racing-v36-00-3840x2160-c0be4ba9f72b.jpg",
-    "https://cdn2.unrealengine.com/06-fortnite-save-the-world-v36-00-1920x1080-5ef151d7e979.jpg"
+    "https://cdn2.unrealengine.com/06-fortnite-save-the-world-v36-00-1920x1080-5ef151d7e979.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/fortnite.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/fortnite_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp"
   ],
   "minecraft": [
     "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Global-Header_Image-Tile_MC-Java-Bedrock_570x321.jpg",
@@ -119,7 +127,9 @@
     "https://play-lh.googleusercontent.com/7cIIPlWm4m7AGqVpEsIfyL-HW4cQla4ucXnfalMft1TMIYQIlf2vqgmthlZgbNAQoaQ=s48-rw",
     "https://play-lh.googleusercontent.com/bTeiISUTvkwG2lgjVm1zcSKqhPyyRuYxoELc4MG1qRlidk5hS14iGFZnjMkSQhKqpr-vgnaKqhoXux639xY=w526-h296-rw",
     "https://play-lh.googleusercontent.com/Ob7DYuH9C0lvBrjfj0snNOypxuz-hW_g1P9qYSSvdktRXp_rliceDx2fy0IZbc8vka48CN5gVyC3BGUj1kgaAg=w526-h296-rw",
-    "/images/games/roblox.svg"
+    "/images/games/roblox.svg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/roblox.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/roblox_vertical.jpg"
   ],
   "ea-sports-fc-24": [
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/ss_f3d31c7cffc2a6ab42fb76aaac2bc9d5258bc142.1920x1080.jpg?t=1752167366",
@@ -243,7 +253,9 @@
     "https://cdn.akamai.steamstatic.com/steam/apps/553850/capsule_467x181.jpg",
     "https://cdn.akamai.steamstatic.com/steam/apps/553850/page_bg_generated_v6b.jpg",
     "https://cdn.akamai.steamstatic.com/steam/apps/553850/library_600x900.jpg",
-    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/f11c258b04a5e3e7771c1bab60f324ebf6c6c6fb/header.jpg?t=1770747641"
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/f11c258b04a5e3e7771c1bab60f324ebf6c6c6fb/header.jpg?t=1770747641",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/helldivers-2.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/helldivers-2_vertical.jpg"
   ],
   "baldur-s-gate-3": [
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg?t=1777363040",
@@ -283,7 +295,9 @@
     "https://cdn.akamai.steamstatic.com/steam/apps/238960/capsule_467x181.jpg",
     "https://cdn.akamai.steamstatic.com/steam/apps/238960/page_bg_generated_v6b.jpg",
     "https://cdn.akamai.steamstatic.com/steam/apps/238960/library_600x900.jpg",
-    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/558fd9078de800b7528a8e96bee0108a8fac17aa/header.jpg?t=1773177577"
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/558fd9078de800b7528a8e96bee0108a8fac17aa/header.jpg?t=1773177577",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/path-of-exile.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/path-of-exile_vertical.jpg"
   ],
   "lost-ark": [
     "https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png",
@@ -1248,7 +1262,9 @@
     "https://www.alanwake.com/wp-content/uploads/2024/06/AlanWakeII_MockUp_DE.jpg",
     "https://www.alanwake.com/wp-content/uploads/2023/10/AWII_Launch_054-800x800.png",
     "https://www.alanwake.com/wp-content/uploads/2023/10/AWII_Launch_054-150x150.png",
-    "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png"
+    "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/alan-wake-2-deluxe-upgrade.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/alan-wake-2-deluxe-upgrade_vertical.jpg"
   ],
   "metro-exodus": [
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/ss_f0297eacbfb4266f311a8cb4137e4ef8b7cdd00b.1920x1080.jpg?t=1750772804",
@@ -1361,5 +1377,340 @@
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/ss_3a459e9ea8b54c3864379fcad38bff3ae7fe4e8c.600x338.jpg?t=1776394908",
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/ss_92a713e2f0ce374a446367c57f962ef942b2c173.1920x1080.jpg?t=1776394908",
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/ss_92a713e2f0ce374a446367c57f962ef942b2c173.600x338.jpg?t=1776394908"
+  ],
+  "7-days-to-die": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/7-days-to-die.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/7-days-to-die_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp"
+  ],
+  "arc-raiders": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/arc-raiders.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/arc-raiders_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp"
+  ],
+  "ark-survival-ascended": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/ark-survival-ascended.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/ark-survival-ascended_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp"
+  ],
+  "battlefield-6": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/battlefield-6.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/battlefield-6_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp"
+  ],
+  "black-myth-wukong": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/black-myth-wukong.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/black-myth-wukong_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp"
+  ],
+  "conan-exiles": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/conan-exiles.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/conan-exiles_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp"
+  ],
+  "delta-force": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/delta-force--1.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/delta-force--1_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070.webp"
+  ],
+  "doom-the-dark-ages": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/doom-the-dark-ages.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/doom-the-dark-ages_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp"
+  ],
+  "escape-from-tarkov": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/escape-from-tarkov.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/escape-from-tarkov_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_3090_ti.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_3090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp"
+  ],
+  "farming-simulator-25": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/farming-simulator-25.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/farming-simulator-25_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp"
+  ],
+  "marvel-rivals": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/marvel-rivals.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/marvel-rivals_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp"
+  ],
+  "monster-hunter-wilds": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/monster-hunter-wilds.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/monster-hunter-wilds_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070.webp"
+  ],
+  "ready-or-not": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ready-or-not.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ready-or-not_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_gre.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070.webp",
+    "https://dropreference.com/assets/images/components/gpu/a770.webp"
+  ],
+  "resident-evil-requiem": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/resident-evil-requiem.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/resident-evil-requiem_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp"
+  ],
+  "satisfactory": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/satisfactory.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/satisfactory_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp"
+  ],
+  "star-wars-jedi-survivor": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/star-wars-jedi-survivor.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/star-wars-jedi-survivor_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp"
+  ],
+  "the-first-descendant": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-first-descendant.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-first-descendant_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp"
+  ],
+  "windrose": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/windrose.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/windrose_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp"
+  ],
+  "assassin-s-creed-shadows": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/assassins-creed-shadows.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/assassins-creed-shadows_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp"
+  ],
+  "call-of-duty-black-ops-6": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/call-of-duty-black-ops-6.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/call-of-duty-black-ops-6_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070.webp"
+  ],
+  "control-resonant": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/control-resonant--1.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/control-resonant--1_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp"
+  ],
+  "crimson-desert": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/crimson-desert.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/crimson-desert_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp"
+  ],
+  "ghost-of-tsushima-director-s-cut": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ghost-of-tsushima-directors-cut.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ghost-of-tsushima-directors-cut_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070.webp"
+  ],
+  "convergence-a-league-of-legends-story": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/convergence-a-league-of-legends-story.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/convergence-a-league-of-legends-story_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4070_ti_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp"
+  ],
+  "ark-the-lost-fairytale": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ark-the-lost-fairytale.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ark-the-lost-fairytale_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_3090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp"
+  ],
+  "minecraft-dungeons": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/minecraft-dungeons.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/minecraft-dungeons_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5070_ti.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp"
+  ],
+  "resident-evil-4": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/resident-evil-4.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/resident-evil-4_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp"
+  ],
+  "shadow-of-the-tomb-raider-definitive-edition": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/shadow-of-the-tomb-raider-definitive-edition.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/shadow-of-the-tomb-raider-definitive-edition_vertical.jpg",
+    "https://dropreference.com/en/benchmarks/assets/images/mascot/no-results.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp"
+  ],
+  "s-t-a-l-k-e-r-2-heart-of-chornobyl": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/stalker-2-heart-of-chornobyl.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/stalker-2-heart-of-chornobyl_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp"
+  ],
+  "starfield": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/starfield.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/starfield_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp"
+  ],
+  "the-last-of-us-part-i": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-last-of-us-part-i.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-last-of-us-part-i_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp"
+  ],
+  "the-witcher-3-wild-hunt": [
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-witcher-3-wild-hunt.jpg",
+    "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-witcher-3-wild-hunt_vertical.jpg",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5090.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4090.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xtx.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_5080.webp",
+    "https://dropreference.com/assets/images/components/gpu/7900_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080.webp",
+    "https://dropreference.com/assets/images/components/gpu/9070_xt.webp",
+    "https://dropreference.com/assets/images/components/gpu/rtx_4080_super.webp"
   ]
 }

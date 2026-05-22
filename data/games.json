@@ -3157,5 +3157,1005 @@
       "ramGb": 16,
       "storageGb": 10
     }
+  },
+  {
+    "name": "7 Days to Die",
+    "slug": "7-days-to-die",
+    "steamId": "251570",
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai",
+      "Bắn súng",
+      "Mô phỏng",
+      "Chiến thuật"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Set in a brutally unforgiving post-apocalyptic world overrun by the undead, 7 Days to Die is an open-world game that is a unique combination of first person shooter, survival horror, tower defense, and role-playing games. It presents combat, crafting, looting, mining, exploration, and character growth, in a way that has seen a rapturous response from fans worldwide. Play the definitive zombie survival sandbox RPG that came first. Navezgane awaits!",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/7-days-to-die.jpg",
+    "officialUrl": "https://store.steampowered.com/app/251570",
+    "minSpecs": {
+      "cpuName": "Quad Core 2.8 Ghz",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 1300,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Quad Core 3.2 Ghz",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 9000,
+      "gpuBenchmark": 9000,
+      "ramGb": 12,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "ARC Raiders",
+    "slug": "arc-raiders",
+    "steamId": "1808500",
+    "genres": [
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC. Enlist as a Raider and scavenge the surface to thrive in a desolate world. But beware of the machines. Beware of Raiders preying on others. ARC Raiders blends the tension from extraction shooters with atmospheric settings from the adventure genre. Lurking threats—from deadly machines to other Raiders—create a constant ebb and flow of intensity, where every moment is charged with the thrill of high stakes. Extract valuable loot and explore the unfolding mysteries of a vibrant, lethal world. ARC Raiders supports seamless social play across PlayStation, Xbox, and PC. Play with your squad and thrive as a team, or rise in the ranks as a lone ranger.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/arc-raiders.jpg",
+    "officialUrl": "https://store.steampowered.com/app/1808500/ARC_Raiders",
+    "minSpecs": {
+      "cpuName": "Intel Core i5-6600K, AMD Ryzen R5 1600",
+      "gpuName": "NVIDIA GeForce GTX 1050 Ti, AMD Radeon RX 580, Intel Arc A380",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 8000,
+      "ramGb": 12,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i5-9600K, AMD Ryzen 5 3600",
+      "gpuName": "NVIDIA GeForce RTX 2070, AMD Radeon RX 5700 XT, Intel Arc B570",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 12500,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Ark: Survival Ascended",
+    "slug": "ark-survival-ascended",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai",
+      "Bắn súng",
+      "Mô phỏng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Ark: Survival Ascended is a next-generation remaster of our beloved ARK: Survival Evolved, harnessing the power of Unreal Engine 5. The base game will include SOTF and all the Ark: Survival Evolved DLC maps (which will be added to ASA over time).",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/ark-survival-ascended.jpg",
+    "officialUrl": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended",
+    "minSpecs": {
+      "cpuName": "AMD Ryzen 5 2600X, Intel Core i7-6800K",
+      "gpuName": "AMD Radeon RX 5600 XT, NVIDIA GeForce 1080",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 3900,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "AMD Ryzen 5 3600X, Intel i5-10600K",
+      "gpuName": "AMD Radeon RX 6800, NVIDIA GeForce RTX 3080",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 9000,
+      "ramGb": 32,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Battlefield 6",
+    "slug": "battlefield-6",
+    "steamId": null,
+    "genres": [
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "The ultimate all-out warfare experience. In a war of tanks, fighter jets, and massive combat arsenals, your squad is the deadliest weapon.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/battlefield-6.jpg",
+    "officialUrl": "https://store.playstation.com/en-us/product/UP0006-PPSA19534_00-SANTIAGOSTANDARD",
+    "minSpecs": {
+      "cpuName": "Intel Core i5-8400, AMD Ryzen 5 2600",
+      "gpuName": "NVIDIA RTX 2060, AMD Radeon RX 5600 XT",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 3900,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i7-10700, AMD Ryzen 7 3700X",
+      "gpuName": "NVIDIA RTX 3060Ti, AMD Radeon RX 6700-XT",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 17000,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Black Myth: Wukong",
+    "slug": "black-myth-wukong",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Black Myth: Wukong is an action RPG rooted in Chinese mythology. The story is based on Journey to the West, one of the Four Great Classical Novels of Chinese literature. You shall set out as the Destined One to venture into the challenges and marvels ahead, to uncover the obscured truth beneath the veil of a glorious legend from the past.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/black-myth-wukong.jpg",
+    "officialUrl": "https://www.xbox.com/en-us/games/store/black-myth-wukong/9nwq1q1fr0c9",
+    "minSpecs": {
+      "cpuName": "Intel Core i5-8400, AMD Ryzen 5 1600",
+      "gpuName": "NVIDIA GeForce GTX 1060, AMD Radeon RX 580",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 8000,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i7-9700, AMD Ryzen 5 5500",
+      "gpuName": "NVIDIA GeForce RTX 2060, AMD Radeon RX 5700 XT, Intel Arc A750",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 12500,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Conan Exiles",
+    "slug": "conan-exiles",
+    "steamId": "440900",
+    "genres": [
+      "Phiêu lưu",
+      "Đối kháng",
+      "Nhập vai",
+      "Mô phỏng",
+      "Chiến thuật"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Conan Exiles is an online multiplayer survival game set in the lands of Conan the Barbarian. Enter a vast, open-world sandbox and play together with friends and strangers as you build your own home or even a shared city. Survive freezing cold temperatures, explore loot-filled dungeons, develop your character from a lowly peasant to a mighty barbarian, and fight to dominate your enemies in epic siege wars. Conan Exiles can be played in full single-player, co-op, or persistent online multiplayer.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/conan-exiles.jpg",
+    "officialUrl": "https://store.steampowered.com/app/440900",
+    "minSpecs": {
+      "cpuName": "Intel Quad Core i5, AMD",
+      "gpuName": "Nvidia GeForce GTX 560, AMD",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 3000,
+      "ramGb": 6,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Quad Core i5 / Core i7 3.3 GHz",
+      "gpuName": "Nvidia GeForce GTX 780 Ti / 970",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 9000,
+      "ramGb": 8,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Delta Force",
+    "slug": "delta-force",
+    "steamId": null,
+    "genres": [
+      "Bắn súng",
+      "Chiến thuật"
+    ],
+    "sizeGb": 80,
+    "price": 0,
+    "isFree": true,
+    "description": "Delta Force is a free-to-play multiplayer tactical first-person shooter reboot of the Delta Force series.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/delta-force--1.jpg",
+    "officialUrl": "https://store.epicgames.com/en-US/p/delta-force-acea48",
+    "minSpecs": {
+      "cpuName": "Intel Pentium 266 MHz",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 1300,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 9000,
+      "gpuBenchmark": 9000,
+      "ramGb": 8,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "DOOM: The Dark Ages",
+    "slug": "doom-the-dark-ages",
+    "steamId": null,
+    "genres": [
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "DOOM: The Dark Ages is the prequel to the critically acclaimed DOOM (2016) and DOOM Eternal that tells the epic cinematic origin story of the DOOM Slayer’s rage. Players will step into the blood-stained boots of the DOOM Slayer, in this never-before-seen dark and sinister medieval war against Hell.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/doom-the-dark-ages.jpg",
+    "officialUrl": "https://store.playstation.com/en-us/concept/10009984",
+    "minSpecs": {
+      "cpuName": "AMD Zen 2, Intel 10th Generation CPU with 8 cores / 16 threads or better 3.2Ghz",
+      "gpuName": "NVIDIA RTX 2060 SUPER or better, AMD RX 6600 or better",
+      "cpuBenchmark": 4500,
+      "gpuBenchmark": 12500,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "AMD Zen 3, Intel 12th Generation CPU with 8 cores / 16 threads or better 3.2Ghz",
+      "gpuName": "NVIDIA RTX 3080 or better, AMD RX 6800 or better",
+      "cpuBenchmark": 9000,
+      "gpuBenchmark": 9000,
+      "ramGb": 32,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Escape from Tarkov",
+    "slug": "escape-from-tarkov",
+    "steamId": "3932890",
+    "genres": [
+      "Nhập vai",
+      "Bắn súng",
+      "Mô phỏng",
+      "Chiến thuật"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Escape from Tarkov is a hardcore and realistic online first-person action RPG/Simulator with MMO features and story-driven walkthrough.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/escape-from-tarkov.jpg",
+    "officialUrl": "https://store.steampowered.com/app/3932890",
+    "minSpecs": {
+      "cpuName": "Intel Core 2 Duo / i3 2.6 GHz, AMD Athlon / Phenom II",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 3200,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel i5 / i3 3.2 GHz, AMD FX / Athlon",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 3200,
+      "gpuBenchmark": 9000,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Farming Simulator 25",
+    "slug": "farming-simulator-25",
+    "steamId": null,
+    "genres": [
+      "Mô phỏng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Farming Simulator 25 floods the fields with a host of new machines, gameplay features, visual upgrades, and even fresh water to grow rice - adding even more agricultural depth and diversity to the family-friendly series.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/farming-simulator-25.jpg",
+    "officialUrl": "https://en.wikipedia.org/wiki/Farming_Simulator",
+    "minSpecs": {
+      "cpuName": "Intel Core i5-6400, AMD Ryzen 5 1400",
+      "gpuName": "NVIDIA GeForce GTX 1050Ti, AMD Radeon RX 470",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 3900,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i7-10700, AMD Ryzen 7 3800X, or better",
+      "gpuName": "NVIDIA GeForce RTX 2070, AMD Radeon RX 5700 XT, Intel Arc A750",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 12500,
+      "ramGb": 12,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Marvel Rivals",
+    "slug": "marvel-rivals",
+    "steamId": null,
+    "genres": [
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": 0,
+    "isFree": true,
+    "description": "Marvel Rivals is a super hero team-based PvP shooter developed by NetEase Games! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/marvel-rivals.jpg",
+    "officialUrl": "https://store.epicgames.com/p/marvel-rivals-182004",
+    "minSpecs": {
+      "cpuName": "Intel Core i5-6600K or AMD Ryzen 5 1600X",
+      "gpuName": "NVIDIA GeForce GTX 1060 / AMD RX 580 / Intel Arc A380",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 8000,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i5-10400 or AMD Ryzen 5 5600X",
+      "gpuName": "NVIDIA GeForce RTX 2060 (Super) / AMD RX 5700-XT / Intel Arc A750",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 12500,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Monster Hunter Wilds",
+    "slug": "monster-hunter-wilds",
+    "steamId": "2246340",
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "The unbridled force of nature runs wild and relentless, with environments transforming drastically from one moment to the next. This is a story of monsters and humans and their struggles to live in harmony in a world of duality.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/monster-hunter-wilds.jpg",
+    "officialUrl": "https://store.steampowered.com/app/2246340",
+    "minSpecs": {
+      "cpuName": "Intel Core i5-10600 / Core i3 12100F, AMD Ryzen 5 3600",
+      "gpuName": "NVIDIA GeForce GTX 1660 Super, AMD Radeon RX 5600 XT",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 8000,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i5-11600K / Core i5-12400, AMD Ryzen 5 5500",
+      "gpuName": "NVIDIA GeForce RTX 2070 Super / GeForce RTX 2070 Super, AMD Radeon RX 6700XT",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 17000,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Ready or Not",
+    "slug": "ready-or-not",
+    "steamId": null,
+    "genres": [
+      "Bắn súng",
+      "Mô phỏng",
+      "Chiến thuật"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Ready or Not is a tactical first person shooter which places you in the boots of an elite SWAT team, tasked with diffusing hostile situations in intense, claustrophobic environments. It's set in a nondescript modern America, where an income disparity between the classes have become unsustainable and the country has been plunged into havoc. Bring order to chaos with up to 8 players in cooperative play, battle enemy squads in a close player-vs-player environment, or command AI in a striking single-player mode.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ready-or-not.jpg",
+    "officialUrl": "https://store.epicgames.com/en-US/p/ready-or-not-d82a11",
+    "minSpecs": {
+      "cpuName": "Intel Core i5-4430, AMD FX-6300",
+      "gpuName": "NVIDIA GeForce GTX 960, AMD Radeon R7 370",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i5-7600K, AMD Ryzen 5-1600",
+      "gpuName": "Nvidia GTX 1060",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 9000,
+      "ramGb": 8,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Resident Evil Requiem",
+    "slug": "resident-evil-requiem",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Giải đố",
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Resident Evil Requiem is the ninth entry in the Resident Evil series. Experience terrifying survival horror with FBI analyst Grace Ashcroft, and dive into pulse-pounding action with legendary agent Leon S. Kennedy. Both of their journeys and unique gameplay styles intertwine into a heart-stopping, emotional experience that will chill you to your core.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/resident-evil-requiem.jpg",
+    "officialUrl": "https://www.xbox.com/en-us/games/store/resident-evil-requiem/9nmfwr0nrlzs",
+    "minSpecs": {
+      "cpuName": "Intel corei5-8500, AMD Ryzen 5 3500",
+      "gpuName": "Nvidia GeForce GTX 1660 6GB, AMD Radeon RX 5500 XT 8GB",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 8000,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i7-8700, AMD Ryzen 5 5500",
+      "gpuName": "Nvidia GeForce RTX 2060 Super 8GB, AMD Radeon RX 6600 8GB",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 12500,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Satisfactory",
+    "slug": "satisfactory",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Mô phỏng",
+      "Chiến thuật"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Satisfactory is an FPS open-world factory building sim. You play as an engineer on an alien planet tasked to complete ‘Project Assembly’ - a massive machine for a mysterious purpose. Conquer nature, build multi-story factories, and automate to satisfaction!",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/satisfactory.jpg",
+    "officialUrl": "https://satisfactory.wiki.gg/wiki/Satisfactory",
+    "minSpecs": {
+      "cpuName": "i5-3570 3.4 GHz, 4 Core",
+      "gpuName": "NVIDIA GTX 1650 / GTX 1050-ti, AMD RX 470 / RX 570",
+      "cpuBenchmark": 4500,
+      "gpuBenchmark": 1800,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Ryzen 5 5600X / i5-12400",
+      "gpuName": "NVIDIA RTX 2070 / RX 5700",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 12500,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "STAR WARS Jedi: Survivor",
+    "slug": "star-wars-jedi-survivor",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "The story of Cal Kestis continues in Star Wars Jedi: Survivor, a third-person, galaxy-spanning, action-adventure game from Respawn Entertainment, developed in collaboration with Lucasfilm Games. This narratively driven, single-player title picks up five years after the events of Star Wars Jedi: Fallen Order and follows Cal’s increasingly desperate fight as the galaxy descends further into darkness. Pushed to the edges of the galaxy by the Empire, Cal will find himself surrounded by threats new and familiar. As one of the last surviving Jedi Knights, Cal is driven to make a stand during the galaxy’s darkest times — but how far is he willing to go to protect himself, his crew, and the legacy of the Jedi Order?",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/star-wars-jedi-survivor.jpg",
+    "officialUrl": "https://store.playstation.com/en-us/concept/10005114",
+    "minSpecs": {
+      "cpuName": "Intel Core i7-7700, AMD Ryzen 5 1400",
+      "gpuName": "NVIDIA GTX 1070, AMD Radeon RX 580",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 8000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i5 11600K, AMD Ryzen 5 5600X",
+      "gpuName": "NVIDIA RTX 2070, AMD RX 6700 XT",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 17000,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "The First Descendant",
+    "slug": "the-first-descendant",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai",
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": 0,
+    "isFree": true,
+    "description": "Launched in July 2024, The First Descendant is a next-generation third-person co-op action RPG looter shooter featuring high-quality graphics developed using Unreal Engine 5. In the game, players become a Descendant whose mission is to combat against alien invaders – The Vulgus who crossed dimensions over 100 years ago and brought with them the devastating Colossi and destruction– for the survival of humanity and to protect Albion and the continent of Ingris. Players will encounter spectacular stories as they grow stronger through various missions and raids to finally discover the Descendants' secret. Cooperation is crucial as players team up with one another in strategic multiplayer boss fights where teamwork and tactics are key. New equipment, materials, and items obtained through a myri",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-first-descendant.jpg",
+    "officialUrl": "https://store.playstation.com/en-us/concept/10005318",
+    "minSpecs": {
+      "cpuName": "Intel i5-3570, AMD FX-8350",
+      "gpuName": "NVIDIA GeForce GTX 1050Ti, AMD Radeon RX 570",
+      "cpuBenchmark": 3200,
+      "gpuBenchmark": 3900,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel i7-7700K, AMD Ryzen 5 2600X",
+      "gpuName": "NVIDIA GeForce RTX 2060, AMD Radeon RX 5600XT",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 3900,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Windrose",
+    "slug": "windrose",
+    "steamId": "3041230",
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Embark on a PvE survival adventure in the Age of Piracy. Fight on land and sea, solo or with friends. Build, craft and explore vast open world filled with dark secrets. Master soulslite combat and take on challenging bosses, command your ship and plunder unspoken treasures!",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/prod/game-images/windrose.jpg",
+    "officialUrl": "https://store.steampowered.com/app/3041230/Windrose/",
+    "minSpecs": {
+      "cpuName": "Intel Core i7-8700K, AMD Ryzen 7 2700X",
+      "gpuName": "Nvidia GTX 1080 Ti, AMD Radeon RX 6800",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 3000,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i7-10700, AMD Ryzen 7 5800X",
+      "gpuName": "Nvidia RTX 3080, AMD Radeon RX 6800 XT",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 9000,
+      "ramGb": 32,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Assassin’s Creed Shadows",
+    "slug": "assassin-s-creed-shadows",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Experience an epic historical action-adventure story set in feudal Japan! Become a lethal shinobi Assassin and a powerful legendary samurai as you explore a beautiful open world in a time of chaos. Switch seamlessly between two unlikely allies as you discover their common destiny. Master complementary playstyles, create your shinobi league, customize your hideout, and usher in a new era for Japan.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/assassins-creed-shadows.jpg",
+    "officialUrl": "https://www.xbox.com/en-us/games/store/assassin",
+    "minSpecs": {
+      "cpuName": "INTEL® Core TM i7 8700K AMD RYZEN 5 3600",
+      "gpuName": "NVIDIA® GEFORCE GTX 1650 4GB / AMD RX-5500 XT 8GB / INTEL® ARC TM A380 6GB (REBAR ON)\"",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 1800,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel® Core™ i5 11600k/AMD Ryzen™ 5 5600x",
+      "gpuName": "Nvidia® GeForce RTX™ 3060Ti 8GB/AMD Radeon™ RX 6700 XT 12GB/Intel® Arc™ B580 12GB (REBAR ON)",
+      "cpuBenchmark": 9000,
+      "gpuBenchmark": 17000,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Call of Duty: Black Ops 6",
+    "slug": "call-of-duty-black-ops-6",
+    "steamId": null,
+    "genres": [
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Developed by Treyarch and Raven, Black Ops 6 is a spy action thriller set in the early 90s, a period of transition and upheaval in global politics, characterized by the end of the Cold War and the rise of the United States as a single superpower. With a mind-bending narrative, and unbound by the rules of engagement, this is signature Black Ops. The Black Ops 6 Campaign provides dynamic moment-to-moment gameplay that includes a variety of play spaces with blockbuster set pieces and action-packed moments, high-stakes heists, and cloak-and-dagger spy activity. In a best-in-class Multiplayer experience, players will test their skills across 16 new maps at launch, including 12 core 6v6 maps and 4 Strike maps that can be played 2v2 or 6v6. Black Ops 6 also marks the epic return of Round-Based Zo",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/call-of-duty-black-ops-6.jpg",
+    "officialUrl": "https://www.xbox.com/en-us/games/store/call-of-duty-black-ops-6---cross-gen-bundle/9PF528M6CRHQ",
+    "minSpecs": {
+      "cpuName": "AMD Ryzen 5 1400, Intel Core i5-6600",
+      "gpuName": "AMD Radeon RX 470, NVIDIA GeForce GTX 960, Intel Arc A580",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 1800,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "AMD Ryzen 5 1600X, Intel Core i7-6700K",
+      "gpuName": "AMD Radeon RX 6600XT",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 12500,
+      "ramGb": 12,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "CONTROL Resonant",
+    "slug": "control-resonant",
+    "steamId": "3669870",
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Explore a warped Manhattan on the brink of paranatural annihilation in this thrilling action-adventure RPG. Unleash the extraordinary powers of Dylan Faden as he fights for his humanity and survival against a reality-bending cosmic threat.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/control-resonant--1.jpg",
+    "officialUrl": "https://store.steampowered.com/app/3669870/",
+    "minSpecs": {
+      "cpuName": "TBD",
+      "gpuName": "TBD",
+      "cpuBenchmark": 4500,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 9000,
+      "gpuBenchmark": 9000,
+      "ramGb": 8,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Crimson Desert",
+    "slug": "crimson-desert",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Crimson Desert is an open-world action-adventure game set in the beautiful yet brutal continent of Pywel. Embark on a journey as the Greymane Kliff and restore what has been lost. Explore uncharted lands, fight against threats that stand in your way, and discover the wonders the world has in store.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/crimson-desert.jpg",
+    "officialUrl": "https://en.wikipedia.org/wiki/Crimson_Desert",
+    "minSpecs": {
+      "cpuName": "AMD Ryzen 5 2600X, Intel i5-8500",
+      "gpuName": "NVIDIA GTX 1060, AMD RX 6500 XT",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 3000,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "AMD Ryzen 5 5600, Intel i5-11600K",
+      "gpuName": "NVIDIA RTX 2080, AMD RX 6700 XT",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 17000,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Ghost of Tsushima DIRECTOR'S CUT",
+    "slug": "ghost-of-tsushima-director-s-cut",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Ghost of Tsushima: Director's Cut Includes: - Full game. - Iki Island expansion: New story, mini-games, enemy types and more. - Legends online co-op mode. - Digital mini art book by Dark Horse. - Director’s commentary: The creative team sits down with a renowned Japanese historian to look at the world of Ghost of Tsushima and how it compares to the real-life events that inspired it. - One Technique Point. - Charm of Hachiman’s Favour. - Hero of Tsushima Skin Set: Golden Mask, Sword Kit, Horse, Saddle.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ghost-of-tsushima-directors-cut.jpg",
+    "officialUrl": "https://ghostoftsushima.fandom.com/wiki/Ghost_of_Tsushima",
+    "minSpecs": {
+      "cpuName": "Intel Core i3-7100, AMD Ryzen 3 1200",
+      "gpuName": "NVIDIA GeForce GTX 960, AMD Radeon RX 5500 XT",
+      "cpuBenchmark": 6200,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i5-8600, AMD Ryzen 5 3600",
+      "gpuName": "NVIDIA GeForce RTX 2060, AMD Radeon RX 5600 XT",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 3900,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "CONVERGENCE: A League of Legends Story",
+    "slug": "convergence-a-league-of-legends-story",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Đi cảnh"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "CONV/RGENCE: A League of Legends Story is a single player, action platformer game developed by Double Stallion Games and published by Riot Forge. Players will explore the spectacular world of Zaun as Ekko, a young inventor with an ingenious device to manipulate time. Follow Ekko’s journey, a fan-favorite LoL Champion, as he discovers that the power to change time comes with many consequences.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/convergence-a-league-of-legends-story.jpg",
+    "officialUrl": "https://store.playstation.com/en-us/concept/10004220",
+    "minSpecs": {
+      "cpuName": "Intel Core i5-2300 2.80 GHz, AMD FX-4350 4.20 GHz",
+      "gpuName": "NVIDIA GeForce GTX 550 Ti, AMD Radeon HD 5770, Intel UHD Graphics 730",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 1800,
+      "ramGb": 4,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i5-2550K 3.40 GHz, AMD FX-8350 4.00 GHz",
+      "gpuName": "NVIDIA GeForce GTX 460, AMD Radeon HD 7770 / Radeon Vega 11",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 9000,
+      "ramGb": 8,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "ARK -the lost fairytale-",
+    "slug": "ark-the-lost-fairytale",
+    "steamId": "753980",
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "An exploration game made with 'RPG Maker'. Different from other exploration games where you solve puzzles through 'logical reasoning', these puzzles are based mainly on fairytales. Help the little girl find her favourite rabbit doll and discover the secrets of the mansion!",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/ark-the-lost-fairytale.jpg",
+    "officialUrl": "https://store.steampowered.com/app/753980",
+    "minSpecs": {
+      "cpuName": "Intel Pentium4 2.0 GHz",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 1300,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Pentium4 2.0 GHz",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 1300,
+      "gpuBenchmark": 9000,
+      "ramGb": 8,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Minecraft Dungeons",
+    "slug": "minecraft-dungeons",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "\"Brave the dungeons alone, or team up with friends! Up to four players can battle together through action-packed, treasure-stuffed, wildly varied levels, all in an epic quest to save the villagers and take down the evil Arch-Illager! Discover new weapons and items that will help you defeat a ruthless swarm of new-and-nasty mobs. Fight or flee through canyons, swamps and – of course – mines! Any adventurer brave or foolish enough (or a bit-of-both!) to explore this blocky and beautiful world will need to come prepared. So quickly, gear up!\"",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/minecraft-dungeons.jpg",
+    "officialUrl": "https://minecraft.wiki/w/Dungeons:Wiki",
+    "minSpecs": {
+      "cpuName": "Intel Core i5 2.8GHz",
+      "gpuName": "NVIDIA GeForce GTX 660, AMD Radeon HD 7870",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 9000,
+      "gpuBenchmark": 9000,
+      "ramGb": 8,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Resident Evil 4",
+    "slug": "resident-evil-4",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Resident Evil 4 is the sixth installment in the Resident Evil series and is often noted for its departure from the fixed camera angles of earlier titles. It introduced an over-the-shoulder third-person perspective, faster-paced gunplay, and more dynamic controls. The game features larger, more open environments and a new AI system that enables enemies to coordinate attacks and attempt to corner the player. Enemies exhibit more human-like behavior, such as climbing ladders, opening doors, and using weapons.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/resident-evil-4.jpg",
+    "officialUrl": "https://en.wikipedia.org/wiki/Resident_Evil_4",
+    "minSpecs": {
+      "cpuName": "Intel Core 2 Duo 2.4 Ghz, AMD Athlon X2 2.8 Ghz",
+      "gpuName": "NVIDIA GeForce 8800GTS, ATI Radeon HD 4850",
+      "cpuBenchmark": 3200,
+      "gpuBenchmark": 3000,
+      "ramGb": 2,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core 2 Quad 2.7 Ghz, AMD Phenom II X4 3 Ghz",
+      "gpuName": "NVIDIA GeForce GTX 560",
+      "cpuBenchmark": 1300,
+      "gpuBenchmark": 9000,
+      "ramGb": 4,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Shadow of the Tomb Raider: Definitive Edition",
+    "slug": "shadow-of-the-tomb-raider-definitive-edition",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "In Shadow of the Tomb Raider Definitive Edition experience the final chapter of Lara’s origin as she is forged into the Tomb Raider she is destined to be. Combining the base game, all seven DLC challenge tombs, as well as all downloadable weapons, outfits, and skills, Shadow of the Tomb Raider Definitive Edition is the ultimate way to experience Lara’s defining moment. Survive and Thrive In the Deadliest Place on Earth: Master an unforgiving jungle setting in order to survive. Explore underwater environments filled with crevasses and deep tunnel systems. Become One With the Jungle: Outgunned and outnumbered, Lara must use the jungle to her advantage. Strike suddenly and disappear like a jaguar, use mud as camouflage, and instill fear in enemies to sow chaos. Discover Dark and Brutal Tombs:",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/shadow-of-the-tomb-raider-definitive-edition.jpg",
+    "officialUrl": "https://www.xbox.com/en-us/games/store/shadow-of-the-tomb-raider-definitive-edition/BNQQ3WVBNZCQ",
+    "minSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 4500,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "CPU 6 nhân hoặc tốt hơn",
+      "gpuName": "GPU hỗ trợ DirectX 12",
+      "cpuBenchmark": 9000,
+      "gpuBenchmark": 9000,
+      "ramGb": 8,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "slug": "s-t-a-l-k-e-r-2-heart-of-chornobyl",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai",
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "S.T.A.L.K.E.R. 2: Heart of Chornobyl is the unforgiving FPS survival adventure in a dark science-fiction open world. Scavenge for gear and resources, hunt for wonders, make hard decisions to survive and pave the path through the Chornobyl Anomalous Zone.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/stalker-2-heart-of-chornobyl.jpg",
+    "officialUrl": "https://www.xbox.com/en-us/games/store/s.t.a.l.k.e.r.-2-heart-of-chornobyl---xbox-edition/9P7ZBF3S7PSS",
+    "minSpecs": {
+      "cpuName": "Intel Core i7-7700K / AMD Ryzen 5 1600X",
+      "gpuName": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB / Intel Arc A750",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 8000,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i7-11700 / AMD Ryzen 7 5800X",
+      "gpuName": "Nvidia GeForce RTX 3070 Ti / Nvidia GeForce RTX 4070 / AMD Radeon RX 6800 XT",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 22000,
+      "ramGb": 32,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "Starfield",
+    "slug": "starfield",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai",
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "In this next generation role-playing game set amongst the stars, create any character you want and explore with unparalleled freedom as you embark on an epic journey to answer humanity’s greatest mystery.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/starfield.jpg",
+    "officialUrl": "https://www.xbox.com/en-us/games/store/starfield/9NCJSXWZTP88",
+    "minSpecs": {
+      "cpuName": "AMD Ryzen 5 2600X, Intel Core i7-6800K",
+      "gpuName": "AMD Radeon RX 5700, NVIDIA GeForce 1070 Ti",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 12500,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "AMD Ryzen 5 3600X, Intel i5-10600K",
+      "gpuName": "AMD Radeon RX 6800 XT, NVIDIA GeForce RTX 2080",
+      "cpuBenchmark": 10500,
+      "gpuBenchmark": 9000,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "The Last of Us Part I",
+    "slug": "the-last-of-us-part-i",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Bắn súng"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "Experience the emotional storytelling and unforgettable characters of Joel and Ellie in The Last of Us, winner of over 200 Game of the Year awards and now rebuilt for PlayStation 5. Enjoy a total overhaul of the original experience, faithfully reproduced but incorporating modernized gameplay, improved controls and expanded accessibility options. Plus, feel immersed with improved effects and enhanced exploration and combat. It also includes the Left Behind story DLC.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-last-of-us-part-i.jpg",
+    "officialUrl": "https://store.epicgames.com/en-US/p/the-last-of-us-part-1",
+    "minSpecs": {
+      "cpuName": "AMD Ryzen 5 1500X, Intel Core i7-4770K",
+      "gpuName": "AMD Radeon RX 470 / Radeon RX 6500 XT, NVIDIA GeForce GTX 970 / GeForce 1050 Ti",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 3000,
+      "ramGb": 16,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "AMD Ryzen 5 3600X, Intel Core i7-8700",
+      "gpuName": "AMD Radeon RX 5700 XT / Radeon RX 6600 XT, NVIDIA GeForce RTX 2070 SUPER / GeForce RTX 3060",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 12500,
+      "ramGb": 16,
+      "storageGb": 80
+    }
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "slug": "the-witcher-3-wild-hunt",
+    "steamId": null,
+    "genres": [
+      "Phiêu lưu",
+      "Nhập vai"
+    ],
+    "sizeGb": 80,
+    "price": null,
+    "isFree": false,
+    "description": "The Witcher 3: Wild Hunt is an open-world action role-playing game developed by CD Projekt Red. Set in a dark fantasy world, the game follows Geralt of Rivia, a monster hunter searching for his adopted daughter, Ciri, while navigating political conflicts and supernatural threats. Gameplay features exploration, combat, character progression, and branching narratives shaped by player choices. Widely acclaimed for its writing, world-building, and depth, it is considered one of the most influential RPGs of its generation.",
+    "coverImage": "https://dropreference-v3.s3.eu-west-3.amazonaws.com/dev/game-images/the-witcher-3-wild-hunt.jpg",
+    "officialUrl": "https://www.epicgames.com/store/en-US/product/the-witcher-3-wild-hunt/home",
+    "minSpecs": {
+      "cpuName": "Intel Core i7 3770 3.4 Ghz",
+      "gpuName": "AMD Radeon HD 7870, NVIDIA GeForce GTX 660",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 3000,
+      "ramGb": 8,
+      "storageGb": 50
+    },
+    "recSpecs": {
+      "cpuName": "Intel Core i7 3770 3.4 Ghz",
+      "gpuName": "AMD Radeon R9 290, NVIDIA GeForce GTX770",
+      "cpuBenchmark": 17000,
+      "gpuBenchmark": 9000,
+      "ramGb": 8,
+      "storageGb": 80
+    }
   }
 ]

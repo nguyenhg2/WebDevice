@@ -6,5 +6,7 @@ prisma/*.db
 .vercel
 tsconfig.tsbuildinfo
 data/.technical-city-debug/
+data/dropreference-import.log
+data/dropreference-import-summary.json
 head-test/
 vercel*.log

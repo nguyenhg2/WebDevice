@@ -798,5 +798,573 @@
     "url": "https://store.steampowered.com/app/1868140/",
     "updatedAt": "2026-05-20T08:08:53.494Z",
     "note": "Fetched from Steam Store appdetails with cc=vn and l=english."
+  },
+  {
+    "slug": "7-days-to-die",
+    "name": "7 Days to Die",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/7-days-to-die",
+    "updatedAt": "2026-05-22T05:02:27.204Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "apex-legends",
+    "name": "Apex Legends",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/apex-legends",
+    "updatedAt": "2026-05-22T05:02:37.444Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "arc-raiders",
+    "name": "ARC Raiders",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/arc-raiders",
+    "updatedAt": "2026-05-22T05:02:39.447Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "ark-survival-ascended",
+    "name": "Ark: Survival Ascended",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/ark-survival-ascended",
+    "updatedAt": "2026-05-22T05:02:41.000Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "battlefield-6",
+    "name": "Battlefield 6",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/battlefield-6",
+    "updatedAt": "2026-05-22T05:03:00.317Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "black-myth-wukong",
+    "name": "Black Myth: Wukong",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/black-myth-wukong",
+    "updatedAt": "2026-05-22T05:03:04.899Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "conan-exiles",
+    "name": "Conan Exiles",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/conan-exiles",
+    "updatedAt": "2026-05-22T05:03:16.529Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "counter-strike-2",
+    "name": "Counter-Strike 2",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/counter-strike-2",
+    "updatedAt": "2026-05-22T05:03:22.255Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "cyberpunk-2077",
+    "name": "Cyberpunk 2077",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/cyberpunk-2077",
+    "updatedAt": "2026-05-22T05:03:29.255Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "dayz",
+    "name": "DayZ",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/dayz",
+    "updatedAt": "2026-05-22T05:03:34.855Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "delta-force",
+    "name": "Delta Force",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/delta-force--1",
+    "updatedAt": "2026-05-22T05:03:41.514Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "doom-the-dark-ages",
+    "name": "DOOM: The Dark Ages",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/doom-the-dark-ages",
+    "updatedAt": "2026-05-22T05:03:50.526Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "dota-2",
+    "name": "Dota 2",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/dota-2",
+    "updatedAt": "2026-05-22T05:03:54.272Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "elden-ring",
+    "name": "ELDEN RING",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/elden-ring",
+    "updatedAt": "2026-05-22T05:04:03.183Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "escape-from-tarkov",
+    "name": "Escape from Tarkov",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/escape-from-tarkov",
+    "updatedAt": "2026-05-22T05:04:05.869Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "farming-simulator-25",
+    "name": "Farming Simulator 25",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/farming-simulator-25",
+    "updatedAt": "2026-05-22T05:04:15.924Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "fortnite",
+    "name": "Fortnite",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/fortnite",
+    "updatedAt": "2026-05-22T05:04:23.595Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "grand-theft-auto-v",
+    "name": "Grand Theft Auto V",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/grand-theft-auto-v",
+    "updatedAt": "2026-05-22T05:04:33.698Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "helldivers-2",
+    "name": "HELLDIVERS 2",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/helldivers-2",
+    "updatedAt": "2026-05-22T05:04:40.618Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "hogwarts-legacy",
+    "name": "Hogwarts Legacy",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/hogwarts-legacy",
+    "updatedAt": "2026-05-22T05:04:46.690Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "marvel-rivals",
+    "name": "Marvel Rivals",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/marvel-rivals",
+    "updatedAt": "2026-05-22T05:05:03.546Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "monster-hunter-wilds",
+    "name": "Monster Hunter Wilds",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/monster-hunter-wilds",
+    "updatedAt": "2026-05-22T05:05:15.338Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "path-of-exile",
+    "name": "Path of Exile",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/path-of-exile",
+    "updatedAt": "2026-05-22T05:05:36.967Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "project-zomboid",
+    "name": "Project Zomboid",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/project-zomboid",
+    "updatedAt": "2026-05-22T05:05:39.931Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "pubg-battlegrounds",
+    "name": "PUBG: Battlegrounds",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/pubg-battlegrounds",
+    "updatedAt": "2026-05-22T05:05:42.663Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "rainbow-six-siege",
+    "name": "Rainbow Six Siege",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/rainbow-six-siege",
+    "updatedAt": "2026-05-22T05:05:45.460Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "ready-or-not",
+    "name": "Ready or Not",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/ready-or-not",
+    "updatedAt": "2026-05-22T05:05:47.952Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/red-dead-redemption-2",
+    "updatedAt": "2026-05-22T05:05:50.906Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "resident-evil-requiem",
+    "name": "Resident Evil Requiem",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/resident-evil-requiem",
+    "updatedAt": "2026-05-22T05:05:57.666Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "rust",
+    "name": "Rust",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/rust",
+    "updatedAt": "2026-05-22T05:06:07.246Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "satisfactory",
+    "name": "Satisfactory",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/satisfactory",
+    "updatedAt": "2026-05-22T05:06:08.663Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "star-wars-jedi-survivor",
+    "name": "STAR WARS Jedi: Survivor",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/star-wars-jedi-survivor",
+    "updatedAt": "2026-05-22T05:06:24.626Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "the-first-descendant",
+    "name": "The First Descendant",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/the-first-descendant",
+    "updatedAt": "2026-05-22T05:06:43.764Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "war-thunder",
+    "name": "War Thunder",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/war-thunder",
+    "updatedAt": "2026-05-22T05:07:10.917Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "warframe",
+    "name": "Warframe",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/warframe",
+    "updatedAt": "2026-05-22T05:07:12.527Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "windrose",
+    "name": "Windrose",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/windrose",
+    "updatedAt": "2026-05-22T05:07:17.792Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "alan-wake-2",
+    "name": "Alan Wake 2",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/alan-wake-2",
+    "updatedAt": "2026-05-22T05:02:33.586Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "ark-survival-evolved",
+    "name": "ARK: Survival Evolved",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/ark-survival-evolved",
+    "updatedAt": "2026-05-22T05:02:43.516Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "assassin-s-creed-odyssey",
+    "name": "Assassin's Creed Odyssey",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/assassins-creed-odyssey",
+    "updatedAt": "2026-05-22T05:02:48.653Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "assassin-s-creed-shadows",
+    "name": "Assassin’s Creed Shadows",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/assassins-creed-shadows",
+    "updatedAt": "2026-05-22T05:02:51.177Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "assassin-s-creed-valhalla",
+    "name": "Assassin's Creed Valhalla",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/assassins-creed-valhalla",
+    "updatedAt": "2026-05-22T05:02:53.843Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "call-of-duty-black-ops-6",
+    "name": "Call of Duty: Black Ops 6",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/call-of-duty-black-ops-6",
+    "updatedAt": "2026-05-22T05:03:09.747Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "control-resonant",
+    "name": "CONTROL Resonant",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/control",
+    "updatedAt": "2026-05-22T05:03:18.649Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "crimson-desert",
+    "name": "Crimson Desert",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/crimson-desert",
+    "updatedAt": "2026-05-22T05:03:24.324Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "diablo-iv",
+    "name": "Diablo IV",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/diablo-iv",
+    "updatedAt": "2026-05-22T05:03:46.541Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "far-cry-5",
+    "name": "Far Cry 5",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/far-cry-5",
+    "updatedAt": "2026-05-22T05:04:10.070Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "far-cry-6",
+    "name": "Far Cry 6",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/far-cry-6",
+    "updatedAt": "2026-05-22T05:04:12.831Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "forza-horizon-5",
+    "name": "Forza Horizon 5",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/forza-horizon-5",
+    "updatedAt": "2026-05-22T05:04:25.922Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "ghost-of-tsushima-director-s-cut",
+    "name": "Ghost of Tsushima DIRECTOR'S CUT",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/ghost-of-tsushima",
+    "updatedAt": "2026-05-22T05:04:29.886Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "hitman-3",
+    "name": "Hitman 3",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/hitman-3",
+    "updatedAt": "2026-05-22T05:04:43.032Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "convergence-a-league-of-legends-story",
+    "name": "CONVERGENCE: A League of Legends Story",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/league-of-legends",
+    "updatedAt": "2026-05-22T05:04:54.663Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "ark-the-lost-fairytale",
+    "name": "ARK -the lost fairytale-",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/lost-ark",
+    "updatedAt": "2026-05-22T05:05:00.357Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "metro-exodus",
+    "name": "Metro Exodus",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/metro-exodus",
+    "updatedAt": "2026-05-22T05:05:06.420Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "minecraft-dungeons",
+    "name": "Minecraft Dungeons",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/minecraft",
+    "updatedAt": "2026-05-22T05:05:11.191Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "monster-hunter-world",
+    "name": "Monster Hunter: World",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/monster-hunter-world",
+    "updatedAt": "2026-05-22T05:05:17.701Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "overwatch-2",
+    "name": "Overwatch 2",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/overwatch-2",
+    "updatedAt": "2026-05-22T05:05:33.101Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "resident-evil-4",
+    "name": "Resident Evil 4",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/resident-evil-4",
+    "updatedAt": "2026-05-22T05:05:53.464Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "resident-evil-village",
+    "name": "Resident Evil Village",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/resident-evil-village",
+    "updatedAt": "2026-05-22T05:06:00.483Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "roblox",
+    "name": "Roblox",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/roblox",
+    "updatedAt": "2026-05-22T05:06:02.312Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "rocket-league",
+    "name": "Rocket League",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/rocket-league",
+    "updatedAt": "2026-05-22T05:06:04.978Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "shadow-of-the-tomb-raider-definitive-edition",
+    "name": "Shadow of the Tomb Raider: Definitive Edition",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/shadow-of-the-tomb-raider-definitive-edition",
+    "updatedAt": "2026-05-22T05:06:15.763Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "sons-of-the-forest",
+    "name": "Sons Of The Forest",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/sons-of-the-forest",
+    "updatedAt": "2026-05-22T05:06:19.404Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "s-t-a-l-k-e-r-2-heart-of-chornobyl",
+    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/stalker-2-heart-of-chornobyl",
+    "updatedAt": "2026-05-22T05:06:22.316Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "starfield",
+    "name": "Starfield",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/starfield",
+    "updatedAt": "2026-05-22T05:06:29.573Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "stray",
+    "name": "Stray",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/stray",
+    "updatedAt": "2026-05-22T05:06:32.123Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "the-last-of-us-part-i",
+    "name": "The Last of Us Part I",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/the-last-of-us-part-i",
+    "updatedAt": "2026-05-22T05:06:48.248Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "the-witcher-3-wild-hunt",
+    "name": "The Witcher 3: Wild Hunt",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/the-witcher-3-wild-hunt",
+    "updatedAt": "2026-05-22T05:06:55.842Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "valheim",
+    "name": "Valheim",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/valheim",
+    "updatedAt": "2026-05-22T05:07:05.996Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "valorant",
+    "name": "VALORANT",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/valorant",
+    "updatedAt": "2026-05-22T05:07:08.502Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "watch-dogs-legion",
+    "name": "Watch Dogs: Legion",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/watch-dogs-legion",
+    "updatedAt": "2026-05-22T05:07:16.252Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
+  },
+  {
+    "slug": "world-of-tanks",
+    "name": "World of Tanks",
+    "source": "dropreference",
+    "url": "https://dropreference.com/en/benchmarks/world-of-tanks",
+    "updatedAt": "2026-05-22T05:07:20.087Z",
+    "note": "Parsed DropReference game detail page for metadata, images, system requirements and FPS benchmark attribution."
   }
 ]
