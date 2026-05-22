@@ -42,6 +42,11 @@ async function LookupContent({ searchParams }: { searchParams: Promise<LookupPar
       ),
     }))
     .sort((a, b) => b.estimatedFps - a.estimatedFps);
+  const groupedRows = {
+    smooth: rows.filter((row) => row.status === "smooth"),
+    playable: rows.filter((row) => row.status === "playable"),
+    not_recommended: rows.filter((row) => row.status === "not_recommended"),
+  };
 
   return (
     <section className="container py-8">
@@ -65,8 +70,17 @@ async function LookupContent({ searchParams }: { searchParams: Promise<LookupPar
 
       <LookupForm gpuSlug={selectedGpu.slug} cpuSlug={selectedCpu.slug} ramGb={ramGb} resolution={resolution} />
 
+      <div className="mt-6 grid gap-3 sm:grid-cols-3">
+        {(["smooth", "playable", "not_recommended"] as Status[]).map((status) => (
+          <a key={status} href={`#${status}`} className="rounded-lg border border-slate-200 bg-white p-4 hover:border-blue-300 dark:border-gray-700 dark:bg-gray-900">
+            <p className="text-sm text-slate-500">{statusLabels[status]}</p>
+            <p className="mt-1 text-3xl font-black">{groupedRows[status].length}</p>
+          </a>
+        ))}
+      </div>
+
       {(["smooth", "playable", "not_recommended"] as Status[]).map((status) => (
-        <ResultSection key={status} status={status} rows={rows.filter((row) => row.status === status)} />
+        <ResultSection key={status} status={status} rows={groupedRows[status]} />
       ))}
 
       {rows[0]?.upgradeAdvice.length ? (
@@ -106,7 +120,7 @@ function LookupForm({ gpuSlug, cpuSlug, ramGb, resolution }: { gpuSlug: string; 
       <label className="grid gap-1 text-sm font-semibold">
         RAM
         <select name="ram" className="input" defaultValue={ramGb}>
-          {[4, 8, 16, 32].map((value) => (
+          {[8, 16, 32].map((value) => (
             <option key={value} value={value}>
               {value}GB
             </option>
@@ -129,12 +143,13 @@ function LookupForm({ gpuSlug, cpuSlug, ramGb, resolution }: { gpuSlug: string; 
 
 function ResultSection({ status, rows }: { status: Status; rows: Array<{ game: (typeof games)[number]; status: Status; estimatedFps: number; recommendedSetting: string }> }) {
   return (
-    <section>
+    <section id={status} className="scroll-mt-24">
       <h2 className="mt-8 text-2xl font-black">
         {statusLabels[status]} ({rows.length} game)
       </h2>
-      <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {rows.slice(0, 9).map((row) => (
+      <p className="mt-1 text-sm text-slate-600 dark:text-gray-300">Đang hiển thị toàn bộ {rows.length} game trong nhóm này.</p>
+      <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {rows.map((row) => (
           <GameCard key={row.game.slug} game={row.game} status={row.status} fps={row.estimatedFps} setting={row.recommendedSetting} />
         ))}
       </div>
@@ -144,7 +159,7 @@ function ResultSection({ status, rows }: { status: Status; rows: Array<{ game: (
 
 function normalizeRam(value?: string) {
   const ram = Number(value ?? 8);
-  return [4, 8, 16, 32].includes(ram) ? ram : 8;
+  return [8, 16, 32].includes(ram) ? ram : 8;
 }
 
 function normalizeResolution(value?: string): Resolution {

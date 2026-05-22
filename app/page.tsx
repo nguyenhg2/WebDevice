@@ -3,7 +3,7 @@ import Link from "next/link";
 import GameCard from "@/components/GameCard";
 import GpuCard from "@/components/GpuCard";
 import DeviceCard from "@/components/DeviceCard";
-import { benchmarks, blogPosts, cpus, devices, gameSources, games, gpus } from "@/lib/data";
+import { benchmarks, blogPosts, cpus, devices, games, gpus } from "@/lib/data";
 
 export default function Home() {
   const benchmarkCounts = countBy(benchmarks.map((row) => row.gameSlug));
@@ -13,10 +13,6 @@ export default function Home() {
     .sort((a, b) => (benchmarkCounts.get(b.slug) ?? 0) - (benchmarkCounts.get(a.slug) ?? 0));
   const heroGame = benchmarkedGames.find((game) => game.coverImage) ?? games.find((game) => game.coverImage);
   const topGpus = [...gpus].sort((a, b) => b.benchmarkScore - a.benchmarkScore).slice(0, 6);
-  const latestDropReference = gameSources
-    .filter((source) => source.source === "dropreference")
-    .slice(-6)
-    .reverse();
 
   return (
     <div>
@@ -109,17 +105,11 @@ export default function Home() {
           </div>
 
           <aside className="rounded-lg border border-slate-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-900">
-            <h2 className="text-xl font-black">Mới từ DropReference</h2>
+            <h2 className="text-xl font-black">Bắt đầu nhanh</h2>
             <div className="mt-4 grid gap-3">
-              {latestDropReference.map((source) => {
-                const game = games.find((item) => item.slug === source.slug);
-                return (
-                  <Link key={source.slug + source.url} href={game ? `/game/${game.slug}` : source.url} className="rounded-md border border-slate-200 p-3 text-sm font-semibold hover:bg-slate-50 dark:border-gray-700 dark:hover:bg-gray-800">
-                    {source.name}
-                    <span className="mt-1 block text-xs font-normal text-slate-500">{benchmarkCounts.get(source.slug) ?? 0} dòng FPS</span>
-                  </Link>
-                );
-              })}
+              <QuickLink href="/tra-cuu" title="Máy này chơi được game gì?" description="Chọn cấu hình rồi xem toàn bộ game chơi mượt, chơi được và không khuyến nghị." />
+              <QuickLink href="/build-pc" title="Build PC theo game" description="Chọn ngân sách, game mục tiêu và nhận cấu hình đề xuất." />
+              <QuickLink href="/chon-game" title="Xem từng game" description="Tra cấu hình, ảnh và FPS theo từng tựa game." />
             </div>
           </aside>
         </div>
@@ -158,8 +148,6 @@ export default function Home() {
                 ["Laptop không card rời", "/laptop-khong-card-roi-choi-game-gi"],
                 ["Laptop dưới 15 triệu", "/laptop-duoi-15trieu-choi-duoc-game-gi"],
                 ["RAM 8GB chơi gì", "/ram/8"],
-                ["Build PC theo game", "/build-pc"],
-                ["Chọn game", "/chon-game"],
               ].map(([label, href]) => (
                 <Link className="rounded-lg border border-slate-200 bg-white p-4 font-bold hover:border-blue-300 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-900" key={href} href={href}>
                   {label}
@@ -199,5 +187,14 @@ function StatPill({ label, value }: { label: string; value: string }) {
       <p className="text-xs text-slate-300">{label}</p>
       <p className="mt-1 text-2xl font-black">{value}</p>
     </div>
+  );
+}
+
+function QuickLink({ href, title, description }: { href: string; title: string; description: string }) {
+  return (
+    <Link href={href} className="rounded-md border border-slate-200 p-3 hover:border-blue-300 hover:text-blue-700 dark:border-gray-700">
+      <span className="block font-black">{title}</span>
+      <span className="mt-1 block text-sm text-slate-600 dark:text-gray-300">{description}</span>
+    </Link>
   );
 }

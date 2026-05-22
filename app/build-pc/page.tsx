@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import {
   createPcBuilderPlan,
   popularBuilderGames,
-  type BuildUsage,
   type ComponentBuild,
   type DeviceRecommendation,
   type GraphicsQuality,
@@ -27,7 +26,6 @@ type BuildPcSearchParams = {
 };
 
 const budgetOptions = [8_000_000, 12_000_000, 15_000_000, 20_000_000, 25_000_000, 30_000_000, 40_000_000, 60_000_000];
-const fpsOptions = [60, 90, 120, 144, 240];
 const resolutionOptions: Array<[Resolution, string]> = [
   ["720p", "720p"],
   ["1080p", "1080p"],
@@ -40,11 +38,6 @@ const qualityOptions: Array<[GraphicsQuality, string]> = [
   ["high", "High"],
   ["ultra", "Ultra"],
 ];
-const usageOptions: Array<[BuildUsage, string]> = [
-  ["gaming", "Gaming"],
-  ["streaming", "Streaming + Gaming"],
-];
-
 export default async function BuildPcPage({ searchParams }: { searchParams: Promise<BuildPcSearchParams> }) {
   const params = await searchParams;
   const plan = createPcBuilderPlan({
@@ -87,15 +80,6 @@ export default async function BuildPcPage({ searchParams }: { searchParams: Prom
       <div className="container grid gap-6 py-8 lg:grid-cols-[360px_1fr]">
         <aside>
           <BuilderForm plan={plan} />
-          <div className="card mt-4 p-4">
-            <h2 className="text-lg font-black">Luồng DropReference đã tham khảo</h2>
-            <div className="mt-3 grid gap-2 text-sm">
-              <FlowLink href="/build-pc" label="Quick builder" active />
-              <FlowLink href="/tra-cuu" label="Expert tra cứu cấu hình" />
-              <FlowLink href="/benchmark" label="Benchmark FPS" />
-              <FlowLink href="/gpu" label="Kho GPU" />
-            </div>
-          </div>
         </aside>
 
         <main className="grid gap-6">
@@ -188,6 +172,9 @@ function BuilderForm({ plan }: { plan: ReturnType<typeof createPcBuilderPlan> })
   return (
     <form className="card grid gap-4 p-4">
       <h2 className="text-xl font-black">Tiêu chí build</h2>
+      <input type="hidden" name="fps" value="60" />
+      <input type="hidden" name="quality" value="high" />
+      <input type="hidden" name="usage" value="gaming" />
       <label className="grid gap-1 text-sm font-semibold">
         Ngân sách
         <select name="budget" className="input" defaultValue={plan.input.budgetVnd}>
@@ -214,51 +201,16 @@ function BuilderForm({ plan }: { plan: ReturnType<typeof createPcBuilderPlan> })
         </div>
       </fieldset>
 
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
-        <label className="grid gap-1 text-sm font-semibold">
-          Độ phân giải
-          <select name="resolution" className="input" defaultValue={plan.input.resolution}>
-            {resolutionOptions.map(([value, label]) => (
-              <option key={value} value={value}>
-                {label}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="grid gap-1 text-sm font-semibold">
-          FPS
-          <select name="fps" className="input" defaultValue={plan.input.targetFps}>
-            {fpsOptions.map((value) => (
-              <option key={value} value={value}>
-                {value} FPS
-              </option>
-            ))}
-          </select>
-        </label>
-      </div>
-
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
-        <label className="grid gap-1 text-sm font-semibold">
-          Setting
-          <select name="quality" className="input" defaultValue={plan.input.quality}>
-            {qualityOptions.map(([value, label]) => (
-              <option key={value} value={value}>
-                {label}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="grid gap-1 text-sm font-semibold">
-          Nhu cầu
-          <select name="usage" className="input" defaultValue={plan.input.usage}>
-            {usageOptions.map(([value, label]) => (
-              <option key={value} value={value}>
-                {label}
-              </option>
-            ))}
-          </select>
-        </label>
-      </div>
+      <label className="grid gap-1 text-sm font-semibold">
+        Độ phân giải
+        <select name="resolution" className="input" defaultValue={plan.input.resolution}>
+          {resolutionOptions.map(([value, label]) => (
+            <option key={value} value={value}>
+              {label}
+            </option>
+          ))}
+        </select>
+      </label>
 
       <label className="flex items-center gap-2 text-sm font-semibold">
         <input type="checkbox" name="laptop" value="1" defaultChecked={plan.input.preferLaptop} />
@@ -383,20 +335,6 @@ function BudgetPill({ status }: { status: "within" | "stretch" | "over" }) {
         : "bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-200";
   const label = status === "within" ? "Trong ngân sách" : status === "stretch" ? "Vượt nhẹ" : "Vượt ngân sách";
   return <span className={`shrink-0 rounded-md px-2 py-1 text-xs font-black ${className}`}>{label}</span>;
-}
-
-function FlowLink({ href, label, active }: { href: string; label: string; active?: boolean }) {
-  return (
-    <Link
-      href={href}
-      className={
-        "rounded-md border px-3 py-2 font-semibold " +
-        (active ? "border-blue-600 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-950 dark:text-blue-200" : "border-slate-200 hover:bg-slate-50 dark:border-gray-700 dark:hover:bg-gray-800")
-      }
-    >
-      {label}
-    </Link>
-  );
 }
 
 function parseGameParams(value?: string | string[]): string[] {

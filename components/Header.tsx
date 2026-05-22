@@ -4,15 +4,11 @@ import SearchBar from "@/components/SearchBar";
 
 export default function Header() {
   const nav = [
-    ["/build-pc", "Build PC"],
     ["/tra-cuu", "Tra cứu"],
-    ["/benchmark", "Benchmark"],
-    ["/fps-samples", "FPS mẫu"],
+    ["/build-pc", "Build PC"],
     ["/chon-game", "Game"],
     ["/gpu", "GPU"],
     ["/laptop", "Laptop"],
-    ["/blog", "Bài viết"],
-    ["/admin", "Quản trị"],
   ];
 
   return (

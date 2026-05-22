@@ -1,12 +1,20 @@
 import Link from "next/link";
 import GameCard from "@/components/GameCard";
 import { benchmarks, games } from "@/lib/data";
+import { includesText } from "@/lib/utils";
 
-export default function PickGame() {
+type PickGameParams = {
+  search?: string;
+};
+
+export default async function PickGame({ searchParams }: { searchParams: Promise<PickGameParams> }) {
+  const params = await searchParams;
+  const search = (params.search ?? "").trim();
+  const filteredGames = search ? games.filter((game) => includesText(game.name, search) || game.genres.some((genre) => includesText(genre, search))) : games;
   const fpsCounts = new Map<string, number>();
   for (const row of benchmarks) fpsCounts.set(row.gameSlug, (fpsCounts.get(row.gameSlug) ?? 0) + 1);
-  const benchmarked = games.filter((game) => fpsCounts.has(game.slug)).sort((a, b) => (fpsCounts.get(b.slug) ?? 0) - (fpsCounts.get(a.slug) ?? 0));
-  const remaining = games.filter((game) => !fpsCounts.has(game.slug));
+  const benchmarked = filteredGames.filter((game) => fpsCounts.has(game.slug)).sort((a, b) => (fpsCounts.get(b.slug) ?? 0) - (fpsCounts.get(a.slug) ?? 0));
+  const remaining = filteredGames.filter((game) => !fpsCounts.has(game.slug));
 
   return (
     <section className="container py-8">
@@ -17,11 +25,14 @@ export default function PickGame() {
           <p className="mt-3 max-w-3xl text-slate-600 dark:text-gray-300">
             Game có benchmark thực tế được ưu tiên lên đầu. Mỗi trang game có gallery, cấu hình tối thiểu/đề xuất, bảng FPS theo GPU và thiết bị phù hợp.
           </p>
+          <form className="mt-5 max-w-xl">
+            <input name="search" className="input" defaultValue={search} placeholder="Tìm game theo tên hoặc thể loại..." />
+          </form>
         </header>
         <aside className="card p-4">
           <h2 className="text-xl font-black">Tổng quan</h2>
           <dl className="mt-4 grid grid-cols-2 gap-3 text-sm">
-            <Metric label="Game" value={games.length.toLocaleString("vi-VN")} />
+            <Metric label={search ? "Kết quả" : "Game"} value={filteredGames.length.toLocaleString("vi-VN")} />
             <Metric label="Có FPS" value={benchmarked.length.toLocaleString("vi-VN")} />
           </dl>
           <Link href="/benchmark" className="btn mt-4 w-full">Mở bảng benchmark</Link>
@@ -34,6 +45,15 @@ export default function PickGame() {
           <GameCard key={game.slug} game={game} />
         ))}
       </div>
+      {search && filteredGames.length === 0 ? (
+        <div className="card mt-6 p-6 text-center">
+          <h2 className="text-xl font-black">Không tìm thấy game phù hợp</h2>
+          <p className="mt-2 text-sm text-slate-600 dark:text-gray-300">Thử tên ngắn hơn hoặc tìm theo thể loại.</p>
+          <Link href="/chon-game" className="btn mt-4">
+            Xem tất cả game
+          </Link>
+        </div>
+      ) : null}
 
       {remaining.length ? (
         <>
