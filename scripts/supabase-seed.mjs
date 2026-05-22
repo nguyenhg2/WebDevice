@@ -7,7 +7,7 @@ const root = process.cwd();
 const databaseUrl = process.env.DATABASE_URL;
 
 if (!databaseUrl) {
-  console.error("DATABASE_URL chưa được cấu hình.");
+  console.error("DATABASE_URL is not configured.");
   process.exit(1);
 }
 
@@ -135,13 +135,13 @@ async function seedCpus() {
 async function seedDevices() {
   for (const device of devices) {
     await client.query(
-      `INSERT INTO "Device" ("id","name","slug","type","brand","cpu","gpu","ramGb","storageGb","storageType","screenSize","screenResolution","priceVnd","priceRange","shopeeUrl","tikiUrl","phơngvuUrl","gearvnUrl","imageUrl")
+      `INSERT INTO "Device" ("id","name","slug","type","brand","cpu","gpu","ramGb","storageGb","storageType","screenSize","screenResolution","priceVnd","priceRange","shopeeUrl","tikiUrl","phongvuUrl","gearvnUrl","imageUrl")
        VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19)
        ON CONFLICT ("slug") DO UPDATE SET
        "name"=EXCLUDED."name","type"=EXCLUDED."type","brand"=EXCLUDED."brand","cpu"=EXCLUDED."cpu","gpu"=EXCLUDED."gpu",
        "ramGb"=EXCLUDED."ramGb","storageGb"=EXCLUDED."storageGb","storageType"=EXCLUDED."storageType","screenSize"=EXCLUDED."screenSize",
        "screenResolution"=EXCLUDED."screenResolution","priceVnd"=EXCLUDED."priceVnd","priceRange"=EXCLUDED."priceRange",
-       "shopeeUrl"=EXCLUDED."shopeeUrl","tikiUrl"=EXCLUDED."tikiUrl","phơngvuUrl"=EXCLUDED."phơngvuUrl","gearvnUrl"=EXCLUDED."gearvnUrl","imageUrl"=EXCLUDED."imageUrl"`,
+       "shopeeUrl"=EXCLUDED."shopeeUrl","tikiUrl"=EXCLUDED."tikiUrl","phongvuUrl"=EXCLUDED."phongvuUrl","gearvnUrl"=EXCLUDED."gearvnUrl","imageUrl"=EXCLUDED."imageUrl"`,
       [
         idFromSlug("device", device.slug),
         device.name,
@@ -159,7 +159,7 @@ async function seedDevices() {
         enumPrice(device.priceRange),
         device.shopeeUrl,
         device.tikiUrl,
-        device.phơngvuUrl,
+        device.phongvuUrl,
         device.gearvnUrl,
         device.imageUrl,
       ],
@@ -227,7 +227,7 @@ try {
   await seedDevices();
   await seedBlogPosts();
   await seedBenchmarks();
-  console.log("Supabase migration và seed hoàn tất.");
+  console.log("Supabase migration and seed completed.");
 } finally {
   await client.end();
 }

@@ -232,7 +232,7 @@
     "price": 0,
     "isFree": true,
     "description": "Fortnite là trò chơi chơi offline, FPS, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
-    "coverImage": "/images/games/fortnite.svg",
+    "coverImage": "https://cdn2.unrealengine.com/fnbr-40-40-c7s2-venison-egs-launcher-blade-2560x1440-2560x1440-85f1459c1cd3.jpg",
     "officialUrl": "https://www.fortnite.com/?lang=en-US&language=vietnamese",
     "minSpecs": {
       "cpuName": "Intel Core i3-3225 3.3GHz",
@@ -294,7 +294,7 @@
     "price": 0,
     "isFree": true,
     "description": "Roblox là trò chơi mô phỏng, nhập vai, thuộc nhóm miễn phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
-    "coverImage": "/images/games/roblox.svg",
+    "coverImage": "https://images.rbxcdn.com/5348266ea6c5e67b19d6a814cbbb70f6.jpg",
     "officialUrl": "https://www.roblox.com/",
     "minSpecs": {
       "cpuName": "CPU 1.6GHz sản xuất từ năm 2005 trở lên",
@@ -1311,7 +1311,7 @@
     "price": 0,
     "isFree": true,
     "description": "Dot Kich là trò chơi MOBA, đua xe, thuộc nhóm trả phí. Trang này tổng hợp ảnh chính thức, dung lượng, cấu hình tối thiểu, cấu hình đề xuất và dữ liệu FPS tham khảo để bạn kiểm tra máy trước khi tải hoặc mua trò chơi.",
-    "coverImage": "https://cf.goplay.vn/~/newdesign/images/cf_log_thum.png",
+    "coverImage": "https://cs3.vtconline.vn/goplay-cms/Resources/Upload/Images/Media/32/322312cd-f084-4915-98f5-2e097dbf2e30.jpg",
     "officialUrl": "https://cf.goplay.vn/",
     "minSpecs": {
       "cpuName": "Intel Pentium 4 2.0GHz",

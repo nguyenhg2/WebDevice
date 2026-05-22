@@ -86,7 +86,14 @@
     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/b622efa206400324df2ab812786578dda4cc3537/capsule_184x69.jpg?t=1778502442"
   ],
   "fortnite": [
-    "/images/games/fortnite.svg"
+    "https://cdn2.unrealengine.com/fnbr-40-40-c7s2-venison-egs-launcher-blade-2560x1440-2560x1440-85f1459c1cd3.jpg",
+    "https://cdn2.unrealengine.com/00-fortnite-ecosystem-v36-00-3840x2160-980f5a3de17e.jpg",
+    "https://cdn2.unrealengine.com/01-fortnite-battle-royale-v36-00-3840x2160-67e10ce7d3aa.jpg",
+    "https://cdn2.unrealengine.com/02-fortnite-og-v36-00-1920x1080-1896b15c9d48.jpg",
+    "https://cdn2.unrealengine.com/03-fortnite-lego-v36-00-3840x2160-261f25e0a8d2.jpg",
+    "https://cdn2.unrealengine.com/04-fortnite-festival-v36-00-3840x2160-e689e651bac8.jpg",
+    "https://cdn2.unrealengine.com/05-fortnite-rocket-racing-v36-00-3840x2160-c0be4ba9f72b.jpg",
+    "https://cdn2.unrealengine.com/06-fortnite-save-the-world-v36-00-1920x1080-5ef151d7e979.jpg"
   ],
   "minecraft": [
     "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Global-Header_Image-Tile_MC-Java-Bedrock_570x321.jpg",

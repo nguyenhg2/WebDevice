@@ -73,7 +73,7 @@ CREATE TABLE "Device" (
   "priceRange" "PriceRange" NOT NULL,
   "shopeeUrl" TEXT,
   "tikiUrl" TEXT,
-  "phơngvuUrl" TEXT,
+  "phongvuUrl" TEXT,
   "gearvnUrl" TEXT,
   "imageUrl" TEXT,
   "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP

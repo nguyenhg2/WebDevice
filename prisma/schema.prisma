@@ -66,14 +66,14 @@ model Game {
   id          String             @id @default(cuid())
   name        String             @unique
   slug        String             @unique
-  steamId     Stringì
+  steamId     String?
   genres      String[]
   sizeGb      Float
   price       Float              @default(0)
   isFree      Boolean
   description String
-  coverImage  Stringì
-  officialUrl Stringì
+  coverImage  String?
+  officialUrl String?
   minSpecs    Json
   recSpecs    Json
   createdAt   DateTime           @default(now())
@@ -110,8 +110,8 @@ model Cpu {
   cores           Int
   threads         Int
   generation      String
-  socket          Stringì
-  integratedGpu   Stringì
+  socket          String?
+  integratedGpu   String?
   priceRangeVnd   String
   commonInVietnam Boolean
   createdAt       DateTime @default(now())
@@ -130,7 +130,7 @@ model GameGpuBenchmark {
   fpsUltra           Int
   recommendedSetting String
   status             BenchmarkStatus
-  videoTestUrl       Stringì
+  videoTestUrl       String?
   source             String
   createdAt          DateTime        @default(now())
   game               Game            @relation(fields: [gameId], references: [id], onDelete: Cascade)
@@ -151,14 +151,14 @@ model Device {
   storageGb        Int
   storageType      StorageType
   screenSize       Float?
-  screenResolution Stringì
+  screenResolution String?
   priceVnd         Int
   priceRange       PriceRange
-  shopeeUrl        Stringì
-  tikiUrl          Stringì
-  phơngvuUrl       Stringì
-  gearvnUrl        Stringì
-  imageUrl         Stringì
+  shopeeUrl        String?
+  tikiUrl          String?
+  phongvuUrl       String?
+  gearvnUrl        String?
+  imageUrl         String?
   createdAt        DateTime    @default(now())
 
   @@index([slug])
