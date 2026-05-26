@@ -1,3 +1,3 @@
 export default function ContactPage() {
-  return <section className="container py-8"><h1 className="text-3xl font-black">Liên hệ</h1><p className="mt-4 max-w-3xl">Gửi góp ý qua email contact@maynaychoiduoc.vn.</p><form className="card mt-6 grid gap-3 p-4"><input className="input" placeholder="Email" /><textarea className="input" placeholder="Nội dung" /><button className="btn">Gửi liên hệ</button></form></section>;
+  return <section className="container py-8"><h1 className="text-3xl font-black">Liên hệ</h1><p className="mt-4 max-w-3xl">Gửi góp ý qua email contact@fpsviet.com.</p><form className="card mt-6 grid gap-3 p-4"><input className="input" placeholder="Email" /><textarea className="input" placeholder="Nội dung" /><button className="btn">Gửi liên hệ</button></form></section>;
 }

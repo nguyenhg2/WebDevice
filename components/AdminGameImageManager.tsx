@@ -8,7 +8,6 @@ type ImageForm = {
   name: string;
   coverImage: string;
   officialUrl: string;
-  sourceUrl: string;
   galleryText: string;
 };
 
@@ -17,7 +16,6 @@ const emptyForm: ImageForm = {
   name: "",
   coverImage: "",
   officialUrl: "",
-  sourceUrl: "",
   galleryText: "",
 };
 
@@ -31,7 +29,6 @@ function formFromItem(item: GameImageItem): ImageForm {
     name: item.name,
     coverImage: item.coverImage ?? "",
     officialUrl: item.officialUrl ?? "",
-    sourceUrl: item.sources.find((source) => source.sourceUrl)?.sourceUrl ?? item.officialUrl ?? "",
     galleryText: item.gallery.join("\n"),
   };
 }
@@ -87,7 +84,7 @@ export default function AdminGameImageManager() {
       if (!nextItems.length) setStatus("Không có game phù hợp với bộ lọc hiện tại.");
     } catch (error) {
       if (seq !== requestSeq.current) return;
-      setStatus(`Lỗi tải danh sách ảnh: ${error instanceof Error ? error.message : String(error)}`);
+      setStatus(`Lỗi tải ảnh: ${error instanceof Error ? error.message : String(error)}`);
     } finally {
       if (seq === requestSeq.current) setLoading(false);
     }
@@ -96,7 +93,7 @@ export default function AdminGameImageManager() {
   function selectItem(item: GameImageItem) {
     setForm(formFromItem(item));
     setBrokenUrls(new Set());
-    setStatus(`Đang sửa ảnh: ${item.name}`);
+    setStatus(`Đang sửa: ${item.name}`);
   }
 
   function updateField(name: keyof ImageForm, value: string) {
@@ -110,7 +107,7 @@ export default function AdminGameImageManager() {
       return;
     }
     updateField("coverImage", firstGood);
-    setStatus("Đã đưa ảnh gallery đầu tiên vào ô ảnh bìa.");
+    setStatus("Đã đưa ảnh gallery đầu tiên vào ảnh bìa.");
   }
 
   function addCoverToGallery() {
@@ -129,7 +126,7 @@ export default function AdminGameImageManager() {
       return;
     }
     updateField("galleryText", joinGallery(cleaned));
-    setStatus(`Đã lọc ${gallery.length - cleaned.length} ảnh placeholder/logo khỏi gallery.`);
+    setStatus(`Đã lọc ${gallery.length - cleaned.length} ảnh nghi ngờ khỏi gallery.`);
   }
 
   function removeGalleryUrl(url: string) {
@@ -140,7 +137,7 @@ export default function AdminGameImageManager() {
     event.preventDefault();
     if (!form.slug) return;
     setSaving(true);
-    setStatus("Đang lưu ảnh game...");
+    setStatus("Đang lưu ảnh...");
 
     try {
       const response = await fetch("/api/admin/game-images", {
@@ -150,7 +147,6 @@ export default function AdminGameImageManager() {
           slug: form.slug,
           coverImage: form.coverImage,
           officialUrl: form.officialUrl,
-          sourceUrl: form.sourceUrl,
           gallery,
         }),
       });
@@ -161,7 +157,7 @@ export default function AdminGameImageManager() {
       setItems((current) => current.map((item) => (item.slug === saved.slug ? saved : item)));
       setForm(formFromItem(saved));
       setBrokenUrls(new Set());
-      setStatus(`Đã lưu ảnh cho ${saved.name}. Deploy lại để production nhận dữ liệu mới nếu đang sửa ở local.`);
+      setStatus(`Đã lưu ảnh cho ${saved.name}. Cần deploy lại để production nhận dữ liệu mới.`);
     } catch (error) {
       setStatus(`Lỗi lưu ảnh: ${error instanceof Error ? error.message : String(error)}`);
     } finally {
@@ -170,41 +166,41 @@ export default function AdminGameImageManager() {
   }
 
   return (
-    <div className="grid gap-4 xl:grid-cols-[360px_1fr]">
-      <section className="card h-fit p-4">
+    <div className="grid gap-4 xl:grid-cols-[340px_minmax(0,1fr)]">
+      <section className="surface h-fit p-4">
         <div className="flex items-start justify-between gap-3">
           <div>
-            <h3 className="text-lg font-black">Game cần kiểm tra</h3>
+            <h3 className="text-lg font-black">Danh sách game</h3>
             <p className="mt-1 text-sm text-slate-600 dark:text-gray-300">
-              {issueCount}/{totalCount} game có dấu hiệu thiếu ảnh thật.
+              {issueCount}/{totalCount} game cần kiểm tra ảnh.
             </p>
           </div>
-          <button type="button" className="rounded-md border px-3 py-2 text-sm font-bold" onClick={() => loadItems()}>
+          <button type="button" className="btn-secondary min-h-9 px-3 py-2 text-sm" onClick={() => loadItems()}>
             Tải lại
           </button>
         </div>
 
         {!canWriteFiles ? (
           <div className="mt-4 rounded-md border border-amber-200 bg-amber-50 p-3 text-sm font-semibold text-amber-900">
-            Môi trường hiện tại không cho ghi file data. Hãy chạy admin ở local, lưu thay đổi rồi deploy lại.
+            Môi trường này không cho ghi file data. Hãy sửa ở local rồi deploy lại.
           </div>
         ) : null}
 
         <div className="mt-4 grid gap-3">
-          <input className="input" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Tìm theo tên, slug hoặc URL ảnh..." />
+          <input className="input" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Tìm tên, slug hoặc URL ảnh..." />
           <label className="flex items-center gap-2 text-sm font-semibold">
             <input type="checkbox" checked={issuesOnly} onChange={(event) => setIssuesOnly(event.target.checked)} />
-            Chỉ hiện game có lỗi ảnh
+            Chỉ hiện game có vấn đề ảnh
           </label>
         </div>
 
-        <div className="mt-4 max-h-[660px] overflow-auto divide-y dark:divide-gray-700">
-          {loading ? <p className="py-4 text-sm text-slate-500">Đang tải danh sách...</p> : null}
+        <div className="mt-4 max-h-[660px] overflow-auto divide-y divide-slate-100 dark:divide-gray-800">
+          {loading ? <p className="py-4 text-sm text-slate-500">Đang tải...</p> : null}
           {!loading && !items.length ? <p className="py-4 text-sm text-slate-500">Không có game phù hợp.</p> : null}
           {items.map((item) => (
             <article key={item.slug} className="grid gap-2 py-3">
               <button type="button" className="text-left" onClick={() => selectItem(item)}>
-                <span className={"font-bold hover:text-blue-600 " + (form.slug === item.slug ? "text-blue-600" : "")}>{item.name}</span>
+                <span className={"font-bold hover:text-teal-700 dark:hover:text-teal-300 " + (form.slug === item.slug ? "text-teal-700 dark:text-teal-300" : "")}>{item.name}</span>
                 <span className="mt-1 block text-xs text-slate-500">{item.slug}</span>
               </button>
               {item.issues.length ? (
@@ -224,8 +220,8 @@ export default function AdminGameImageManager() {
         </div>
       </section>
 
-      <form onSubmit={submit} className="card p-4">
-        <div className="flex flex-wrap items-start justify-between gap-3 border-b pb-4 dark:border-gray-700">
+      <form onSubmit={submit} className="surface p-4">
+        <div className="flex flex-wrap items-start justify-between gap-3 border-b border-slate-200 pb-4 dark:border-gray-700">
           <div>
             <h3 className="text-xl font-black">{form.name || "Chọn game để sửa ảnh"}</h3>
             {form.slug ? <p className="mt-1 text-sm text-slate-500">{form.slug}</p> : null}
@@ -236,11 +232,11 @@ export default function AdminGameImageManager() {
         </div>
 
         {!form.slug ? (
-          <p className="mt-4 text-sm text-slate-600 dark:text-gray-300">Chọn một game ở danh sách bên trái để bắt đầu chỉnh ảnh.</p>
+          <p className="mt-4 text-sm text-slate-600 dark:text-gray-300">Chọn một game ở danh sách bên trái để bắt đầu.</p>
         ) : (
           <>
-            <div className="mt-4 grid gap-4 md:grid-cols-2">
-              <label className="grid gap-1 text-sm font-semibold md:col-span-2">
+            <div className="mt-4 grid gap-4">
+              <label className="grid gap-1 text-sm font-semibold">
                 URL ảnh bìa
                 <input className="input" value={form.coverImage} onChange={(event) => updateField("coverImage", event.target.value)} placeholder="https://.../cover.jpg hoặc /images/games/name.svg" />
               </label>
@@ -249,33 +245,29 @@ export default function AdminGameImageManager() {
                 <input className="input" value={form.officialUrl} onChange={(event) => updateField("officialUrl", event.target.value)} placeholder="https://..." />
               </label>
               <label className="grid gap-1 text-sm font-semibold">
-                Nguồn cho ảnh thêm mới
-                <input className="input" value={form.sourceUrl} onChange={(event) => updateField("sourceUrl", event.target.value)} placeholder="https://store/game hoặc trang nguồn" />
-              </label>
-              <label className="grid gap-1 text-sm font-semibold md:col-span-2">
                 Gallery, mỗi dòng một URL
-                <textarea className="input min-h-52 font-mono text-xs" value={form.galleryText} onChange={(event) => updateField("galleryText", event.target.value)} />
+                <textarea className="input min-h-44 font-mono text-xs" value={form.galleryText} onChange={(event) => updateField("galleryText", event.target.value)} />
               </label>
             </div>
 
             <div className="mt-4 flex flex-wrap gap-2">
-              <button type="button" className="rounded-md border px-3 py-2 text-sm font-bold" onClick={useFirstGalleryAsCover}>
-                Dùng gallery làm bìa
+              <button type="button" className="btn-secondary min-h-9 px-3 py-2 text-sm" onClick={useFirstGalleryAsCover}>
+                Lấy gallery làm bìa
               </button>
-              <button type="button" className="rounded-md border px-3 py-2 text-sm font-bold" onClick={addCoverToGallery}>
+              <button type="button" className="btn-secondary min-h-9 px-3 py-2 text-sm" onClick={addCoverToGallery}>
                 Thêm bìa vào gallery
               </button>
-              <button type="button" className="rounded-md border px-3 py-2 text-sm font-bold" onClick={cleanupGallery}>
-                Lọc placeholder/logo
+              <button type="button" className="btn-secondary min-h-9 px-3 py-2 text-sm" onClick={cleanupGallery}>
+                Lọc ảnh nghi ngờ
               </button>
-              <button type="button" className="rounded-md border px-3 py-2 text-sm font-bold" onClick={() => setBrokenUrls(new Set())}>
+              <button type="button" className="btn-secondary min-h-9 px-3 py-2 text-sm" onClick={() => setBrokenUrls(new Set())}>
                 Kiểm tra lại preview
               </button>
             </div>
 
             {currentIssues.length ? (
               <div className="mt-4 rounded-md border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
-                <p className="font-black">Dấu hiệu cần sửa</p>
+                <p className="font-black">Cần xử lý</p>
                 <ul className="mt-2 list-inside list-disc">
                   {currentIssues.map((issue) => (
                     <li key={issue}>{issue}</li>
@@ -285,15 +277,15 @@ export default function AdminGameImageManager() {
             ) : null}
 
             <section className="mt-5">
-              <h4 className="font-black">Preview ảnh</h4>
+              <h4 className="font-black">Preview</h4>
               <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
                 {previews.map((url, index) => {
                   const broken = brokenUrls.has(url);
                   return (
-                    <figure key={url} className="overflow-hidden rounded-md border bg-slate-50 dark:border-gray-700 dark:bg-gray-900">
+                    <figure key={url} className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 dark:border-gray-700 dark:bg-gray-900">
                       <div className="relative aspect-[16/9] bg-slate-200 dark:bg-gray-800">
                         {broken ? (
-                          <div className="flex h-full items-center justify-center px-3 text-center text-sm font-bold text-red-700">Không tải được ảnh</div>
+                          <div className="flex h-full items-center justify-center px-3 text-center text-sm font-bold text-rose-700">Không tải được ảnh</div>
                         ) : (
                           <img
                             src={url}
@@ -305,9 +297,11 @@ export default function AdminGameImageManager() {
                         )}
                       </div>
                       <figcaption className="grid gap-2 p-2 text-xs">
-                        <span className="truncate font-mono" title={url}>{url}</span>
+                        <span className="truncate font-mono" title={url}>
+                          {url}
+                        </span>
                         <div className="flex flex-wrap items-center gap-2">
-                          {url === form.coverImage ? <span className="rounded bg-blue-100 px-2 py-1 font-bold text-blue-800">Bìa</span> : null}
+                          {url === form.coverImage ? <span className="rounded bg-teal-100 px-2 py-1 font-bold text-teal-800">Bìa</span> : null}
                           {isPlaceholderGameImage(url) ? <span className="rounded bg-amber-100 px-2 py-1 font-bold text-amber-800">Nghi ngờ</span> : null}
                           {gallery.includes(url) ? (
                             <button type="button" className="rounded border px-2 py-1 font-bold" onClick={() => removeGalleryUrl(url)}>

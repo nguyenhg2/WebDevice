@@ -1,13 +1,6 @@
 import type { Game } from "@/types";
 
-export type ImageSource = {
-  url: string;
-  source?: string;
-  sourceUrl?: string;
-};
-
 export type GameImages = Record<string, string[]>;
-export type GameImageSources = Record<string, ImageSource[]>;
 
 export type GameImageItem = {
   name: string;
@@ -15,7 +8,6 @@ export type GameImageItem = {
   coverImage: string | null;
   officialUrl: string | null;
   gallery: string[];
-  sources: ImageSource[];
   issues: string[];
 };
 
@@ -92,7 +84,7 @@ export function getGameImageIssues(game: Pick<Game, "coverImage">, gallery: stri
   return Array.from(new Set(issues));
 }
 
-export function buildGameImageItem(game: Game, images: GameImages, sources: GameImageSources): GameImageItem {
+export function buildGameImageItem(game: Game, images: GameImages): GameImageItem {
   const gallery = images[game.slug] ?? [];
 
   return {
@@ -101,7 +93,6 @@ export function buildGameImageItem(game: Game, images: GameImages, sources: Game
     coverImage: game.coverImage,
     officialUrl: game.officialUrl,
     gallery,
-    sources: sources[game.slug] ?? [],
     issues: getGameImageIssues(game, gallery),
   };
 }

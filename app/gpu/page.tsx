@@ -10,17 +10,15 @@ export default function GpuList() {
   });
 
   return (
-    <section className="container py-8">
-      <header className="grid gap-4 lg:grid-cols-[1fr_320px]">
+    <main className="container page-section">
+      <header className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div>
-          <p className="text-sm font-bold uppercase text-blue-700 dark:text-blue-300">GPU database</p>
-          <h1 className="mt-2 text-3xl font-black">Danh sách GPU và card đồ họa</h1>
-          <p className="mt-3 max-w-3xl text-slate-600 dark:text-gray-300">
-            Ưu tiên các GPU có benchmark FPS thực tế, sau đó sắp theo điểm hiệu năng để người dùng dễ chọn card khi tra cứu game.
-          </p>
+          <p className="eyebrow">GPU database</p>
+          <h1 className="mt-2 text-4xl font-black">Danh sách GPU</h1>
+          <p className="mt-3 max-w-2xl text-slate-600 dark:text-gray-300">Chọn card đồ họa để xem những game phù hợp và FPS tham khảo.</p>
         </div>
-        <div className="card grid grid-cols-2 gap-3 p-4 text-sm">
-          <Metric label="GPU/card" value={gpus.length.toLocaleString("vi-VN")} />
+        <div className="surface grid grid-cols-2 gap-3 p-4 text-sm">
+          <Metric label="GPU" value={gpus.length.toLocaleString("vi-VN")} />
           <Metric label="Có FPS" value={[...fpsCounts.keys()].length.toLocaleString("vi-VN")} />
         </div>
       </header>
@@ -29,14 +27,14 @@ export default function GpuList() {
           <GpuCard key={gpu.slug} gpu={gpu} count={fpsCounts.get(gpu.slug) ?? 0} />
         ))}
       </div>
-    </section>
+    </main>
   );
 }
 
 function Metric({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-md border border-slate-200 p-3 dark:border-gray-700">
-      <p className="text-xs text-slate-500">{label}</p>
+    <div className="metric">
+      <p className="text-xs text-slate-500 dark:text-gray-400">{label}</p>
       <p className="mt-1 font-black">{value}</p>
     </div>
   );

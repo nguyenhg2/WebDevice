@@ -55,7 +55,7 @@ async function upsertGame(client: PgClient, game: any) {
      "name"=EXCLUDED."name","steamId"=EXCLUDED."steamId","genres"=EXCLUDED."genres","sizeGb"=EXCLUDED."sizeGb","price"=EXCLUDED."price",
      "isFree"=EXCLUDED."isFree","description"=EXCLUDED."description","coverImage"=EXCLUDED."coverImage","officialUrl"=EXCLUDED."officialUrl",
      "minSpecs"=EXCLUDED."minSpecs","recSpecs"=EXCLUDED."recSpecs","updatedAt"=NOW()`,
-    [idFromSlug("game", game.slug), game.name, game.slug, game.steamId ?? null, game.genres ?? [], game.sizeGb ?? 0, game.price ?? 0, Boolean(game.isFree), game.description ?? "", game.coverImage ?? null, game.officialUrl ?? null, JSON.stringify(game.minSpecs ?? {}), JSON.stringify(game.recSpecs ?? {})],
+    [idFromSlug("game", game.slug), game.name, game.slug, game.steamId ?? null, game.genres ?? [], game.sizeGb ?? 0, game.price ?? null, Boolean(game.isFree), game.description ?? "", game.coverImage ?? null, game.officialUrl ?? null, JSON.stringify(game.minSpecs ?? {}), JSON.stringify(game.recSpecs ?? {})],
   );
 }
 
@@ -97,12 +97,32 @@ async function upsertDevice(client: PgClient, device: any) {
 
 async function upsertBenchmark(client: PgClient, benchmark: any) {
   await client.query(
-    `INSERT INTO "GameGpuBenchmark" ("id","gameId","gpuId","resolution","fpsLow","fpsMedium","fpsHigh","fpsUltra","recommendedSetting","status","videoTestUrl","source")
-     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)
+    `INSERT INTO "GameGpuBenchmark" ("id","gameId","gpuId","resolution","fpsLow","fpsMedium","fpsHigh","fpsUltra","recommendedSetting","setting","avgFps","onePercentLow","status","videoTestUrl","source","confidence","updatedAt")
+     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17)
      ON CONFLICT ("gameId","gpuId","resolution") DO UPDATE SET
      "fpsLow"=EXCLUDED."fpsLow","fpsMedium"=EXCLUDED."fpsMedium","fpsHigh"=EXCLUDED."fpsHigh","fpsUltra"=EXCLUDED."fpsUltra",
-     "recommendedSetting"=EXCLUDED."recommendedSetting","status"=EXCLUDED."status","videoTestUrl"=EXCLUDED."videoTestUrl","source"=EXCLUDED."source"`,
-    [idFromSlug("bench", `${benchmark.gameSlug}_${benchmark.gpuSlug}_${benchmark.resolution}`), idFromSlug("game", benchmark.gameSlug), idFromSlug("gpu", benchmark.gpuSlug), benchmark.resolution, benchmark.fpsLow ?? 0, benchmark.fpsMedium ?? 0, benchmark.fpsHigh ?? 0, benchmark.fpsUltra ?? 0, benchmark.recommendedSetting ?? "Low", benchmark.status ?? "playable", benchmark.videoTestUrl ?? null, benchmark.source ?? "Quản trị"],
+     "recommendedSetting"=EXCLUDED."recommendedSetting","setting"=EXCLUDED."setting","avgFps"=EXCLUDED."avgFps","onePercentLow"=EXCLUDED."onePercentLow",
+     "status"=EXCLUDED."status","videoTestUrl"=EXCLUDED."videoTestUrl","source"=EXCLUDED."source",
+     "confidence"=EXCLUDED."confidence","updatedAt"=EXCLUDED."updatedAt"`,
+    [
+      idFromSlug("bench", `${benchmark.gameSlug}_${benchmark.gpuSlug}_${benchmark.resolution}`),
+      idFromSlug("game", benchmark.gameSlug),
+      idFromSlug("gpu", benchmark.gpuSlug),
+      benchmark.resolution,
+      benchmark.fpsLow ?? 0,
+      benchmark.fpsMedium ?? 0,
+      benchmark.fpsHigh ?? 0,
+      benchmark.fpsUltra ?? 0,
+      benchmark.recommendedSetting ?? "Low",
+      benchmark.setting ?? benchmark.recommendedSetting ?? "Low",
+      benchmark.avgFps ?? (benchmark.fpsUltra || benchmark.fpsHigh || benchmark.fpsMedium || benchmark.fpsLow || 0),
+      benchmark.onePercentLow ?? benchmark.fpsLow ?? 0,
+      benchmark.status ?? "playable",
+      benchmark.videoTestUrl ?? null,
+      benchmark.source ?? "Quản trị",
+      benchmark.confidence ?? "manual",
+      benchmark.updatedAt ?? new Date().toISOString(),
+    ],
   );
 }
 
@@ -137,7 +157,7 @@ const listConfig: Record<AdminCollection, { table: string; columns: string[]; se
   gpu: { table: "Gpu", columns: ["name", "slug", "brand", "benchmarkScore", "category", "tdp", "vram", "priceRangeVnd", "isLaptop", "commonInVietnam"], search: ["name", "slug", "brand"], order: "name" },
   cpu: { table: "Cpu", columns: ["name", "slug", "brand", "benchmarkScore", "cores", "threads", "generation", "socket", "integratedGpu", "priceRangeVnd", "commonInVietnam"], search: ["name", "slug", "brand"], order: "name" },
   device: { table: "Device", columns: ["name", "slug", "type", "brand", "cpu", "gpu", "ramGb", "storageGb", "storageType", "screenSize", "screenResolution", "priceVnd", "priceRange", "shopeeUrl", "tikiUrl", "phongvuUrl", "gearvnUrl", "imageUrl"], search: ["name", "slug", "brand", "cpu", "gpu"], order: "name" },
-  benchmark: { table: "GameGpuBenchmark", columns: ["id", "gameId", "gpuId", "resolution", "fpsLow", "fpsMedium", "fpsHigh", "fpsUltra", "recommendedSetting", "status", "videoTestUrl", "source"], search: ["id", "gameId", "gpuId", "resolution"], order: "createdAt" },
+  benchmark: { table: "GameGpuBenchmark", columns: ["id", "gameId", "gpuId", "resolution", "fpsLow", "fpsMedium", "fpsHigh", "fpsUltra", "recommendedSetting", "setting", "avgFps", "onePercentLow", "status", "videoTestUrl", "source", "confidence", "updatedAt"], search: ["id", "gameId", "gpuId", "resolution", "source"], order: "updatedAt" },
   blogPost: { table: "BlogPost", columns: ["title", "slug", "content", "excerpt", "category", "tags", "metaTitle", "metaDescription", "publishedAt"], search: ["title", "slug", "excerpt"], order: "publishedAt" },
 };
 

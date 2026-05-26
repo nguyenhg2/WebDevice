@@ -1,13 +1,21 @@
 export function vnSlug(input: string): string {
-  return input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/Đ/g, "D").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return input
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 export function formatVnd(value: number): string {
-  return new Intl.NumberFormat("vi-VN").format(value) + "₫";
+  return `${new Intl.NumberFormat("vi-VN").format(value)}đ`;
 }
 
 export function formatGamePrice(price: number | null | undefined, isFree: boolean): string {
-  return isFree ? "Miễn phí" : typeof price === "number" ? formatVnd(price) : "Xem giá chính thức";
+  if (isFree) return "Miễn phí";
+  return typeof price === "number" && price > 0 ? formatVnd(price) : "Xem giá";
 }
 
 export function clamp(value: number, min: number, max: number): number {

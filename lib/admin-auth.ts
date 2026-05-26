@@ -1,12 +1,12 @@
 import crypto from "node:crypto";
 import type { NextRequest } from "next/server";
 
-export const ADMIN_COOKIE = "maynaychoiduoc_admin";
+export const ADMIN_COOKIE = "fpsviet_admin";
 
 const encoder = new TextEncoder();
 
 function adminEmail() {
-  return process.env.ADMIN_EMAIL || "admin@maynaychoiduoc.vn";
+  return process.env.ADMIN_EMAIL || "admin@fpsviet.com";
 }
 
 function adminPassword() {

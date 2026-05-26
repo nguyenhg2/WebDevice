@@ -1,6 +1,6 @@
-# Maynaychoiduoc.vn
+# Fpsviet.com
 
-Nen tang tra cuu game theo cau hinh PC/laptop cho thi truong Viet Nam, dung Next.js 15, TypeScript, Tailwind CSS 4, Supabase, Redis Cloud va Vercel free tier. Cac luong chinh gom tra cuu cau hinh, benchmark FPS, build PC theo ngan sach/game muc tieu, danh muc GPU/laptop va SEO pages.
+Nen tang tra cuu game theo cau hinh PC/laptop cho thi truong Viet Nam, dung Next.js 15, TypeScript, Tailwind CSS 4, Supabase, Redis Cloud va Vercel free tier.
 
 ## Cai dat
 
@@ -25,42 +25,48 @@ Bien moi truong can cau hinh tren Vercel:
 
 ## Du lieu
 
-Du lieu seed nam trong `data/`: 132 game, 87 GPU, 30 CPU, 30 thiet bi, hon 3.400 benchmark va 20 bai blog.
+Du lieu seed nam trong `data/`: game co anh that, GPU co benchmark, thiet bi co GPU ton tai trong catalog, benchmark FPS noi bo va blog huong dan. Catalog khong luu link nguon benchmark tu website canh tranh; cot URL nguon da duoc loai bo. Neu can kiem chung FPS, chi dung `videoTestUrl` la link video test da duyet hoac link tim kiem YouTube tao o frontend.
 
-Trang `/build-pc` tham khao mo hinh quick/guided builder cua DropReference: nguoi dung chon ngan sach, game, do phan giai, FPS, setting va nhu cau su dung; engine noi bo se xep hang combo GPU/CPU, may co san va phuong an thay the dua tren du lieu benchmark trong `data/`.
-
-Game co the cap nhat tu nguon that bang:
+Cap nhat thong tin game tu nguon chinh thuc bang:
 
 ```bash
 npm run data:scrape
 ```
 
-Script `scripts/scrape-real-game-data.mjs` lay du lieu tu Steam Store API voi vung `vn`, fallback `us` neu game bi gioi han vung. Cac game khong co tren Steam duoc gan website chinh thuc cua nha phat hanh. Nguon cua tung game nam trong `data/game-sources.json`.
-
-Bo sung game, anh va FPS benchmark tu DropReference bang:
+Cap nhat gallery anh bang:
 
 ```bash
-npm run data:dropreference
+npm run data:images
 ```
 
-Script `scripts/scrape-dropreference-data.mjs` doc trang `https://dropreference.com/en/benchmarks`, cac trang chi tiet game, roi merge game moi, gallery anh, nguon anh va FPS 1080p medium vao cac file `data/` hien co.
-
-Neu moi truong Codex bi chan network sandbox, chay truc tiep tren Windows:
-
-```bat
-scripts\run-dropreference-import.cmd
-```
-
-Runner nay goi importer DropReference o che do lay toan bo benchmark catalog tim thay qua pagination va sitemap, ghi log vao `data/dropreference-import.log`, tao tom tat `data/dropreference-import-summary.json`, roi chay `npm run build` de kiem tra du lieu sau khi merge.
-
-Bo sung lop du lieu FPS ngoai de admin duyet bang:
+Phat hien game moi tu sitemap cong khai cua cac site tham khao bang:
 
 ```bash
-npm run data:fps-sources
+npm run data:discover-games
 ```
 
-Script nay doc FPS cong khai tu PCGameBenchmark vao `data/external-fps-samples.json`, cap nhat tinh trang nguon trong `data/data-source-status.json`, va khong bypass Cloudflare/robots.txt. HowManyFPS va PC-Builds se duoc ghi nhan neu bi browser verification chan; UserBenchmark bi tat truc tiep vi robots.txt `Disallow: /`.
+Lenh nay chi tao `data/game-expansion-candidates.json` de admin duyet them game. File candidate khong luu FPS, khong luu URL nguon ngoai va khong duoc dung truc tiep trong frontend. Benchmark chinh chi nhan FPS noi bo, video test da duyet hoac so lieu da duoc kiem chung/duoc cap quyen.
+
+Kiem tra du lieu, typecheck va build truoc deploy:
+
+```bash
+npm run verify
+```
+
+Cap nhat va build bang mot lenh:
+
+```bash
+npm run data:update
+```
 
 ## Deploy
 
-Day repo len GitHub, import vao Vercel, cau hinh cac bien moi truong trong `.env.local.example`, sau do deploy. Sitemap nam tai `/sitemap.xml`, robots tai `/robots.txt`.
+Project Vercel `web-device` da ket noi voi GitHub repo `nguyenhg2/WebDevice`, nen moi lan push len `main` se tu dong build/deploy tren Vercel. Neu can deploy thu cong tu may local:
+
+```bash
+npm run deploy
+```
+
+Can cau hinh cac bien moi truong trong Vercel theo `.env.local.example`. Sitemap nam tai `/sitemap.xml`, robots tai `/robots.txt`.
+
+Domain production hien tai tren Vercel: `https://web-device-jade.vercel.app`.

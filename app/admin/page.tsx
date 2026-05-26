@@ -1,7 +1,7 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import AdminGameImageManager from "@/components/AdminGameImageManager";
 import AdminDataQualityPanel from "@/components/AdminDataQualityPanel";
+import AdminGameImageManager from "@/components/AdminGameImageManager";
 import AdminUpsertForm from "@/components/AdminUpsertForm";
 import { ADMIN_COOKIE, verifyAdminToken } from "@/lib/admin-auth";
 import { benchmarks, blogPosts, cpus, devices, gameImages, games, gpus } from "@/lib/data";
@@ -12,77 +12,66 @@ export default async function AdminPage() {
   const admin = verifyAdminToken(cookieStore.get(ADMIN_COOKIE)?.value);
   if (!admin) redirect("/admin/login");
 
-  const remoteImages = games.filter((game) => /^https?:\/\//.test(game.coverImage || "")).length;
-  const freeGames = games.filter((game) => game.isFree).length;
-  const steamGames = games.filter((game) => game.steamId).length;
   const imageIssueCount = games.filter((game) => getGameImageIssues(game, gameImages[game.slug] ?? []).length > 0).length;
+  const videoCount = benchmarks.filter((row) => row.videoTestUrl).length;
   const stats = [
-    ["Game", games.length],
-    ["Game có ảnh thật", remoteImages],
-    ["Game cần sửa ảnh", imageIssueCount],
-    ["Game Steam", steamGames],
-    ["Game miễn phí", freeGames],
-    ["GPU", gpus.length],
-    ["CPU", cpus.length],
-    ["Thiết bị", devices.length],
-    ["Benchmark", benchmarks.length],
-    ["Bài viết", blogPosts.length],
+    ["Game", games.length.toLocaleString("vi-VN")],
+    ["GPU", gpus.length.toLocaleString("vi-VN")],
+    ["Benchmark", benchmarks.length.toLocaleString("vi-VN")],
+    ["Video test", videoCount.toLocaleString("vi-VN")],
+    ["Ảnh cần sửa", imageIssueCount.toLocaleString("vi-VN")],
+    ["Laptop/PC", devices.length.toLocaleString("vi-VN")],
+    ["CPU", cpus.length.toLocaleString("vi-VN")],
+    ["Bài viết", blogPosts.length.toLocaleString("vi-VN")],
   ];
 
   return (
-    <section className="container py-8">
-      <div className="flex flex-wrap items-start justify-between gap-4">
+    <main className="container page-section">
+      <header className="flex flex-wrap items-start justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-black">Quản trị Maynaychoiduoc.vn</h1>
-          <p className="mt-2 max-w-4xl text-slate-600 dark:text-gray-300">
-            Đăng nhập: {admin.email}. Ưu tiên dùng phần Ảnh game để sửa nhanh game bị ảnh bìa lỗi, gallery thiếu ảnh thật hoặc còn placeholder.
+          <p className="eyebrow">Admin</p>
+          <h1 className="mt-2 text-4xl font-black">Quản trị dữ liệu</h1>
+          <p className="mt-2 max-w-3xl text-slate-600 dark:text-gray-300">
+            Đăng nhập: {admin.email}. Ưu tiên sửa ảnh, bổ sung video test và kiểm tra coverage benchmark.
           </p>
         </div>
         <form action="/api/admin/logout" method="post">
-          <button className="rounded-md border px-3 py-2 text-sm font-bold">Đăng xuất</button>
+          <button className="btn-secondary">Đăng xuất</button>
         </form>
-      </div>
+      </header>
 
-      <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+      <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {stats.map(([label, value]) => (
-          <div className="card p-4" key={label}>
-            <p className="text-sm text-slate-500">{label}</p>
+          <div className="surface p-4" key={label}>
+            <p className="text-sm text-slate-500 dark:text-gray-400">{label}</p>
             <p className="mt-1 text-3xl font-black">{value}</p>
           </div>
         ))}
       </div>
 
       <section className="mt-8">
-        <div className="mb-4">
-          <h2 className="text-2xl font-black">Chất lượng dữ liệu</h2>
-          <p className="mt-2 text-sm text-slate-600 dark:text-gray-300">
-            Kiểm tra coverage benchmark, tình trạng nguồn cào dữ liệu và các mẫu FPS ngoài cần duyệt trước khi nhập vào benchmark chính.
-          </p>
-        </div>
+        <SectionHeader title="Chất lượng dữ liệu" description="Theo dõi catalog đang dùng cho production: game, GPU, FPS, ảnh và video test." />
         <AdminDataQualityPanel />
       </section>
 
-      <section className="mt-8">
-        <div className="mb-4">
-          <h2 className="text-2xl font-black">Ảnh game</h2>
-          <p className="mt-2 text-sm text-slate-600 dark:text-gray-300">
-            Sửa ảnh bìa và gallery trong các file dữ liệu tĩnh đang được frontend sử dụng. Khi sửa ở local, hãy deploy lại để production nhận dữ liệu mới.
-          </p>
-        </div>
+      <section id="admin-images" className="mt-8 scroll-mt-24">
+        <SectionHeader title="Ảnh game" description="Sửa cover và gallery cho các game có ảnh lỗi, logo, thumbnail hoặc placeholder." />
         <AdminGameImageManager />
       </section>
 
-      <section className="mt-8">
-        <details className="card p-4">
-          <summary className="cursor-pointer text-2xl font-black">Dữ liệu khác</summary>
-          <p className="mt-2 text-sm text-slate-600 dark:text-gray-300">
-            Form này lưu game, GPU, CPU, thiết bị, benchmark và blog vào Supabase/Postgres qua <code>DATABASE_URL</code> hoặc <code>ADMIN_DATABASE_URL</code>.
-          </p>
-          <div className="mt-4">
-            <AdminUpsertForm />
-          </div>
-        </details>
+      <section id="admin-editor" className="mt-8 scroll-mt-24">
+        <SectionHeader title="Nhập liệu nâng cao" description="Chỉnh sửa game, GPU, CPU, thiết bị, benchmark và bài viết trong Supabase." />
+        <AdminUpsertForm />
       </section>
-    </section>
+    </main>
+  );
+}
+
+function SectionHeader({ title, description }: { title: string; description: string }) {
+  return (
+    <div className="mb-4">
+      <h2 className="text-2xl font-black">{title}</h2>
+      <p className="mt-1 text-sm text-slate-600 dark:text-gray-300">{description}</p>
+    </div>
   );
 }

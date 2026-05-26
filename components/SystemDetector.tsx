@@ -10,8 +10,7 @@ type Detection = {
   ramGb: number;
   resolution: Resolution;
   renderer: string;
-  confidence: "cao" | "vừa" | "ước lượng";
-  notes: string[];
+  confidence: "vừa" | "ước lượng";
 };
 
 type Props = {
@@ -75,22 +74,17 @@ export default function SystemDetector({ cpus, gpus, current }: Props) {
       const gpu = chooseGpu(gpus, renderer);
       const cpu = chooseCpu(cpus, cores);
       const resolution = chooseResolution(gpu, ramGb);
-      const notes = [
-        renderer ? `GPU trình duyệt báo: ${renderer}` : "Trình duyệt không cho đọc tên GPU, hệ thống dùng mức ước lượng an toàn.",
-        `CPU ước lượng theo ${cores} luồng xử lý trình duyệt báo; trình duyệt không cung cấp tên CPU thật.`,
-        `RAM trình duyệt báo khoảng ${ramGb}GB.`,
-      ];
+
       setDetection({
         gpu,
         cpu,
         ramGb,
         resolution,
-        renderer: renderer || "Không đọc được",
+        renderer: renderer || "Không đọc được từ trình duyệt",
         confidence: renderer ? "vừa" : "ước lượng",
-        notes,
       });
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Không thể tự nhận diện cấu hình trên trình duyệt này.");
+      setError(err instanceof Error ? err.message : "Trình duyệt này không cho đọc cấu hình.");
     }
   }
 
@@ -106,38 +100,31 @@ export default function SystemDetector({ cpus, gpus, current }: Props) {
   }
 
   return (
-    <section className="card mt-5 p-4">
-      <div className="flex flex-wrap items-start justify-between gap-3">
+    <section className="surface mt-5 p-4">
+      <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="text-xl font-black">Không biết cấu hình máy?</h2>
-          <p className="mt-1 text-sm text-slate-600 dark:text-gray-300">
-            Bấm tự nhận diện để trình duyệt ước lượng CPU, GPU, RAM và chọn cấu hình gần nhất trong dữ liệu.
-          </p>
+          <h2 className="text-lg font-black">Không biết cấu hình?</h2>
+          <p className="mt-1 text-sm text-slate-600 dark:text-gray-300">Có thể ước lượng nhanh từ trình duyệt, sau đó bạn vẫn chỉnh lại được.</p>
           <p className="mt-2 text-xs text-slate-500">Đang chọn: {selectedSummary}</p>
         </div>
-        <button type="button" className="btn" onClick={detect}>
-          Tự nhận diện máy này
+        <button type="button" className="btn-secondary" onClick={detect}>
+          Tự nhận diện
         </button>
       </div>
 
-      {error ? <p className="mt-3 rounded-md border border-red-200 bg-red-50 p-3 text-sm font-semibold text-red-700">{error}</p> : null}
+      {error ? <p className="mt-3 rounded-md border border-rose-200 bg-rose-50 p-3 text-sm font-semibold text-rose-700">{error}</p> : null}
 
       {detection ? (
-        <div className="mt-4 grid gap-3 lg:grid-cols-[1fr_220px]">
-          <dl className="grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
-            <Info label="GPU gần nhất" value={detection.gpu.name} />
-            <Info label="CPU gần nhất" value={detection.cpu.name} />
+        <div className="mt-4 grid gap-3 lg:grid-cols-[1fr_auto]">
+          <dl className="grid gap-3 text-sm sm:grid-cols-4">
+            <Info label="GPU" value={detection.gpu.name} />
+            <Info label="CPU" value={detection.cpu.name} />
             <Info label="RAM" value={`${detection.ramGb}GB`} />
             <Info label="Độ tin cậy" value={detection.confidence} />
           </dl>
-          <button type="button" className="rounded-md border px-4 py-2 text-sm font-bold hover:bg-slate-50 dark:hover:bg-gray-800" onClick={applyDetection}>
-            Áp dụng cấu hình này
+          <button type="button" className="btn" onClick={applyDetection}>
+            Dùng cấu hình này
           </button>
-          <ul className="text-xs text-slate-500 lg:col-span-2">
-            {detection.notes.map((note) => (
-              <li key={note}>{note}</li>
-            ))}
-          </ul>
         </div>
       ) : null}
     </section>
@@ -146,8 +133,8 @@ export default function SystemDetector({ cpus, gpus, current }: Props) {
 
 function Info({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-md border border-slate-200 p-3 dark:border-gray-700">
-      <dt className="text-xs text-slate-500">{label}</dt>
+    <div className="metric">
+      <dt className="text-xs text-slate-500 dark:text-gray-400">{label}</dt>
       <dd className="mt-1 font-bold">{value}</dd>
     </div>
   );

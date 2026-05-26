@@ -1,10 +1,21 @@
 import type { Status } from "@/types";
 
+const statusMap: Record<Status, { label: string; className: string }> = {
+  smooth: {
+    label: "Mượt",
+    className: "bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-100",
+  },
+  playable: {
+    label: "Chơi được",
+    className: "bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-100",
+  },
+  not_recommended: {
+    label: "Yếu",
+    className: "bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-100",
+  },
+};
+
 export default function CompatibilityBadge({ status }: { status: Status }) {
-  const map = {
-    smooth: ["Chơi mượt", "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-100"],
-    playable: ["Chơi được", "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-100"],
-    not_recommended: ["Không khuyến nghị", "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-100"],
-  } as const;
-  return <span className={"inline-flex rounded-full px-2.5 py-1 text-xs font-bold " + map[status][1]}>{map[status][0]}</span>;
+  const item = statusMap[status];
+  return <span className={"inline-flex rounded-full px-2.5 py-1 text-xs font-black " + item.className}>{item.label}</span>;
 }

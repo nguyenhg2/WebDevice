@@ -4,8 +4,6 @@ import path from "node:path";
 const ROOT = process.cwd();
 const gamesPath = path.join(ROOT, "data", "games.json");
 const imagesPath = path.join(ROOT, "data", "game-images.json");
-const sourcesPath = path.join(ROOT, "data", "game-image-sources.json");
-const sourcePacksPath = path.join(ROOT, "data", "game-image-source-packs.json");
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const REQUEST_TIMEOUT_MS = 8000;
@@ -13,7 +11,7 @@ const CONCURRENCY = Number.parseInt(process.env.SCRAPE_IMAGE_CONCURRENCY || "5",
 const FULL_GALLERY_SIZE = 8;
 const MAX_GALLERY_SIZE = 12;
 const BROWSER_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36";
-const sourcePackTargetSlugs = new Set(["fortnite", "roblox", "genshin-impact", "audition"]);
+const deepOfficialSlugs = new Set(["fortnite", "roblox", "genshin-impact", "audition"]);
 
 const officialImageSourceOverrides = {
   fortnite: [
@@ -141,9 +139,9 @@ async function fetchText(url) {
   return response.text();
 }
 
-function pushImage(items, url, source, sourceUrl) {
+function pushImage(items, url, source, originUrl) {
   if (!url) return;
-  items.push({ url, source, sourceUrl });
+  items.push({ url, source, originUrl });
 }
 
 async function steamImages(steamId) {
@@ -267,7 +265,7 @@ function extractOfficialImages(baseUrl, html) {
 async function officialSiteImages(pageUrl) {
   if (!pageUrl) return [];
   const html = await fetchText(pageUrl);
-  return extractOfficialImages(pageUrl, html).map((url) => ({ url, source: "official-site", sourceUrl: pageUrl }));
+  return extractOfficialImages(pageUrl, html).map((url) => ({ url, source: "official-site", originUrl: pageUrl }));
 }
 
 function extractLinkedOfficialPages(baseUrl, html) {
@@ -330,16 +328,6 @@ function officialImageUrlsForGame(game, includeSourcePack) {
   return [...urls];
 }
 
-async function readConfiguredSourcePacks() {
-  const sourcePacks = await fs.readFile(sourcePacksPath, "utf8").then((value) => JSON.parse(value)).catch(() => ({}));
-  const merged = { ...officialImageSourceOverrides };
-  for (const [slug, urls] of Object.entries(sourcePacks)) {
-    if (!Array.isArray(urls)) continue;
-    merged[slug] = [...new Set([...(merged[slug] ?? []), ...urls.filter((url) => typeof url === "string")])];
-  }
-  return merged;
-}
-
 async function officialImagesForGame(game, { includeSourcePack, deep }) {
   const items = [];
   const errors = [];
@@ -387,28 +375,28 @@ function dedupeImages(items, coverImage) {
 
 function isRelevantImageForGame(item, game) {
   const url = item.url.toLowerCase();
-  const sourceUrl = String(item.sourceUrl || "").toLowerCase();
+  const originUrl = String(item.originUrl || "").toLowerCase();
   if (item.source === "catalog-cover" || item.source?.startsWith("steam")) return true;
 
   if (/app-store\.png|support|gamecenter|googleusercontent\.com\/xl04gurqer|xboxgamepass|xgp-cross-sell|xpa_super-hero|freegamespromotions/i.test(url)) return false;
 
   if (game.slug === "fortnite") {
     if (/model-builder|eternal-threads|lost-castle|xboxgamepass|xgp-cross-sell|xpa_super-hero/i.test(url)) return false;
-    return /fortnite|epicgames|unrealengine|playstation|xbox/i.test(url) || /fortnite|epicgames|playstation|xbox/i.test(sourceUrl);
+    return /fortnite|epicgames|unrealengine|playstation|xbox/i.test(url) || /fortnite|epicgames|playstation|xbox/i.test(originUrl);
   }
 
   if (game.slug === "roblox") {
     if (/app-store\.png|support|gamecenter/i.test(url)) return false;
-    return /roblox|rbxcdn|googleusercontent|mzstatic|store-images/i.test(url) || /roblox|apple\.com|google\.com|xbox\.com/i.test(sourceUrl);
+    return /roblox|rbxcdn|googleusercontent|mzstatic|store-images/i.test(url) || /roblox|apple\.com|google\.com|xbox\.com/i.test(originUrl);
   }
 
   if (game.slug === "genshin-impact") {
     if (/app-store\.png|support|gamecenter|hero-in-game-companion/i.test(url)) return false;
-    return /genshin|hoyoverse|mihoyo|googleusercontent|mzstatic/i.test(url) || /genshin|hoyoverse|mihoyo|apple\.com|google\.com/i.test(sourceUrl);
+    return /genshin|hoyoverse|mihoyo|googleusercontent|mzstatic/i.test(url) || /genshin|hoyoverse|mihoyo|apple\.com|google\.com/i.test(originUrl);
   }
 
   if (game.slug === "audition") {
-    return /audition|aupc|vtcgame|cdnmedia/i.test(url) || /vtcgame/i.test(sourceUrl);
+    return /audition|aupc|vtcgame|cdnmedia/i.test(url) || /vtcgame/i.test(originUrl);
   }
 
   return true;
@@ -434,13 +422,10 @@ async function mapLimit(items, limit, mapper) {
   return results;
 }
 
-async function scrapeGameImages(game, existingSources) {
+async function scrapeGameImages(game) {
   const items = [];
   const gameFailures = [];
 
-  for (const item of existingSources[game.slug] ?? []) {
-    pushImage(items, item.url, item.source || "previous-scrape", item.sourceUrl || "data/game-image-sources.json");
-  }
   if (game.coverImage) {
     pushImage(items, game.coverImage, "catalog-cover", game.officialUrl || "data/games.json");
   }
@@ -448,7 +433,7 @@ async function scrapeGameImages(game, existingSources) {
   const baseline = dedupeImages(filterImagesForGame(items, game), game.coverImage);
   const needsMoreImages = baseline.length < FULL_GALLERY_SIZE;
   const hasFullGallery = baseline.length >= MAX_GALLERY_SIZE;
-  const shouldUseSourcePack = needsMoreImages && sourcePackTargetSlugs.has(game.slug);
+  const shouldUseSourcePack = needsMoreImages && deepOfficialSlugs.has(game.slug);
 
   if (!hasFullGallery && game.steamId) {
     try {
@@ -475,18 +460,15 @@ async function scrapeGameImages(game, existingSources) {
 
 async function main() {
   const games = JSON.parse(await fs.readFile(gamesPath, "utf8"));
-  configuredOfficialImageSourceOverrides = await readConfiguredSourcePacks();
-  const existingSources = await fs.readFile(sourcesPath, "utf8").then((value) => JSON.parse(value)).catch(() => ({}));
+  configuredOfficialImageSourceOverrides = officialImageSourceOverrides;
   const galleries = {};
-  const sources = {};
   const failures = [];
 
-  const results = await mapLimit(games, CONCURRENCY, (game) => scrapeGameImages(game, existingSources));
+  const results = await mapLimit(games, CONCURRENCY, (game) => scrapeGameImages(game));
 
   for (const { game, clean, failures: gameFailures } of results) {
     if (clean.length) {
       galleries[game.slug] = clean.map((item) => item.url);
-      sources[game.slug] = clean.map((item) => ({ url: item.url, source: item.source, sourceUrl: item.sourceUrl }));
       if (process.env.SCRAPE_VERBOSE_FAILURES === "1" && gameFailures.length) {
         failures.push(`${game.slug} ${gameFailures.join("; ")}`);
       }
@@ -503,7 +485,6 @@ async function main() {
   }
 
   await fs.writeFile(imagesPath, `${JSON.stringify(galleries, null, 2)}\n`, "utf8");
-  await fs.writeFile(sourcesPath, `${JSON.stringify(sources, null, 2)}\n`, "utf8");
   console.log(`Wrote image galleries for ${Object.keys(galleries).length} games.`);
   if (failures.length) console.log(`Failures:\n${failures.slice(0, 80).join("\n")}`);
 }

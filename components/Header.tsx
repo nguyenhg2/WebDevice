@@ -1,34 +1,50 @@
 import Link from "next/link";
-import ThemeToggle from "@/components/ThemeToggle";
 import SearchBar from "@/components/SearchBar";
+import ThemeToggle from "@/components/ThemeToggle";
+
+const nav = [
+  ["/tra-cuu", "Tra cứu"],
+  ["/chon-game", "Game"],
+  ["/benchmark", "FPS"],
+  ["/laptop", "Laptop"],
+  ["/gpu", "GPU"],
+] as const;
 
 export default function Header() {
-  const nav = [
-    ["/tra-cuu", "Tra cứu"],
-    ["/build-pc", "Build PC"],
-    ["/chon-game", "Game"],
-    ["/gpu", "GPU"],
-    ["/laptop", "Laptop"],
-  ];
-
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur dark:border-gray-700 dark:bg-gray-900/95">
-      <div className="container flex min-h-16 flex-wrap items-center gap-3 py-3">
-        <Link href="/" className="text-xl font-black text-blue-700 dark:text-blue-400">
-          Maynaychoiduoc.vn
+    <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/88 backdrop-blur-xl dark:border-gray-800 dark:bg-gray-950/86">
+      <div className="container flex min-h-16 items-center gap-3 py-3">
+        <Link href="/" className="flex min-w-fit items-center gap-2 font-black text-slate-950 dark:text-white" aria-label="Trang chủ Fpsviet.com">
+          <span className="grid h-9 w-9 place-items-center rounded-lg bg-teal-600 text-sm text-white shadow-lg shadow-teal-700/20">F</span>
+          <span className="hidden sm:inline">Fpsviet.com</span>
         </Link>
-        <nav className="flex flex-wrap gap-1 text-sm font-semibold">
+
+        <nav className="hidden items-center gap-1 rounded-lg border border-slate-200 bg-slate-50 p-1 text-sm font-bold dark:border-gray-800 dark:bg-gray-900 lg:flex">
           {nav.map(([href, label]) => (
-            <Link key={href} href={href} className="rounded-md px-2 py-1 hover:bg-blue-50 dark:hover:bg-gray-800">
+            <Link key={href} href={href} className="rounded-md px-3 py-1.5 text-slate-700 hover:bg-white hover:text-teal-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-teal-300">
               {label}
             </Link>
           ))}
         </nav>
-        <div className="ml-auto flex min-w-64 items-center gap-2">
-          <SearchBar compact />
+
+        <div className="ml-auto flex min-w-0 items-center gap-2">
+          <div className="hidden w-[280px] md:block">
+            <SearchBar compact />
+          </div>
+          <Link href="/tra-cuu" className="btn hidden sm:inline-flex">
+            Kiểm tra máy
+          </Link>
           <ThemeToggle />
         </div>
       </div>
+
+      <nav className="container flex gap-2 overflow-x-auto pb-3 text-sm font-bold lg:hidden">
+        {nav.map(([href, label]) => (
+          <Link key={href} href={href} className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-slate-700 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200">
+            {label}
+          </Link>
+        ))}
+      </nav>
     </header>
   );
 }

@@ -104,10 +104,15 @@ CREATE TABLE "GameGpuBenchmark" (
   "fpsHigh" INTEGER NOT NULL,
   "fpsUltra" INTEGER NOT NULL,
   "recommendedSetting" TEXT NOT NULL,
+  "setting" TEXT,
+  "avgFps" INTEGER,
+  "onePercentLow" INTEGER,
   "status" "BenchmarkStatus" NOT NULL,
   "videoTestUrl" TEXT,
   "source" TEXT NOT NULL,
+  "confidence" TEXT NOT NULL DEFAULT 'measured',
   "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
   UNIQUE ("gameId", "gpuId", "resolution")
 );
 
@@ -118,3 +123,5 @@ CREATE INDEX "Device_slug_idx" ON "Device"("slug");
 CREATE INDEX "Device_priceRange_idx" ON "Device"("priceRange");
 CREATE INDEX "BlogPost_slug_idx" ON "BlogPost"("slug");
 CREATE INDEX "BlogPost_category_idx" ON "BlogPost"("category");
+CREATE INDEX "GameGpuBenchmark_source_idx" ON "GameGpuBenchmark"("source");
+CREATE INDEX "GameGpuBenchmark_confidence_idx" ON "GameGpuBenchmark"("confidence");

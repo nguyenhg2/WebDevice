@@ -8,7 +8,6 @@ import {
   isAllowedImageUrl,
   normalizeImageUrls,
   type GameImages,
-  type GameImageSources,
 } from "@/lib/game-images";
 import { getAdminFromRequest } from "@/lib/admin-auth";
 import type { Game } from "@/types";
@@ -18,7 +17,6 @@ export const runtime = "nodejs";
 const root = process.cwd();
 const gamesPath = path.join(root, "data", "games.json");
 const imagesPath = path.join(root, "data", "game-images.json");
-const sourcesPath = path.join(root, "data", "game-image-sources.json");
 
 function jsonError(message: string, status = 400) {
   return NextResponse.json({ success: false, error: message }, { status });
@@ -49,8 +47,7 @@ function cleanOptional(value: unknown) {
 async function loadData() {
   const games = await readJson<Game[]>(gamesPath, []);
   const images = await readJson<GameImages>(imagesPath, {});
-  const sources = await readJson<GameImageSources>(sourcesPath, {});
-  return { games, images, sources };
+  return { games, images };
 }
 
 function writeFailure(error: unknown) {
@@ -69,8 +66,8 @@ export async function GET(req: NextRequest) {
     const search = cleanText(url.searchParams.get("search"));
     const issuesOnly = url.searchParams.get("issuesOnly") === "1";
     const limit = Math.min(200, Math.max(1, Number(url.searchParams.get("limit") || 80)));
-    const { games, images, sources } = await loadData();
-    let items = games.map((game) => buildGameImageItem(game, images, sources));
+    const { games, images } = await loadData();
+    let items = games.map((game) => buildGameImageItem(game, images));
 
     if (search) items = items.filter((item) => includesGameImageSearch(item, search));
     if (issuesOnly) items = items.filter((item) => item.issues.length > 0);
@@ -97,7 +94,7 @@ export async function POST(req: NextRequest) {
     const slug = cleanText(body.slug);
     if (!slug) throw new Error("Thiếu slug game cần cập nhật.");
 
-    const { games, images, sources } = await loadData();
+    const { games, images } = await loadData();
     const game = games.find((item) => item.slug === slug);
     if (!game) throw new Error(`Không tìm thấy game "${slug}".`);
 
@@ -107,32 +104,21 @@ export async function POST(req: NextRequest) {
 
     const gallery = normalizeImageUrls(body.gallery);
     const nextGallery = normalizeImageUrls([coverImage, ...gallery].filter(Boolean));
-    const manualSourceUrl = cleanText(body.sourceUrl) || officialUrl || game.officialUrl || "admin-manual";
-    const previousSources = new Map((sources[slug] ?? []).map((item) => [item.url, item]));
 
     game.coverImage = coverImage;
     game.officialUrl = officialUrl;
     images[slug] = nextGallery;
-    sources[slug] = nextGallery.map((url) => {
-      const previous = previousSources.get(url);
-      return {
-        url,
-        source: previous?.source || "manual-admin",
-        sourceUrl: previous?.sourceUrl || manualSourceUrl,
-      };
-    });
 
     try {
       await writeJson(gamesPath, games);
       await writeJson(imagesPath, images);
-      await writeJson(sourcesPath, sources);
     } catch (error) {
       return jsonError(writeFailure(error), 500);
     }
 
     return NextResponse.json({
       success: true,
-      item: buildGameImageItem(game, images, sources),
+      item: buildGameImageItem(game, images),
     });
   } catch (error) {
     return jsonError(error instanceof Error ? error.message : String(error));

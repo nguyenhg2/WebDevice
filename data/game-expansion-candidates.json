@@ -1,0 +1,2710 @@
+[
+  {
+    "slug": "a-plague-tale-requiem",
+    "name": "A Plague Tale Requiem",
+    "inCatalog": true,
+    "existingGameSlug": "a-plague-tale-requiem",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:04.390Z"
+  },
+  {
+    "slug": "assassins-creed-mirage",
+    "name": "Assassins Creed Mirage",
+    "inCatalog": true,
+    "existingGameSlug": "assassins-creed-mirage",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:04.390Z"
+  },
+  {
+    "slug": "assassins-creed-odyssey",
+    "name": "Assassins Creed Odyssey",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "assassins-creed-shadows",
+    "name": "Assassins Creed Shadows",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "assassins-creed-valhalla",
+    "name": "Assassins Creed Valhalla",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "atomfall",
+    "name": "Atomfall",
+    "inCatalog": true,
+    "existingGameSlug": "atomfall",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:04.390Z"
+  },
+  {
+    "slug": "avatar-frontiers-of-pandora",
+    "name": "Avatar Frontiers Of Pandora",
+    "inCatalog": true,
+    "existingGameSlug": "avatar-frontiers-of-pandora",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:04.390Z"
+  },
+  {
+    "slug": "baldurs-gate-3",
+    "name": "Baldurs Gate 3",
+    "inCatalog": true,
+    "existingGameSlug": "baldurs-gate-3",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:04.390Z"
+  },
+  {
+    "slug": "battlefield-1",
+    "name": "Battlefield 1",
+    "inCatalog": true,
+    "existingGameSlug": "battlefield-1",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "battlefield-2042",
+    "name": "Battlefield 2042",
+    "inCatalog": true,
+    "existingGameSlug": "battlefield-2042",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "battlefield-iv",
+    "name": "Battlefield IV",
+    "inCatalog": true,
+    "existingGameSlug": "battlefield-iv",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "battlefield-v",
+    "name": "Battlefield V",
+    "inCatalog": true,
+    "existingGameSlug": "battlefield-v",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "borderlands-3",
+    "name": "Borderlands 3",
+    "inCatalog": true,
+    "existingGameSlug": "borderlands-3",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "borderlands-4",
+    "name": "Borderlands 4",
+    "inCatalog": true,
+    "existingGameSlug": "borderlands-4",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "call-of-duty-modern-warfare-ii",
+    "name": "Call Of Duty Modern Warfare II",
+    "inCatalog": true,
+    "existingGameSlug": "call-of-duty-modern-warfare-ii",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "call-of-duty-warzone-20",
+    "name": "Call Of Duty Warzone 20",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "cities-skylines-ii",
+    "name": "Cities Skylines II",
+    "inCatalog": true,
+    "existingGameSlug": "cities-skylines-ii",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "clair-obscur-expedition-33",
+    "name": "Clair Obscur Expedition 33",
+    "inCatalog": true,
+    "existingGameSlug": "clair-obscur-expedition-33",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "control",
+    "name": "Control",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "crysis-3-remastered",
+    "name": "Crysis 3 Remastered",
+    "inCatalog": true,
+    "existingGameSlug": "crysis-3-remastered",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "dead-island-2",
+    "name": "Dead Island 2",
+    "inCatalog": true,
+    "existingGameSlug": "dead-island-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "dead-space",
+    "name": "Dead Space",
+    "inCatalog": true,
+    "existingGameSlug": "dead-space",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "death-stranding",
+    "name": "Death Stranding",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "deathloop",
+    "name": "Deathloop",
+    "inCatalog": true,
+    "existingGameSlug": "deathloop",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "destiny-2",
+    "name": "Destiny 2",
+    "inCatalog": true,
+    "existingGameSlug": "destiny-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "dirt-5",
+    "name": "Dirt 5",
+    "inCatalog": true,
+    "existingGameSlug": "dirt-5",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "dishonored-2",
+    "name": "Dishonored 2",
+    "inCatalog": true,
+    "existingGameSlug": "dishonored-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "doom-eternal",
+    "name": "Doom Eternal",
+    "inCatalog": true,
+    "existingGameSlug": "doom-eternal",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "dragon-age-the-veilguard",
+    "name": "Dragon Age The Veilguard",
+    "inCatalog": true,
+    "existingGameSlug": "dragon-age-the-veilguard",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "dragons-dogma-2",
+    "name": "Dragons Dogma 2",
+    "inCatalog": true,
+    "existingGameSlug": "dragons-dogma-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "dying-light-2-stay-human",
+    "name": "Dying Light 2 Stay Human",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "f1-22",
+    "name": "F1 22",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "f1-23",
+    "name": "F1 23",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "f1-24",
+    "name": "F1 24",
+    "inCatalog": true,
+    "existingGameSlug": "f1-24",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "f1-25",
+    "name": "F1 25",
+    "inCatalog": true,
+    "existingGameSlug": "f1-25",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "far-cry-3",
+    "name": "Far Cry 3",
+    "inCatalog": true,
+    "existingGameSlug": "far-cry-3",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "fifa-23",
+    "name": "Fifa 23",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "final-fantasy-xvi",
+    "name": "Final Fantasy Xvi",
+    "inCatalog": true,
+    "existingGameSlug": "final-fantasy-xvi",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "forza-horizon-4",
+    "name": "Forza Horizon 4",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "gears-5",
+    "name": "Gears 5",
+    "inCatalog": true,
+    "existingGameSlug": "gears-5",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "ghost-of-tsushima",
+    "name": "Ghost Of Tsushima",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "god-of-war",
+    "name": "God Of War",
+    "inCatalog": true,
+    "existingGameSlug": "god-of-war",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "grid",
+    "name": "Grid",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "halo-infinite",
+    "name": "Halo Infinite",
+    "inCatalog": true,
+    "existingGameSlug": "halo-infinite",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "hitman-2",
+    "name": "Hitman 2",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "homeworld-3",
+    "name": "Homeworld 3",
+    "inCatalog": true,
+    "existingGameSlug": "homeworld-3",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "horizon-forbidden-west",
+    "name": "Horizon Forbidden West",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "horizon-zero-dawn",
+    "name": "Horizon Zero Dawn",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "hunt-showdown",
+    "name": "Hunt Showdown",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "immortals-of-aveum",
+    "name": "Immortals Of Aveum",
+    "inCatalog": true,
+    "existingGameSlug": "immortals-of-aveum",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "kingdom-come-deliverance-ii",
+    "name": "Kingdom Come Deliverance II",
+    "inCatalog": true,
+    "existingGameSlug": "kingdom-come-deliverance-ii",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "league-of-legends",
+    "name": "League Of Legends",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "lost-ark",
+    "name": "Lost Ark",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "manor-lords",
+    "name": "Manor Lords",
+    "inCatalog": true,
+    "existingGameSlug": "manor-lords",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "marvel-rivals",
+    "name": "Marvel Rivals",
+    "inCatalog": true,
+    "existingGameSlug": "marvel-rivals",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "marvels-guardians-of-the-galaxy",
+    "name": "Marvels Guardians Of The Galaxy",
+    "inCatalog": true,
+    "existingGameSlug": "marvels-guardians-of-the-galaxy",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "marvels-spider-man-2",
+    "name": "Marvels Spider Man 2",
+    "inCatalog": true,
+    "existingGameSlug": "marvels-spider-man-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "marvels-spider-man-miles-morales",
+    "name": "Marvels Spider Man Miles Morales",
+    "inCatalog": true,
+    "existingGameSlug": "marvels-spider-man-miles-morales",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "marvels-spider-man-remastered",
+    "name": "Marvels Spider Man Remastered",
+    "inCatalog": true,
+    "existingGameSlug": "marvels-spider-man-remastered",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "mass-effect-andromeda",
+    "name": "Mass Effect Andromeda",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "microsoft-flight-simulator-2020",
+    "name": "Microsoft Flight Simulator 2020",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "minecraft",
+    "name": "Minecraft",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "new-world",
+    "name": "New World",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "no-mans-sky",
+    "name": "No Mans Sky",
+    "inCatalog": true,
+    "existingGameSlug": "no-mans-sky",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "playerunknowns-battlegrounds",
+    "name": "Playerunknowns Battlegrounds",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "project-cars-3",
+    "name": "Project Cars 3",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "ratchet-clank-rift-apart",
+    "name": "Ratchet Clank Rift Apart",
+    "inCatalog": true,
+    "existingGameSlug": "ratchet-clank-rift-apart",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "remnant-ii",
+    "name": "Remnant II",
+    "inCatalog": true,
+    "existingGameSlug": "remnant-ii",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "roblox",
+    "name": "Roblox",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "saints-row",
+    "name": "Saints Row",
+    "inCatalog": true,
+    "existingGameSlug": "saints-row",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "sea-of-thieves",
+    "name": "Sea Of Thieves",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "stalker-2-heart-of-chornobyl",
+    "name": "Stalker 2 Heart Of Chornobyl",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "star-wars-jedi-fallen-order",
+    "name": "Star Wars Jedi Fallen Order",
+    "inCatalog": true,
+    "existingGameSlug": "star-wars-jedi-fallen-order",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "star-wars-outlaws",
+    "name": "Star Wars Outlaws",
+    "inCatalog": true,
+    "existingGameSlug": "star-wars-outlaws",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "the-callisto-protocol",
+    "name": "The Callisto Protocol",
+    "inCatalog": true,
+    "existingGameSlug": "the-callisto-protocol",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "the-elder-scrolls-iv-oblivion-remastered",
+    "name": "The Elder Scrolls IV Oblivion Remastered",
+    "inCatalog": true,
+    "existingGameSlug": "the-elder-scrolls-iv-oblivion-remastered",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "the-last-of-us-part-ii",
+    "name": "The Last Of Us Part II",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "the-outer-worlds",
+    "name": "The Outer Worlds",
+    "inCatalog": true,
+    "existingGameSlug": "the-outer-worlds",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "tom-clancys-rainbow-six-siege",
+    "name": "Tom Clancys Rainbow Six Siege",
+    "inCatalog": true,
+    "existingGameSlug": "tom-clancys-rainbow-six-siege",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "tom-clancys-the-division-2",
+    "name": "Tom Clancys The Division 2",
+    "inCatalog": true,
+    "existingGameSlug": "tom-clancys-the-division-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "total-war-warhammer-iii",
+    "name": "Total War Warhammer III",
+    "inCatalog": true,
+    "existingGameSlug": "total-war-warhammer-iii",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "uncharted-legacy-of-thieves",
+    "name": "Uncharted Legacy Of Thieves",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "warframe",
+    "name": "Warframe",
+    "inCatalog": true,
+    "existingGameSlug": "warframe",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "warhammer-40000-space-marine-2",
+    "name": "Warhammer 40000 Space Marine 2",
+    "inCatalog": true,
+    "existingGameSlug": "warhammer-40000-space-marine-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "world-of-warcraft",
+    "name": "World Of Warcraft",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "7-days-to-die",
+    "name": "7 Days To Die",
+    "inCatalog": true,
+    "existingGameSlug": "7-days-to-die",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T01:59:33.528Z"
+  },
+  {
+    "slug": "aion",
+    "name": "Aion",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "aion-2",
+    "name": "Aion 2",
+    "inCatalog": true,
+    "existingGameSlug": "aion-2",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "alter-1",
+    "name": "Alter 1",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "arena-breakout-infinite",
+    "name": "Arena Breakout Infinite",
+    "inCatalog": true,
+    "existingGameSlug": "arena-breakout-infinite",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "ark-survival-ascended",
+    "name": "Ark Survival Ascended",
+    "inCatalog": true,
+    "existingGameSlug": "ark-survival-ascended",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "armored-core-vi",
+    "name": "Armored Core VI",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "atomic-heart",
+    "name": "Atomic Heart",
+    "inCatalog": true,
+    "existingGameSlug": "atomic-heart",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "avatar-frontiers-of-pandora-from-the-ashes",
+    "name": "Avatar Frontiers Of Pandora From The Ashes",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "bellwright",
+    "name": "Bellwright",
+    "inCatalog": true,
+    "existingGameSlug": "bellwright",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "call-of-duty-black-ops-7",
+    "name": "Call Of Duty Black Ops 7",
+    "inCatalog": true,
+    "existingGameSlug": "call-of-duty-black-ops-7",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "cities-skylines-rock-city-radio",
+    "name": "Cities Skylines Rock City Radio",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "conan-exiles",
+    "name": "Conan Exiles",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "crusader-kings-iii",
+    "name": "Crusader Kings III",
+    "inCatalog": true,
+    "existingGameSlug": "crusader-kings-iii",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "crysis-remastered",
+    "name": "Crysis Remastered",
+    "inCatalog": true,
+    "existingGameSlug": "crysis-remastered",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "dead-by-daylight",
+    "name": "Dead By Daylight",
+    "inCatalog": true,
+    "existingGameSlug": "dead-by-daylight",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "deadlock",
+    "name": "Deadlock",
+    "inCatalog": true,
+    "existingGameSlug": "deadlock",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "death-stranding-2-on-the-beach",
+    "name": "Death Stranding 2 On The Beach",
+    "inCatalog": true,
+    "existingGameSlug": "death-stranding-2-on-the-beach",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "delta-force-1",
+    "name": "Delta Force 1",
+    "inCatalog": true,
+    "existingGameSlug": "delta-force-1",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "diablo-2",
+    "name": "Diablo 2",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "diablo-iii",
+    "name": "Diablo III",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "diablo-immortal",
+    "name": "Diablo Immortal",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "dishonored-definitive-edition",
+    "name": "Dishonored Definitive Edition",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "ea-sports-fc-26",
+    "name": "Ea Sports Fc 26",
+    "inCatalog": true,
+    "existingGameSlug": "ea-sports-fc-26",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "ea-sports-wrc",
+    "name": "Ea Sports Wrc",
+    "inCatalog": true,
+    "existingGameSlug": "ea-sports-wrc",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "farming-simulator-25",
+    "name": "Farming Simulator 25",
+    "inCatalog": true,
+    "existingGameSlug": "farming-simulator-25",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "fatal-frame-ii-crimson-butterfly-remake-silent-hill-f-costume-set",
+    "name": "Fatal Frame II Crimson Butterfly Remake Silent Hill F Costume Set",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "final-fantasy-iv",
+    "name": "Final Fantasy IV",
+    "inCatalog": true,
+    "existingGameSlug": "final-fantasy-iv",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "final-fantasy-xiv-endwalker",
+    "name": "Final Fantasy Xiv Endwalker",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "fivem",
+    "name": "Fivem",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "for-honor",
+    "name": "For Honor",
+    "inCatalog": true,
+    "existingGameSlug": "for-honor",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "forza-horizon-5-premium-edition",
+    "name": "Forza Horizon 5 Premium Edition",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "forza-horizon-6",
+    "name": "Forza Horizon 6",
+    "inCatalog": true,
+    "existingGameSlug": "forza-horizon-6",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "forza-motorsport",
+    "name": "Forza Motorsport",
+    "inCatalog": true,
+    "existingGameSlug": "forza-motorsport",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "genshin-impact",
+    "name": "Genshin Impact",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "god-of-war-ragnar-k",
+    "name": "God Of War Ragnar K",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "god-of-war-ragnark",
+    "name": "God Of War Ragnark",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "grand-theft-auto-v-enhanced",
+    "name": "Grand Theft Auto V Enhanced",
+    "inCatalog": true,
+    "existingGameSlug": "grand-theft-auto-v-enhanced",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "gray-1",
+    "name": "Gray 1",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "grid-legends",
+    "name": "Grid Legends",
+    "inCatalog": true,
+    "existingGameSlug": "grid-legends",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "grounded",
+    "name": "Grounded",
+    "inCatalog": true,
+    "existingGameSlug": "grounded",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "grounded-2",
+    "name": "Grounded 2",
+    "inCatalog": true,
+    "existingGameSlug": "grounded-2",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "gta-turk-city",
+    "name": "Gta Turk City",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "h1z1",
+    "name": "H1z1",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "half-life-alyx",
+    "name": "Half Life Alyx",
+    "inCatalog": true,
+    "existingGameSlug": "half-life-alyx",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "indiana-jones-and-the-great-circle",
+    "name": "Indiana Jones And The Great Circle",
+    "inCatalog": true,
+    "existingGameSlug": "indiana-jones-and-the-great-circle",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "jagged-alliance-3",
+    "name": "Jagged Alliance 3",
+    "inCatalog": true,
+    "existingGameSlug": "jagged-alliance-3",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "le-mans-ultimate",
+    "name": "Le Mans Ultimate",
+    "inCatalog": true,
+    "existingGameSlug": "le-mans-ultimate",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "lego-horizon-adventures",
+    "name": "Lego Horizon Adventures",
+    "inCatalog": true,
+    "existingGameSlug": "lego-horizon-adventures",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "mafia-definitive-edition",
+    "name": "Mafia Definitive Edition",
+    "inCatalog": true,
+    "existingGameSlug": "mafia-definitive-edition",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "marathon",
+    "name": "Marathon",
+    "inCatalog": true,
+    "existingGameSlug": "marathon",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "marathon-2",
+    "name": "Marathon 2",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "microsoft-flight-simulator-2024",
+    "name": "Microsoft Flight Simulator 2024",
+    "inCatalog": true,
+    "existingGameSlug": "microsoft-flight-simulator-2024",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "minecraft-1",
+    "name": "Minecraft 1",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "minecraft-bedrock-edition",
+    "name": "Minecraft Bedrock Edition",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "need-for-speed-unbound",
+    "name": "Need For Speed Unbound",
+    "inCatalog": true,
+    "existingGameSlug": "need-for-speed-unbound",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "path-of-exile-2",
+    "name": "Path Of Exile 2",
+    "inCatalog": true,
+    "existingGameSlug": "path-of-exile-2",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "payday-3",
+    "name": "Payday 3",
+    "inCatalog": true,
+    "existingGameSlug": "payday-3",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "population-one",
+    "name": "Population One",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "prey",
+    "name": "Prey",
+    "inCatalog": true,
+    "existingGameSlug": "prey",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "project-zomboid",
+    "name": "Project Zomboid",
+    "inCatalog": true,
+    "existingGameSlug": "project-zomboid",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "pubg-mobile",
+    "name": "Pubg Mobile",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "rainbow-six-siege",
+    "name": "Rainbow Six Siege",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "repo",
+    "name": "Repo",
+    "inCatalog": true,
+    "existingGameSlug": "repo",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "returnal",
+    "name": "Returnal",
+    "inCatalog": true,
+    "existingGameSlug": "returnal",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "satisfactory",
+    "name": "Satisfactory",
+    "inCatalog": true,
+    "existingGameSlug": "satisfactory",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "silent-hill-2",
+    "name": "Silent Hill 2",
+    "inCatalog": true,
+    "existingGameSlug": "silent-hill-2",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "sniper-elite-5",
+    "name": "Sniper Elite 5",
+    "inCatalog": true,
+    "existingGameSlug": "sniper-elite-5",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "star-citizen",
+    "name": "Star Citizen",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "starrupture",
+    "name": "Starrupture",
+    "inCatalog": true,
+    "existingGameSlug": "starrupture",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "street-fighter-6",
+    "name": "Street Fighter 6",
+    "inCatalog": true,
+    "existingGameSlug": "street-fighter-6",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "sub",
+    "name": "Sub",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "subnautica-2",
+    "name": "Subnautica 2",
+    "inCatalog": true,
+    "existingGameSlug": "subnautica-2",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "surviving-mars",
+    "name": "Surviving Mars",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "team-fortress-2",
+    "name": "Team Fortress 2",
+    "inCatalog": true,
+    "existingGameSlug": "team-fortress-2",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "tekken-8",
+    "name": "Tekken 8",
+    "inCatalog": true,
+    "existingGameSlug": "tekken-8",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "terraria",
+    "name": "Terraria",
+    "inCatalog": true,
+    "existingGameSlug": "terraria",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "the-alters",
+    "name": "The Alters",
+    "inCatalog": true,
+    "existingGameSlug": "the-alters",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "the-crew-motorfest",
+    "name": "The Crew Motorfest",
+    "inCatalog": true,
+    "existingGameSlug": "the-crew-motorfest",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "the-last-of-us",
+    "name": "The Last Of Us",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "tiny-tinas-wonderlands",
+    "name": "Tiny Tinas Wonderlands",
+    "inCatalog": true,
+    "existingGameSlug": "tiny-tinas-wonderlands",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:01:14.945Z"
+  },
+  {
+    "slug": "titanfall-2",
+    "name": "Titanfall 2",
+    "inCatalog": true,
+    "existingGameSlug": "titanfall-2",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:03:15.759Z"
+  },
+  {
+    "slug": "tom-clancys-ghost-recon-wildlands",
+    "name": "Tom Clancys Ghost Recon Wildlands",
+    "inCatalog": true,
+    "existingGameSlug": "tom-clancys-ghost-recon-wildlands",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:03:15.759Z"
+  },
+  {
+    "slug": "tom-clancys-rainbow-six-extraction",
+    "name": "Tom Clancys Rainbow Six Extraction",
+    "inCatalog": true,
+    "existingGameSlug": "tom-clancys-rainbow-six-extraction",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:03:15.759Z"
+  },
+  {
+    "slug": "transport-fever-2",
+    "name": "Transport Fever 2",
+    "inCatalog": true,
+    "existingGameSlug": "transport-fever-2",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:03:15.759Z"
+  },
+  {
+    "slug": "warfare",
+    "name": "Warfare",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "windrose",
+    "name": "Windrose",
+    "inCatalog": true,
+    "existingGameSlug": "windrose",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "promoted-with-official-metadata-and-internal-fps-estimate",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source.",
+    "promotedAt": "2026-05-26T02:03:15.759Z"
+  },
+  {
+    "slug": "x-plane-7",
+    "name": "X Plane 7",
+    "inCatalog": false,
+    "existingGameSlug": null,
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Candidate only. Do not add FPS until verified by video/manual test or a licensed data source."
+  },
+  {
+    "slug": "alan-wake-2",
+    "name": "Alan Wake 2",
+    "inCatalog": true,
+    "existingGameSlug": "alan-wake-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "apex-legends",
+    "name": "Apex Legends",
+    "inCatalog": true,
+    "existingGameSlug": "apex-legends",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "arc-raiders",
+    "name": "Arc Raiders",
+    "inCatalog": true,
+    "existingGameSlug": "arc-raiders",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "ark-survival-evolved",
+    "name": "Ark Survival Evolved",
+    "inCatalog": true,
+    "existingGameSlug": "ark-survival-evolved",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "battlefield-6",
+    "name": "Battlefield 6",
+    "inCatalog": true,
+    "existingGameSlug": "battlefield-6",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "black-myth-wukong",
+    "name": "Black Myth Wukong",
+    "inCatalog": true,
+    "existingGameSlug": "black-myth-wukong",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "call-of-duty-black-ops-6",
+    "name": "Call Of Duty Black Ops 6",
+    "inCatalog": true,
+    "existingGameSlug": "call-of-duty-black-ops-6",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "counter-strike-2",
+    "name": "Counter Strike 2",
+    "inCatalog": true,
+    "existingGameSlug": "counter-strike-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "crimson-desert",
+    "name": "Crimson Desert",
+    "inCatalog": true,
+    "existingGameSlug": "crimson-desert",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "cyberpunk-2077",
+    "name": "Cyberpunk 2077",
+    "inCatalog": true,
+    "existingGameSlug": "cyberpunk-2077",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "dayz",
+    "name": "Dayz",
+    "inCatalog": true,
+    "existingGameSlug": "dayz",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "diablo-iv",
+    "name": "Diablo IV",
+    "inCatalog": true,
+    "existingGameSlug": "diablo-iv",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "doom-the-dark-ages",
+    "name": "Doom The Dark Ages",
+    "inCatalog": true,
+    "existingGameSlug": "doom-the-dark-ages",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "dota-2",
+    "name": "Dota 2",
+    "inCatalog": true,
+    "existingGameSlug": "dota-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "elden-ring",
+    "name": "Elden Ring",
+    "inCatalog": true,
+    "existingGameSlug": "elden-ring",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "escape-from-tarkov",
+    "name": "Escape From Tarkov",
+    "inCatalog": true,
+    "existingGameSlug": "escape-from-tarkov",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "far-cry-5",
+    "name": "Far Cry 5",
+    "inCatalog": true,
+    "existingGameSlug": "far-cry-5",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "far-cry-6",
+    "name": "Far Cry 6",
+    "inCatalog": true,
+    "existingGameSlug": "far-cry-6",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "fortnite",
+    "name": "Fortnite",
+    "inCatalog": true,
+    "existingGameSlug": "fortnite",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "forza-horizon-5",
+    "name": "Forza Horizon 5",
+    "inCatalog": true,
+    "existingGameSlug": "forza-horizon-5",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "grand-theft-auto-v",
+    "name": "Grand Theft Auto V",
+    "inCatalog": true,
+    "existingGameSlug": "grand-theft-auto-v",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "helldivers-2",
+    "name": "Helldivers 2",
+    "inCatalog": true,
+    "existingGameSlug": "helldivers-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "hitman-3",
+    "name": "Hitman 3",
+    "inCatalog": true,
+    "existingGameSlug": "hitman-3",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "hogwarts-legacy",
+    "name": "Hogwarts Legacy",
+    "inCatalog": true,
+    "existingGameSlug": "hogwarts-legacy",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "metro-exodus",
+    "name": "Metro Exodus",
+    "inCatalog": true,
+    "existingGameSlug": "metro-exodus",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "monster-hunter-wilds",
+    "name": "Monster Hunter Wilds",
+    "inCatalog": true,
+    "existingGameSlug": "monster-hunter-wilds",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "monster-hunter-world",
+    "name": "Monster Hunter World",
+    "inCatalog": true,
+    "existingGameSlug": "monster-hunter-world",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "overwatch-2",
+    "name": "Overwatch 2",
+    "inCatalog": true,
+    "existingGameSlug": "overwatch-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "path-of-exile",
+    "name": "Path Of Exile",
+    "inCatalog": true,
+    "existingGameSlug": "path-of-exile",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "ready-or-not",
+    "name": "Ready Or Not",
+    "inCatalog": true,
+    "existingGameSlug": "ready-or-not",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "inCatalog": true,
+    "existingGameSlug": "red-dead-redemption-2",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "resident-evil-4",
+    "name": "Resident Evil 4",
+    "inCatalog": true,
+    "existingGameSlug": "resident-evil-4",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "resident-evil-requiem",
+    "name": "Resident Evil Requiem",
+    "inCatalog": true,
+    "existingGameSlug": "resident-evil-requiem",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "resident-evil-village",
+    "name": "Resident Evil Village",
+    "inCatalog": true,
+    "existingGameSlug": "resident-evil-village",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "rocket-league",
+    "name": "Rocket League",
+    "inCatalog": true,
+    "existingGameSlug": "rocket-league",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "rust",
+    "name": "Rust",
+    "inCatalog": true,
+    "existingGameSlug": "rust",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "shadow-of-the-tomb-raider-definitive-edition",
+    "name": "Shadow Of The Tomb Raider Definitive Edition",
+    "inCatalog": true,
+    "existingGameSlug": "shadow-of-the-tomb-raider-definitive-edition",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "sons-of-the-forest",
+    "name": "Sons Of The Forest",
+    "inCatalog": true,
+    "existingGameSlug": "sons-of-the-forest",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "star-wars-jedi-survivor",
+    "name": "Star Wars Jedi Survivor",
+    "inCatalog": true,
+    "existingGameSlug": "star-wars-jedi-survivor",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "starfield",
+    "name": "Starfield",
+    "inCatalog": true,
+    "existingGameSlug": "starfield",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "stray",
+    "name": "Stray",
+    "inCatalog": true,
+    "existingGameSlug": "stray",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "the-first-descendant",
+    "name": "The First Descendant",
+    "inCatalog": true,
+    "existingGameSlug": "the-first-descendant",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "the-last-of-us-part-i",
+    "name": "The Last Of Us Part I",
+    "inCatalog": true,
+    "existingGameSlug": "the-last-of-us-part-i",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "the-witcher-3-wild-hunt",
+    "name": "The Witcher 3 Wild Hunt",
+    "inCatalog": true,
+    "existingGameSlug": "the-witcher-3-wild-hunt",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "valheim",
+    "name": "Valheim",
+    "inCatalog": true,
+    "existingGameSlug": "valheim",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "valorant",
+    "name": "Valorant",
+    "inCatalog": true,
+    "existingGameSlug": "valorant",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "war-thunder",
+    "name": "War Thunder",
+    "inCatalog": true,
+    "existingGameSlug": "war-thunder",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "watch-dogs-legion",
+    "name": "Watch Dogs Legion",
+    "inCatalog": true,
+    "existingGameSlug": "watch-dogs-legion",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "world-of-tanks",
+    "name": "World Of Tanks",
+    "inCatalog": true,
+    "existingGameSlug": "world-of-tanks",
+    "referenceSites": [
+      "howmanyfps",
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "delta-force",
+    "name": "Delta Force",
+    "inCatalog": true,
+    "existingGameSlug": "delta-force",
+    "referenceSites": [
+      "howmanyfps"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  },
+  {
+    "slug": "pubg-battlegrounds",
+    "name": "PUBG: BATTLEGROUNDS",
+    "inCatalog": true,
+    "existingGameSlug": "pubg-battlegrounds",
+    "referenceSites": [
+      "dropreference"
+    ],
+    "status": "needs-official-data-and-video-review",
+    "note": "Already represented in the production catalog."
+  }
+]

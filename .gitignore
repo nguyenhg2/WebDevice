@@ -11,3 +11,7 @@ data/dropreference-import-summary.json
 data/external-fps-import-summary.json
 head-test/
 vercel*.log
+next-server*.log
+next-redesign*.log
+
+.vercel

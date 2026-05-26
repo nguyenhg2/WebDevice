@@ -3,7 +3,6 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const GAMES_FILE = path.join(ROOT, "data", "games.json");
-const SOURCES_FILE = path.join(ROOT, "data", "game-sources.json");
 const STEAM_SEARCH_URL = "https://store.steampowered.com/api/storesearch/";
 const STEAM_DETAILS_URL = "https://store.steampowered.com/api/appdetails";
 
@@ -357,7 +356,7 @@ async function fetchJson(url, params) {
   }
   const response = await fetch(endpoint, {
     headers: {
-      "User-Agent": "Maynaychoiduoc.vn data updater (contact: local project)",
+      "User-Agent": "Fpsviet.com data updater (contact: local project)",
       Accept: "application/json",
     },
   });
@@ -368,7 +367,7 @@ async function fetchJson(url, params) {
 async function fetchHtml(url) {
   const response = await fetch(url, {
     headers: {
-      "User-Agent": "Maynaychoiduoc.vn data updater (contact: local project)",
+      "User-Agent": "Fpsviet.com data updater (contact: local project)",
       Accept: "text/html",
     },
   });
@@ -482,7 +481,6 @@ function parseLocalizedPrice(value) {
 async function main() {
   const games = JSON.parse(await fs.readFile(GAMES_FILE, "utf8"));
   const updated = [];
-  const sources = [];
 
   for (const game of games) {
     let nextGame = { ...game };
@@ -538,14 +536,11 @@ async function main() {
 
     nextGame = localizeGame(nextGame);
     updated.push(nextGame);
-    sources.push(source);
     console.log(`${nextGame.slug}: ${source.source} ${source.url || ""}`);
   }
 
   await fs.writeFile(GAMES_FILE, `${JSON.stringify(updated, null, 2)}\n`);
-  await fs.writeFile(SOURCES_FILE, `${JSON.stringify(sources, null, 2)}\n`);
   console.log(`Updated ${GAMES_FILE}`);
-  console.log(`Wrote ${SOURCES_FILE}`);
 }
 
 main().catch((error) => {

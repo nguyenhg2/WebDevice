@@ -4,10 +4,10 @@ import process from "node:process";
 import pg from "pg";
 
 const root = process.cwd();
-const databaseUrl = process.env.DATABASE_URL;
+const databaseUrl = process.env.ADMIN_DATABASE_URL || process.env.DATABASE_URL;
 
 if (!databaseUrl) {
-  console.error("DATABASE_URL is not configured.");
+  console.error("ADMIN_DATABASE_URL or DATABASE_URL is not configured.");
   process.exit(1);
 }
 
@@ -28,6 +28,7 @@ const cpus = readJson("data/cpus.json");
 const devices = readJson("data/devices.json");
 const benchmarks = readJson("data/benchmarks.json");
 const blogPosts = readJson("data/blog-posts.json");
+const BENCHMARK_CHUNK_SIZE = 250;
 
 async function runStatements(sql) {
   const statements = sql
@@ -68,7 +69,7 @@ async function seedGames() {
         game.steamId,
         game.genres,
         game.sizeGb,
-        game.price,
+        game.price ?? null,
         game.isFree,
         game.description,
         game.coverImage,
@@ -192,14 +193,15 @@ async function seedBlogPosts() {
 }
 
 async function seedBenchmarks() {
-  for (const benchmark of benchmarks) {
-    await client.query(
-      `INSERT INTO "GameGpuBenchmark" ("id","gameId","gpuId","resolution","fpsLow","fpsMedium","fpsHigh","fpsUltra","recommendedSetting","status","videoTestUrl","source")
-       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)
-       ON CONFLICT ("gameId","gpuId","resolution") DO UPDATE SET
-       "fpsLow"=EXCLUDED."fpsLow","fpsMedium"=EXCLUDED."fpsMedium","fpsHigh"=EXCLUDED."fpsHigh","fpsUltra"=EXCLUDED."fpsUltra",
-       "recommendedSetting"=EXCLUDED."recommendedSetting","status"=EXCLUDED."status","videoTestUrl"=EXCLUDED."videoTestUrl","source"=EXCLUDED."source"`,
-      [
+  for (let offset = 0; offset < benchmarks.length; offset += BENCHMARK_CHUNK_SIZE) {
+    const batch = benchmarks.slice(offset, offset + BENCHMARK_CHUNK_SIZE);
+    const values = [];
+    const placeholders = [];
+
+    for (const benchmark of batch) {
+      const start = values.length + 1;
+      placeholders.push(`($${start},$${start + 1},$${start + 2},$${start + 3},$${start + 4},$${start + 5},$${start + 6},$${start + 7},$${start + 8},$${start + 9},$${start + 10},$${start + 11},$${start + 12},$${start + 13},$${start + 14},$${start + 15},$${start + 16})`);
+      values.push(
         idFromSlug("bench", `${benchmark.gameSlug}_${benchmark.gpuSlug}_${benchmark.resolution}`),
         idFromSlug("game", benchmark.gameSlug),
         idFromSlug("gpu", benchmark.gpuSlug),
@@ -209,24 +211,72 @@ async function seedBenchmarks() {
         benchmark.fpsHigh,
         benchmark.fpsUltra,
         benchmark.recommendedSetting,
+        benchmark.setting ?? benchmark.recommendedSetting,
+        benchmark.avgFps ?? (benchmark.fpsUltra || benchmark.fpsHigh || benchmark.fpsMedium || benchmark.fpsLow),
+        benchmark.onePercentLow ?? benchmark.fpsLow,
         benchmark.status,
         benchmark.videoTestUrl,
         benchmark.source,
-      ],
+        benchmark.confidence ?? "measured",
+        benchmark.updatedAt ?? new Date().toISOString(),
+      );
+    }
+
+    await client.query(
+      `INSERT INTO "GameGpuBenchmark" ("id","gameId","gpuId","resolution","fpsLow","fpsMedium","fpsHigh","fpsUltra","recommendedSetting","setting","avgFps","onePercentLow","status","videoTestUrl","source","confidence","updatedAt")
+       VALUES ${placeholders.join(",")}
+       ON CONFLICT ("gameId","gpuId","resolution") DO UPDATE SET
+       "fpsLow"=EXCLUDED."fpsLow","fpsMedium"=EXCLUDED."fpsMedium","fpsHigh"=EXCLUDED."fpsHigh","fpsUltra"=EXCLUDED."fpsUltra",
+       "recommendedSetting"=EXCLUDED."recommendedSetting","setting"=EXCLUDED."setting","avgFps"=EXCLUDED."avgFps","onePercentLow"=EXCLUDED."onePercentLow",
+       "status"=EXCLUDED."status","videoTestUrl"=EXCLUDED."videoTestUrl","source"=EXCLUDED."source",
+       "confidence"=EXCLUDED."confidence","updatedAt"=EXCLUDED."updatedAt"`,
+      values,
     );
+  }
+}
+
+async function pruneSeededTables() {
+  const benchmarkIds = benchmarks.map((benchmark) => idFromSlug("bench", `${benchmark.gameSlug}_${benchmark.gpuSlug}_${benchmark.resolution}`));
+  const gameSlugs = games.map((game) => game.slug);
+  const gpuSlugs = gpus.map((gpu) => gpu.slug);
+  const cpuSlugs = cpus.map((cpu) => cpu.slug);
+  const deviceSlugs = devices.map((device) => device.slug);
+  const blogSlugs = blogPosts.map((post) => post.slug);
+
+  await client.query(`DELETE FROM "GameGpuBenchmark" WHERE NOT ("id" = ANY($1::text[]))`, [benchmarkIds]);
+  await client.query(`DELETE FROM "Device" WHERE NOT ("slug" = ANY($1::text[]))`, [deviceSlugs]);
+  await client.query(`DELETE FROM "BlogPost" WHERE NOT ("slug" = ANY($1::text[]))`, [blogSlugs]);
+  await client.query(`DELETE FROM "Cpu" WHERE NOT ("slug" = ANY($1::text[]))`, [cpuSlugs]);
+  await client.query(`DELETE FROM "Gpu" WHERE NOT ("slug" = ANY($1::text[]))`, [gpuSlugs]);
+  await client.query(`DELETE FROM "Game" WHERE NOT ("slug" = ANY($1::text[]))`, [gameSlugs]);
+}
+
+async function runMigrations() {
+  const migrationsRoot = path.join(root, "prisma", "migrations");
+  const migrationDirs = fs
+    .readdirSync(migrationsRoot, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort();
+
+  for (const dir of migrationDirs) {
+    const migrationPath = path.join(migrationsRoot, dir, "migration.sql");
+    if (!fs.existsSync(migrationPath)) continue;
+    await runStatements(fs.readFileSync(migrationPath, "utf8"));
   }
 }
 
 await client.connect();
 try {
-  const migrationSql = fs.readFileSync(path.join(root, "prisma/migrations/0001_init/migration.sql"), "utf8");
-  await runStatements(migrationSql);
+  await runMigrations();
+  await pruneSeededTables();
   await seedGames();
   await seedGpus();
   await seedCpus();
   await seedDevices();
   await seedBlogPosts();
   await seedBenchmarks();
+  await pruneSeededTables();
   console.log("Supabase migration and seed completed.");
 } finally {
   await client.end();

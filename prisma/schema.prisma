@@ -69,7 +69,7 @@ model Game {
   steamId     String?
   genres      String[]
   sizeGb      Float
-  price       Float              @default(0)
+  price       Float?
   isFree      Boolean
   description String
   coverImage  String?
@@ -129,14 +129,21 @@ model GameGpuBenchmark {
   fpsHigh            Int
   fpsUltra           Int
   recommendedSetting String
+  setting            String?
+  avgFps             Int?
+  onePercentLow      Int?
   status             BenchmarkStatus
   videoTestUrl       String?
   source             String
+  confidence         String          @default("measured")
   createdAt          DateTime        @default(now())
+  updatedAt          DateTime        @updatedAt
   game               Game            @relation(fields: [gameId], references: [id], onDelete: Cascade)
   gpu                Gpu             @relation(fields: [gpuId], references: [id], onDelete: Cascade)
 
   @@unique([gameId, gpuId, resolution])
+  @@index([source])
+  @@index([confidence])
 }
 
 model Device {
