@@ -9,7 +9,8 @@
     "vram": 4,
     "priceRangeVnd": "3-7trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-gtx-1050-ti.svg"
   },
   {
     "name": "NVIDIA GTX 1650",
@@ -21,7 +22,8 @@
     "vram": 4,
     "priceRangeVnd": "3-7trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-gtx-1650.svg"
   },
   {
     "name": "NVIDIA GTX 1660 Super",
@@ -33,7 +35,8 @@
     "vram": 6,
     "priceRangeVnd": "3-7trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-gtx-1660-super.svg"
   },
   {
     "name": "NVIDIA GTX 1660 Ti",
@@ -45,7 +48,8 @@
     "vram": 6,
     "priceRangeVnd": "3-7trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-gtx-1660-ti.svg"
   },
   {
     "name": "NVIDIA RTX 3050",
@@ -57,7 +61,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-3050.svg"
   },
   {
     "name": "NVIDIA RTX 3060",
@@ -69,7 +74,8 @@
     "vram": 12,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-3060.svg"
   },
   {
     "name": "NVIDIA RTX 4060",
@@ -81,7 +87,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-4060.svg"
   },
   {
     "name": "NVIDIA RTX 3070",
@@ -93,7 +100,8 @@
     "vram": 8,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-3070.svg"
   },
   {
     "name": "NVIDIA RTX 4070",
@@ -105,7 +113,8 @@
     "vram": 12,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-4070.svg"
   },
   {
     "name": "NVIDIA RTX 4080",
@@ -117,7 +126,8 @@
     "vram": 16,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-4080.svg"
   },
   {
     "name": "AMD Radeon RX 6600",
@@ -129,7 +139,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/amd-radeon-rx-6600.svg"
   },
   {
     "name": "AMD Radeon RX 7600",
@@ -141,7 +152,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/amd-radeon-rx-7600.svg"
   },
   {
     "name": "AMD Radeon RX 6400",
@@ -153,7 +165,8 @@
     "vram": 4,
     "priceRangeVnd": "0-3trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/amd-radeon-rx-6400.svg"
   },
   {
     "name": "NVIDIA GTX 1650 Super",
@@ -165,7 +178,8 @@
     "vram": 4,
     "priceRangeVnd": "3-7trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-gtx-1650-super.svg"
   },
   {
     "name": "NVIDIA GTX 1660",
@@ -177,7 +191,8 @@
     "vram": 6,
     "priceRangeVnd": "3-7trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-gtx-1660.svg"
   },
   {
     "name": "NVIDIA RTX 2060",
@@ -189,7 +204,8 @@
     "vram": 6,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-2060.svg"
   },
   {
     "name": "Intel Arc A750",
@@ -201,7 +217,8 @@
     "vram": 8,
     "priceRangeVnd": "3-7trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/intel-arc-a750.svg"
   },
   {
     "name": "NVIDIA RTX 2060 Super",
@@ -213,7 +230,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-2060-super.svg"
   },
   {
     "name": "Intel Arc A770",
@@ -225,7 +243,8 @@
     "vram": 16,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/intel-arc-a770.svg"
   },
   {
     "name": "NVIDIA RTX 2070",
@@ -237,7 +256,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-2070.svg"
   },
   {
     "name": "AMD Radeon RX 6700",
@@ -249,7 +269,8 @@
     "vram": 10,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/amd-radeon-rx-6700.svg"
   },
   {
     "name": "NVIDIA RTX 2070 Super",
@@ -261,7 +282,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-2070-super.svg"
   },
   {
     "name": "Intel Arc B570",
@@ -273,7 +295,8 @@
     "vram": 10,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": false
+    "commonInVietnam": false,
+    "imageUrl": "/images/gpus/intel-arc-b570.svg"
   },
   {
     "name": "NVIDIA RTX 2080",
@@ -285,7 +308,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-2080.svg"
   },
   {
     "name": "NVIDIA RTX 5050",
@@ -297,7 +321,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-5050.svg"
   },
   {
     "name": "NVIDIA RTX 2080 Super",
@@ -309,7 +334,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-2080-super.svg"
   },
   {
     "name": "NVIDIA RTX 3060 Ti",
@@ -321,7 +347,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-3060-ti.svg"
   },
   {
     "name": "Intel Arc B580",
@@ -333,7 +360,8 @@
     "vram": 12,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": false
+    "commonInVietnam": false,
+    "imageUrl": "/images/gpus/intel-arc-b580.svg"
   },
   {
     "name": "NVIDIA RTX 2080 Ti",
@@ -345,7 +373,8 @@
     "vram": 11,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-2080-ti.svg"
   },
   {
     "name": "NVIDIA RTX 4060 Ti",
@@ -357,7 +386,8 @@
     "vram": 16,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-4060-ti.svg"
   },
   {
     "name": "AMD Radeon RX 6800",
@@ -369,7 +399,8 @@
     "vram": 16,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/amd-radeon-rx-6800.svg"
   },
   {
     "name": "NVIDIA RTX 3070 Ti",
@@ -381,7 +412,8 @@
     "vram": 8,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-3070-ti.svg"
   },
   {
     "name": "NVIDIA RTX 5060",
@@ -393,7 +425,8 @@
     "vram": 8,
     "priceRangeVnd": "7-15trieu",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-5060.svg"
   },
   {
     "name": "NVIDIA RTX 3080",
@@ -405,7 +438,8 @@
     "vram": 10,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-3080.svg"
   },
   {
     "name": "NVIDIA RTX 5060 Ti",
@@ -417,7 +451,8 @@
     "vram": 16,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-5060-ti.svg"
   },
   {
     "name": "NVIDIA RTX 3080 Ti",
@@ -429,7 +464,8 @@
     "vram": 12,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-3080-ti.svg"
   },
   {
     "name": "NVIDIA RTX 3090",
@@ -441,7 +477,8 @@
     "vram": 24,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-3090.svg"
   },
   {
     "name": "NVIDIA RTX 4070 Super",
@@ -453,7 +490,8 @@
     "vram": 12,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-4070-super.svg"
   },
   {
     "name": "NVIDIA RTX 4070 Ti",
@@ -465,7 +503,8 @@
     "vram": 12,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-4070-ti.svg"
   },
   {
     "name": "NVIDIA RTX 4070 Ti Super",
@@ -477,7 +516,8 @@
     "vram": 16,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-4070-ti-super.svg"
   },
   {
     "name": "NVIDIA RTX 3090 Ti",
@@ -489,7 +529,8 @@
     "vram": 24,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-3090-ti.svg"
   },
   {
     "name": "NVIDIA RTX 5070",
@@ -501,7 +542,8 @@
     "vram": 12,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-5070.svg"
   },
   {
     "name": "NVIDIA RTX 4080 Super",
@@ -513,7 +555,8 @@
     "vram": 16,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-4080-super.svg"
   },
   {
     "name": "NVIDIA RTX 4090",
@@ -525,7 +568,8 @@
     "vram": 24,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-4090.svg"
   },
   {
     "name": "NVIDIA RTX 5070 Ti",
@@ -537,7 +581,8 @@
     "vram": 16,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-5070-ti.svg"
   },
   {
     "name": "NVIDIA RTX 5080",
@@ -549,7 +594,8 @@
     "vram": 16,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-5080.svg"
   },
   {
     "name": "NVIDIA RTX 5090",
@@ -561,6 +607,7 @@
     "vram": 32,
     "priceRangeVnd": "15trieu+",
     "isLaptop": false,
-    "commonInVietnam": true
+    "commonInVietnam": true,
+    "imageUrl": "/images/gpus/nvidia-rtx-5090.svg"
   }
 ]

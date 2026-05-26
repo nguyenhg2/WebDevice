@@ -14,14 +14,17 @@ export default function SearchBar({ compact = false }: { compact?: boolean }) {
   }
 
   return (
-    <form onSubmit={submit} className={compact ? "w-full" : "w-full"}>
+    <form onSubmit={submit} className={compact ? "flex w-full items-center gap-2" : "flex w-full items-center gap-2"}>
       <input
-        className="input"
+        className="input min-w-0"
         aria-label="Tìm game"
         placeholder={compact ? "Tìm game..." : "Nhập tên game bạn muốn chơi..."}
         value={query}
         onChange={(event) => setQuery(event.target.value)}
       />
+      <button className={compact ? "btn min-h-10 px-3 py-2 text-sm" : "btn px-5"} type="submit">
+        Tìm
+      </button>
     </form>
   );
 }

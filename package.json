@@ -15,6 +15,7 @@
     "data:discover-games": "node scripts/discover-reference-games.mjs",
     "data:promote-games": "node scripts/promote-game-candidates.mjs",
     "data:backfill-benchmarks": "node scripts/backfill-missing-benchmarks.mjs",
+    "data:gpu-images": "node scripts/generate-gpu-images.mjs",
     "data:validate": "node scripts/validate-data.mjs",
     "data:update": "npm run data:validate && npm run build",
     "data:images": "node scripts/scrape-game-images.mjs",

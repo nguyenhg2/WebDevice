@@ -19,18 +19,14 @@ html {
 
 body {
   margin: 0;
-  background:
-    radial-gradient(circle at top left, rgba(20, 184, 166, 0.10), transparent 32rem),
-    linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  background: #f6f8fb;
   color: #0f172a;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 .dark body {
-  background:
-    radial-gradient(circle at top left, rgba(20, 184, 166, 0.14), transparent 30rem),
-    linear-gradient(180deg, #09111f 0%, #111827 100%);
+  background: #0b1120;
   color: #f8fafc;
 }
 
@@ -47,20 +43,20 @@ textarea {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 16px;
 }
 
 .page-section {
-  padding: 40px 0;
+  padding: 44px 0;
 }
 
 .surface {
-  border: 1px solid #e2e8f0;
-  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #dbe3ee;
+  background: rgba(255, 255, 255, 0.96);
   border-radius: 8px;
-  box-shadow: 0 16px 42px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
 }
 
 .dark .surface {
@@ -70,10 +66,10 @@ textarea {
 }
 
 .card {
-  border: 1px solid #e2e8f0;
-  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #dbe3ee;
+  background: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
   transition:
     border-color 160ms ease,
     box-shadow 160ms ease,
@@ -81,8 +77,8 @@ textarea {
 }
 
 .card:hover {
-  border-color: #cbd5e1;
-  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+  border-color: #a8b7cc;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.10);
 }
 
 .dark .card {
@@ -108,7 +104,7 @@ textarea {
   font-weight: 850;
   background: #0f766e;
   color: white;
-  box-shadow: 0 12px 24px rgba(15, 118, 110, 0.22);
+  box-shadow: 0 10px 20px rgba(15, 118, 110, 0.18);
 }
 
 .btn:hover {
@@ -132,7 +128,7 @@ textarea {
   padding: 10px 14px;
   font-weight: 800;
   color: #0f172a;
-  background: rgba(255, 255, 255, 0.76);
+  background: #ffffff;
 }
 
 .btn-secondary:hover {
@@ -156,7 +152,7 @@ textarea {
 .input {
   width: 100%;
   min-height: 42px;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #c8d3e1;
   border-radius: 8px;
   padding: 10px 12px;
   background: white;
@@ -191,6 +187,41 @@ textarea {
   border: 1px solid #e2e8f0;
   background: rgba(248, 250, 252, 0.88);
   padding: 12px;
+}
+
+.image-frame {
+  background:
+    linear-gradient(135deg, rgba(15, 23, 42, 0.06), rgba(20, 184, 166, 0.08)),
+    #e8eef6;
+}
+
+.image-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.38), transparent);
+  transform: translateX(-100%);
+  animation: image-shimmer 1.4s infinite;
+}
+
+.image-frame img {
+  z-index: 1;
+}
+
+.image-frame > *:not(img) {
+  z-index: 2;
+}
+
+.dark .image-frame {
+  background:
+    linear-gradient(135deg, rgba(148, 163, 184, 0.10), rgba(20, 184, 166, 0.10)),
+    #111827;
+}
+
+@keyframes image-shimmer {
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 .dark .metric {

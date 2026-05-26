@@ -96,6 +96,7 @@ function validateGpu(gpu) {
   requireText(gpu.name, `GPU ${gpu.slug} missing name`);
   if (!positiveNumber(gpu.benchmarkScore)) errors.push(`GPU ${gpu.slug} has invalid benchmarkScore`);
   if (!gpu.brand) errors.push(`GPU ${gpu.slug} missing brand`);
+  if (gpu.imageUrl) validateAssetOrUrl(gpu.imageUrl, `GPU ${gpu.slug} imageUrl`);
 }
 
 function validateCpu(cpu) {

@@ -1,6 +1,7 @@
 import BenchmarkTable from "@/components/BenchmarkTable";
 import Breadcrumb from "@/components/Breadcrumb";
 import DeviceCard from "@/components/DeviceCard";
+import FastImage from "@/components/FastImage";
 import GameCard from "@/components/GameCard";
 import { toBenchmarkTableRow } from "@/lib/benchmark-links";
 import { classifyGame } from "@/lib/compatibility-engine";
@@ -42,17 +43,22 @@ export default async function GpuDetail({ params }: { params: Promise<{ gpuSlug:
   return (
     <main className="container page-section">
       <Breadcrumb items={[{ href: "/", label: "Trang chủ" }, { href: "/gpu", label: "GPU" }, { href: "#", label: gpu.name }]} />
-      <header className="mt-4 grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <header className="mt-4 grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
         <div>
           <p className="eyebrow">GPU</p>
           <h1 className="mt-2 text-4xl font-black">{gpu.name} chơi được game gì?</h1>
           <p className="mt-3 max-w-2xl text-slate-600 dark:text-gray-300">Danh sách game phù hợp ở 1080p và setting nên dùng.</p>
         </div>
-        <div className="surface grid grid-cols-2 gap-3 p-4 text-sm">
-          <Metric label="Game mượt" value={smoothCount.toLocaleString("vi-VN")} />
-          <Metric label="VRAM" value={`${gpu.vram ?? 0}GB`} />
-          <Metric label="Loại" value={gpu.isLaptop ? "Laptop" : "Desktop"} />
-          <Metric label="FPS rows" value={gpuBenchmarks.length.toLocaleString("vi-VN")} />
+        <div className="surface overflow-hidden">
+          <div className="image-frame relative aspect-[16/9] overflow-hidden">
+            <FastImage src={gpu.imageUrl} alt={"Ảnh minh họa " + gpu.name} fill sizes="380px" quality={62} className="object-cover" priority />
+          </div>
+          <div className="grid grid-cols-2 gap-3 p-4 text-sm">
+            <Metric label="Game mượt" value={smoothCount.toLocaleString("vi-VN")} />
+            <Metric label="VRAM" value={`${gpu.vram ?? 0}GB`} />
+            <Metric label="Loại" value={gpu.isLaptop ? "Laptop" : "Desktop"} />
+            <Metric label="FPS rows" value={gpuBenchmarks.length.toLocaleString("vi-VN")} />
+          </div>
         </div>
       </header>
 
