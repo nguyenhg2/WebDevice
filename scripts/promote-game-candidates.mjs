@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { buildEstimatedBenchmarkRow, ESTIMATED_FPS_SOURCE } from "./lib/fps-estimator.mjs";
 
 const root = process.cwd();
 const gamesPath = path.join(root, "data", "games.json");
@@ -11,7 +12,7 @@ const candidatesPath = path.join(root, "data", "game-expansion-candidates.json")
 const limit = Number.parseInt(process.env.PROMOTE_GAME_LIMIT || "50", 10);
 const sleepMs = Number.parseInt(process.env.PROMOTE_GAME_DELAY_MS || "180", 10);
 const now = new Date().toISOString();
-const sourceLabel = "FPS noi bo; uoc tinh tu cau hinh chinh thuc va thang diem GPU";
+const sourceLabel = ESTIMATED_FPS_SOURCE;
 const requestHeaders = {
   "User-Agent": "Fpsviet.com game promoter (Steam official metadata; internal FPS estimates)",
   Accept: "application/json,text/plain,*/*",
@@ -123,33 +124,7 @@ function buildGame(slug, appid, details) {
 }
 
 function buildBenchmarkRows(game) {
-  return gpus.map((gpu) => {
-    const fpsMedium = estimateFps(gpu.benchmarkScore, game.minSpecs.gpuBenchmark, game.recSpecs.gpuBenchmark);
-    const fpsLow = clamp(Math.round(fpsMedium * 1.24), 8, 240);
-    const fpsHigh = clamp(Math.round(fpsMedium * 0.82), 0, 220);
-    const fpsUltra = clamp(Math.round(fpsMedium * 0.64), 0, 200);
-    const recommendedSetting = fpsUltra >= 55 ? "Ultra" : fpsHigh >= 55 ? "High" : fpsMedium >= 35 ? "Medium" : "Low";
-    const avgFps = recommendedSetting === "Ultra" ? fpsUltra : recommendedSetting === "High" ? fpsHigh : recommendedSetting === "Medium" ? fpsMedium : fpsLow;
-
-    return {
-      gameSlug: game.slug,
-      gpuSlug: gpu.slug,
-      resolution: "1080p",
-      fpsLow,
-      fpsMedium,
-      fpsHigh,
-      fpsUltra,
-      recommendedSetting,
-      status: avgFps >= 55 ? "smooth" : avgFps >= 30 ? "playable" : "not_recommended",
-      videoTestUrl: null,
-      source: sourceLabel,
-      setting: recommendedSetting,
-      avgFps,
-      onePercentLow: Math.max(1, Math.round(avgFps * 0.68)),
-      confidence: "estimated",
-      updatedAt: now,
-    };
-  });
+  return gpus.map((gpu) => buildEstimatedBenchmarkRow(game, gpu, { updatedAt: now, source: sourceLabel }));
 }
 
 async function findSteamGame(candidate) {
@@ -262,11 +237,6 @@ function estimateCpuScore(name, fallback) {
   return Math.round(fallback);
 }
 
-function estimateFps(gpuBenchmark, minGpu, recGpu) {
-  const ratio = gpuBenchmark >= recGpu ? gpuBenchmark / Math.max(recGpu, 1) : (gpuBenchmark / Math.max(minGpu, 1)) * 0.62;
-  return clamp(Math.round(52 * ratio), 8, 180);
-}
-
 function normalizeSteamPrice(priceOverview) {
   if (!priceOverview) return null;
   const raw = Number(priceOverview.final ?? priceOverview.initial);
@@ -366,10 +336,6 @@ function unique(values) {
 
 function positiveNumber(value) {
   return Number.isFinite(value) && value > 0;
-}
-
-function clamp(value, min, max) {
-  return Math.min(max, Math.max(min, value));
 }
 
 function cleanText(value) {

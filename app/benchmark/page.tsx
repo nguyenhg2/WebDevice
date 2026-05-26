@@ -46,52 +46,50 @@ export default function BenchmarkPage() {
       </header>
 
       <div className="container page-section">
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px]">
-          <main>
-            <div className="flex flex-wrap items-end justify-between gap-4">
-              <div>
-                <p className="eyebrow">Bảng chính</p>
-                <h2 className="mt-2 text-3xl font-black">FPS 1080p nổi bật</h2>
-              </div>
-              <Link href="/tra-cuu" className="btn-secondary">
-                Kiểm tra máy
-              </Link>
+        <section>
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className="eyebrow">Bảng chính</p>
+              <h2 className="mt-2 text-3xl font-black">FPS 1080p nổi bật</h2>
             </div>
-            <div className="mt-5">
-              <BenchmarkTable rows={featuredRows.map(toBenchmarkTableRow)} />
+            <Link href="/tra-cuu" className="btn-secondary">
+              Kiểm tra máy
+            </Link>
+          </div>
+          <div className="mt-5">
+            <BenchmarkTable rows={featuredRows.map(toBenchmarkTableRow)} />
+          </div>
+        </section>
+
+        <aside className="mt-10 grid gap-4 lg:grid-cols-[minmax(0,1.4fr)_minmax(280px,0.8fr)]">
+          <section className="surface p-4">
+            <h2 className="text-xl font-black">Game FPS cao</h2>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+              {gameStats.slice(0, 6).map(({ game, avgFps }) => (
+                <Link key={game.slug} href={`/game/${game.slug}`} className="grid grid-cols-[80px_1fr] gap-3 rounded-lg border border-slate-200 p-2 hover:border-teal-300 dark:border-gray-700">
+                  <div className="image-frame relative aspect-[16/9] overflow-hidden rounded">
+                    <FastImage src={game.coverImage} alt="" fill sizes="80px" quality={45} className="object-cover" />
+                  </div>
+                  <div className="min-w-0">
+                    <p className="truncate font-bold">{game.name}</p>
+                    <p className="text-sm text-slate-500">{avgFps} FPS TB</p>
+                  </div>
+                </Link>
+              ))}
             </div>
-          </main>
+          </section>
 
-          <aside className="grid gap-4">
-            <section className="surface p-4">
-              <h2 className="text-xl font-black">Game FPS cao</h2>
-              <div className="mt-4 grid gap-3">
-                {gameStats.slice(0, 6).map(({ game, avgFps }) => (
-                  <Link key={game.slug} href={`/game/${game.slug}`} className="grid grid-cols-[72px_1fr] gap-3 rounded-lg border border-slate-200 p-2 hover:border-teal-300 dark:border-gray-700">
-                    <div className="image-frame relative aspect-[16/9] overflow-hidden rounded">
-                      <FastImage src={game.coverImage} alt="" fill sizes="72px" quality={45} className="object-cover" />
-                    </div>
-                    <div className="min-w-0">
-                      <p className="truncate font-bold">{game.name}</p>
-                      <p className="text-sm text-slate-500">{avgFps} FPS TB</p>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </section>
-
-            <section className="surface p-4">
-              <h2 className="text-xl font-black">GPU mạnh</h2>
-              <div className="mt-4 grid gap-2">
-                {gpuStats.map(({ gpu }) => (
-                  <Link key={gpu.slug} href={`/gpu/${gpu.slug}`} className="rounded-md border border-slate-200 px-3 py-2 text-sm font-bold hover:border-teal-300 dark:border-gray-700">
-                    {gpu.name}
-                  </Link>
-                ))}
-              </div>
-            </section>
-          </aside>
-        </div>
+          <section className="surface p-4">
+            <h2 className="text-xl font-black">GPU mạnh</h2>
+            <div className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-1">
+              {gpuStats.map(({ gpu }) => (
+                <Link key={gpu.slug} href={`/gpu/${gpu.slug}`} className="rounded-md border border-slate-200 px-3 py-2 text-sm font-bold hover:border-teal-300 dark:border-gray-700">
+                  {gpu.name}
+                </Link>
+              ))}
+            </div>
+          </section>
+        </aside>
       </div>
     </main>
   );

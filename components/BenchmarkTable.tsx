@@ -72,7 +72,7 @@ export default function BenchmarkTable({ rows, highlightGpu }: { rows: Benchmark
       </div>
 
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[900px] border-collapse text-sm">
+        <table className="w-full min-w-[1080px] border-collapse text-sm">
           <thead className="bg-slate-50 text-slate-600 dark:bg-gray-800 dark:text-gray-300">
             <tr className="border-b border-slate-200 dark:border-gray-700">
               <SortableTh label="Game / GPU" active={sortKey === "game"} direction={direction} onClick={() => sortBy("game")} />
@@ -99,8 +99,8 @@ export default function BenchmarkTable({ rows, highlightGpu }: { rows: Benchmark
                     (highlightGpu === row.gpuSlug ? "bg-teal-50/80 dark:bg-teal-950/35" : "bg-white dark:bg-gray-900")
                   }
                 >
-                  <td className="p-3">
-                    <div className="min-w-0">
+                  <td className="w-[360px] p-3">
+                    <div className="min-w-0 max-w-[330px]">
                       <p className="font-black">{game?.name ?? row.gameSlug}</p>
                       <p className="mt-1 text-xs font-semibold text-slate-500 dark:text-gray-400">{gpu?.name ?? row.gpuSlug}</p>
                     </div>
@@ -117,7 +117,7 @@ export default function BenchmarkTable({ rows, highlightGpu }: { rows: Benchmark
                   <td className="p-3 text-center">
                     <SettingPill setting={row.recommendedSetting} />
                   </td>
-                  <td className="p-3">
+                  <td className="w-[260px] p-3">
                     <div className="grid grid-cols-4 gap-1 text-[11px] font-bold">
                       <FpsChip label="Low" value={row.fpsLow} />
                       <FpsChip label="Med" value={row.fpsMedium} />
@@ -125,8 +125,8 @@ export default function BenchmarkTable({ rows, highlightGpu }: { rows: Benchmark
                       <FpsChip label="Ultra" value={row.fpsUltra} />
                     </div>
                   </td>
-                  <td className="p-3 font-bold text-slate-700 dark:text-gray-300">{row.resolution}</td>
-                  <td className="p-3">
+                  <td className="w-[120px] p-3 font-bold text-slate-700 dark:text-gray-300">{row.resolution}</td>
+                  <td className="w-[110px] p-3">
                     <a
                       className="inline-flex rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-black text-teal-700 hover:border-teal-300 hover:bg-teal-50 dark:border-gray-700 dark:text-teal-300 dark:hover:bg-gray-800"
                       href={videoUrl ?? videoSearchUrl}

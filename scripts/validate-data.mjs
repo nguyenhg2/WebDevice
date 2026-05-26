@@ -7,7 +7,7 @@ const allowedResolutions = new Set(["720p", "1080p", "1440p", "4k"]);
 const allowedStatuses = new Set(["smooth", "playable", "not_recommended"]);
 const allowedSettings = new Set(["Low", "Medium", "High", "Ultra"]);
 const allowedBenchmarkConfidence = new Set(["measured", "matched", "manual", "estimated"]);
-const maxBenchmarkFps = 1200;
+const maxBenchmarkFps = 720;
 const blockedSourcePattern = /dropreference|pcgamebenchmark|howmanyfps|technical\.city|notebookcheck/i;
 
 const errors = [];
@@ -120,8 +120,12 @@ function validateBenchmark(row) {
   if (!allowedSettings.has(row.recommendedSetting)) errors.push(`Benchmark ${key} has invalid recommendedSetting`);
   if (!Number.isInteger(row.avgFps) || row.avgFps < 0 || row.avgFps > maxBenchmarkFps) errors.push(`Benchmark ${key} has invalid avgFps`);
   if (row.onePercentLow !== null && row.onePercentLow !== undefined && (!Number.isInteger(row.onePercentLow) || row.onePercentLow < 0 || row.onePercentLow > maxBenchmarkFps)) errors.push(`Benchmark ${key} has invalid onePercentLow`);
+  if (row.onePercentLow !== null && row.onePercentLow !== undefined && row.onePercentLow > row.avgFps) errors.push(`Benchmark ${key} has onePercentLow higher than avgFps`);
   for (const field of ["fpsLow", "fpsMedium", "fpsHigh", "fpsUltra"]) {
     if (!Number.isInteger(row[field]) || row[field] < 0 || row[field] > maxBenchmarkFps) errors.push(`Benchmark ${key} has invalid ${field}`);
+  }
+  if (row.fpsLow < row.fpsMedium || row.fpsMedium < row.fpsHigh || row.fpsHigh < row.fpsUltra) {
+    errors.push(`Benchmark ${key} has non-monotonic preset FPS`);
   }
   if (!row.source) errors.push(`Benchmark ${key} missing source`);
   if (blockedSourcePattern.test(row.source)) errors.push(`Benchmark ${key} contains blocked external source label`);
