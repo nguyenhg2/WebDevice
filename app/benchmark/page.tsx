@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import BenchmarkTable from "@/components/BenchmarkTable";
+import FastImage from "@/components/FastImage";
 import { bestBenchmarkFps, toBenchmarkTableRow } from "@/lib/benchmark-links";
 import { benchmarks, games, gpus } from "@/lib/data";
 
@@ -68,8 +68,8 @@ export default function BenchmarkPage() {
               <div className="mt-4 grid gap-3">
                 {gameStats.slice(0, 6).map(({ game, avgFps }) => (
                   <Link key={game.slug} href={`/game/${game.slug}`} className="grid grid-cols-[72px_1fr] gap-3 rounded-lg border border-slate-200 p-2 hover:border-teal-300 dark:border-gray-700">
-                    <div className="relative aspect-[16/9] overflow-hidden rounded bg-slate-100 dark:bg-gray-800">
-                      {game.coverImage ? <Image src={game.coverImage} alt="" fill sizes="72px" className="object-cover" /> : null}
+                    <div className="image-frame relative aspect-[16/9] overflow-hidden rounded">
+                      <FastImage src={game.coverImage} alt="" fill sizes="72px" quality={45} className="object-cover" />
                     </div>
                     <div className="min-w-0">
                       <p className="truncate font-bold">{game.name}</p>

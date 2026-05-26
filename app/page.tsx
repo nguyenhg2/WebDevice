@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ConfigCombobox from "@/components/ConfigCombobox";
 import DeviceCard from "@/components/DeviceCard";
 import GameCard from "@/components/GameCard";
 import GpuCard from "@/components/GpuCard";
@@ -59,12 +60,27 @@ export default function Home() {
               </Link>
             </div>
             <div className="mt-5 grid gap-3">
-              <ConfigSelect label="GPU" name="gpu" defaultValue={popularGpuSlug("nvidia-rtx-3060")} options={gpus.map((gpu) => [gpu.slug, gpu.name])} />
-              <ConfigSelect
+              <ConfigCombobox
+                label="GPU"
+                name="gpu"
+                defaultValue={popularGpuSlug("nvidia-rtx-3060")}
+                placeholder="Gõ RTX 3060, GTX 1650, RX 6600..."
+                options={gpus.map((gpu) => ({
+                  value: gpu.slug,
+                  label: gpu.name,
+                  meta: `${gpu.brand} · ${gpu.vram ?? 0}GB · ${shortNumber(gpu.benchmarkScore)} điểm`,
+                }))}
+              />
+              <ConfigCombobox
                 label="CPU"
                 name="cpu"
                 defaultValue={cpus.find((cpu) => cpu.slug.includes("i5-12400"))?.slug ?? cpus[0]?.slug}
-                options={cpus.map((cpu) => [cpu.slug, cpu.name])}
+                placeholder="Gõ i5, Ryzen 5, 12400F..."
+                options={cpus.map((cpu) => ({
+                  value: cpu.slug,
+                  label: cpu.name,
+                  meta: `${cpu.cores} nhân/${cpu.threads} luồng · ${shortNumber(cpu.benchmarkScore)} điểm`,
+                }))}
               />
               <div className="grid gap-3 sm:grid-cols-2">
                 <ConfigSelect label="RAM" name="ram" defaultValue="16" options={[["8", "8GB"], ["16", "16GB"], ["32", "32GB"]]} />
@@ -168,6 +184,10 @@ function countBy(values: string[]) {
   const counts = new Map<string, number>();
   for (const value of values) counts.set(value, (counts.get(value) ?? 0) + 1);
   return counts;
+}
+
+function shortNumber(value: number) {
+  return value >= 1000 ? `${Math.round(value / 100) / 10}k` : String(value);
 }
 
 function popularGpuSlug(fallback: string) {

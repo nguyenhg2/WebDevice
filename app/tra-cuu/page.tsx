@@ -1,3 +1,4 @@
+import ConfigCombobox from "@/components/ConfigCombobox";
 import GameCard from "@/components/GameCard";
 import SystemDetector from "@/components/SystemDetector";
 import UpgradeAdviceCard from "@/components/UpgradeAdviceCard";
@@ -107,27 +108,29 @@ async function LookupContent({ searchParams }: { searchParams: Promise<LookupPar
 
 function LookupForm({ gpuSlug, cpuSlug, ramGb, resolution }: { gpuSlug: string; cpuSlug: string; ramGb: number; resolution: Resolution }) {
   return (
-    <form className="surface mt-5 grid gap-3 p-4 md:grid-cols-5">
-      <label className="grid gap-1 text-sm font-semibold">
-        GPU
-        <select name="gpu" className="input" defaultValue={gpuSlug}>
-          {gpus.map((item) => (
-            <option key={item.slug} value={item.slug}>
-              {item.name}
-            </option>
-          ))}
-        </select>
-      </label>
-      <label className="grid gap-1 text-sm font-semibold">
-        CPU
-        <select name="cpu" className="input" defaultValue={cpuSlug}>
-          {cpus.map((item) => (
-            <option key={item.slug} value={item.slug}>
-              {item.name}
-            </option>
-          ))}
-        </select>
-      </label>
+    <form className="surface mt-5 grid gap-3 p-4 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1.2fr)_120px_140px_auto]">
+      <ConfigCombobox
+        label="GPU"
+        name="gpu"
+        defaultValue={gpuSlug}
+        placeholder="Tìm GPU, ví dụ RTX 3060..."
+        options={gpus.map((item) => ({
+          value: item.slug,
+          label: item.name,
+          meta: `${item.brand} · ${item.vram ?? 0}GB VRAM · ${shortNumber(item.benchmarkScore)} điểm`,
+        }))}
+      />
+      <ConfigCombobox
+        label="CPU"
+        name="cpu"
+        defaultValue={cpuSlug}
+        placeholder="Tìm CPU, ví dụ i5 12400F..."
+        options={cpus.map((item) => ({
+          value: item.slug,
+          label: item.name,
+          meta: `${item.cores} nhân/${item.threads} luồng · ${shortNumber(item.benchmarkScore)} điểm`,
+        }))}
+      />
       <label className="grid gap-1 text-sm font-semibold">
         RAM
         <select name="ram" className="input" defaultValue={ramGb}>
@@ -185,4 +188,8 @@ function normalizeRam(value?: string) {
 
 function normalizeResolution(value?: string): Resolution {
   return value === "720p" || value === "1080p" || value === "1440p" || value === "4k" ? value : "1080p";
+}
+
+function shortNumber(value: number) {
+  return value >= 1000 ? `${Math.round(value / 100) / 10}k` : String(value);
 }

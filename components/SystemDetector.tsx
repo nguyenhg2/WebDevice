@@ -10,7 +10,8 @@ type Detection = {
   ramGb: number;
   resolution: Resolution;
   renderer: string;
-  confidence: "vừa" | "ước lượng";
+  confidence: "cao" | "vừa" | "ước lượng";
+  cores: number;
 };
 
 type Props = {
@@ -81,7 +82,8 @@ export default function SystemDetector({ cpus, gpus, current }: Props) {
         ramGb,
         resolution,
         renderer: renderer || "Không đọc được từ trình duyệt",
-        confidence: renderer ? "vừa" : "ước lượng",
+        confidence: estimateGpuConfidence(renderer, gpu),
+        cores,
       });
     } catch (err) {
       setError(err instanceof Error ? err.message : "Trình duyệt này không cho đọc cấu hình.");
@@ -100,31 +102,44 @@ export default function SystemDetector({ cpus, gpus, current }: Props) {
   }
 
   return (
-    <section className="surface mt-5 p-4">
-      <div className="flex flex-wrap items-center justify-between gap-3">
+    <section className="surface mt-5 overflow-hidden">
+      <div className="grid gap-4 p-4 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
         <div>
-          <h2 className="text-lg font-black">Không biết cấu hình?</h2>
-          <p className="mt-1 text-sm text-slate-600 dark:text-gray-300">Có thể ước lượng nhanh từ trình duyệt, sau đó bạn vẫn chỉnh lại được.</p>
-          <p className="mt-2 text-xs text-slate-500">Đang chọn: {selectedSummary}</p>
+          <p className="eyebrow">Nhận diện cấu hình</p>
+          <h2 className="mt-1 text-xl font-black">Không nhớ máy đang dùng GPU/CPU gì?</h2>
+          <p className="mt-2 max-w-2xl text-sm text-slate-600 dark:text-gray-300">
+            Trình duyệt chỉ cho đọc GPU gần đúng, số luồng CPU và RAM ước lượng. Sau khi nhận diện, bạn vẫn nên chỉnh lại bằng ô tìm kiếm cấu hình bên dưới.
+          </p>
         </div>
-        <button type="button" className="btn-secondary" onClick={detect}>
+        <button type="button" className="btn" onClick={detect}>
           Tự nhận diện
         </button>
+      </div>
+
+      <div className="border-t border-slate-200 bg-slate-50/70 p-4 dark:border-gray-800 dark:bg-gray-900/50">
+        <p className="text-xs font-black uppercase text-slate-500 dark:text-gray-400">Đang chọn</p>
+        <p className="mt-1 text-sm font-bold text-slate-800 dark:text-gray-100">{selectedSummary}</p>
       </div>
 
       {error ? <p className="mt-3 rounded-md border border-rose-200 bg-rose-50 p-3 text-sm font-semibold text-rose-700">{error}</p> : null}
 
       {detection ? (
-        <div className="mt-4 grid gap-3 lg:grid-cols-[1fr_auto]">
-          <dl className="grid gap-3 text-sm sm:grid-cols-4">
+        <div className="grid gap-4 border-t border-slate-200 p-4 dark:border-gray-800 lg:grid-cols-[minmax(0,1fr)_220px]">
+          <dl className="grid gap-3 text-sm sm:grid-cols-2 xl:grid-cols-5">
             <Info label="GPU" value={detection.gpu.name} />
             <Info label="CPU" value={detection.cpu.name} />
             <Info label="RAM" value={`${detection.ramGb}GB`} />
-            <Info label="Độ tin cậy" value={detection.confidence} />
+            <Info label="Luồng CPU" value={`${detection.cores}`} />
+            <Info label="Tin cậy" value={detection.confidence} />
           </dl>
-          <button type="button" className="btn" onClick={applyDetection}>
-            Dùng cấu hình này
-          </button>
+          <div className="grid content-between gap-3">
+            <button type="button" className="btn" onClick={applyDetection}>
+              Dùng cấu hình này
+            </button>
+            <p className="line-clamp-3 rounded-lg border border-slate-200 bg-white p-2 text-xs font-semibold text-slate-500 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-400">
+              Renderer: {detection.renderer}
+            </p>
+          </div>
         </div>
       ) : null}
     </section>
@@ -142,7 +157,7 @@ function Info({ label, value }: { label: string; value: string }) {
 
 function getGpuRenderer() {
   const canvas = document.createElement("canvas");
-  const gl = (canvas.getContext("webgl") || canvas.getContext("experimental-webgl")) as WebGLRenderingContext | null;
+  const gl = (canvas.getContext("webgl2") || canvas.getContext("webgl") || canvas.getContext("experimental-webgl")) as WebGLRenderingContext | null;
   if (!gl) return "";
   const debugInfo = gl.getExtension("WEBGL_debug_renderer_info");
   if (!debugInfo) return "";
@@ -151,6 +166,9 @@ function getGpuRenderer() {
 
 function chooseGpu(gpus: Gpu[], renderer: string) {
   const lower = renderer.toLowerCase();
+  const scoredMatch = bestGpuMatch(gpus, renderer);
+  if (scoredMatch) return scoredMatch;
+
   for (const alias of gpuAliases) {
     if (!alias.pattern.test(renderer)) continue;
     const matched = gpus.find((gpu) => alias.keywords.every((keyword) => gpu.name.toLowerCase().includes(keyword)));
@@ -170,6 +188,30 @@ function chooseGpu(gpus: Gpu[], renderer: string) {
   return gpus.find((gpu) => gpu.slug.includes("uhd-620")) ?? gpus[0];
 }
 
+function bestGpuMatch(gpus: Gpu[], renderer: string) {
+  const normalizedRenderer = normalizeHardwareName(renderer);
+  if (!normalizedRenderer) return null;
+  const scored = gpus
+    .map((gpu) => ({ gpu, score: scoreGpuMatch(normalizedRenderer, gpu) }))
+    .filter((item) => item.score >= 45)
+    .sort((a, b) => b.score - a.score || b.gpu.benchmarkScore - a.gpu.benchmarkScore);
+  return scored[0]?.gpu ?? null;
+}
+
+function scoreGpuMatch(normalizedRenderer: string, gpu: Gpu) {
+  const normalizedGpu = normalizeHardwareName(gpu.name);
+  let score = 0;
+  if (normalizedRenderer.includes(normalizedGpu)) score += 120;
+  if (normalizedRenderer.includes(gpu.brand.toLowerCase())) score += 12;
+
+  const gpuModel = normalizedGpu.match(/\b(rtx|gtx|rx|arc)\s*([a-z]?\d{3,4})\b/);
+  if (gpuModel && normalizedRenderer.includes(gpuModel[1]) && normalizedRenderer.includes(gpuModel[2])) score += 60;
+  if (normalizedGpu.includes(" ti") && normalizedRenderer.includes(" ti")) score += 16;
+  if (normalizedGpu.includes(" super") && normalizedRenderer.includes(" super")) score += 16;
+  if (normalizedGpu.includes(" laptop") && normalizedRenderer.includes(" laptop")) score += 10;
+  return score;
+}
+
 function chooseCpu(cpus: Cpu[], cores: number) {
   const targetScore = cores >= 20 ? 27000 : cores >= 16 ? 22000 : cores >= 12 ? 16000 : cores >= 8 ? 9000 : cores >= 4 ? 4800 : 3600;
   return [...cpus].sort((a, b) => Math.abs(a.benchmarkScore - targetScore) - Math.abs(b.benchmarkScore - targetScore))[0] ?? cpus[0];
@@ -181,6 +223,23 @@ function normalizeRam(deviceMemory?: number) {
   if (deviceMemory <= 8) return 8;
   if (deviceMemory <= 16) return 16;
   return 32;
+}
+
+function estimateGpuConfidence(renderer: string, gpu: Gpu): Detection["confidence"] {
+  if (!renderer) return "ước lượng";
+  const score = scoreGpuMatch(normalizeHardwareName(renderer), gpu);
+  if (score >= 70) return "cao";
+  return "vừa";
+}
+
+function normalizeHardwareName(value: string) {
+  return value
+    .toLowerCase()
+    .replace(/\(r\)|\(tm\)|™|®/g, "")
+    .replace(/direct3d\d+|metal|opengl|angle|vs_\d+_\d+|ps_\d+_\d+/g, " ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function chooseResolution(gpu: Gpu, ramGb: number): Resolution {
