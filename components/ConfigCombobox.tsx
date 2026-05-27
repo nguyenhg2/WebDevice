@@ -71,7 +71,7 @@ export default function ConfigCombobox({
       <Search aria-hidden size={16} className="pointer-events-none absolute left-3 top-[42px] -translate-y-1/2 text-slate-400" />
       <input
         id={id}
-        className="input pl-10 pr-10"
+        className="input input-leading input-trailing"
         value={query}
         placeholder={placeholder}
         autoComplete="off"

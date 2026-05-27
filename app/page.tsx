@@ -121,7 +121,7 @@ export default function Home() {
                 {heroRows.map(({ game, fps, setting }) => (
                   <Link key={game.slug} href={"/game/" + game.slug} className="grid grid-cols-[86px_minmax(0,1fr)_64px] items-center gap-3 px-4 py-3 hover:bg-slate-50 dark:hover:bg-gray-900">
                     <span className="image-frame relative aspect-[16/9] overflow-hidden rounded-md">
-                      <FastImage src={game.coverImage} alt={"Ảnh bìa " + game.name} fill sizes="86px" quality={58} className="object-cover" />
+                      <FastImage src={game.coverImage} alt={"Ảnh bìa " + game.name} fill sizes="86px" quality={58} priority className="object-cover" />
                     </span>
                     <span className="min-w-0">
                       <span className="line-clamp-1 font-black">{game.name}</span>
@@ -144,8 +144,8 @@ export default function Home() {
           <div className="min-w-0">
             <SectionHeader eyebrow="Game phổ biến" title="Chọn game, xem ngay cấu hình" href="/chon-game" action="Xem tất cả" />
             <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-              {gameRows.map(({ game, fps, setting }) => (
-                <GameCard key={game.slug} game={game} fps={fps} setting={setting} status={fps >= 55 ? "smooth" : fps >= 30 ? "playable" : "not_recommended"} />
+              {gameRows.map(({ game, fps, setting }, index) => (
+                <GameCard key={game.slug} game={game} fps={fps} setting={setting} status={fps >= 55 ? "smooth" : fps >= 30 ? "playable" : "not_recommended"} priority={index < 4} />
               ))}
             </div>
           </div>
@@ -290,8 +290,8 @@ function QuickLink({ href, label }: { href: string; label: string }) {
 
 function QuickPath({ href, icon, title, text }: { href: string; icon: React.ReactNode; title: string; text: string }) {
   return (
-    <Link href={href} className="grid gap-3 rounded-lg border border-slate-200 bg-white/72 p-4 hover:border-teal-300 hover:bg-white dark:border-gray-800 dark:bg-gray-950/52 dark:hover:border-teal-500">
-      <span className="grid h-11 w-11 place-items-center rounded-lg bg-slate-950 text-white dark:bg-white dark:text-slate-950">{icon}</span>
+    <Link href={href} className="grid gap-3 rounded-lg border border-slate-200 bg-white/78 p-4 shadow-sm hover:border-teal-300 hover:bg-white dark:border-gray-800 dark:bg-gray-950/52 dark:hover:border-teal-500">
+      <span className="grid h-11 w-11 place-items-center rounded-lg bg-teal-700 text-white dark:bg-teal-300 dark:text-slate-950">{icon}</span>
       <span>
         <span className="block font-black">{title}</span>
         <span className="mt-1 block text-sm leading-6 text-slate-600 dark:text-gray-300">{text}</span>

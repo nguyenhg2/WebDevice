@@ -11,12 +11,14 @@ export default function GameCard({
   status,
   fps,
   setting,
+  priority = false,
 }: {
   game: Game;
   status?: Status;
   fps?: number;
   setting?: string;
   fpsSource?: string;
+  priority?: boolean;
 }) {
   return (
     <article className="card group grid h-full overflow-hidden">
@@ -28,9 +30,10 @@ export default function GameCard({
             fill
             sizes="(min-width:1280px) 280px, (min-width:1024px) 25vw, (min-width:640px) 45vw, 92vw"
             quality={64}
+            priority={priority}
             className="object-cover transition duration-300 group-hover:scale-[1.03]"
           />
-          <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-slate-950/78 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-slate-950/70 to-transparent" />
           <span className="absolute left-3 top-3 rounded-md bg-white/94 px-2.5 py-1 text-[11px] font-black text-slate-950 shadow-sm backdrop-blur dark:bg-gray-950/88 dark:text-white">
             {formatGamePrice(game.price, game.isFree)}
           </span>

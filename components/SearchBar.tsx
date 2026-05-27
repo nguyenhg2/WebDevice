@@ -20,7 +20,7 @@ export default function SearchBar({ compact = false }: { compact?: boolean }) {
         <Search aria-hidden size={compact ? 17 : 19} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
         <span className="sr-only">Tìm game</span>
         <input
-          className={(compact ? "min-h-11 pl-10" : "min-h-12 pl-11 text-base") + " input min-w-0"}
+          className={(compact ? "min-h-11" : "min-h-12 text-base") + " input input-leading min-w-0"}
           aria-label="Tìm game"
           placeholder={compact ? "Tìm game..." : "Nhập tên game muốn kiểm tra..."}
           value={query}

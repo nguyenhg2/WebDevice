@@ -14,7 +14,7 @@ const nav = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/88 backdrop-blur-xl dark:border-gray-800 dark:bg-gray-950/86">
+    <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/92 backdrop-blur-xl dark:border-gray-800 dark:bg-gray-950/88">
       <div className="container flex min-h-16 items-center gap-3 py-3">
         <Link href="/" className="flex min-w-fit items-center gap-2.5 font-black text-slate-950 dark:text-white" aria-label="Trang chủ Fpsviet.com">
           <span className="grid h-10 w-10 place-items-center rounded-lg bg-slate-950 text-[13px] font-black text-white shadow-lg shadow-slate-900/15 dark:bg-white dark:text-slate-950">
@@ -31,7 +31,7 @@ export default function Header() {
             <Link
               key={href}
               href={href}
-              className="inline-flex min-h-10 items-center gap-2 rounded-lg px-3 text-slate-700 hover:bg-slate-100 hover:text-teal-700 dark:text-gray-200 dark:hover:bg-gray-900 dark:hover:text-teal-300"
+              className="inline-flex min-h-10 items-center gap-2 whitespace-nowrap rounded-lg px-3 text-slate-700 hover:bg-teal-50 hover:text-teal-800 dark:text-gray-200 dark:hover:bg-gray-900 dark:hover:text-teal-300"
             >
               <Icon aria-hidden size={16} strokeWidth={2.3} />
               {label}
@@ -40,7 +40,7 @@ export default function Header() {
         </nav>
 
         <div className="ml-auto flex min-w-0 items-center gap-2">
-          <div className="hidden w-[340px] lg:block">
+          <div className="hidden w-[320px] lg:block">
             <SearchBar compact />
           </div>
           <Link href="/tra-cuu" className="btn hidden sm:inline-flex">
@@ -52,12 +52,12 @@ export default function Header() {
       </div>
 
       <nav className="container flex gap-2 overflow-x-auto pb-3 text-sm font-bold xl:hidden">
-        <Link href="/chon-game" className="inline-flex min-w-fit items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-slate-700 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200">
+        <Link href="/chon-game" className="inline-flex min-w-fit items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-slate-700 shadow-sm dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200">
           <Search aria-hidden size={15} />
           Tìm game
         </Link>
         {nav.map(([href, label, Icon]) => (
-          <Link key={href} href={href} className="inline-flex min-w-fit items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-slate-700 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200">
+          <Link key={href} href={href} className="inline-flex min-w-fit items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-slate-700 shadow-sm dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200">
             <Icon aria-hidden size={15} />
             {label}
           </Link>
