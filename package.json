@@ -26,6 +26,7 @@
     "@prisma/client": "^6.19.3",
     "@supabase/supabase-js": "latest",
     "date-fns": "latest",
+    "lucide-react": "^1.16.0",
     "next": "^15.5.18",
     "next-seo": "latest",
     "pg": "^8.20.0",

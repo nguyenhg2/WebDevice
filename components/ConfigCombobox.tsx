@@ -1,5 +1,6 @@
 "use client";
 
+import { ChevronDown, Search } from "lucide-react";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 
 export type ComboboxOption = {
@@ -67,9 +68,10 @@ export default function ConfigCombobox({
     <div ref={rootRef} className="relative grid gap-1 text-sm font-semibold">
       <label htmlFor={id}>{label}</label>
       <input type="hidden" name={name} value={selectedValue} />
+      <Search aria-hidden size={16} className="pointer-events-none absolute left-3 top-[42px] -translate-y-1/2 text-slate-400" />
       <input
         id={id}
-        className="input pr-10"
+        className="input pl-10 pr-10"
         value={query}
         placeholder={placeholder}
         autoComplete="off"
@@ -100,7 +102,7 @@ export default function ConfigCombobox({
         onClick={() => setOpen((value) => !value)}
         aria-label={`Mở danh sách ${label}`}
       >
-        v
+        <ChevronDown aria-hidden size={16} strokeWidth={2.5} />
       </button>
 
       {open ? (

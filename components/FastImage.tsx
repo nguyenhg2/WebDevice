@@ -10,7 +10,6 @@ type FastImageProps = Omit<ImageProps, "src" | "placeholder" | "blurDataURL" | "
 export default function FastImage({ src, alt, quality = 64, loading, priority, ...props }: FastImageProps) {
   const imageSrc = src || "/images/placeholder.svg";
   const isSvg = imageSrc.endsWith(".svg");
-  const isRemote = imageSrc.startsWith("http://") || imageSrc.startsWith("https://");
 
   return (
     <Image
@@ -23,7 +22,7 @@ export default function FastImage({ src, alt, quality = 64, loading, priority, .
       decoding="async"
       placeholder={isSvg ? undefined : "blur"}
       blurDataURL={isSvg ? undefined : blurDataUrl}
-      unoptimized={isSvg || isRemote}
+      unoptimized={isSvg}
     />
   );
 }
